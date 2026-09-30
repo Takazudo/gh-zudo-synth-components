@@ -6,6 +6,7 @@ on:
     paths:
       - .github/workflows/import-corpus.yml
       - .import/restore.py
+      - .import/adjust-browser.py
 
 permissions:
   contents: read
@@ -75,6 +76,13 @@ jobs:
         run: |
           npm install --global pnpm@11.5.2
           pnpm install --frozen-lockfile
+      - name: Validate baseline and apply the reviewed UI correction
+        working-directory: corpus
+        shell: bash
+        run: |
+          set -euo pipefail
+          pnpm circuit:check 2>&1 | tee ../reports/baseline-evidence.log
+          python3 ../transport/.import/adjust-browser.py "$PWD" 2>&1 | tee ../reports/browser-adjustment.log
       - name: Validate evidence, regenerate and build
         working-directory: corpus
         shell: bash
@@ -132,7 +140,7 @@ jobs:
                   raise SystemExit('Forbidden source import path: '+raw)
           print('Staged source paths:', len(list(filter(None, paths))))
           PY
-          git commit -m 'feat: import modular synth component corpus v0.1.0' -m 'Restore 798 hash-verified source files from the delivered corpus; regenerate documentation and scoped model previews. Evidence, build, link, corpus integrity and browser checks passed in the import job. No deployment or hardware qualification.'
+          git commit -m 'feat: import modular synth component corpus v0.1.0' -m 'Restore 798 hash-verified original source files, apply a separately recorded missing-model UI fix, and regenerate documentation. Evidence, build, link, corpus integrity and browser checks passed in the import job. No deployment or hardware qualification.'
           git push origin "HEAD:refs/heads/$branch"
           git rev-parse HEAD | tee ../reports/import-commit.txt
       - name: Retain import verification and build evidence
