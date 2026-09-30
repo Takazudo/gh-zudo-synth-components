@@ -92,9 +92,21 @@ jobs:
           set -euo pipefail
           chrome=$(command -v google-chrome || command -v chromium || command -v chromium-browser)
           cp provenance/validation/browser-repro.json "$RUNNER_TEMP/browser-repro-original.json"
-          "$RUNNER_TEMP/corpus-cad/bin/python" scripts/test_browser.py --chromium "$chrome" 2>&1 | tee ../reports/browser.log
-          cp provenance/validation/browser-repro.json ../reports/browser.json
+          status=0
+          "$RUNNER_TEMP/corpus-cad/bin/python" scripts/test_browser.py --chromium "$chrome" 2>&1 | tee ../reports/browser.log || status=$?
+          if test -f provenance/validation/browser-repro.json; then
+            cp provenance/validation/browser-repro.json ../reports/browser.json
+            python3 - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('../reports/browser.json').read_text())
+          print('BROWSER FAILURES:', json.dumps([c for c in r['checks'] if not c['passed']], indent=2))
+          print('BROWSER ERRORS:', json.dumps(r.get('unhandled_errors',[])))
+          print('BROWSER CONSOLE:', json.dumps(r.get('console_errors',[])))
+          PY
+          fi
           cp "$RUNNER_TEMP/browser-repro-original.json" provenance/validation/browser-repro.json
+          exit "$status"
       - name: Publish only the verified source branch
         working-directory: corpus
         shell: bash
