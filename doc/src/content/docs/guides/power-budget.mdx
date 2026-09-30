@@ -1,0 +1,25 @@
+---
+title: "Do not infer full-instrument power from a preview"
+description: "Reusable component-led synth design note"
+sidebar_position: 11
+---
+
+The early playground previews reused the concept of zudo-pd. Later circuit enumeration showed why a visible power-board pocket is not a completed supply design.
+
+A useful ledger separates quiescent IC demand, signal/load current, reference networks, LEDs, protection/monitoring, optional domains and capacitive startup. Record each rail separately, including the negative rail. Two inlet connectors on one converter do not create two independent power sources.
+
+### Requirements and actual hardware
+
+The later source selected a conditional external regulated-source **requirement**, not an exact purchased supply and inlet. This corpus retains both the earlier P+B research and that later decision without calling the old construction a universally inadequate product or the new boundary a completed circuit.
+
+For any implementation, confirm voltage bands at the load after wire/contact/protection/return drops; transient capability and limiting; sequencing and missing-rail behavior; discharge; thermal conditions; and fault energy. Do not equate a source's minimum current capability with a safe maximum delivered fault current.
+
+### Distribution also needs a model
+
+A heavy return wire can still connect through a narrow PCB neck. Several same-net copper islands do not establish one connected return network. A green schematic or DRC result does not measure milliohm spreading resistance, installed contact temperature or startup behavior.
+
+### USB-PD is an interface, not a complete bipolar supply
+
+The negotiated input, programmed defaults and converter topology determine the resulting rails. Preserve exact board revision and programming state; a bare controller or connector identity does not establish safe operation with an arbitrary charger.
+
+Read the pinned source [supply-architecture decision](https://github.com/Takazudo/zudo-osc-hole-field/blob/fac99297702eabd97bbc3fae58876af4017fcaea/doc/src/content/docs/decisions/osc-supply-architecture.mdx). It is a project case study, not an order recommendation.

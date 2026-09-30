@@ -1,0 +1,24 @@
+---
+title: "Source history and corrections"
+description: "Preserve alternatives without preserving mistakes as facts"
+sidebar_position: 5
+---
+
+This corpus is based on the available conversation archives and the committed instrument snapshot `fac99297702eabd97bbc3fae58876af4017fcaea`. The framework was read at `5d0e2b630776489d394be341586b889dfe0d1cb8`. The 149-line Git history export records published branches at export time; it does not include uncommitted local work.
+
+## Decisions preserved
+
+| Stage | Reusable lesson |
+| --- | --- |
+| Early component collection / R06 | Standard synth-shop parts are acceptable; all electrical soldering must be completed by the factory. Separate pot cap, shaft, washer and body envelopes. |
+| R08–R12 | Correct the small Bourns shaft scale; distinguish toggle contact states; investigate LED faders, then retain them as alternatives when the instrument changes to pots and separate stage LEDs. |
+| R13–R17 | Dense packing cannot replace the panel/PCB Z-stack. Jack bushings must clamp through normal holes. Separate interface boards can accommodate different depths. |
+| R18–R19 | A 3D gap is not a required enclosure depth. Place actual component envelopes and the power assembly before claiming thickness. |
+| R20–R21 | A shared grid needs real package limits. New S&H and slew functions need separate storage and lag circuits, not just another knob. |
+| Later committed circuit work | Exact pin/footprint evidence, compact LEDs, source requirements and connector/return accounting supersede earlier provisional selections. |
+
+## Corrections that must not be lost
+
+C908280 is the two-position toggle candidate, not the three-position counterpart. SRBV160803 is a rotary selector, not an illuminated fader. LF398M/NOPB is SOIC-14, not the eight-pin DIP geometry. Bourns PTL lever-height options are not slider-travel options. A PJ398SM community model is not exact WQP518MA manufacturer CAD. An arbitrary 8.3 mm dress-nut envelope is not a verified EARS dimension. A blank microcontroller is not programmed NOISE2. Replacing ALPS or faders in one instrument does not invalidate them for all synths.
+
+The corpus does not overwrite the instrument. Source project decisions remain under `provenance/instrument-decisions/`, and old research registers under `provenance/history/`. New prose separates reusable advice from those contextual results.

@@ -1,0 +1,59 @@
+---
+title: "SN74HC74DR"
+description: "Envelope and trigger state — Texas Instruments"
+sidebar_position: 1
+---
+
+**Envelope and trigger state**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | Texas Instruments |
+| Part / family | SN74HC74DR |
+| Identity scope | Exact ordering identity |
+| Evidence state | AVAILABLE |
+| LCSC code | Not established for this identity |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+SN74HC74DR provides D-type state storage useful in deterministic envelope/control logic. It is a building block for explicit state, not a complete envelope generator.
+
+## Design cautions
+
+Clock, asynchronous set/reset priority, startup state and setup/hold behavior need a circuit contract. A browser demonstration of ASR/AR/loop behavior cannot substitute for these hardware transitions.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-flipflop-orderable-identity` | `{"manufacturer": "Texas Instruments", "mpn": "SN74HC74DR", "package": "SOIC-14"}` NONE; Exact complete orderable identifier in the selected package; does not establish supplier stock. | [Data Sheet](https://www.ti.com/lit/ds/symlink/sn74hc74.pdf); PASS - primary-source confirmed |
+| `fact-flipflop-pinout` | `pin 1 1CLR active low -&gt; pad 1; pin 2 1D data -&gt; pad 2; pin 3 1CLK rising edge -&gt; pad 3; pin 4 1PRE active low -&gt; pad 4; pin 5 1Q -&gt; pad 5; pin 6 1Q inverted -&gt; pad 6; pin 7 GND -&gt; pad 7; pin 8 2Q inverted -&gt; pad 8; pin 9 2Q -&gt; pad 9; pin 10 2PRE active low -&gt; pad 10; pin 11 2CLK rising edge -&gt; pad 11; pin 12 2D data -&gt; pad 12; pin 13 2CLR active low -&gt; pad 13; pin 14 VCC -&gt; pad 14` NONE; No schematic or placement/net binding is claimed. Manufacturer pin functions are source-backed only when a retained primary document names the product family. | [Data Sheet](https://www.ti.com/lit/ds/symlink/sn74hc74.pdf); PASS - primary-source confirmed |
+| `fact-flipflop-electrical-limits` | `No exact-part electrical limits promoted from retained evidence.` NONE; The task has not promoted a source-backed limit for this exact shortlist record. | [Data Sheet](https://www.ti.com/lit/ds/symlink/sn74hc74.pdf); UNSOURCED |
+
+## 3D / mechanical assets
+
+**Inherited family/derived package preview.** Many imported models are intentionally coarse body envelopes, not complete manufacturer solids. Check the original receipt, drawing and mounting stack; the rendered shape does not qualify fit.
+
+<PackageModelViewer descriptor="7b2276657273696f6e223a312c227061636b6167654964223a22534f49432d31345f332e3978382e376d6d5f50312e32376d6d222c227061636b6167654c6162656c223a22534f49432d31345f332e3978382e376d6d5f50312e32376d6d222c226d6f64656c55726c223a222f6173736574732f636f6d706f6e656e742d70726576696577732f6d6f64656c732f49435f534f49432d31345f332e3978382e372e77726c222c226f6666736574223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c22726f746174696f6e223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c227363616c65223a7b2278223a312e302c2279223a312e302c227a223a312e307d7d" />
+
+Local model: `footprints/kicad/zudo-osc-hole-field.3dshapes/IC_SOIC-14_3.9x8.7.wrl`. Native rendering is supplied by `zudo-circuit-doc`.
+
+[Open the native generated evidence record](/docs/components/records/flipflop/). It preserves original claim wording, locators and verdicts.
+
+## Datasheets, drawings and source leads
+
+- [SNx4HC74 Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear and Preset datasheet (Rev. F)](https://www.ti.com/lit/ds/symlink/sn74hc74.pdf) — retained local bytes: `circuit/sources/ic-library/SN74HC74.pdf`; SHA-256 `d1e57133ca40b595c670688718807c367b555b6fe57144c881d629de18230351`.
+- [OSC-ES-1 parts shortlist](https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json) — source metadata/link only in this edition; no local download implied.
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

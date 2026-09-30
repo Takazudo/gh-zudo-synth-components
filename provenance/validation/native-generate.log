@@ -1,0 +1,52 @@
+provider        circuit-component-spec (contract v1)
+view model      v2
+records         35 selected of 49 available
+sources         74 selected of 100 available, 72 linkable
+fields          91 publish, 8 deny (401 values withheld)
+urls            72 allowed of 74 considered
+generatedPages  39
+publishedCoverageDomains 173
+publishedFacts  261
+publishedIntegrationRules 0
+publishedInteractions 35
+publishedPinMaps 35
+publishedRecords 35
+publishedSources 74
+pages           36 written, 3 unchanged, 0 removed
+  + doc/src/content/docs/components/catalog/index.mdx
+  + doc/src/content/docs/components/index.mdx
+  + doc/src/content/docs/components/records/b103/index.mdx
+  + doc/src/content/docs/components/records/b104/index.mdx
+  + doc/src/content/docs/components/records/b504/index.mdx
+  + doc/src/content/docs/components/records/clamp-diode/index.mdx
+  + doc/src/content/docs/components/records/comparator/index.mdx
+  + doc/src/content/docs/components/records/dailywell-2ms1t1b1m2qes-5/index.mdx
+  + doc/src/content/docs/components/records/dailywell-2ms3t1b1m2qes/index.mdx
+  + doc/src/content/docs/components/records/dealon-dw254p-2x8-l0/index.mdx
+  + doc/src/content/docs/components/records/fault-switch/index.mdx
+  + doc/src/content/docs/components/records/flipflop/index.mdx
+  + doc/src/content/docs/components/records/gh3-header/index.mdx
+  + doc/src/content/docs/components/records/gh7-header/index.mdx
+  + doc/src/content/docs/components/records/gh8-header/index.mdx
+  + doc/src/content/docs/components/records/kingbright-red/index.mdx
+  + doc/src/content/docs/components/records/kingbright-white/index.mdx
+  + doc/src/content/docs/components/records/matched-npn/index.mdx
+  + doc/src/content/docs/components/records/mosfet/index.mdx
+  + doc/src/content/docs/components/records/nand/index.mdx
+  + doc/src/content/docs/components/records/noise/index.mdx
+  + doc/src/content/docs/components/records/npn/index.mdx
+  + doc/src/content/docs/components/records/omron-b3f-1020/index.mdx
+  + doc/src/content/docs/components/records/one-shot/index.mdx
+  + doc/src/content/docs/components/records/op-audio/index.mdx
+  + doc/src/content/docs/components/records/op-precision/index.mdx
+  + doc/src/content/docs/components/records/ota/index.mdx
+  + doc/src/content/docs/components/records/pnp/index.mdx
+  + doc/src/content/docs/components/records/r-general/index.mdx
+  + doc/src/content/docs/components/records/reference/index.mdx
+  + doc/src/content/docs/components/records/sample-hold/index.mdx
+  + doc/src/content/docs/components/records/schmitt/index.mdx
+  + doc/src/content/docs/components/records/signal-diode/index.mdx
+  + doc/src/content/docs/components/records/srbv/index.mdx
+  + doc/src/content/docs/components/records/vco/index.mdx
+  + doc/src/content/docs/components/records/wqp518ma/index.mdx
+preflight       circuit/generated/preflight.json

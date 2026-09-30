@@ -1,0 +1,231 @@
+{
+  "checks": [
+    {
+      "name": "86 embedded profiles",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "25 embedded model assets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "86 selectable profiles",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "renderer identifies its actual backend",
+      "passed": true,
+      "detail": "SVG fallback"
+    },
+    {
+      "name": "retained STEP visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "camera changes projection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "wireframe state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "retained file paths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "part search",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "empty search",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "38 viewable profiles",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "category filter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "missing model explicit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "previous model not shown",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: PTV09A-4020F.wrl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: SRBV160803.wrl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: Jack_3.5mm_QingPu_WQP518MA.wrl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: Toggle_Dailywell_2MS_T1B1M2.wrl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: Button_Omron_B3F_6x6_P6.5x4.5.wrl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: LED0402-Kingbright-White.wrl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: LED0402-Kingbright-Red.wrl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: IDC-TH_16P-P2.54_321016RG0ABK00A01.wrl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: IC_SOIC-14_3.9x8.7.wrl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: IC_TSSOP-14_4.4x5.0.wrl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: IC_TSSOP-16_4.4x5.0.wrl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: IC_SOIC-8_3.9x4.9.wrl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: IC_SOIC-16_3.9x9.9.wrl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: IC_DIP-8_W7.62mm.wrl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: IC_SOT-23-5.wrl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: D_SOD-123.wrl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: IC_SOT-23.wrl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: IC_SOT-363_SC-70-6.wrl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: R0603.wrl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: JST_GH3_BM_TopEntry.wrl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: JST_GH7_BM_TopEntry.wrl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: JST_GH8_BM_TopEntry.wrl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: rk09l1140",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: rs20h111c009",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model renders: pj398sm",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mobile research width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mobile model width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mobile visible model",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed": 43,
+  "failed": 0,
+  "unhandled_errors": [],
+  "requests": [],
+  "console_errors": [
+    "THREE.WebGLRenderer: A WebGL context could not be created. Reason:  Could not create a WebGL context, VENDOR = 0xffff, DEVICE = 0xffff, Sandboxed = no, Optimus = no, AMD switchable = no, Reset notification strategy = 0x0000, ErrorMessage = BindToCurrentSequence failed: .",
+    "THREE.WebGLRenderer: A WebGL context could not be created. Reason:  Could not create a WebGL context, VENDOR = 0xffff, DEVICE = 0xffff, Sandboxed = no, Optimus = no, AMD switchable = no, Reset notification strategy = 0x0000, ErrorMessage = BindToCurrentSequence failed: .",
+    "THREE.WebGLRenderer: THREE.WebGLRenderer: Error creating WebGL context."
+  ],
+  "backend": "SVG fallback",
+  "scope": "Exact HTML bytes via set_content. Local navigation and native framework WebGL NOT TESTED.",
+  "artifact_sha256": "eea0d5a365b0fb486de416e9186666fcf4ff006803c85232f2c794472a32d352"
+}

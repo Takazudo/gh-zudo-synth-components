@@ -1,0 +1,25 @@
+---
+title: "Protect inputs, outputs and the powered-off instrument"
+description: "Reusable component-led synth design note"
+sidebar_position: 9
+---
+
+A patchable instrument must be considered in combinations its internal schematic alone cannot predict: external voltage on an input, two outputs patched together, a connected source while this instrument is off, a missing rail, or an unexpected return path through a cable sleeve.
+
+ADG5412F is relevant to input fault isolation, but its protected behavior applies to named terminals and supply conditions. Correctly protecting inputs does not automatically protect amplifier outputs, precision feedback sense paths or reference receivers.
+
+### Keep a fault-path inventory
+
+For each external port, trace where current flows under opposite-drive, powered-off and partial-rail conditions. Include output resistors, clamp diodes, protection switches, internal ESD paths, rail capacitance and any sense lead that bypasses a series resistor.
+
+A TVS is a transient component with specified test conditions. It is not a guarantee against arbitrary sustained overvoltage. A PTC has time- and temperature-dependent behavior, not an immediate perfect current limit. A clamp to a dead rail can power unintended circuitry.
+
+### Return continuity
+
+A patch sleeve must not become the sole intended power return. Parallel grounds can divide current unevenly. Rail-only sensing cannot necessarily distinguish an intact power return from a failed return being replaced by an external cable.
+
+### Scope of this corpus
+
+This is an evidence-led design checklist, not a complete protection circuit or safety certification. The source project's later protection and external-supply requirements are deliberately retained as unresolved engineering work. No raw-to-load abstract boundary in a diagram is a real protective device.
+
+Sources: [ADG5412F](https://www.analog.com/en/products/adg5412f.html), [LM74502](https://www.ti.com/product/LM74502), and the pinned project protection decisions linked from the history page.

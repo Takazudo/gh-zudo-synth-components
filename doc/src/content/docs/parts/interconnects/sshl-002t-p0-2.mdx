@@ -1,0 +1,56 @@
+---
+title: "SSHL-002T-P0.2"
+description: "GH crimp contact and wire interface — JST"
+sidebar_position: 1
+---
+
+**GH crimp contact and wire interface**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | JST |
+| Part / family | SSHL-002T-P0.2 |
+| Identity scope | Exact ordering identity |
+| Evidence state | AVAILABLE |
+| LCSC code | Not established for this identity |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+SSHL-002T-P0.2 is the contact used with the GH housing system. It needs a compatible conductor/insulation range and qualified crimp process; a bag of contacts is not a no-soldering harness.
+
+## Design cautions
+
+Order completed, inspected harnesses or specify factory termination. Contact resistance, crimp resistance and conductor resistance all contribute to voltage drop and heating. Do not assume parallel ground wires share current equally.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-gh-contact-identity` | `SSHL-002T-P0.2` NONE; Exact JST family table or contact row | [eGH](https://www.jst-mfg.com/product/pdf/eng/eGH.pdf); PASS - primary-source confirmed |
+| `fact-gh-contact-rating` | `AWG 30 to 26; insulation OD 0.76 to 1.0 mm; copper alloy tin plated` NONE; GH family rating, not an assembled harness derating or all-pin simultaneous guarantee | [eGH](https://www.jst-mfg.com/product/pdf/eng/eGH.pdf); PASS - primary-source confirmed |
+| `fact-gh-contact-geometry` | `Contact 4.8 x 0.8 x 0.55 mm nominal; SSHL-003 cannot mate GH` NONE; nominal reference dimensions; no installed tolerance inference | [eGH](https://www.jst-mfg.com/product/pdf/eng/eGH.pdf); PASS - primary-source confirmed |
+| `fact-gh-contact-assembly` | `Assembled derating, retention under cable load and bend clearance unqualified` NONE; physical harness and installed loom require issue #35/57 evidence | [eGH](https://www.jst-mfg.com/product/pdf/eng/eGH.pdf); NEEDS BENCH |
+| `fact-gh-contact-crimp` | `SSHL-002T-P0.2: AWG 30 to 26, insulation OD 0.76 to 1.0 mm; AP-K2N / MKS-L-10-3 / APLMK SSHL002-02 tooling; SSHL-003 incompatible` NONE; JST listed crimp equipment; assembled crimp quality and pull retention unverified | [eGH](https://www.jst-mfg.com/product/pdf/eng/eGH.pdf); PASS - primary-source confirmed |
+
+## 3D / mechanical assets
+
+**No usable part-specific model published in this edition.** A document or a footprint may exist without a qualified 3D model. No unrelated shape is substituted.
+
+The complete inherited owner bundle is retained locally at `.claude/skills/component-jst-gh/`. It is not in the native preview selection because complete publishable model coverage is absent for some records in this group.
+
+## Datasheets, drawings and source leads
+
+- [JST GH Connector, 1.25 mm pitch, Crimp style and Mating style](https://www.jst-mfg.com/product/pdf/eng/eGH.pdf) — retained local bytes: `sources/documents/b1dcb317b6b9--jst-gh.pdf`; SHA-256 `b1dcb317b6b9a4fbbedd2dbf42c64c95306a252d23de8933b85fcf161240b722`.
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

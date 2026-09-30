@@ -1,0 +1,65 @@
+[
+  {
+    "id": "bourns-ptv09",
+    "url": "https://www.bourns.com/docs/product-datasheets/PTV09.pdf",
+    "claim": "Manufacturer PDF, pages 1\u20132; drawing inspected.",
+    "retention": "Available in parts/bourns-ptv09a/PTV09.pdf",
+    "checked_on": "2026-09-27"
+  },
+  {
+    "id": "alps-A",
+    "url": "https://tech.alpsalpine.com/e/products/detail/RK09L1140A5L/",
+    "claim": "Exact manufacturer page; 15 mm shaft is not cap diameter.",
+    "retention": "Retained manufacturer CAD/drawings under parts/alps-rk09l1140a5l/",
+    "checked_on": "2026-09-27"
+  },
+  {
+    "id": "bourns-ptl",
+    "url": "https://www.bourns.com/docs/product-datasheets/PTL.pdf",
+    "claim": "Manufacturer PDF, page 1 dimensions/soldering and ordering text; image inspected.",
+    "retention": "PDF bytes not retained; direct download failed.",
+    "checked_on": "2026-09-27"
+  },
+  {
+    "id": "jlc-ptl20",
+    "url": "https://jlcpcb.com/partdetail/BOURNS-PTL20_10G0103B2/C17491098",
+    "claim": "Exact MPN/identity on public indexed JLC listing. Not an accepted order.",
+    "retention": "Source URL only. No price or current stock promise.",
+    "checked_on": "2026-09-27"
+  },
+  {
+    "id": "user-cap",
+    "url": "https://www.alibaba.com/product-detail/15mm-Diameter-Black-Full-Aluminum-6_1601503932880.html",
+    "claim": "User selection; exact listing content unavailable.",
+    "retention": "No retained manufacturer drawing.",
+    "checked_on": "2026-09-27"
+  },
+  {
+    "id": "user-slider",
+    "url": "https://www.alibaba.com/product-detail/IN-STOCK-100-ORIGINAL-BRAND-NEW_1601698938117.html",
+    "claim": "User reference; exact listing content unavailable.",
+    "retention": "No exact MPN asserted.",
+    "checked_on": "2026-09-27"
+  },
+  {
+    "id": "tight-tokens",
+    "url": "https://zudo-css-wisdom.takazudomodular.com/docs/design-tokens/tight-token-strategy/",
+    "claim": "User-provided semantic horizontal/vertical spacing methodology.",
+    "retention": "Source URL and applied notes.",
+    "checked_on": "2026-09-27"
+  },
+  {
+    "id": "component-tokens",
+    "url": "https://zudo-css-wisdom.takazudomodular.com/docs/design-tokens/tight-token-strategy/component-tokens/",
+    "claim": "Distinguish shared spacing roles from component-specific structural values.",
+    "retention": "Source URL and applied notes.",
+    "checked_on": "2026-09-27"
+  },
+  {
+    "id": "jlc-sourcing",
+    "url": "https://jlcpcb.com/help/article/how-to-use-jlcpcb-global-sourcing-parts-service",
+    "claim": "External parts sourcing route; job-specific acceptance required.",
+    "retention": "Source URL only.",
+    "checked_on": "2026-09-27"
+  }
+]

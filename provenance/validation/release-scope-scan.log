@@ -1,0 +1,19 @@
+artifact scan: no denied value reached a published artifact
+public scope           ok: no raw evidence/CAD file is publicly reachable outside its allowlist
+
+OWNED tier             257 canaries x 81 artifacts, 0 hits
+  generated MDX              39 scanned,  0 binary, 0 hit(s)
+  preflight report            1 scanned,  0 binary, 0 hit(s)
+  built component pages      39 scanned,  0 binary, 0 hit(s)
+  search + llms slices        2 scanned,  0 binary, 0 hit(s)
+  docs-to-agent components    0 scanned,  0 binary, 0 hit(s)
+positive controls      17 per full-text surface, 3 on discovery surfaces (record clamp-diode)
+
+SITE tier              195 canaries x 311 artifacts, 0 hits
+                       62 canary/canaries withheld (published by another content source)
+                       4 binary artifact(s) not text-scanned
+
+built pages            39 under /docs/components/
+searchable records     38 entries in search-index.json
+hydration payloads     1102 checked, none carrying evidence-model keys
+docs-to-agent          not scanned (pass --agent-skill <dir>)

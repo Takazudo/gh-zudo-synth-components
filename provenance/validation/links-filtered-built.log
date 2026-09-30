@@ -1,0 +1,6 @@
+Checking links (base: /, trailingSlash: false)...
+Source scan: src/content/docs; dist/ pass enabled
+
+✓ No broken links, invalid anchors, or absolute path issues found
+
+Built HTML scan: 36614 internal links and 2738 ID attributes inspected.

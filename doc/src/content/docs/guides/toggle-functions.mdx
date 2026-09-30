@@ -1,0 +1,27 @@
+---
+title: "Toggle positions, contacts and readable labels"
+description: "Reusable component-led synth design note"
+sidebar_position: 4
+---
+
+A switch must be selected from its electrical truth table and its mechanical assembly, not from a generic rectangle in a preview.
+
+| Function | Maintained positions | Design implication |
+| --- | --- | --- |
+| LFO / VCO | Two | ON–ON SPDT can encode the two ranges |
+| SOFT / OFF / HARD | Three | ON–OFF–ON needs a defined centre-open response |
+| ASR / AR / LOOP | Three | Centre-open can mean AR if the circuit defines it |
+| Linear / curved envelope | Two | Two states; no invented third browser position |
+| Rise / fall stage gate | Two | Select a stage signal; this is not envelope mode |
+
+C908280 refers to the two-position Dailywell candidate. The three-position T1 counterpart is a different complete ordering string. A DPDT option adds another pole and may require more body and terminal space; it is not a stock-based substitute for the SPDT footprint.
+
+### Labels are part of the control contract
+
+A waveform can explain slow versus fast range, a straight versus curved envelope, or the active rise/fall segment. SOFT versus HARD sync is less self-evident; a hybrid of symbols and short words is more reliable than inventing a private icon language. Put full meanings in the documentation even when the panel is compact.
+
+### Assembly and sourcing
+
+PCB pins and solder lugs are different products. Confirm the part's pin view, body, bushing, nut/washer, lever length, throw and soldering/cleaning limits. The corpus keeps the source's unresolved suffix evidence visible rather than equating a shop label with all variants.
+
+Sources: [Thonk sub-miniature toggles](https://www.thonk.co.uk/shop/sub-mini-toggle-switches/), [cnōc manual](https://www.instruomodular.com/wp-content/uploads/2022/08/cno%CC%84c-Manual.pdf). No cnōc circuit is copied or claimed as implemented here.

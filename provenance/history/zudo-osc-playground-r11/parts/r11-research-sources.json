@@ -1,0 +1,98 @@
+{
+  "checked_on": "2026-09-27",
+  "sources": [
+    {
+      "id": "c908280-lcsc",
+      "title": "Dailywell 2MS1T1B1M2QES-5 / C908280",
+      "url": "https://www.lcsc.com/product-detail/C908280.html",
+      "authority": "DISTRIBUTOR",
+      "status": "PUBLIC_LISTING_READ",
+      "supports": "Exact ordered part identity; user selects it for the two-state positions only."
+    },
+    {
+      "id": "c908280-jlc",
+      "title": "JLCPCB C908280 listing",
+      "url": "https://jlcpcb.com/partdetail/Dailywell-2MS1T1B1M2QES5/C908280",
+      "authority": "ASSEMBLER",
+      "status": "CACHED_PUBLIC_LISTING_READ",
+      "supports": "Through-hole assembly listing. Current stock quantity is user-reported, not independently reserved."
+    },
+    {
+      "id": "se1-shop",
+      "title": "Takazudo Modular SE1 introduction",
+      "url": "https://takazudomodular.com/products/se1-intro/",
+      "authority": "USER_RETAIL_REFERENCE",
+      "status": "PUBLIC_PAGE_READ",
+      "supports": "Identifies the SE1 instrument being used as a tactile reference; does not supply a fader MPN."
+    },
+    {
+      "id": "se1-diy",
+      "title": "Weston Audio DIY resources",
+      "url": "https://www.westonaudio.com/diy.html",
+      "authority": "MANUFACTURER",
+      "status": "PUBLIC_PAGE_READ",
+      "supports": "Links the SE1 build guide Rev01, Excel BOM RevAB and main/pots-jacks interactive BOMs."
+    },
+    {
+      "id": "se1-build",
+      "title": "SE1 Build Documentation, Rev01, 10 Jan 2024",
+      "url": "https://www.westonaudio.com/assets/files/se1builddocs.pdf",
+      "authority": "MANUFACTURER",
+      "status": "PARSED_TEXT_READ_BINARY_NOT_RETAINED",
+      "supports": "LED-bearing faders and build process. The parsed schematic includes a Bourns-orange resistor note but does not establish a complete exact fader MPN/travel.",
+      "limitations": "PDF page screenshot retrieval failed. No geometric measurement from parsed drawing text or product photograph is claimed."
+    },
+    {
+      "id": "se1-bom",
+      "title": "SE1 Excel BOM, RevAB",
+      "url": "https://www.westonaudio.com/assets/files/se1bom.xlsx",
+      "authority": "MANUFACTURER",
+      "status": "LINK_VERIFIED_BYTES_UNAVAILABLE",
+      "supports": "Next primary source to resolve exact slide-pot rows.",
+      "limitations": "Web extraction returned no cells; container download failed DNS. This BOM was NOT read and is NOT included."
+    },
+    {
+      "id": "ptl",
+      "title": "Bourns PTL series datasheet, revision 10/19",
+      "url": "https://www.bourns.com/docs/product-datasheets/PTL.pdf",
+      "authority": "MANUFACTURER",
+      "status": "PARSED_TEXT_AND_PAGE1_SCREENSHOT_READ_BINARY_NOT_RETAINED",
+      "supports": "Page1:20mm travel,35\u00b10.5mm body,9\u00b10.5mm width. Page4 order code distinguishes travel, lever length, LED,detent,resistance,taper. Independent LED terminals.",
+      "limitations": "No exact SE1 MPN inferred. Independent current fader color/taper procurement remains open."
+    },
+    {
+      "id": "ptl20-jlc",
+      "title": "JLC PTL20-10G0-103B2 / C17491098",
+      "url": "https://jlcpcb.com/partdetail/BOURNS-PTL20_10G0103B2/C17491098",
+      "authority": "ASSEMBLER",
+      "status": "INDEXED_LISTING_READ_DIRECT_RETRY_FAILED",
+      "supports": "Existing green,no-detent,10k listing candidate; no stock allocation or assembly acceptance."
+    },
+    {
+      "id": "alpha-slide",
+      "title": "Thonk Alpha illuminated 20mm sliders",
+      "url": "https://www.thonk.co.uk/shop/alpha-sliders/",
+      "authority": "SPECIALIST_DISTRIBUTOR",
+      "status": "PUBLIC_PAGE_READ",
+      "supports": "20mm red-LED alternative; B10K/B50K detent and B50K clickless options. Named B50K detent RA2045F-20R-15LC-B50K-C.",
+      "limitations": "Not a shorter travel replacement. Do not assume identical footprint or LED polarity."
+    },
+    {
+      "id": "vinca",
+      "title": "Instruo vinca",
+      "url": "https://www.instruomodular.com/product/vinca/",
+      "authority": "MANUFACTURER",
+      "status": "PUBLIC_PAGE_READ",
+      "supports": "Functional distinction between input attenuation/bias and VCA amplitude/CV control. Inspiration for making relations explicit; no panel artwork copied."
+    },
+    {
+      "id": "vinca-manual",
+      "title": "Instruo vinca manual",
+      "url": "https://www.instruomodular.com/wp-content/uploads/2019/09/vinca-Manual-A5.pdf",
+      "authority": "MANUFACTURER",
+      "status": "PARSED_TEXT_READ_PAGE_IMAGES_UNAVAILABLE",
+      "supports": "Reference control semantics.",
+      "limitations": "Unable to inspect page diagrams visually in this pass; R11 line styles are original proposals, not traced markings."
+    }
+  ]
+}

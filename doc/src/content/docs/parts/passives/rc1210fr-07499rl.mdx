@@ -1,0 +1,55 @@
+---
+title: "RC1210FR-07499RL"
+description: "Output/fault series resistance — Yageo"
+sidebar_position: 1
+---
+
+**Output/fault series resistance**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | Yageo |
+| Part / family | RC1210FR-07499RL |
+| Identity scope | Exact ordering identity |
+| Evidence state | AVAILABLE |
+| LCSC code | Not established for this identity |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+RC1210FR-07499RL is a 499 Ω larger-package resistor candidate. Series chains were investigated to distribute opposite-drive fault voltage and power.
+
+## Design cautions
+
+Evaluate simultaneous fault current, each resistor’s working voltage and hot power rating, not just total resistance. A series resistor limits current but does not by itself establish safe backfeeding or unpowered amplifier behavior.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-r-power-orderable-identity` | `{"manufacturer": "Yageo", "mpn": "RC1210FR-07499RL", "package": "1210"}` NONE; Exact complete orderable identifier in the selected package; does not establish supplier stock. | [Product datasheet for RC1210FR-07499RL](https://www.yageogroup.com/component-documentation/download/specsheet/RC1210FR-07499RL); PASS - primary-source confirmed |
+| `fact-r-power-pinout` | `pin 1 unpolarized terminal -&gt; pad 1; pin 2 unpolarized terminal -&gt; pad 2` NONE; No schematic or placement/net binding is claimed. Manufacturer pin functions are source-backed only when a retained primary document names the product family. | [Product datasheet for RC1210FR-07499RL](https://www.yageogroup.com/component-documentation/download/specsheet/RC1210FR-07499RL); PASS - primary-source confirmed |
+| `fact-r-power-resistance` | `{"nominal": 499, "tolerance_percent": 1, "power_at_70C": 0.5}` ohm and W; RC1210FR-07499RL exact product sheet; rated power at 70 C. | [Product datasheet for RC1210FR-07499RL](https://www.yageogroup.com/component-documentation/download/specsheet/RC1210FR-07499RL); PASS - primary-source confirmed |
+
+## 3D / mechanical assets
+
+**No usable part-specific model published in this edition.** A document or a footprint may exist without a qualified 3D model. No unrelated shape is substituted.
+
+The complete inherited owner bundle is retained locally at `.claude/skills/component-passives-family/`. It is not in the native preview selection because complete publishable model coverage is absent for some records in this group.
+
+## Datasheets, drawings and source leads
+
+- [RC1210FR-07499RL](https://www.yageogroup.com/component-documentation/download/specsheet/RC1210FR-07499RL) — retained local bytes: `circuit/sources/ic-library/RC1210FR.pdf`; SHA-256 `123d6a01482ef69ec58d05de95a70efebc1ac9fb1203e77d7fa037196644a960`.
+- [OSC-ES-1 parts shortlist](https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json) — source metadata/link only in this edition; no local download implied.
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

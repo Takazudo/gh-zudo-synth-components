@@ -1,0 +1,35 @@
+---
+title: "Attenuverter, offset, sum and VCA are different operations"
+description: "Reusable component-led synth design note"
+sidebar_position: 6
+---
+
+Four useful functions should not be collapsed under a vague ATTEN label.
+
+An **attenuator** scales a signal toward zero. An **attenuverter** also permits polarity inversion. An **offset** adds a voltage. A **VCA** makes gain respond to a control signal. Each has a different signal path, control law and failure behavior.
+
+For an attenuator/offset cell, the proposed relationship was:
+
+```text
+OUT = gain × IN + manual_offset + OFFSET_CV
+```
+
+The input-gain control does not also scale the separately added offset. For a mixer with post-sum gain:
+
+```text
+SUM = VCA_gain × (g1×IN1 + g2×IN2 + g3×IN3 + g4×IN4)
+```
+
+ATTEN CV controls that final gain. It is neither a fifth audio input nor an offset added directly to the audio sum.
+
+### Headroom must be checked at every stage
+
+Reducing post-sum gain cannot undo clipping that already occurred in the summing amplifier. A useful CLIP indication needs either multiple observation points or a justified worst-case relationship between the monitored node and all relevant internal headroom.
+
+Op-amp voltage swing, resistor tolerances, bias and reference errors affect the real gain and offset. A centre mark on a pot is not an electrical zero guarantee. VCA control conditioning must enforce safe OTA bias currents where LM13700 is used.
+
+### Panel relationships
+
+Solid lines can show signal combination and dashed lines can show parameter control, provided the distinction is documented. They must not imply default patch connections between independent modules. Physical group separators remain a third, separate layer.
+
+Sources: [LM13700](https://www.ti.com/product/LM13700), [OPA4196](https://www.ti.com/product/OPA4196), [ADDAC203 interaction reference](https://www.addacsystem.com/en/products/modules/addac200-series/addac203-rev02). Equations above describe the proposed functions, not measured circuits.

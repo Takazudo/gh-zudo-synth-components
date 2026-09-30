@@ -1,0 +1,8 @@
+{
+  "checks": 1291,
+  "failed": 1,
+  "failures": [
+    "browser placeholders replaced"
+  ],
+  "scope": "Offline documentation/source integrity only"
+}

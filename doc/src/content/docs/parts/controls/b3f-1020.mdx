@@ -1,0 +1,63 @@
+---
+title: "B3F-1020"
+description: "Momentary trigger and sample buttons — Omron"
+sidebar_position: 1
+---
+
+**Momentary trigger and sample buttons**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | Omron |
+| Part / family | B3F-1020 |
+| Identity scope | Exact ordering identity |
+| Evidence state | AVAILABLE |
+| LCSC code | C722171 |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+A conventional tactile switch is a plausible inexpensive electrical element for manual trigger/sample actions. It becomes a panel control only after the cap, guided plunger, stroke and PCB mounting plane are designed together.
+
+## Design cautions
+
+The familiar 6 × 6 mm switch body does not establish the fingertip surface or exposed height. Account for pretravel, overtravel, alignment, operating force and a mechanical stop. Debounce or shape the pulse where repeated transitions would retrigger the circuit.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-b3f-identity` | `{"lcsc": "C722171", "manufacturer": "Omron", "mpn": "B3F-1020", "variant": "Exact MPN and LCSC identity listing; through-hole 6×6 mm tactile switch."}` NONE; Exact candidate in the unvalidated project draft. | [C722171](https://www.lcsc.com/product-detail/tactile-switches_omron-electronics-b3f-1020_C722171.html); CONFIRMED - distributor identity only |
+| `fact-b3f-contact-pairs` | `Terminals 4 and 3 are permanently paired; terminals 2 and 1 are permanently paired; pressing bridges the pairs.` NONE; Exact candidate in the unvalidated project draft. | [B3F](https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf); PASS - primary-source confirmed |
+| `fact-b3f-pcb-pattern` | `Manufacturer drawing specifies a 6.5 × 4.5 mm PCB hole pattern and 1.0 mm holes for the B3F-1020 group.` mm; B3F-1020 group manufacturer drawing dimensions. | [B3F](https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf); PASS - primary-source confirmed |
+| `fact-b3f-panel-reach` | `The panel actuator, board-to-panel distance, overtravel stop and return force have not been bench-qualified.` NONE; Fixed R21 push-button position; prevent panel load from reaching solder joints. | [OSC-HF-R21-BUTTON](https://github.com/Takazudo/zudo-osc-hole-field/blob/786d5dfd14dffb0ca58f1b1014a26046b7422359/design/mechanical/facts/button.json); NEEDS BENCH |
+
+## 3D / mechanical assets
+
+**Inherited family/derived package preview.** Many imported models are intentionally coarse body envelopes, not complete manufacturer solids. Check the original receipt, drawing and mounting stack; the rendered shape does not qualify fit.
+
+<PackageModelViewer descriptor="7b2276657273696f6e223a312c227061636b6167654964223a22427574746f6e5f4f6d726f6e5f4233465f3678365f50362e3578342e35222c227061636b6167654c6162656c223a22427574746f6e5f4f6d726f6e5f4233465f3678365f50362e3578342e35222c226d6f64656c55726c223a222f6173736574732f636f6d706f6e656e742d70726576696577732f6d6f64656c732f427574746f6e5f4f6d726f6e5f4233465f3678365f50362e3578342e352e77726c222c226f6666736574223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c22726f746174696f6e223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c227363616c65223a7b2278223a312e302c2279223a312e302c227a223a312e307d7d" />
+
+Local model: `footprints/kicad/zudo-osc-hole-field.3dshapes/Button_Omron_B3F_6x6_P6.5x4.5.wrl`. Native rendering is supplied by `zudo-circuit-doc`.
+
+[Open the native generated evidence record](/docs/components/records/omron-b3f-1020/). It preserves original claim wording, locators and verdicts.
+
+## Datasheets, drawings and source leads
+
+- [Omron B3F Tactile Switch datasheet](https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf) — retained local bytes: `circuit/sources/toggle-button/Omron-B3F.pdf`; SHA-256 `be9cf69e5f43fb7689448a2097c19858e5643c0e2e49cd77d018881543e27a1f`.
+- [LCSC Omron B3F-1020 listing](https://www.lcsc.com/product-detail/tactile-switches_omron-electronics-b3f-1020_C722171.html) — source metadata/link only in this edition; no local download implied.
+- [Project push-button mechanical proposal](https://github.com/Takazudo/zudo-osc-hole-field/blob/786d5dfd14dffb0ca58f1b1014a26046b7422359/design/mechanical/facts/button.json) — source metadata/link only in this edition; no local download implied.
+
+[Recorded LCSC identity C-number](https://www.lcsc.com/product-detail/C722171.html).
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

@@ -1,0 +1,25 @@
+---
+title: "Choose amplifier performance and power together"
+description: "Reusable component-led synth design note"
+sidebar_position: 7
+---
+
+A large analog instrument multiplies seemingly modest per-amplifier costs. Four sections in each package, repeated across buffers, indicators, mixers and references, can dominate the rail budget before any external load is driven.
+
+The source research distinguished OPA4196IDR for many general stages from OPA4197IPWR for precision functions. Earlier TL074-family suggestions remain useful comparisons, not interchangeable identities.
+
+### Compare the operating point, not a marketing adjective
+
+Record input common-mode range, output swing at load, input bias and offset over temperature, noise, bandwidth, slew rate and quiescent current. A rail-to-rail description does not establish the same swing for every load. A typical picoamp input current at room temperature does not bound a hot, contaminated high-impedance assembly.
+
+Use exact package and pin maps. SOIC-14 and TSSOP-14 are different footprints even if the logical channel arrangement is familiar.
+
+### Precision output stages
+
+An output resistor can help limit fault current and isolate cable capacitance. Taking feedback after that resistor can improve loaded DC accuracy while changing loop stability. The compensation network must remain one fixed configuration across the complete load/cable sweep, then be checked on a populated circuit. A model sweep is not physical qualification.
+
+### A practical rail ledger
+
+For each fitted package, account for all powered amplifier sections at the relevant limits, plus output current, indicator drive, bias/reference loads, protection, regulators and charging currents. Keep the typical estimate separate from the conservative design bound. Multiply per-channel values only once; do not confuse them with per-package values.
+
+Sources: [OPA4196](https://www.ti.com/product/OPA4196), [OPA4197](https://www.ti.com/product/OPA4197), [TL074](https://www.ti.com/product/TL074). The original instrument's power and model results remain contextual evidence, not universal specifications for these amplifiers.

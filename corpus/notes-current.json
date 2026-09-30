@@ -1,0 +1,296 @@
+{
+  "line-b103": [
+    "controls",
+    "General CV dividers and attenuator controls",
+    "The 10 kΩ linear member of the bushingless PTV09A-4020F family is a useful starting point for buffered control-voltage dividers. The project moved to the exposed insulated shaft rather than treating a small knob cap as a smaller potentiometer body.",
+    "Choose resistance from loading, noise and current, not from the panel drawing. The family’s 20 V DC limit does not permit connecting it directly between −12 V and +12 V. A bushingless pot needs a real board/support arrangement; its 6 mm shaft is not a 6 mm footprint."
+  ],
+  "line-b104": [
+    "controls",
+    "Higher-impedance control dividers",
+    "This 100 kΩ linear variant shares the mechanical family with B103, allowing a designer to change electrical loading without redrawing the visible actuator. That does not make the two values electrically interchangeable.",
+    "Check the receiving amplifier’s input bias current, leakage and cable pickup. As a divider the maximum Thevenin resistance is near one quarter of the end-to-end value; as a rheostat the whole selected resistance can matter. Recheck every DC-voltage and end-resistance condition."
+  ],
+  "line-b504": [
+    "controls",
+    "Slew and timing resistance",
+    "The 500 kΩ linear variant was introduced for the two post-sample slew controls. It is useful when a long RC time constant is needed without enlarging the capacitor bank excessively.",
+    "The high-impedance node must remain local and buffered. Wiper leakage, board cleanliness, capacitor leakage and amplifier bias current can dominate the slow endpoint. FAST is not necessarily a hard bypass, and the same shaft does not imply the same electrical role as B103."
+  ],
+  "line-srbv": [
+    "controls",
+    "Six-position octave selection",
+    "This is a maintained rotary selector, not a continuous potentiometer. It can select a reference ladder or coded state for repeatable octave steps, while a separate continuous control handles tuning.",
+    "Body envelope, support features, asymmetric pin geometry, rotation, bushing and shaft indexing must all be checked. In the source instrument a fixed-centre multi-plane adapter was considered; that is a project-specific solution, not evidence that this selector fits every 17 mm lane. Never convert a mounting-hole diameter into an assumed solid-leg diameter."
+  ],
+  "line-wqp518ma": [
+    "patching",
+    "Threaded 3.5 mm patch sockets",
+    "The WQP518MA/Thonkiconn research is useful because patch jacks define the panel’s mounting datum. The body stays behind the panel; the bushing passes through a normal mounting hole and is clamped by the selected nut.",
+    "QingPu names, PJ398SM family drawings and reseller codes are not a proven exact-variant equivalence. Match sleeve/tip/switch contacts, shoulder height, thread and nut engagement to the actual lot. A related-family STEP file is useful for exploration but does not qualify the chosen jack or EARS dress nut."
+  ],
+  "line-2ms1": [
+    "controls",
+    "Two-state performance toggles",
+    "The source instrument chose this Dailywell T1/B1/M2 ordering string for LFO/VCO range, envelope shape/stage and manual A/B selection. Its intended two-state role is distinct from the three-state ON–OFF–ON counterpart.",
+    "The source snapshot still flags suffix/primary-source identity gaps. Keep the exact C908280 supplier reference separate from a family drawing or DW1 label. Confirm maintained contacts, contact sequence, lever reach, bushing hardware, PCB pin view and soldering process before release."
+  ],
+  "line-2ms3": [
+    "controls",
+    "Three-state mode selectors",
+    "The matching T1-lever ON–OFF–ON direction gives three maintained mechanical positions for functions such as ASR/AR/LOOP or SOFT/OFF/HARD. The centre-open contact condition can be decoded as an active operating mode.",
+    "Do not use the two-position C908280 as a substitute. The centre needs deliberate pull-up/pull-down or analog default circuitry, and the unpowered state must remain defined. The source retains unresolved exact-suffix equivalence; Thonk DW2 is a sourcing lead, not a universal code for all Dailywell variants."
+  ],
+  "line-b3f-1020": [
+    "controls",
+    "Momentary trigger and sample buttons",
+    "A conventional tactile switch is a plausible inexpensive electrical element for manual trigger/sample actions. It becomes a panel control only after the cap, guided plunger, stroke and PCB mounting plane are designed together.",
+    "The familiar 6 × 6 mm switch body does not establish the fingertip surface or exposed height. Account for pretravel, overtravel, alignment, operating force and a mechanical stop. Debounce or shape the pulse where repeated transitions would retrigger the circuit."
+  ],
+  "line-kingbright-white": [
+    "indicators",
+    "Compact magnitude and stage emitters",
+    "The 0402 white emitter was introduced when larger indicator packages conflicted with the dense jack/pot layout. A smaller light source can reduce the PCB courtyard while preserving the front-panel light window.",
+    "The package height and optical path still matter. Maximum continuous current is not a recommended brightness target. Qualify current limiting at the actual hot ambient, aperture coupling, light bleed and the separately mounted stage-LED plane."
+  ],
+  "line-kingbright-red": [
+    "indicators",
+    "Distinct clipping indication",
+    "A separate red emitter can distinguish overload from ordinary signal magnitude. That semantic distinction belongs to the comparator/driver circuit and the panel labeling, not to the LED alone.",
+    "An output-level detector can miss clipping upstream of an attenuating VCA. Define which node and headroom the comparator observes. Package polarity, hot-current limit, light output and optical separation need their own checks."
+  ],
+  "line-dealon-header": [
+    "interconnects",
+    "Legacy power-header candidate",
+    "This right-angle 2 × 8 header came from the earlier power-supply reuse investigation. It remains useful as a reference for why a familiar connector pitch is insufficient to select a power inlet.",
+    "The exact mate, wire range, simultaneously loaded contact rating and pin-number orientation were unresolved in the source. Do not infer current capability from pin count, or assign Eurorack power polarity from the connector’s physical resemblance."
+  ],
+  "line-op-audio": [
+    "analog",
+    "Low-quiescent-current general CV/audio stages",
+    "OPA4196IDR was selected in the source research for general audio, CV and indicator amplifiers, where multiplying quiescent current by a large number of amplifier sections becomes important.",
+    "Keep per-amplifier and per-package current separate. Add load current, indicator current and temperature maxima to the rail budget. Precision, bandwidth, capacitive-load stability and output swing still need application-level checks; a rail-to-rail label is not an all-load guarantee."
+  ],
+  "line-op-precision": [
+    "analog",
+    "Precision buffered CV and sample/hold support",
+    "OPA4197IPWR was considered for precision outputs, buffered multiples and high-impedance sample/hold or slew stages. Its source record distinguishes room-temperature bias/offset data from full-temperature limits.",
+    "Low typical bias current is not a guarantee at hot ambient. Post-resistor feedback can improve DC accuracy but change the capacitive-load loop; cable/load stability must be modeled and measured with one fixed compensation network. Count all four amplifiers and both rails correctly."
+  ],
+  "line-fault-switch": [
+    "protection",
+    "Fault-protected analog input switching",
+    "ADG5412FBRUZ is a candidate for protecting signal inputs against out-of-range or powered-off external voltages. Its fault protection is directional and conditional on the device’s specified terminals and supply states.",
+    "Input protection does not automatically protect output drivers, feedback sense wires or reference receivers. Keep source/drain assignment, fault-current paths, enable defaults and missing-rail behavior explicit. The source instrument’s complete protection architecture remains open."
+  ],
+  "line-comparator": [
+    "analog",
+    "Gate thresholds and overload detection",
+    "LM393BIDR supplies comparator functions for gates, clipping and envelope-state transitions. The B variant is a distinct ordering choice from the earlier LM393DR candidate.",
+    "Design output pull-ups, input common-mode limits and hysteresis explicitly. A comparator does not become a protected modular input by itself. Separate threshold accuracy, response time, chatter immunity and output logic-domain compatibility."
+  ],
+  "line-schmitt": [
+    "logic",
+    "Clean digital edges after analog conditioning",
+    "SN74HC14DR provides Schmitt-trigger logic after a signal has been made safe for its supply domain. It is useful for shaping already-conditioned gates and for defined state-machine inputs.",
+    "It must not receive a bipolar modular signal directly. Check injection during power-off, thresholds at the actual supply, unused-input termination and local decoupling. Multiple gates share one physical supply pair."
+  ],
+  "line-flipflop": [
+    "logic",
+    "Envelope and trigger state",
+    "SN74HC74DR provides D-type state storage useful in deterministic envelope/control logic. It is a building block for explicit state, not a complete envelope generator.",
+    "Clock, asynchronous set/reset priority, startup state and setup/hold behavior need a circuit contract. A browser demonstration of ASR/AR/loop behavior cannot substitute for these hardware transitions."
+  ],
+  "line-nand": [
+    "logic",
+    "Combinational control logic",
+    "SN74HC00DR can implement gating and interlocks in envelope control without firmware. Its value is in a documented truth table and predictable input levels.",
+    "Terminate unused inputs, define power-up behavior and analyze glitches when multiple signals change together. Do not use arbitrary logic delays as the only guarantee of a sampling or reset pulse."
+  ],
+  "line-one-shot": [
+    "logic",
+    "Bounded sample-acquisition pulses",
+    "CD74HC221M96 is the non-retriggerable one-shot candidate used to turn a trigger event into a controlled acquisition window for each sample-and-hold channel.",
+    "Pulse width depends on the specified external timing network and operating conditions. Confirm trigger polarity, reset behavior and pulse completion. A long gate wired directly to a track/hold control would track continuously instead of capturing a single destination."
+  ],
+  "line-ota": [
+    "analog",
+    "VCA, filter and current-controlled building blocks",
+    "LM13700M/NOPB contains two operational transconductance amplifier sections, linearizing diodes and buffers. It supports several synth functions when surrounded by the appropriate scaling and conversion circuits.",
+    "An OTA produces a current-related output; it is not a drop-in voltage op amp or ready-made VCA module. Respect the small differential input range, bias-current programming, diode operation and output loading. Filter resonance and VCA gain are circuit properties."
+  ],
+  "line-sample-hold": [
+    "analog",
+    "Analog voltage storage",
+    "LF398M/NOPB was chosen as a first sample-and-hold implementation candidate. This M/NOPB version uses SOIC-14; an eight-pin DIP drawing is not its package pin map.",
+    "Keep the hold capacitor and sensitive node local. Larger capacitance can reduce droop but lengthen acquisition. Offset, hold step, leakage and temperature matter for pitch storage. Slew must follow a buffered held output rather than loading the storage node."
+  ],
+  "line-vco": [
+    "analog",
+    "Voltage-controlled oscillator core",
+    "AS3340D is the ALFA SOIC-16 oscillator-core candidate. A complete voice still needs reference/scaling, timing parts, waveform conditioning, modulation, sync and calibration.",
+    "Do not assume every 3340-branded device or suffix has interchangeable limits. Follow the exact negative-supply and current-limiting guidance. The source’s triangle/saw/pulse core does not by itself establish a sine output or calibrated LFO/audio range."
+  ],
+  "line-noise": [
+    "analog",
+    "Programmed white/pink noise source",
+    "Electric Druid NOISE2 is a programmed noise-generator device, not a blank microcontroller. It offered a repeatable white/pink source before separate blue/brown shaping stages.",
+    "Preserve the programmed identity and delivery method in procurement. This is digital pseudorandom generation, not a purely analog noise junction. Output spectra, filtering, levels, bandwidth and buffering still require measurement."
+  ],
+  "line-reference": [
+    "analog",
+    "Reference for calibrated CV scales",
+    "REF5050AIDR supplies a precision 5 V reference basis for control scaling or calibrated reference networks. It is not the same thing as a general 5 V power rail.",
+    "Check input headroom, load regulation, capacitor stability and return routing. Buffer large fanouts and keep sense/return references deliberate. Multiple remote control loads can create errors even when the reference IC itself meets its datasheet."
+  ],
+  "line-regulator-3v3": [
+    "power",
+    "Optional local low-voltage domain",
+    "TLV75533PDBVR was retained as an optional local 3.3 V regulator, not an automatic requirement for the analog instrument. Keeping deferred parts is useful when a later interface or logic block needs them.",
+    "Confirm input limits, dropout at load, output-capacitor requirements, enable state, thermal dissipation and reverse-power paths. An optional rail does not justify connecting its loads in the current circuit."
+  ],
+  "line-signal-diode": [
+    "discretes",
+    "Small-signal steering and rectification",
+    "BAS16GW-QX is an exact diode ordering string for small-signal rectification or steering. The package and suffix must be preserved alongside any familiar BAS16 family name.",
+    "Forward drop, recovery, leakage and capacitance are not ideal-diode behavior. These affect precision rectifiers, envelopes and wavefolders differently. Check polarity and package pad orientation separately from the schematic symbol."
+  ],
+  "line-clamp-diode": [
+    "discretes",
+    "Compact Schottky steering pair",
+    "BAT54S,215 provides a specific dual-diode topology that can be useful in clamp or steering circuits. The suffix S is part of the electrical configuration, not just packaging.",
+    "Verify the internal series connection and pinout before substituting another BAT54 variant. Rail clamps can inject current into an unpowered rail; they need a bounded fault-current and power-off path."
+  ],
+  "line-npn": [
+    "discretes",
+    "General NPN and LED-current sink",
+    "MMBT3904,215 is a surface-mount general-purpose NPN candidate for indicator sinks and control circuitry. It is not automatically a characterized analog-noise source.",
+    "Check pin ordering, collector dissipation, saturation/base drive and reverse junction limits. Device gain variation and temperature prevent assuming a current sink is accurate solely because the transistor is familiar."
+  ],
+  "line-pnp": [
+    "discretes",
+    "Complementary general-purpose transistor",
+    "MMBT3906,215 is useful where a PNP function is required for steering, level shifting or a complementary analog stage.",
+    "Use the exact polarity and pinout. Account for emitter-base reverse limits and saturation recovery; do not derive safe junction-noise operation from a generic small-signal-transistor identity."
+  ],
+  "line-mosfet": [
+    "discretes",
+    "Small-signal switching",
+    "2N7002,215 is a small MOSFET candidate for logic/control switching. The exact manufacturer and package remain part of the identity even for this very common family.",
+    "Gate threshold is not the voltage at which a device delivers a specified low on-resistance. Check VGS limits, drive amplitude, body-diode direction, switching state during missing rails and power dissipation."
+  ],
+  "line-matched-npn": [
+    "discretes",
+    "Paired transistors and thermal tracking",
+    "BCM847BS,115 provides a paired NPN device that can be considered where a small shared package is useful. A paired package is not automatically a precision exponential converter.",
+    "Read the actual matching guarantees and thermal assumptions. Ratio error, temperature gradients and collector operating points determine suitability; nominally identical symbols are not a matching specification."
+  ],
+  "line-trim-102": [
+    "controls",
+    "1 kΩ calibration trim",
+    "TC33X-2-102E is the 1 kΩ member of the trimmer family retained for internal calibration. It should be chosen from the calibration range and resolution required by the circuit.",
+    "Keep screwdriver access, adjustment direction and protective stops in the assembly plan. The inherited footprint exists, but no native model is published for this part; do not substitute a decorative model as fit proof."
+  ],
+  "line-trim-103": [
+    "controls",
+    "10 kΩ calibration trim",
+    "TC33X-2-103E shares the trimmer family while providing a 10 kΩ adjustment range. A change of value can alter calibration sensitivity and drift contribution without changing board area.",
+    "Determine whether a one-turn adjustment gives sufficient resolution and whether the wiper-open state is safe. Factory calibration and readback must be included when the user does not solder or tune assemblies at home."
+  ],
+  "line-r-general": [
+    "passives",
+    "General precision-class resistor identity",
+    "RC0603FR-07100KL is a concrete 100 kΩ resistor identity, not a wildcard for every resistor in a synth. It provides a baseline for ordinary bias/divider or signal-stage parts.",
+    "Use exact values and tolerances per function. Check working voltage, power derating and pulse exposure separately; a physically small resistor near a protected jack can still dissipate excessive fault power."
+  ],
+  "line-r-precision": [
+    "passives",
+    "Low-error resistor option",
+    "RT0603BRD07100KL is a thin-film 100 kΩ option useful when resistor error and drift deserve separate treatment from general resistors.",
+    "Initial tolerance, temperature coefficient, ratio tracking and long-term drift are different properties. Two discrete precision resistors do not automatically track like a specified matched network."
+  ],
+  "line-r-ladder": [
+    "passives",
+    "Reference-divider and octave-ladder candidate",
+    "TNPW080510K0BEEA is an exact 10 kΩ resistor identity retained for precision-reference work. Its purpose is stable ratios, not simply obtaining the nominal resistance.",
+    "Budget the entire ladder, buffer offset/bias, switch resistance and return displacement. Calibration can remove an initial error without removing temperature drift or contact-related variation."
+  ],
+  "line-r-power": [
+    "passives",
+    "Output/fault series resistance",
+    "RC1210FR-07499RL is a 499 Ω larger-package resistor candidate. Series chains were investigated to distribute opposite-drive fault voltage and power.",
+    "Evaluate simultaneous fault current, each resistor’s working voltage and hot power rating, not just total resistance. A series resistor limits current but does not by itself establish safe backfeeding or unpowered amplifier behavior."
+  ],
+  "line-c-bypass": [
+    "passives",
+    "Local supply bypassing",
+    "GRM188R71H104KA93D is the exact Murata bypass candidate recorded in the source, where primary-document acquisition remained incomplete. It must not be silently generalized to any 100 nF MLCC.",
+    "Confirm exact capacitance/dielectric, package, voltage and bias/temperature behavior from the manufacturer. Place the current loop near the relevant supply pin and return; a nearby centre coordinate does not establish a short routed loop."
+  ],
+  "line-c-bulk": [
+    "passives",
+    "Local rail energy storage",
+    "GRM21BR61E475KA12L is the exact Murata bulk-capacitor candidate retained with source gaps. It is part of startup and transient planning as well as local decoupling.",
+    "Nominal capacitance is not effective capacitance under DC bias. Check ESR/impedance, voltage rating, startup charge and regulator stability. Count board bulk and every fitted bypass when estimating total ramp current."
+  ],
+  "line-c-small": [
+    "passives",
+    "Small C0G signal capacitor",
+    "C0603C101J5GACTU is a 100 pF C0G candidate for small-signal timing, filtering or compensation. Its exact value and placement are circuit-dependent.",
+    "Do not move a compensation capacitor through a connector because it looks electrically small. Parasitic capacitance and trace inductance can dominate, and changing it to make a model pass requires a documented stability analysis."
+  ],
+  "line-c-hold": [
+    "passives",
+    "Sample storage capacitor",
+    "C0805C103J5GACTU is the initial 10 nF C0G hold-capacitor candidate. It is deliberately distinct from the much larger downstream slew capacitor.",
+    "Leakage, dielectric absorption, contamination and acquisition time determine actual storage performance. Increasing capacitance reduces ideal droop from a given current, but does not eliminate offset, hold step or temperature effects."
+  ],
+  "line-c-slew": [
+    "passives",
+    "Parallel C0G lag-capacitor bank",
+    "1206CG104J500NT was proposed as 100 nF building blocks for a 0.50 µF slew capacitor bank. The exact manufacturer identity remains unresolved in the inherited record.",
+    "A five-capacitor bank is a circuit proposal, not five independently chosen unknown substitutes. Check leakage, voltage behavior, area and BOM availability. Preserve the distinction between a supplier-description claim and manufacturer-primary evidence."
+  ],
+  "line-gh3-header": [
+    "interconnects",
+    "3-way factory-populated GH board connector",
+    "The 3-position top-entry GH header can carry a terminated harness to an interface PCB. This member is kept separate from its cable housing and contact even though all belong to one mating system.",
+    "Use the manufacturer’s mounting-view numbering, mating height and wire/contact conditions. Pitch and header height are not a rigid board-stack dimension. Budget return currents and partial mating; supports and strain relief, not solder joints, carry operating forces."
+  ],
+  "line-gh3-housing": [
+    "interconnects",
+    "3-way GH cable housing",
+    "GHR-03V-S is a cable-side housing, not a component to solder onto a PCB. It completes the 3-way header system only with the correct contacts, wire and assembly process.",
+    "The source contains a numbering-aid footprint labeled EXTERNAL NOT FOR PCB. Do not place it on a fabricated PCB or treat it as an exact 3D housing model. Verify latch access, crimp seating, wiring order and pull testing."
+  ],
+  "line-gh7-header": [
+    "interconnects",
+    "7-way factory-populated GH board connector",
+    "The 7-position top-entry GH header can carry a terminated harness to an interface PCB. This member is kept separate from its cable housing and contact even though all belong to one mating system.",
+    "Use the manufacturer’s mounting-view numbering, mating height and wire/contact conditions. Pitch and header height are not a rigid board-stack dimension. Budget return currents and partial mating; supports and strain relief, not solder joints, carry operating forces."
+  ],
+  "line-gh7-housing": [
+    "interconnects",
+    "7-way GH cable housing",
+    "GHR-07V-S is a cable-side housing, not a component to solder onto a PCB. It completes the 7-way header system only with the correct contacts, wire and assembly process.",
+    "The source contains a numbering-aid footprint labeled EXTERNAL NOT FOR PCB. Do not place it on a fabricated PCB or treat it as an exact 3D housing model. Verify latch access, crimp seating, wiring order and pull testing."
+  ],
+  "line-gh8-header": [
+    "interconnects",
+    "8-way factory-populated GH board connector",
+    "The 8-position top-entry GH header can carry a terminated harness to an interface PCB. This member is kept separate from its cable housing and contact even though all belong to one mating system.",
+    "Use the manufacturer’s mounting-view numbering, mating height and wire/contact conditions. Pitch and header height are not a rigid board-stack dimension. Budget return currents and partial mating; supports and strain relief, not solder joints, carry operating forces."
+  ],
+  "line-gh8-housing": [
+    "interconnects",
+    "8-way GH cable housing",
+    "GHR-08V-S is a cable-side housing, not a component to solder onto a PCB. It completes the 8-way header system only with the correct contacts, wire and assembly process.",
+    "The source contains a numbering-aid footprint labeled EXTERNAL NOT FOR PCB. Do not place it on a fabricated PCB or treat it as an exact 3D housing model. Verify latch access, crimp seating, wiring order and pull testing."
+  ],
+  "line-gh-contact": [
+    "interconnects",
+    "GH crimp contact and wire interface",
+    "SSHL-002T-P0.2 is the contact used with the GH housing system. It needs a compatible conductor/insulation range and qualified crimp process; a bag of contacts is not a no-soldering harness.",
+    "Order completed, inspected harnesses or specify factory termination. Contact resistance, crimp resistance and conductor resistance all contribute to voltage drop and heating. Do not assume parallel ground wires share current equally."
+  ]
+}

@@ -1,0 +1,23 @@
+---
+title: "Fader travel, body length and illuminated stems"
+description: "Reusable component-led synth design note"
+sidebar_position: 2
+---
+
+The fader study is worth keeping even though the instrument changed to rotary controls. It exposed a common layout failure: rendering the travel length as though it were the whole part.
+
+The ALPS RS20H111C009 has 20 mm travel in a nominal 35 mm body. Its lever has a finite dimension along that travel. In a top-view study, the swept opening is approximately **travel + stem length along motion + chosen end clearances**. It is not simply the travel value. A cap can require an even larger sweep, and the body, lugs and solder lands occupy a different envelope.
+
+The Bourns PTL20 family also has a nominal 35 mm body for its 20 mm travel. Its 10/15/19 mm lever choices describe height, not different travel lengths. Selecting a shorter lever can change reach through the faceplate without recovering length along the panel.
+
+### An illuminated control is two electrical functions
+
+The potentiometer and LED are independent circuit elements. For an envelope generator, the pot can set the time while the LED is driven from a buffered envelope and a stage-enable signal. The light should not load a timing capacitor or become a proxy for the mechanical wiper position.
+
+The exact PTL candidate was a green-LED variant. An amber drawing does not establish an amber orderable suffix. Record LED terminals, polarity, current, brightness and thermal limits independently.
+
+### Why the instrument changed to pots
+
+R12 traded faders for small pots with separate LEDs to reduce footprint and sourcing/assembly effort. That is an instrument-specific decision, not a finding that faders are unsuitable for synths. The SE1 photograph remained an identification lead because its exact BOM row was not established.
+
+Sources: [ALPS RS20H111C009](https://tech.alpsalpine.com/e/products/detail/RS20H111C009/), [Bourns PTL](https://www.bourns.com/docs/product-datasheets/PTL.pdf), [Weston DIY references](https://www.westonaudio.com/diy.html).

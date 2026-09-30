@@ -1,0 +1,29 @@
+---
+title: "A flat panel can use several PCB mounting depths"
+description: "Reusable component-led synth design note"
+sidebar_position: 3
+---
+
+The panel, selected hardware and PCB planes form one mechanical design. They must be solved together before routing. Mechanical testing confirms the intended stack; it should not be the first time the team discovers that a jack mouth is buried behind the panel.
+
+For a threaded patch jack, begin at the panel: the body remains behind it, the bushing passes through a normal hole, and the nut clamps the intended shoulder/stack. Do not raise the entire panel to clear a tall rotary selector and then enlarge every jack hole to admit a plug barrel.
+
+A useful axial relationship is:
+
+```text
+exposed actuator = PCB-to-tip height − PCB-to-panel-underside spacing − panel thickness
+```
+
+For threaded parts this must be accompanied by shoulder support, washer/nut thickness, thread engagement and tolerance. Catalogue shaft length often uses a different datum from PCB-to-tip height.
+
+### Separate board planes
+
+Group parts by compatible mechanical stack: jack boards, small-pot boards, rotary-selector adapters, toggle strips, near-panel LED/button boards, and a rear circuit board. Not every function needs its own board, and boards at different depths need clearance in all three axes. Hidden PCB windows or notches are different from oversized front-panel holes.
+
+A header/socket or factory-terminated harness can connect these assemblies. Use spacers and panel/support fasteners to carry insertion force and torque. Neither long pin joints nor tightening the panel nuts until the PCB bends is a valid height adjustment.
+
+### What is reusable from the project
+
+The fixed-centre SRBV selector adaptation and split jack-board construction are instructive case studies, not universal board outlines. The corpus retains their component constraints without importing the instrument's board coordinates as a standard.
+
+Sources: [ALPS selector](https://tech.alpsalpine.com/e/products/detail/SRBV160803/), [Bourns shaft drawings](https://www.bourns.com/docs/product-datasheets/PTV09.pdf), [Thonk jack family](https://www.thonk.co.uk/shop/thonkiconn/). See the source-history page for the pinned project decision documents.

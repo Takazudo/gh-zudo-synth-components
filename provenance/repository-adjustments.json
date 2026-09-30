@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "original_corpus_source_tree_verified_before_changes": true,
+  "changes": [
+    {
+      "path": "scripts/browser/browser.js",
+      "before_sha256": "a8f3d627d88c134d9e47c4e35578a42725c6354d48997c529079162236134abb",
+      "after_sha256": "1154d83cb73dd3dbd5d77b63812ab3afef553b564290c0d7cdadaea3a19b52a1",
+      "reason": "The missing-model state was deferred to requestAnimationFrame, leaving the previous model visible to immediate state checks. Clear geometry/readiness synchronously and guard queued renders when changing tabs.",
+      "failed_evidence_run": "https://github.com/Takazudo/gh-zudo-synth-components/actions/runs/36746481281",
+      "scope": "UI state transition only. No profile, source PDF, original CAD or evidence verdict changed."
+    }
+  ],
+  "generated_followup": "Rebuild the standalone browser using the pinned corpus generator.",
+  "verification": "This receipt describes the patch, not its test result. The workflow must run all checks afterward."
+}

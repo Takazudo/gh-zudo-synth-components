@@ -1,0 +1,25 @@
+{
+  "name": "zudo-modular-component-corpus",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.5.2",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "dev": "pnpm --dir doc dev",
+    "build": "pnpm corpus:generate && zudo-circuit-doc models && zudo-circuit-doc generate && pnpm --dir doc build",
+    "check": "zudo-circuit-doc check && pnpm --dir doc check",
+    "circuit:check": "zudo-circuit-doc validate",
+    "circuit:generate": "zudo-circuit-doc generate",
+    "circuit:doctor": "zudo-circuit-doc doctor",
+    "check:site": "zudo-circuit-doc check-built && zudo-circuit-doc scan && pnpm --dir doc check:links -- --strict-anchors --strict-broken",
+    "previews:generate": "zudo-circuit-doc footprints generate",
+    "corpus:generate": "python3 scripts/build_corpus.py && node scripts/build_browser.mjs",
+    "corpus:check": "python3 scripts/check_corpus.py"
+  },
+  "devDependencies": {
+    "@takazudo/zudo-circuit-doc": "0.1.0"
+  }
+}

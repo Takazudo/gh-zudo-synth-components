@@ -1,0 +1,11 @@
+---
+title: "Corpus architecture"
+description: "Authored notes, inherited evidence, local sources and generated pages"
+sidebar_position: 1
+---
+
+`corpus/catalog.json` and `corpus/guides.json` are the authored content inputs. `scripts/build_corpus.py` renders their profile and guide pages. `.claude/skills/component-*/` preserves inherited exact-component bundles; the standard generator owns `/docs/components/`. `sources/` and `provenance/` retain documents, hashes, history and original CAD notices. `corpus/models/` contains only recorded STEP tessellations.
+
+The public native preview directory remains framework-owned. The supplementary single-file component browser is generated as a separately allowlisted asset, using the same catalogue and model receipts. Missing models are explicit, not replaced with arbitrary components.
+
+This project has no schematic or board binding and no fitted inventory. Source-context facts and diagram proposals must not be treated as new component approvals.

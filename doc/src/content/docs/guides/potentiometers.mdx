@@ -1,0 +1,25 @@
+---
+title: "Choose the pot, then the cap"
+description: "Reusable component-led synth design note"
+sidebar_position: 1
+---
+
+A control has at least four independently important geometries: the visible cap or bare shaft, the panel bushing and fastening hardware, the body behind the panel, and the terminals/footprint. Shrinking one does not shrink the others.
+
+The original ALPS RK09L1140A5L research was useful for a metal-shaft, threaded-bushing assembly. The later Bourns PTV09A-4020F family removed the panel nut and used a capless insulated shaft. Neither is universally better: a panel-clamped control and a board-supported control distribute operating loads differently. The front panel and PCB supports must be designed accordingly.
+
+### Electrical value is not a mechanical choice
+
+B103, B104 and B504 correspond to nominal 10 kΩ, 100 kΩ and 500 kΩ in the selected Bourns family. The shaft geometry is shared; loading and leakage sensitivity are not. A buffered divider, attenuator, OTA control-current network and RC timing rheostat may need different values or tapers.
+
+For a simple divider across a stable voltage, the unloaded midpoint source resistance is at most approximately one quarter of the total resistance. A high-impedance receiver helps preserve the divider law; finite bias current and contamination can still introduce offset.
+
+### DC ratings matter in a bipolar synth
+
+The Bourns family source lists 20 V DC maximum operating voltage. The retained ALPS source distinguishes a 10 V DC limit from its AC rating. Connecting a control end-to-end across −12 V and +12 V creates **24 V**, not 12 V. A buffered lower-voltage control domain is a possible design response; it must be designed rather than assumed.
+
+### What a purchase specification needs
+
+Specify manufacturer and complete suffix, resistance, taper, detent option, shaft form and length, bushing, terminal configuration and the permitted factory process. A cap adds bore shape, insertion depth, retention and skirt clearance. A mechanical coupon should check usable shaft reach, operating force and the real nut/washer/tool envelope.
+
+Sources: [Bourns PTV09](https://www.bourns.com/docs/product-datasheets/PTV09.pdf), [ALPS RK09L1140A5L](https://tech.alpsalpine.com/e/products/detail/RK09L1140A5L/). The corresponding profiles retain source files and model status separately.

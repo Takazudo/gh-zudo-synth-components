@@ -1,0 +1,760 @@
+[
+  {
+    "sha256": "b1dcb317b6b9a4fbbedd2dbf42c64c95306a252d23de8933b85fcf161240b722",
+    "path": "sources/documents/b1dcb317b6b9--jst-gh.pdf",
+    "bytes": 146619,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "design/partition/sources/jst-gh.pdf"
+      },
+      {
+        "scope": "pinned-instrument",
+        "path": "design/connectors/sources/jst-gh.pdf"
+      }
+    ],
+    "pages": 6,
+    "title": "jst-gh.pdf",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "efd1d9ca96295017e43bec8534016f8d5d30c11a1a28fc8d37b6cf35b892a80a",
+    "path": "sources/documents/efd1d9ca9629--alpha-6821.pdf",
+    "bytes": 632514,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "design/partition/sources/alpha-6821.pdf"
+      }
+    ],
+    "pages": 8,
+    "title": "alpha-6821.pdf",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "ff9da35e471778f26ffc849985f73e53516d8c6cc60d5505aa96f7d446a5be87",
+    "path": "sources/documents/ff9da35e4717--alpha-5859.pdf",
+    "bytes": 635386,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "design/partition/sources/alpha-5859.pdf"
+      }
+    ],
+    "pages": 8,
+    "title": "alpha-5859.pdf",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "d89dd6009d109bf18b349e77ff46e4df60bf7d4faaefd4c3ebe6ec0e2fc7793d",
+    "path": "circuit/sources/ic-library/OPA4196.pdf",
+    "bytes": 3172061,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "design/partition/sources/opa4196-layout.pdf"
+      },
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/OPA4196.pdf"
+      }
+    ],
+    "pages": 52,
+    "title": "OPAx196 36-V, Low-Power, Low Offset Voltage,\t Rail-to-Rail Operational Amplifier datasheet",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "27653a7d5e965cbb2d23f7998919ebd774efd5cd3e126b8f0881469ae91166fd",
+    "path": "circuit/sources/ic-library/OPA4197.pdf",
+    "bytes": 2174683,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "design/partition/sources/opa4197-layout.pdf"
+      },
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/OPA4197.pdf"
+      }
+    ],
+    "pages": 56,
+    "title": "OPAx197 36-V, Precision, Rail-to-Rail\t Input/Output, Low Offset Voltage,\t Operational Amplifiers datasheet (Rev. C)",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "4389058192ce8e89188d5c1c0f23de85945916542cd477ba04f3c75ac9f69ec8",
+    "path": "sources/documents/4389058192ce--alps-srbv.pdf",
+    "bytes": 373415,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "design/mechanical/sources/alps-srbv.pdf"
+      }
+    ],
+    "pages": 5,
+    "title": "SW04_ロータリースイッチ_シリーズページ_英語版.indd",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "411cdb6a62e61f9c5bc2df76ed64ee21d7bcfbee035c1ba36beff08c43f28558",
+    "path": "sources/history-r06/bourns-ptv09a/PTV09.pdf",
+    "bytes": 1372428,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "design/mechanical/sources/bourns-ptv09.pdf"
+      },
+      {
+        "scope": "conversation-r06",
+        "path": "bourns-ptv09a/PTV09.pdf"
+      }
+    ],
+    "pages": 5,
+    "title": "PTV09 Series 9 mm Potentiometer",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "20324e9b3c842d6386823c689ea5aad1376ac3413e6fe26172e0772f8e4e2716",
+    "path": "circuit/source-archive/Yageo-RC0603FR-071K2L.pdf",
+    "bytes": 56581,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/source-archive/Yageo-RC0603FR-071K2L.pdf"
+      }
+    ],
+    "pages": 1,
+    "title": "Yageo-RC0603FR-071K2L.pdf",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "397d10c0be3226b032175a0c9856473c0042d3ca40ae14e8d78a2ebff83796a8",
+    "path": "circuit/sources/ic-library/BCM847BS.pdf",
+    "bytes": 248078,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/BCM847BS.pdf"
+      }
+    ],
+    "pages": 11,
+    "title": "NPN/NPN matched double transistor",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "aacc4e5e60c10be7412b635c327d42413c4f68a58bf381467fec1e54bff24af0",
+    "path": "circuit/sources/ic-library/SN74HC00.pdf",
+    "bytes": 2135978,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/SN74HC00.pdf"
+      }
+    ],
+    "pages": 39,
+    "title": "SNx4HC00 Quadruple 2-Input NAND Gates datasheet (Rev. H)",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "ea3d12f983fc79a728d302675a0428a6d244e95828154bc4c970d34e23195a96",
+    "path": "circuit/sources/ic-library/ADG5412F.pdf",
+    "bytes": 647057,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/ADG5412F.pdf"
+      }
+    ],
+    "pages": 28,
+    "title": "ADG5412F/ADG5413F (Rev. C)",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "b13258ee9f777b70198554ad4ed43cab2167b2bdf31bdcbe52c4956bfff1adbf",
+    "path": "circuit/sources/ic-library/TC33X.pdf",
+    "bytes": 506916,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/TC33X.pdf"
+      }
+    ],
+    "pages": 3,
+    "title": "TC33 3 mm SMD Trimpot® Trimming Potentiometer",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "6d0b7656a31b01c196d2aa1fba3fcb6f49f175a0cda39d3c93fed20e91c1670f",
+    "path": "circuit/sources/ic-library/C0805C103.pdf",
+    "bytes": 241143,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/C0805C103.pdf"
+      }
+    ],
+    "pages": 4,
+    "title": "C0805C103.pdf",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "36b9d598de374dbdcc666f0516477d958e02471b323842704249e0e447e2be6b",
+    "path": "circuit/sources/ic-library/BAS16GW-Q.pdf",
+    "bytes": 226253,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/BAS16GW-Q.pdf"
+      }
+    ],
+    "pages": 10,
+    "title": "High-speed switching diode",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "ade27b408c77a94ea4448c8473a9e80096dd60da3e1914e004c52344e9cd8d00",
+    "path": "circuit/sources/ic-library/MMBT3904.pdf",
+    "bytes": 216715,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/MMBT3904.pdf"
+      }
+    ],
+    "pages": 10,
+    "title": "40 V, 200 mA NPN switching transistor",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "050375f8bda46b6dea071d0273fdb65f1b0b972245f4fa7e4aa5ca7af1b88e9b",
+    "path": "circuit/sources/ic-library/LF398.pdf",
+    "bytes": 3343507,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/LF398.pdf"
+      }
+    ],
+    "pages": 41,
+    "title": "LFx98x Monolithic Sample-and-Hold\t Circuits datasheet (Rev. C)",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "f28830c2f4cbd9ef6a1cd6788a840fa2b92caafee366d53385f88d1cf24e9456",
+    "path": "circuit/sources/ic-library/LM393B.pdf",
+    "bytes": 3289563,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/LM393B.pdf"
+      }
+    ],
+    "pages": 56,
+    "title": "LM393B, LM2903B, LM193, LM293, LM393 and LM2903 Dual Comparators datasheet (Rev. AH)",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "9bf1013b7589c3af9750dc9a8f20c15b29881222ec31d827dc9c2625ec86c098",
+    "path": "circuit/sources/ic-library/RC0603FR.pdf",
+    "bytes": 56487,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/RC0603FR.pdf"
+      }
+    ],
+    "pages": 1,
+    "title": "RC0603FR.pdf",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "123d6a01482ef69ec58d05de95a70efebc1ac9fb1203e77d7fa037196644a960",
+    "path": "circuit/sources/ic-library/RC1210FR.pdf",
+    "bytes": 56427,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/RC1210FR.pdf"
+      }
+    ],
+    "pages": 1,
+    "title": "RC1210FR.pdf",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "d1e57133ca40b595c670688718807c367b555b6fe57144c881d629de18230351",
+    "path": "circuit/sources/ic-library/SN74HC74.pdf",
+    "bytes": 2256544,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/SN74HC74.pdf"
+      }
+    ],
+    "pages": 41,
+    "title": "SNx4HC74 Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear and Preset datasheet (Rev. F)",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "36b214e50ce608a711494bdf1ac3b888616c36508b93222bbf42212fcde7c3a1",
+    "path": "circuit/sources/ic-library/RT0603BRD.pdf",
+    "bytes": 55801,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/RT0603BRD.pdf"
+      }
+    ],
+    "pages": 1,
+    "title": "RT0603BRD.pdf",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "cc9c275457670c3cbbf2e56f5a75c800d3b5f0b396fabc798cf18cb639646475",
+    "path": "circuit/sources/ic-library/2N7002.pdf",
+    "bytes": 871278,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/2N7002.pdf"
+      }
+    ],
+    "pages": 13,
+    "title": "2N7002 60 V, 300 mA N-channel Trench MOSFET",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "1264bf36b455e746dc831ebba8a3696c328d574b9950d1c5e02ab95971e7d8d1",
+    "path": "circuit/sources/ic-library/C0603C101.pdf",
+    "bytes": 242000,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/C0603C101.pdf"
+      }
+    ],
+    "pages": 4,
+    "title": "C0603C101.pdf",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "0baaac4f52b05b5d41932c445eb8dddc636e464b1f717d11ee41b27ba1202fe7",
+    "path": "circuit/sources/ic-library/BAT54S.pdf",
+    "bytes": 212253,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/BAT54S.pdf"
+      }
+    ],
+    "pages": 9,
+    "title": "Schottky barrier diodes",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "24161c9363c1d2249d9447879d0e93c27aa6df384e6413cc5f8ea223149739a0",
+    "path": "circuit/sources/ic-library/NOISE2.pdf",
+    "bytes": 645557,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/NOISE2.pdf"
+      }
+    ],
+    "pages": 3,
+    "title": "NOISE2Datasheet.pages",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "6f0508c568cb355aaf2accdd33fe3a780d3ea5ef207c4c9a71839a8acadc33a5",
+    "path": "circuit/sources/ic-library/TNPW0805.pdf",
+    "bytes": 363615,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/TNPW0805.pdf"
+      }
+    ],
+    "pages": 16,
+    "title": "TNPW e3 - High Stability Thin Film Flat Chip Resistors",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "9589175ddb2e89e0cddef099fdd74ce6b33a2f7f9de9b4292b964f3189bf806b",
+    "path": "circuit/sources/ic-library/MMBT3906.pdf",
+    "bytes": 220358,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/MMBT3906.pdf"
+      }
+    ],
+    "pages": 10,
+    "title": "40 V, 200 mA PNP switching transistor",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "0eaa0a53e41053aec950a8be0b3989dfa608583928e46544b7922e233aa4362d",
+    "path": "circuit/sources/ic-library/SN74HC14.pdf",
+    "bytes": 2079245,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/SN74HC14.pdf"
+      }
+    ],
+    "pages": 38,
+    "title": "SNx4HC14 Hex Inverters with Schmitt-Trigger Inputs datasheet (Rev. L)",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "6df3d1f341ba30358717fac8bc95719e3c5630d7cc7bccc16f469958906ac4bf",
+    "path": "circuit/sources/ic-library/1206CG104J500NT.pdf",
+    "bytes": 1006630,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/1206CG104J500NT.pdf"
+      }
+    ],
+    "pages": 29,
+    "title": "冠华公司计算机信息系统管理制度",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "66108a3ddcc78a158d66974a497801ce6a429d465b338f6c8d656fd7ddce815e",
+    "path": "circuit/sources/ic-library/AS3340.pdf",
+    "bytes": 677430,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/AS3340.pdf"
+      }
+    ],
+    "pages": 7,
+    "title": "AS3340 AS3345 Voltage Controlled Oscillator VCO",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "d2da9488194dba11732c85c498b563c12e0bb6b3e2d21631022dde9bff51a13d",
+    "path": "circuit/sources/ic-library/REF5050.pdf",
+    "bytes": 5082549,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/REF5050.pdf"
+      }
+    ],
+    "pages": 52,
+    "title": "REF50xx Low-Noise, Very Low Drift, Wide VIN Precision Voltage Reference datasheet (Rev. O)",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "7f1f24f5229cfed79662b850f2aa6a92a1fcca9530d4c264b05af80638ad67e0",
+    "path": "circuit/sources/ic-library/CD74HC221.pdf",
+    "bytes": 755159,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/CD74HC221.pdf"
+      }
+    ],
+    "pages": 25,
+    "title": "CD54HC221, CD74HC221, CD74HCT221 datasheet (Rev. F)",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "7eb7bc6935bf6c1d247b2fce62c9e5a49a474fd94359ddc390a4baf0ac1f5293",
+    "path": "circuit/sources/ic-library/TLV755P.pdf",
+    "bytes": 3072349,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/TLV755P.pdf"
+      }
+    ],
+    "pages": 51,
+    "title": "TLV755P 500mA, Low-IQ , Small-Size, Low-Dropout Regulator datasheet (Rev. D)",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "8b2239a8b97659008b7373e29cf4401cacc76c377b50a6d0c90ed52ecfc7acee",
+    "path": "circuit/sources/ic-library/LM13700.pdf",
+    "bytes": 1792241,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/ic-library/LM13700.pdf"
+      }
+    ],
+    "pages": 36,
+    "title": "LM13700 Dual Operational Transconductance Amps w/Linearizing Diodes and Buffers datasheet (Rev. F)",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "0200f00e466cb9c7424ebcbac80c6011b60e09cf0365a76ceb8100a47d26436a",
+    "path": "circuit/sources/power/RC0603FR-072K2L.pdf",
+    "bytes": 56526,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/power/RC0603FR-072K2L.pdf"
+      }
+    ],
+    "pages": 1,
+    "title": "RC0603FR-072K2L.pdf",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "63578e4fab6f4325c5cf21cfcee216c2af7555ec50b78cfc4f18c24f6dc821e1",
+    "path": "circuit/sources/power/SMAJ6.5A-Brightking.pdf",
+    "bytes": 288239,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/power/SMAJ6.5A-Brightking.pdf"
+      }
+    ],
+    "pages": 6,
+    "title": "spec.",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "9f11eea6dd5ca89ad88ff7e9916030dc7ed08ad25a57587ff4ab97922623ee34",
+    "path": "circuit/sources/power/mSMD110-33V.pdf",
+    "bytes": 164842,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/power/mSMD110-33V.pdf"
+      }
+    ],
+    "pages": 1,
+    "title": "mSMD110-33V.pdf",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "be81cafcbb6514e5bdd16cb45ebec1c7dea4f6f156063252d3f4fa3751b0e83f",
+    "path": "circuit/sources/power/SMAJ15A-High-Diode.pdf",
+    "bytes": 1906769,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/power/SMAJ15A-High-Diode.pdf"
+      }
+    ],
+    "pages": 7,
+    "title": "SMAJ15A-High-Diode.pdf",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "4badd940619090052b7260a88d7e32788f201d67ce97913b059ae6b1ed2d8bad",
+    "path": "circuit/sources/protection-58/LM74502.pdf",
+    "bytes": 1745602,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/protection-58/LM74502.pdf"
+      }
+    ],
+    "pages": 30,
+    "title": "LM74502, LM74502H Low IQ High Side Switch Controller with Reverse Polarity and Overvoltage Protection datasheet (Rev. A)",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "7cf543348691beaff6586f4cfa1efe388e7a7e7a1dd386e8e4cda04e615d8de4",
+    "path": "circuit/sources/protection-58/PSMN1R0-40YLD.pdf",
+    "bytes": 269554,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/protection-58/PSMN1R0-40YLD.pdf"
+      }
+    ],
+    "pages": 14,
+    "title": "PSMN1R0-40YLD",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "be9cf69e5f43fb7689448a2097c19858e5643c0e2e49cd77d018881543e27a1f",
+    "path": "circuit/sources/toggle-button/Omron-B3F.pdf",
+    "bytes": 711882,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/toggle-button/Omron-B3F.pdf"
+      }
+    ],
+    "pages": 9,
+    "title": "B3F",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "a8c5687f9fd671b0299354f813d38ddd5241fda2afe89b4d18155f94bd6fac48",
+    "path": "circuit/sources/toggle-button/Dailywell-2M-Series.pdf",
+    "bytes": 246811,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/toggle-button/Dailywell-2M-Series.pdf"
+      }
+    ],
+    "pages": 7,
+    "title": "A9R76DC.tmp",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "ce4adeea24aba998ed0ef7ae47f70edfcfe4307874eb6caa65efc2b871cf6d44",
+    "path": "circuit/sources/toggle-button/Dailywell-2MS1T1B1M2QES-5.pdf",
+    "bytes": 246484,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/toggle-button/Dailywell-2MS1T1B1M2QES-5.pdf"
+      }
+    ],
+    "pages": 6,
+    "title": "A9R7832.tmp",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "1fa575eb2679dd10fffd94c1bb3dbaf8ecff15b528c2a971e2caf32effa73448",
+    "path": "circuit/sources/toggle-button/DW2-2MS3T1B1M2QES.pdf",
+    "bytes": 355175,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/sources/toggle-button/DW2-2MS3T1B1M2QES.pdf"
+      }
+    ],
+    "pages": 2,
+    "title": "untitled",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "f9c8a064df7c312382aafcc4e0b639d72b14a52985b7cfb7e1b5a5a4a8bd78a5",
+    "path": "circuit/source-archive/kingbright/APG1005VWF-A1-5MAV.pdf",
+    "bytes": 543641,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/source-archive/kingbright/APG1005VWF-A1-5MAV.pdf"
+      }
+    ],
+    "pages": 5,
+    "title": "APG1005VWF-A1-5MAV(Ver.2B)",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "025c18fdb1abd9cb727a24a04f44af8f609b492e7a55c62679ee665bbd09765c",
+    "path": "circuit/source-archive/kingbright/APHHS1005QWF-D.pdf",
+    "bytes": 583630,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/source-archive/kingbright/APHHS1005QWF-D.pdf"
+      }
+    ],
+    "pages": 4,
+    "title": "APHHS1005QWF-D(Ver.10B)",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "19570994f99319c3b602ab3d854b1cb9e6c15a34aa69879e84d9a10594b8c03e",
+    "path": "circuit/source-archive/kingbright/APG1005SEC-E-T.pdf",
+    "bytes": 509901,
+    "origins": [
+      {
+        "scope": "pinned-instrument",
+        "path": "circuit/source-archive/kingbright/APG1005SEC-E-T.pdf"
+      }
+    ],
+    "pages": 4,
+    "title": "APG1005SEC-E-T(Ver.10A)",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "8e1ac9a6fe4d7889c0277595343296baeb17a3648130531a3e44c87069d80536",
+    "path": "sources/history-r06/alps-rs20h111c009/manufacturer-family-datasheet.pdf",
+    "bytes": 742207,
+    "origins": [
+      {
+        "scope": "conversation-r06",
+        "path": "alps-rs20h111c009/manufacturer-family-datasheet.pdf"
+      }
+    ],
+    "pages": 6,
+    "title": "RV06_スライドボリューム（標準タイプ）_シリーズページ_英語版.indd",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "4842eaa3385688f92f3fb3d055ddfb9651d9b443b6c968ef10e08205a6543847",
+    "path": "sources/history-r06/alps-rs20h111c009/RS20H111C009.pdf",
+    "bytes": 194281,
+    "origins": [
+      {
+        "scope": "conversation-r06",
+        "path": "alps-rs20h111c009/RS20H111C009.pdf"
+      }
+    ],
+    "pages": 1,
+    "title": "RS20H111C009.pdf",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "45176642b75760db42093394f6204a127e7abac542df13ab4312f11ff51d4c3f",
+    "path": "sources/history-r06/alps-rk09l1140a5l/product_catalog_rv_01_rk09l_en_b8437bd47d.pdf",
+    "bytes": 399193,
+    "origins": [
+      {
+        "scope": "conversation-r06",
+        "path": "alps-rk09l1140a5l/product_catalog_rv_01_rk09l_en_b8437bd47d.pdf"
+      }
+    ],
+    "pages": 4,
+    "title": "RV01_ロータリーボリューム（金属軸）_シリーズページ_英語版.indd",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "43f87b03b11193d752628ff4c6174ec4f20524e07c2a3268bec712505f147553",
+    "path": "sources/history-r06/alps-rk09l1140a5l/RK09L1140-F15.pdf",
+    "bytes": 437987,
+    "origins": [
+      {
+        "scope": "conversation-r06",
+        "path": "alps-rk09l1140a5l/RK09L1140-F15.pdf"
+      }
+    ],
+    "pages": 1,
+    "title": "RK09L1140-F15.pdf",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "368d4cc2c26b08cb63e1b67193f671d0860b6d3fb2e6b9f2696ffade401afc30",
+    "path": "sources/documents/368d4cc2c26b--TS-1088-AR02016.pdf",
+    "bytes": 123213,
+    "origins": [
+      {
+        "scope": "conversation-scope10",
+        "path": "zudo-scope10-p0/doc/public/assets/reference/assets/button/TS-1088-AR02016.pdf"
+      }
+    ],
+    "pages": 1,
+    "title": "TS-1088-ARXXX",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  },
+  {
+    "sha256": "8c3be622655208735ec21158f79aba16f5b1ae0b6621efa6ea6e2e89ac0d7199",
+    "path": "sources/documents/8c3be6226552--PJ-313-5JCJ.pdf",
+    "bytes": 1146441,
+    "origins": [
+      {
+        "scope": "conversation-scope10",
+        "path": "zudo-scope10-p0/doc/public/assets/reference/assets/jack/PJ-313-5JCJ.pdf"
+      }
+    ],
+    "pages": 6,
+    "title": "PJ-3130 Model (1)",
+    "verification": "PDF magic, SHA-256 and parser-open checked in this edition; facts retain original audit scope"
+  }
+]

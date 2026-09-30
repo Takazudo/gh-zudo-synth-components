@@ -1,0 +1,80 @@
+[
+  {
+    "id": "rk09l1140",
+    "input": "sources/history-r06/alps-rk09l1140a5l/RK09L1140-F15.STEP",
+    "input_sha256": "a67271ce2e6911aba3a23c88eb34c7b514f74ccd99545806524535efde795d43",
+    "output": "corpus/models/rk09l1140.json",
+    "output_sha256": "05b02751b7391103e67a188b9e2f166416951c923d7e2618cfbab3e164af8ac1",
+    "cadquery": "2.8.0",
+    "ocp": "7.9.3.1",
+    "linear_tolerance": 0.1,
+    "angular_tolerance": 0.3,
+    "imported_top_level_shapes": 1,
+    "solid_count": 1,
+    "vertex_count": 18451,
+    "triangle_count": 25348,
+    "bounds_mm": [
+      -6.05,
+      -7.650000000000011,
+      -10.992500000000003,
+      6.05,
+      4.850000100000001,
+      17.5075001
+    ],
+    "source_scope": "manufacturer-supplied family geometry",
+    "fidelity": "derived",
+    "physical_fit": "NOT TESTED"
+  },
+  {
+    "id": "rs20h111c009",
+    "input": "sources/history-r06/alps-rs20h111c009/RS20H111C009.STEP",
+    "input_sha256": "aae470004acf4e33c9ea661ad13869a3ad9ff6328a18d774ad41349f637b3838",
+    "output": "corpus/models/rs20h111c009.json",
+    "output_sha256": "a12ffa04357f348f6004064a16cf80d198a12cb882c83093e1f8a01fd014f007",
+    "cadquery": "2.8.0",
+    "ocp": "7.9.3.1",
+    "linear_tolerance": 0.1,
+    "angular_tolerance": 0.3,
+    "imported_top_level_shapes": 1,
+    "solid_count": 1,
+    "vertex_count": 8084,
+    "triangle_count": 7650,
+    "bounds_mm": [
+      -17.568348595835978,
+      -2.200600100000001,
+      -10.893499999999996,
+      17.511067694108338,
+      4.8994,
+      21.006499999999996
+    ],
+    "source_scope": "manufacturer-supplied exact-product download",
+    "fidelity": "derived",
+    "physical_fit": "NOT TESTED"
+  },
+  {
+    "id": "pj398sm",
+    "input": "sources/history-r06/qingpu-wqp518ma/PJ398SM-family.step",
+    "input_sha256": "b512ffe4c3e67d593e1a1bccd4397cf9a044c4f5534f91018fe626332f97bd7a",
+    "output": "corpus/models/pj398sm.json",
+    "output_sha256": "83bd34f08fc6282c1ce07c82e0cf8f593dfb57ff6614cad8424c8407db1c97b3",
+    "cadquery": "2.8.0",
+    "ocp": "7.9.3.1",
+    "linear_tolerance": 0.1,
+    "angular_tolerance": 0.3,
+    "imported_top_level_shapes": 5,
+    "solid_count": 5,
+    "vertex_count": 4432,
+    "triangle_count": 4128,
+    "bounds_mm": [
+      -4.5,
+      -6.73,
+      -3.550000000000008,
+      4.5,
+      6.000000000000001,
+      15.500000100000408
+    ],
+    "source_scope": "community family geometry; untested in origin metadata",
+    "fidelity": "derived",
+    "physical_fit": "NOT TESTED"
+  }
+]

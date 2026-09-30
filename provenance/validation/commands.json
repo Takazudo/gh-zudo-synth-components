@@ -1,0 +1,533 @@
+[
+  {
+    "name": "native-validate",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "/mnt/data/zudo-modular-component-corpus/node_modules/@takazudo/zudo-circuit-doc/bin/zudo-circuit-doc.js",
+      "validate"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.495,
+    "result": "PASS"
+  },
+  {
+    "name": "native-models",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "/mnt/data/zudo-modular-component-corpus/node_modules/@takazudo/zudo-circuit-doc/bin/zudo-circuit-doc.js",
+      "models"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.532,
+    "result": "PASS"
+  },
+  {
+    "name": "native-generate",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "/mnt/data/zudo-modular-component-corpus/node_modules/@takazudo/zudo-circuit-doc/bin/zudo-circuit-doc.js",
+      "generate"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.911,
+    "result": "PASS"
+  },
+  {
+    "name": "native-check",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "/mnt/data/zudo-modular-component-corpus/node_modules/@takazudo/zudo-circuit-doc/bin/zudo-circuit-doc.js",
+      "check"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.973,
+    "result": "PASS"
+  },
+  {
+    "name": "zfb-check",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "/mnt/data/zudo-modular-component-corpus/doc/node_modules/@takazudo/zfb/bin/zfb.mjs",
+      "check"
+    ],
+    "cwd": "doc",
+    "exit": 0,
+    "duration_seconds": 0.958,
+    "result": "PASS"
+  },
+  {
+    "name": "zfb-build",
+    "command": [
+      "node24",
+      "zfb build"
+    ],
+    "exit": 0,
+    "result": "PASS",
+    "scope": "Portable source has no Git metadata; warning only. Rebuilt after authoring completion."
+  },
+  {
+    "name": "corpus-generate",
+    "command": [
+      "/usr/bin/python3",
+      "scripts/build_corpus.py"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.058,
+    "result": "PASS"
+  },
+  {
+    "name": "browser-bundle",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "scripts/build_browser.mjs"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.184,
+    "result": "PASS"
+  },
+  {
+    "name": "corpus-integrity",
+    "command": [
+      "/usr/bin/python3",
+      "scripts/check_corpus.py"
+    ],
+    "cwd": ".",
+    "exit": 1,
+    "duration_seconds": 0.158,
+    "result": "FAIL"
+  },
+  {
+    "name": "native-check-built",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "/mnt/data/zudo-modular-component-corpus/node_modules/@takazudo/zudo-circuit-doc/bin/zudo-circuit-doc.js",
+      "check-built"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.66,
+    "result": "PASS"
+  },
+  {
+    "name": "native-scan",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "/mnt/data/zudo-modular-component-corpus/node_modules/@takazudo/zudo-circuit-doc/bin/zudo-circuit-doc.js",
+      "scan"
+    ],
+    "cwd": ".",
+    "exit": 1,
+    "duration_seconds": 5.89,
+    "result": "FAIL"
+  },
+  {
+    "name": "browser-bundle-public-filter",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "scripts/build_browser.mjs"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.179,
+    "result": "PASS"
+  },
+  {
+    "name": "corpus-integrity-fixed",
+    "command": [
+      "/usr/bin/python3",
+      "scripts/check_corpus.py"
+    ],
+    "cwd": ".",
+    "exit": 1,
+    "duration_seconds": 0.206,
+    "result": "FAIL"
+  },
+  {
+    "name": "native-scan-filtered",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "/mnt/data/zudo-modular-component-corpus/node_modules/@takazudo/zudo-circuit-doc/bin/zudo-circuit-doc.js",
+      "scan"
+    ],
+    "cwd": ".",
+    "exit": 1,
+    "duration_seconds": 6.166,
+    "result": "FAIL"
+  },
+  {
+    "name": "browser-bundle-final",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "scripts/build_browser.mjs"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.222,
+    "result": "PASS"
+  },
+  {
+    "name": "corpus-integrity-final",
+    "command": [
+      "/usr/bin/python3",
+      "scripts/check_corpus.py"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.224,
+    "result": "PASS"
+  },
+  {
+    "name": "source-downloader-dry-run",
+    "command": [
+      "/usr/bin/python3",
+      "scripts/acquire_sources.py",
+      "--id",
+      "bourns-ptl20--model"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.066,
+    "result": "PASS"
+  },
+  {
+    "name": "browser-bundle-fallback",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "scripts/build_browser.mjs"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.203,
+    "result": "PASS"
+  },
+  {
+    "name": "scan-filtered-built",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "/mnt/data/zudo-modular-component-corpus/node_modules/@takazudo/zudo-circuit-doc/bin/zudo-circuit-doc.js",
+      "scan"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 6.642,
+    "result": "PASS"
+  },
+  {
+    "name": "links-filtered-built",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "scripts/check-links.js",
+      "--strict-anchors",
+      "--strict-broken"
+    ],
+    "cwd": "doc",
+    "exit": 0,
+    "duration_seconds": 0.601,
+    "result": "PASS"
+  },
+  {
+    "name": "browser-final-rendering",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "scripts/build_browser.mjs"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.201,
+    "result": "PASS"
+  },
+  {
+    "name": "zfb-build-delivery",
+    "command": [
+      "node24",
+      "zfb build"
+    ],
+    "cwd": "doc",
+    "exit": 0,
+    "result": "PASS",
+    "notes": "Asset Git metadata unavailable because portable project is not a Git checkout; page build completed."
+  },
+  {
+    "name": "delivery-native-check",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "/mnt/data/zudo-modular-component-corpus/node_modules/@takazudo/zudo-circuit-doc/bin/zudo-circuit-doc.js",
+      "check"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 1.127,
+    "result": "PASS"
+  },
+  {
+    "name": "delivery-native-check-built",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "/mnt/data/zudo-modular-component-corpus/node_modules/@takazudo/zudo-circuit-doc/bin/zudo-circuit-doc.js",
+      "check-built"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.612,
+    "result": "PASS"
+  },
+  {
+    "name": "delivery-native-scan",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "/mnt/data/zudo-modular-component-corpus/node_modules/@takazudo/zudo-circuit-doc/bin/zudo-circuit-doc.js",
+      "scan"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 6.327,
+    "result": "PASS"
+  },
+  {
+    "name": "delivery-links",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "scripts/check-links.js",
+      "--strict-anchors",
+      "--strict-broken"
+    ],
+    "cwd": "doc",
+    "exit": 0,
+    "duration_seconds": 0.553,
+    "result": "PASS"
+  },
+  {
+    "name": "delivery-corpus-integrity",
+    "command": [
+      "/usr/bin/python3",
+      "scripts/check_corpus.py"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.224,
+    "result": "PASS"
+  },
+  {
+    "name": "corpus-python-compile",
+    "command": [
+      "/usr/bin/python3",
+      "-m",
+      "compileall",
+      "-q",
+      "scripts"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.047,
+    "result": "PASS"
+  },
+  {
+    "name": "authored-page-determinism",
+    "result": "PASS",
+    "exit": 0,
+    "pages": 165
+  },
+  {
+    "name": "deduplicated-corpus-generate",
+    "command": [
+      "/usr/bin/python3",
+      "scripts/build_corpus.py"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.05,
+    "result": "PASS"
+  },
+  {
+    "name": "deduplicated-browser-build",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "scripts/build_browser.mjs"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.208,
+    "result": "PASS"
+  },
+  {
+    "name": "deduplicated-corpus-check",
+    "command": [
+      "/usr/bin/python3",
+      "scripts/check_corpus.py"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.227,
+    "result": "PASS"
+  },
+  {
+    "name": "zfb-build-packaged",
+    "command": [
+      "node24",
+      "zfb build"
+    ],
+    "cwd": "doc",
+    "exit": 0,
+    "result": "PASS",
+    "page_count_reported": 251
+  },
+  {
+    "name": "packaged-native-check",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "/mnt/data/zudo-modular-component-corpus/node_modules/@takazudo/zudo-circuit-doc/bin/zudo-circuit-doc.js",
+      "check"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 1.103,
+    "result": "PASS"
+  },
+  {
+    "name": "packaged-native-check-built",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "/mnt/data/zudo-modular-component-corpus/node_modules/@takazudo/zudo-circuit-doc/bin/zudo-circuit-doc.js",
+      "check-built"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.597,
+    "result": "PASS"
+  },
+  {
+    "name": "packaged-native-scan",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "/mnt/data/zudo-modular-component-corpus/node_modules/@takazudo/zudo-circuit-doc/bin/zudo-circuit-doc.js",
+      "scan"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 6.327,
+    "result": "PASS"
+  },
+  {
+    "name": "packaged-site-links",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "scripts/check-links.js",
+      "--strict-anchors",
+      "--strict-broken"
+    ],
+    "cwd": "doc",
+    "exit": 0,
+    "duration_seconds": 0.546,
+    "result": "PASS"
+  },
+  {
+    "name": "browser-repro",
+    "command": [
+      "python with Playwright",
+      "scripts/test_browser.py"
+    ],
+    "exit": 0,
+    "result": "PASS"
+  },
+  {
+    "name": "final-types",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "/mnt/data/zudo-modular-component-corpus/doc/node_modules/@takazudo/zfb/bin/zfb.mjs",
+      "check"
+    ],
+    "cwd": "doc",
+    "exit": 0,
+    "duration_seconds": 1.052,
+    "result": "PASS"
+  },
+  {
+    "name": "final-integrity",
+    "command": [
+      "/usr/bin/python3",
+      "scripts/check_corpus.py"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.265,
+    "result": "PASS"
+  },
+  {
+    "name": "archive-scope-content",
+    "command": [
+      "/usr/bin/python3",
+      "scripts/build_corpus.py"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.059,
+    "result": "PASS"
+  },
+  {
+    "name": "archive-scope-browser",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "scripts/build_browser.mjs"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.204,
+    "result": "PASS"
+  },
+  {
+    "name": "final-archive-scope-build",
+    "result": "PASS",
+    "exit": 0,
+    "reported_generated_pages": 251
+  },
+  {
+    "name": "final-browser",
+    "result": "PASS",
+    "exit": 0,
+    "checks": 43,
+    "renderer": "SVG fallback",
+    "transport": "exact HTML set_content"
+  },
+  {
+    "name": "release-scope-scan",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "/mnt/data/zudo-modular-component-corpus/node_modules/@takazudo/zudo-circuit-doc/bin/zudo-circuit-doc.js",
+      "scan"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 6.49,
+    "result": "PASS"
+  },
+  {
+    "name": "release-scope-links",
+    "command": [
+      "/mnt/data/component-corpus-work/node-linux-x64",
+      "scripts/check-links.js",
+      "--strict-anchors",
+      "--strict-broken"
+    ],
+    "cwd": "doc",
+    "exit": 0,
+    "duration_seconds": 0.609,
+    "result": "PASS"
+  },
+  {
+    "name": "release-scope-integrity",
+    "command": [
+      "/usr/bin/python3",
+      "scripts/check_corpus.py"
+    ],
+    "cwd": ".",
+    "exit": 0,
+    "duration_seconds": 0.222,
+    "result": "PASS"
+  }
+]

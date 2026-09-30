@@ -1,0 +1,59 @@
+---
+title: "MMBT3906,215"
+description: "Complementary general-purpose transistor — Nexperia"
+sidebar_position: 1
+---
+
+**Complementary general-purpose transistor**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | Nexperia |
+| Part / family | MMBT3906,215 |
+| Identity scope | Exact ordering identity |
+| Evidence state | AVAILABLE |
+| LCSC code | Not established for this identity |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+MMBT3906,215 is useful where a PNP function is required for steering, level shifting or a complementary analog stage.
+
+## Design cautions
+
+Use the exact polarity and pinout. Account for emitter-base reverse limits and saturation recovery; do not derive safe junction-noise operation from a generic small-signal-transistor identity.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-pnp-orderable-identity` | `{"manufacturer": "Nexperia", "mpn": "MMBT3906,215", "package": "SOT-23"}` NONE; Exact complete orderable identifier in the selected package; does not establish supplier stock. | [MMBT3906](https://assets.nexperia.com/documents/data-sheet/MMBT3906.pdf); UNSOURCED |
+| `fact-pnp-pinout` | `pin 1 B -&gt; pad 1; pin 2 E -&gt; pad 2; pin 3 C -&gt; pad 3` NONE; No schematic or placement/net binding is claimed. Manufacturer pin functions are source-backed only when a retained primary document names the product family. | [MMBT3906](https://assets.nexperia.com/documents/data-sheet/MMBT3906.pdf); PASS - primary-source confirmed |
+| `fact-pnp-collector-emitter-voltage` | `{"maximum": -40}` V; MMBT3906; collector open base; maximum rating. | [MMBT3906](https://assets.nexperia.com/documents/data-sheet/MMBT3906.pdf); PASS - primary-source confirmed |
+
+## 3D / mechanical assets
+
+**Inherited family/derived package preview.** Many imported models are intentionally coarse body envelopes, not complete manufacturer solids. Check the original receipt, drawing and mounting stack; the rendered shape does not qualify fit.
+
+<PackageModelViewer descriptor="7b2276657273696f6e223a312c227061636b6167654964223a22534f542d3233222c227061636b6167654c6162656c223a22534f542d3233222c226d6f64656c55726c223a222f6173736574732f636f6d706f6e656e742d70726576696577732f6d6f64656c732f49435f534f542d32332e77726c222c226f6666736574223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c22726f746174696f6e223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c227363616c65223a7b2278223a312e302c2279223a312e302c227a223a312e307d7d" />
+
+Local model: `footprints/kicad/zudo-osc-hole-field.3dshapes/IC_SOT-23.wrl`. Native rendering is supplied by `zudo-circuit-doc`.
+
+[Open the native generated evidence record](/docs/components/records/pnp/). It preserves original claim wording, locators and verdicts.
+
+## Datasheets, drawings and source leads
+
+- [40 V, 200 mA PNP switching transistor](https://assets.nexperia.com/documents/data-sheet/MMBT3906.pdf) — retained local bytes: `circuit/sources/ic-library/MMBT3906.pdf`; SHA-256 `9589175ddb2e89e0cddef099fdd74ce6b33a2f7f9de9b4292b964f3189bf806b`.
+- [OSC-ES-1 parts shortlist](https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json) — source metadata/link only in this edition; no local download implied.
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

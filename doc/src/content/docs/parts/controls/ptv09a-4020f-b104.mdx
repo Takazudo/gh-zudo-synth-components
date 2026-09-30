@@ -1,0 +1,57 @@
+---
+title: "PTV09A-4020F-B104"
+description: "Higher-impedance control dividers — Bourns"
+sidebar_position: 1
+---
+
+**Higher-impedance control dividers**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | Bourns |
+| Part / family | PTV09A-4020F-B104 |
+| Identity scope | Exact ordering identity |
+| Evidence state | AVAILABLE |
+| LCSC code | Not established for this identity |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+This 100 kΩ linear variant shares the mechanical family with B103, allowing a designer to change electrical loading without redrawing the visible actuator. That does not make the two values electrically interchangeable.
+
+## Design cautions
+
+Check the receiving amplifier’s input bias current, leakage and cable pickup. As a divider the maximum Thevenin resistance is near one quarter of the end-to-end value; as a rheostat the whole selected resistance can matter. Recheck every DC-voltage and end-resistance condition.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-b104-pin` | `1 CCW, 2 wiper, 3 CW, 4/5 mounting` NONE; shaft front view, full CCW | [PTV09](https://www.bourns.com/docs/product-datasheets/PTV09.pdf); PASS - primary-source confirmed |
+| `fact-b104-resistance` | `100000` ohm; B resistance code, nominal end-to-end at room temperature; ±20% standard resistance tolerance | [PTV09](https://www.bourns.com/docs/product-datasheets/PTV09.pdf); PASS - primary-source confirmed |
+
+## 3D / mechanical assets
+
+**Inherited family/derived package preview.** Many imported models are intentionally coarse body envelopes, not complete manufacturer solids. Check the original receipt, drawing and mounting stack; the rendered shape does not qualify fit.
+
+<PackageModelViewer descriptor="7b2276657273696f6e223a312c227061636b6167654964223a225054563039412d3430323046222c227061636b6167654c6162656c223a225054563039412d3430323046222c226d6f64656c55726c223a222f6173736574732f636f6d706f6e656e742d70726576696577732f6d6f64656c732f5054563039412d34303230462e77726c222c226f6666736574223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c22726f746174696f6e223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c227363616c65223a7b2278223a312e302c2279223a312e302c227a223a312e307d7d" />
+
+Local model: `footprints/kicad/zudo-osc-hole-field.3dshapes/PTV09A-4020F.wrl`. Native rendering is supplied by `zudo-circuit-doc`.
+
+[Open the native generated evidence record](/docs/components/records/b104/). It preserves original claim wording, locators and verdicts.
+
+## Datasheets, drawings and source leads
+
+- [Bourns PTV09 Series, rev. 01/25](https://www.bourns.com/docs/product-datasheets/PTV09.pdf) — retained local bytes: `sources/history-r06/bourns-ptv09a/PTV09.pdf`; SHA-256 `411cdb6a62e61f9c5bc2df76ed64ee21d7bcfbee035c1ba36beff08c43f28558`.
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

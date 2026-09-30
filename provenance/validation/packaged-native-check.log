@@ -1,0 +1,23 @@
+SCOPE: inventory provider=manual; schematic/placement binding not performed (49 lines, 0 declared placements unverified); pin-asset check performed
+PASS: component-spec contract; 49 lines; offline=True; refreshed=none
+ok   validate: canonical validator passed
+provider        circuit-component-spec (contract v1)
+view model      v2
+records         35 selected of 49 available
+sources         74 selected of 100 available, 72 linkable
+fields          91 publish, 8 deny (401 values withheld)
+urls            72 allowed of 74 considered
+generatedPages  39
+publishedCoverageDomains 173
+publishedFacts  261
+publishedIntegrationRules 0
+publishedInteractions 35
+publishedPinMaps 35
+publishedRecords 35
+publishedSources 74
+ok   generated pages: doc/src/content/docs/components is up to date
+ok   preflight: circuit/generated/preflight.json is up to date
+ok   models: 22 selected, up to date
+22 committed footprint previews are current and safe
+ok   footprints: previews up to date
+check passed: generated output is up to date

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File [35m"/mnt/data/zudo-modular-component-corpus/scripts/check_corpus.py"[0m, line [35m85[0m, in [35m<module>[0m
+    if __name__=="__main__":raise SystemExit([31mmain[0m[1;31m()[0m)
+                                             [31m~~~~[0m[1;31m^^[0m
+  File [35m"/mnt/data/zudo-modular-component-corpus/scripts/check_corpus.py"[0m, line [35m61[0m, in [35mmain[0m
+    native=[p for p in rows if [1;31mp.get("model",{}).get[0m("kind")=="wrl"]
+                               [1;31m^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mAttributeError[0m: [35m'NoneType' object has no attribute 'get'[0m

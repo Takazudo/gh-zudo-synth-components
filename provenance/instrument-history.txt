@@ -1,0 +1,149 @@
+ae62da7c49b73feb7ba255e89f9c36898e10d18b 2026-09-30T19:18:02+09:00 chore(corpus): export pinned evidence and standalone documentation scaffold
+791d92d378fdded74a327c23924ce83ed9ff36d6 2026-09-30T10:06:08+09:00 fix(pcbgen): fail closed on native routing verification
+fac99297702eabd97bbc3fae58876af4017fcaea 2026-09-30T09:16:56+09:00 Merge pull request #46 from Takazudo/base/osc-hole-field
+49026c48b5ae9ff4e32943a9cd74bc2404b8a33b 2026-09-29T01:10:51+09:00 Integrate two-board J partition and schematic projection
+f69f57c4638c3a119d0d06182b830cdb725a5f66 2026-09-29T01:10:14+09:00 Split jack partition into two boards with local bypass clusters
+1fc6e5347308fe5e8166d5828ba3ba6fa8e101c7 2026-09-29T00:26:21+09:00 Integrate J routing experiment and reusable PCB tooling
+2d1cc7cf84fa8a74daf7e507842be91c5d2a403a 2026-09-29T00:25:36+09:00 Record unvalidated jack PCB draft and routing failure evidence
+4a746c50429dee74af15fa736414e143a8a6d11c 2026-09-29T00:21:29+09:00 Scope pad UUID identity update to the jack board
+7704a8431983cf0ade224cdf0d7935ef0c0af907 2026-09-29T00:13:40+09:00 Preserve board project routing settings during schematic regeneration
+d0612f931d196d90bd4740903b4f672473e80810 2026-09-29T00:12:13+09:00 Reserve clear jack-board geometry and align projected schematic fields
+2ea2b4c52ea12f550b18cbea512a3efb82bb8495 2026-09-29T00:11:34+09:00 Support source-locked mixed-face PCB placement and full ratsnest audits
+81d506d1353daf765dfc7ae0a5dd576379beb4a6 2026-09-28T23:23:05+09:00 Merge panel regeneration review (#37)
+8a8f66ed475306867f7bfb99304f60004136f721 2026-09-28T23:20:47+09:00 Record issue 37 panel regeneration review
+b83a00b8a430319f119b028b614ccd7421d0aed4 2026-09-28T23:07:54+09:00 Merge per-board schematic projections (#36)
+73e62df8265619d149e5eaa97e6568a366d422ca 2026-09-28T23:06:54+09:00 Tighten board projection identity and harness verification
+1f0661bac615cb21c7077d4468098940dda8fb3f 2026-09-28T22:58:45+09:00 Merge branch 'base/osc-hole-field' into topic/36-board-projection
+740e47095851da1776b18e75bf4d4ef4bbe43571 2026-09-28T22:58:41+09:00 Generate nine draft board schematic projections and verify native net parity
+ecb51908f0a0cc9981f47c95dafd69a399a2922f 2026-09-28T22:57:35+09:00 Clarify segmented panel capture around fixed hardware
+007eba909841f1ed49cc5751b47059f195092cd4 2026-09-28T22:50:01+09:00 Fetch provenance history for CI Python tests
+d6f66cbe0b6f5e2804df0e45dc65a4a3e3addd38 2026-09-28T22:41:01+09:00 Refresh model receipts and board-stack docs after partition
+818c49fb882d9b020e47f1b9467c9c2bb2291d87 2026-09-28T22:31:37+09:00 Merge conditional nine-board partition (#35)
+ffe487d79f13731c6e5c13ca9f774100345f37c9 2026-09-28T22:30:59+09:00 Define conditional nine-board partition and assembly handoff
+52f807893bfe044259f741443d3d5a32afc4dcbb 2026-09-28T21:05:18+09:00 Merge branch 'base/osc-hole-field' into topic/35-board-partition
+868901b17e242f5ccae7c707529b918813e60a04 2026-09-28T21:04:04+09:00 Merge exact JST GH harness evidence (#63)
+32f3cf1b5a5e677ce40ccec474abace406cf3303 2026-09-28T21:04:01+09:00 Merge branch 'base/osc-hole-field' into topic/35-board-partition
+361ca93f4e14fd45e7bd51b5fa31f133bc37363f 2026-09-28T21:02:41+09:00 Merge branch 'base/osc-hole-field' into topic/63-gh-connectors
+59240e684f0b28ef490bd7950bfef017a2d3e8be 2026-09-28T20:59:14+09:00 Add sourced JST GH harness component and CAD evidence
+df3d718e60bd342a6cf99753fa515be308f98ba2 2026-09-28T20:56:05+09:00 Merge compact indicator evidence and land patterns (#61)
+854144fd740e0693f514a0be2fa40ef9707b0e61 2026-09-28T20:55:30+09:00 Mark retained primary PDFs as binary Git evidence
+cc8032af044d1120b5fecd4d25c98f771920bc69 2026-09-28T20:55:08+09:00 Align compact LED cell models and docs with current limits
+7629ca484b763156ce2760c68e52fc3d0d65d6a9 2026-09-28T20:46:09+09:00 Merge branch 'base/osc-hole-field' into topic/61-compact-led
+d336a2db0c20c76fe2f1fb93fb838ddd09a68da9 2026-09-28T20:46:05+09:00 Merge branch 'base/osc-hole-field' into topic/61-compact-led
+1678cd965e7f32e170d96faaeb1d8acd232624c2 2026-09-28T20:44:42+09:00 Keep a positive transient limiter planning window
+ac0d81f0747169dea9f825245ef4049e4afb7791 2026-09-28T20:42:28+09:00 Select exact compact indicator LEDs and audit fixed centres
+bec69fc8da3f1dc81e0b896bbfad230a7c2149b1 2026-09-28T20:41:38+09:00 Merge branch 'base/osc-hole-field' into topic/35-board-partition
+1c12c7b19af780b0b13d76d83ec69b822345984d 2026-09-28T20:39:09+09:00 Merge oscillator reference fanout repair (#62)
+497b18e3a3391cf59e04964be6135d3d53bbdfd0 2026-09-28T20:38:25+09:00 Implement bounded local oscillator reference fanout
+0f7124a6084dbbb6ba426ee94949f13e50385956 2026-09-28T20:35:18+09:00 Separate complete stage optical circuits and record physical candidate
+4b93508035f06a1ece2759324b193234a6b87d5c 2026-09-28T20:07:14+09:00 Merge branch 'base/osc-hole-field' into topic/35-board-partition
+7b6c8b22945f71f0dae28e946bb57abfb7293694 2026-09-28T20:05:36+09:00 Refresh rail sensitivity after I/O package repacking
+f6d2d6112d780a565cedafaea81b5644f46c3c24 2026-09-28T20:00:58+09:00 Merge issue 60 source I/O partition repair
+386dfbe532b94496fa508f058efb37b0cc9a0b5b 2026-09-28T19:58:53+09:00 Refine source I/O regions and preserve whole package boundaries
+15f4fdc4d6a8db872955e333fcbe0f76e0530df7 2026-09-28T19:30:32+09:00 Document blocked partition and quantify I/O island packing constraints
+b9400418ea5d46ea25d7b9c5ee4f0207f1a6fc4a 2026-09-28T19:17:10+09:00 Merge issue 54 pre-partition confirmation
+a594b96c81e9b7c2919dc761b68533af9f5d4c56 2026-09-28T19:15:18+09:00 Add pre-partition confirmation report and checks
+4cc30612c4d9cd0597caae2eccd1967b8870c6b9 2026-09-28T17:48:52+09:00 Align integrated tests with conditional power boundary
+1a2f33cf6e61cf89c7422a1a42122806f68e3033 2026-09-28T17:45:45+09:00 Merge issue 52 conditional EXT boundary
+4b6b892a728497b18dda43b48342bedfef845c21 2026-09-28T17:45:06+09:00 Capture non-orderable EXT power boundary
+8a9ed108c3d7d10c7dad19ebe7705fed3e0603ed 2026-09-28T17:08:59+09:00 Merge branch 'base/osc-hole-field' into topic/52-power-domains
+d3d6c41f768181f347aba390a5dfae3c48394578 2026-09-28T17:06:57+09:00 Merge issue 58 conditional protection draft contract
+c0bb8fd1390fb53751512dee771d7f07d350b6ec 2026-09-28T17:05:18+09:00 Document conditional protection contract and unresolved circuit evidence
+fb3302ea7356aa16a89b1080b15be546f08eca69 2026-09-28T16:51:20+09:00 Record blocked EXT power protection implementation
+c59dfd181eefa31174a6f64ccf2a6662ea60635d 2026-09-28T16:41:10+09:00 Merge issue 48 supply architecture decision
+9d8b4b09109065b192b5a140c173675d737dc38b 2026-09-28T16:39:47+09:00 Lock conditional external supply architecture and qualification gates
+075dbe3cb9442e9d66f90570e090c600e3ac77d2 2026-09-28T16:21:46+09:00 Merge issue 51 complete rail ledger
+9a0fe8ef7c5f2ffe8828c11d37c81aa84cb6aa4d 2026-09-28T16:20:41+09:00 Complete connectivity-based rail planning ledger
+536da00bd8a32c4b4e661adc4a7a8ecbe6bb8409 2026-09-28T16:15:19+09:00 Bind dense fixture receipt to fixed hardware centres
+b27bc800219fe3b75ce6559fb763e38378ff1f9a 2026-09-28T16:11:36+09:00 Merge issue 53 dense routing repair
+3227b5b87ee7660529c89961d8196ababdada4e0 2026-09-28T16:09:49+09:00 fix(pcbgen): close and reproduce the dense routing fixture gate
+4dd813760d00a1f2a7513713bda835975c93fcb6 2026-09-28T16:08:50+09:00 Merge issue 56 WRL model scale repair
+46aafd0b5a7bdad4299c3b8c7422d106b3de512f 2026-09-28T16:08:04+09:00 Correct project WRL display-model scale
+b2219be554b1fa3fccc7031afbac2d29f089429d 2026-09-28T16:05:01+09:00 Fix precision model test discovery on combined suite
+349ea6f8a40ca256bea434f6b38225e9eef8ff18 2026-09-28T16:00:54+09:00 Merge issue 49 precision output repair
+384958745d23654d1bc4b31412a67d5f545578d3 2026-09-28T15:59:02+09:00 Resolve precision output model sweep and compensation
+95d44b47d4a8b17f7980ebb8073679a4212d44b4 2026-09-28T15:55:48+09:00 Merge issue 47 selector assembly draft
+2b213e068143c13953ab82bf39737885b71816b0 2026-09-28T15:53:35+09:00 Define fixed-centre stepped selector assembly draft
+b257b47f8de2c9584993adde0c816109c5bd673e 2026-09-28T15:41:15+09:00 Merge issue 50 MIX4 calibration repair
+9080964461148e55d2c3c1ae379e54c74c5e9bb9 2026-09-28T15:39:57+09:00 Calibrate MIX4 vendor model within captured trim ranges
+0df6d2775ce7398ba553485769d08eba7ad8b659 2026-09-28T12:31:54+09:00 Merge branch 'topic/34-rail-resolution' into base/osc-hole-field
+96935788f47596d9105209d334d31b607adcc3f1 2026-09-28T12:31:16+09:00 Record rail deficit and second-feed escalation
+cee49c337b0b39487c2dcd41b64944bdf5295bea 2026-09-28T12:03:11+09:00 Merge branch 'topic/33-master-check' into base/osc-hole-field
+f663143edf92476dd6a23730931b02b92413c88d 2026-09-28T12:02:34+09:00 Close master schematic integration gates
+ed8e6fd40595023b031fa746b3f1612718444159 2026-09-28T10:51:16+09:00 Merge branch 'base/osc-hole-field' into topic/33-master-check
+42233f2ee36b8e6785c787b2b3cb6bc6f25baaa0 2026-09-28T10:51:11+09:00 Add master connectivity and current integration audit
+971945584c36cf6cb9272e0675b01afda966215d 2026-09-28T10:50:35+09:00 Regenerate captured sheets with numeric clip LED references
+ed41e3b71bb32f744dfbb144a29269543270e147 2026-09-28T10:47:57+09:00 Merge branch 'integration/clip-led-refs' into base/osc-hole-field
+c5c04dc80cf11f15d1fd38374336391b5b4b8a0f 2026-09-28T10:46:20+09:00 Use numeric references for clip LEDs
+b21491178b58cced2a0ba0e0d809a3f254b8b23e 2026-09-28T10:39:53+09:00 Merge branch 'topic/26-offset' into base/osc-hole-field
+80dc577d9735e3fc4b9e29ea5472650bf0343325 2026-09-28T10:37:56+09:00 Capture six attenuverter and offset cells for issue #26
+244c9441d054964dd5933fd87bf0a60287e5f9ce 2026-09-28T10:37:10+09:00 Merge branch 'topic/32-wavefolder' into base/osc-hole-field
+72a4fe3902c4d4c74ad996ee157f32eea0af7ff0 2026-09-28T10:35:07+09:00 Merge branch 'topic/27-mixers' into base/osc-hole-field
+efd1c72646e3d72b3cb481b9005b370d29541a0c 2026-09-28T10:33:37+09:00 feat(wavefolder): capture two four-stage folders with model curves
+d4722b101082ec92c7f5e311bd087a48c2747b37 2026-09-28T10:32:13+09:00 Capture MIX5 and MIX4 VCA draft families
+d73ff3a910df3fa49d5b94dfa7a34b5a6c036327 2026-09-28T10:31:44+09:00 Merge branch 'topic/25-mult-ab' into base/osc-hole-field
+7f623cbb60e9d34f28c02ebb069e92bbe47b3a46 2026-09-28T10:29:18+09:00 Capture buffered multiples and manual A/B selectors
+0778b7ee79c83b1833eb6213e4f5b10c92597a7b 2026-09-28T10:19:13+09:00 Merge branch 'topic/28-noise' into base/osc-hole-field
+1135173a8d91d76178528e11711e67762efb3e18 2026-09-28T10:19:01+09:00 Capture four-colour noise source draft for issue #28
+87b6648962172a8b49ee838b65a0476a56476ad8 2026-09-28T10:09:27+09:00 Account for envelope LED warnings in instrument smoke
+87fad31e0d82cefe4c37bfe0a16dd2af093afdad 2026-09-28T10:07:26+09:00 Merge branch 'topic/31-envelope' into base/osc-hole-field
+49aacdaf1d8775948a87857a90a92ac669039a49 2026-09-28T10:07:14+09:00 Keep panel oracle probe outside native Python discovery
+9f3792c6e4486061f7e01cbb483fb1d400929f05 2026-09-28T10:06:43+09:00 Merge branch 'topic/23-routing' into base/osc-hole-field
+4d435516d841988ccaeb93f814dc7df9a697b79b 2026-09-28T10:06:41+09:00 feat(envelope): capture six clocked AR envelopes and stage indicators
+94c523cf050c247c19ac37ab630aa0a4d6328c47 2026-09-28T10:06:11+09:00 Add bounded headless routing pipeline and draft fixtures
+481cd50f385a180854aeb289d26c8ed42cb02934 2026-09-28T10:03:32+09:00 Merge branch 'topic/20-panel' into base/osc-hole-field
+c0a43b5f08234236071405e24f38f675b489b641 2026-09-28T10:03:23+09:00 Add generated front-panel PCB and visual evidence for issue #20
+39bce11ddf5fad50ceb42044312047d5f11fe772 2026-09-28T09:29:58+09:00 Merge issue #30 filter
+ed4342fa73e7add84b149f1bc4b6bb0710521371 2026-09-28T09:27:45+09:00 feat(filter): capture three four-OTA filters with parallel dry VCAs
+b9a975d231b89501df7cb359aa570c3495289796 2026-09-28T09:27:17+09:00 Merge issue #21 component evidence
+b930603db7c5d3857aadfef8f163f8d9554d84ab 2026-09-28T09:24:30+09:00 Add OSC-ES-1 component evidence
+03c764840fb051708a2cb6939b47db1450751057 2026-09-28T09:23:52+09:00 Merge issue #24 power interface
+f69be689e37f924de23a9b13a95cfe1d882849ea 2026-09-28T09:23:37+09:00 Capture synth power inlet and locked supply contract
+91a748d53c92672de686cb18418e600a0495fb5b 2026-09-28T09:05:36+09:00 Lock supply source and document power contract
+4198283c17c752009cf07106dc019e302a9fce9d 2026-09-28T08:59:33+09:00 Merge issue #19 cluster placer
+e0114e857303f363b1714c19c1daaf909174ec74 2026-09-28T08:58:09+09:00 Add deterministic region placer for repeated PCB clusters
+bee4b000199ce1d15fab6223f9f2222e9838485c 2026-09-28T08:56:58+09:00 Merge topic 29 oscillator design
+35c5943091054bd0dbc382e3df79386af4cc53ec 2026-09-28T08:56:13+09:00 Capture five AS3340 oscillators with shared octave reference
+f908ae2e4ad3dc40e21f7249b64fb5cdf9a8f109 2026-09-28T08:22:40+09:00 Merge topic 22 sample-and-hold pilot
+083c12d015fca35dd2fa0a8ecb9ce71d6dffca41 2026-09-28T08:21:49+09:00 Capture H1 and H2 sample-hold pilot module
+b185391d30ec38293bc6c5e8b798a282b98baa25 2026-09-28T07:57:07+09:00 Merge topic 17 panel evidence
+2b8e7f4e9ad43f2b90361ce0af5c6e645edacc10 2026-09-28T07:56:02+09:00 feat: add panel hardware evidence bundles
+55b63909f39bd0473683f124cd137cfd3df366f2 2026-09-28T07:35:38+09:00 Merge topic 18 standard cells
+27f38b641fc87cbb7ce362a362f4527baa7e4e18 2026-09-28T07:32:29+09:00 Implement OSC-ES-1 standard cell library
+f718f923fd2d149ffe1fd821f6985cc13047143b 2026-09-28T07:18:14+09:00 Align standard page with source-backed diode proposal
+f8046a0f953db47a566a15c5637d9acdce9f62e9 2026-09-28T06:57:01+09:00 Record diode identity and bulk capacitor sourcing gaps
+7d8ce2ca2ef2089216f5f2b1a198561e14c8c676 2026-09-28T06:56:02+09:00 Merge topic 15 IC library
+bcd2fd9647c3e9465e55e927511b8c5722ffde67 2026-09-28T06:55:29+09:00 Capture active IC and semiconductor library assets
+786d5dfd14dffb0ca58f1b1014a26046b7422359 2026-09-28T06:54:56+09:00 Merge topic 16 PCB generator
+e42c1d461e4a1d1ce8736d8d2d3bfb8c47c46d50 2026-09-28T06:54:35+09:00 Add deterministic update-in-place PCB draft generator
+ef544987d85455bb626641f7042ede9bd4812153 2026-09-28T06:51:59+09:00 Keep KiCad fixture builder out of unittest discovery
+3c21748564fb389e16b897dec34b0c24a1c9025e 2026-09-28T06:27:46+09:00 Regenerate combined KiCad symbol library
+ea92d56c1a15319f0e6cd0dcd3c2d44d9ffdb77a 2026-09-28T06:27:40+09:00 Merge topic 12 pot and selector audit
+7f7ea83f885efd9c93c24a869c9ecd53e7eb69aa 2026-09-28T06:26:57+09:00 Add audited pot family and octave selector draft assets
+275b936f7c99d2e4c88f4841b8f3aa995f805cbd 2026-09-28T06:26:51+09:00 Merge topic 13 toggle and button audit
+23566e910fbb0686ab6b9e8a51228de6f0173eca 2026-09-28T06:26:29+09:00 Add audited toggle and button library drafts
+463c153b1601a540a0d7331437757b361aa5df9d 2026-09-28T05:56:46+09:00 Merge topic 11 jack and LED audit
+ee550b8ba2c21f4abdae3ab538188af3b321cc76 2026-09-28T05:52:02+09:00 Add audited jack library draft and LED window proposal
+a592ff2568f7cfdf27a35f7cce767886eed04c94 2026-09-28T05:41:04+09:00 Merge topic 8 KiCad library
+555e182b8020f72708bb02e9903923b98f0e6650 2026-09-28T05:38:03+09:00 Merge topic 14 project documentation
+2e91c08ad3726104a724bdd2ae0bb8256074036a 2026-09-28T05:38:02+09:00 Add deterministic KiCad library seed assets
+f2dbf68fe83e7897d349de07714e691ca3797b1d 2026-09-28T05:36:59+09:00 docs: integrate R21 handoff into project documentation
+bbf3bf994afea5157b1de8bf218470edec6ce000 2026-09-28T05:22:57+09:00 Merge topic 10 electrical standard
+f0c8eaa0d16a0ab59427bef8d2e2fb5f9cf9c336 2026-09-28T05:22:26+09:00 Define the owner-delegated electrical standard and downstream contracts
+34b306102b6965964e7720d1844b5542dc79ab43 2026-09-28T05:21:35+09:00 Run Python discovery only where tests exist
+dd9aebcc1b651d350f5ba9ece02e25cca734bd69 2026-09-28T05:17:15+09:00 Merge topic 9 placement lock
+ad49129533141b352cae00896afa532c00eb9d7f 2026-09-28T05:16:37+09:00 Generate fixed panel placement lock
+cc9f6efbb1734cc60dbc18d28be5095a796e5ca6 2026-09-28T05:06:41+09:00 Fix schematic label placement around pins
+90ad844367058a465a6c6a531f3f9001399e3518 2026-09-28T04:57:31+09:00 Merge topic 5 renamed handoff
+fa58ac4d69ff1234fa97650acd954f7961ebe6a6 2026-09-28T04:56:09+09:00 Merge topic 7 schematic generator
+23ccd76431be74e72b5661b841205129c3aa4bc5 2026-09-28T04:54:55+09:00 Add deterministic hierarchical schematic generator core
+cc6dc4d30d4a3cfb288f4ddd2c6d6f707fc4765b 2026-09-28T04:53:45+09:00 Import renamed OSC Hole Field handoff
+1a88605adb8e8c41d3fa3a57c14b8070e3973726 2026-09-28T04:45:59+09:00 Merge topic 6 doc CI
+14592683315432aec306cbac650f769ff4f5231e 2026-09-28T04:43:55+09:00 Merge topic 4 KiCad oracle
+b601286b4be9220a78f48e6348797915d75db6c8 2026-09-28T04:43:48+09:00 Add credential-free documentation CI
+8daa7d48aec6884bca49407be5de972d8151310e 2026-09-28T04:42:12+09:00 Add KiCad 10 oracle and smoke loop
+7a2444a58bb86060df49405fa9903c3a00fd5909 2026-09-28T04:30:43+09:00 Merge topic 3 doc scaffold
+9da954ac3fa749da593798730d97693c58d76511 2026-09-28T04:29:01+09:00 chore: configure OSC Hole Field docs site
+657adf20eef1b31ae4a4b46a8794592e9d00f84e 2026-09-28T04:17:02+09:00 chore: scaffold zudo circuit docs
+d11d424896acad53aa674d64948b4a8da353edc7 2026-09-28T04:00:57+09:00 chore: add planning resources for the OSC Hole Field epic
+15907753874f16a4aad42c7c5e7b0764b7e2d9ed 2026-09-28T02:44:49+09:00 init

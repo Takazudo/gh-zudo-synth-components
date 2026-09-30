@@ -1,0 +1,48 @@
+---
+title: "RS20H111C009"
+description: "20 mm travel slider — Alps Alpine"
+sidebar_position: 1
+---
+
+**20 mm travel slider**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | Alps Alpine |
+| Part / family | RS20H111C009 |
+| Identity scope | exact candidate |
+| Evidence state | RETAINED DOCUMENT; scope in profile |
+| LCSC code | C470622 |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+The earlier AR design used this 50 kΩ linear slider as its mechanical reference. A 35 mm body was necessary for only 20 mm of travel; that discrepancy is the reusable layout lesson.
+
+## Design cautions
+
+The 4 mm stem dimension along motion adds to the swept opening: 20 mm travel is not a 20 mm panel slot. Add tolerance, cap sweep and working clearance. The retained STEP belongs to the non-illuminated ALPS slider and must never stand in for a Bourns PTL illuminated slider.
+
+## What the project taught us
+
+Retained alternative after R12 replaced all faders with pots and separate stage LEDs.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## 3D / mechanical assets
+
+**STEP-derived viewing mesh.** The original STEP is unchanged. Tessellation, input/output hashes and bounds are recorded in `provenance/step-derivation.json`. Manufacturer/family scope is retained, not upgraded by conversion.
+
+[Open the interactive hardware viewer](/assets/corpus-browser.html?part=alps-rs20h111c009&tab=model).
+
+## Datasheets, drawings and source leads
+
+- [Source / identification lead](https://tech.alpsalpine.com/e/products/detail/RS20H111C009/) — retained local bytes: `sources/history-r06/alps-rs20h111c009/RS20H111C009.pdf`; SHA-256 `4842eaa3385688f92f3fb3d055ddfb9651d9b443b6c968ef10e08205a6543847`.
+- [manufacturer-family-datasheet.pdf](https://tech.alpsalpine.com/cms.media/product_catalog_rv_06_rs_h_en_c18c7ded81.pdf) — retained local bytes: `sources/history-r06/alps-rs20h111c009/manufacturer-family-datasheet.pdf`; SHA-256 `8e1ac9a6fe4d7889c0277595343296baeb17a3648130531a3e44c87069d80536`.
+- [RS20H111C009.pdf](https://tech.alpsalpine.com/cms.media/product_3dcad_rs20h111c009_en_497a56ddfd.zip) — retained local bytes: `sources/history-r06/alps-rs20h111c009/RS20H111C009.pdf`; SHA-256 `4842eaa3385688f92f3fb3d055ddfb9651d9b443b6c968ef10e08205a6543847`.
+
+[Recorded supplier lead](https://jlcpcb.com/partdetail/ALPSALPINE-RS20H111C009/C470622).
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

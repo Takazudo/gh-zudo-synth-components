@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-27",
+  "scope": "R12 rotary AR and matched toggle selection. Public sources can be cached; not real-time inventory or a factory quotation.",
+  "sources": [
+    {
+      "id": "c908280-lcsc",
+      "url": "https://www.lcsc.com/product-detail/C908280.html",
+      "authority": "DISTRIBUTOR_IDENTITY",
+      "availability": "TEXT_RETRIEVED",
+      "supports": [
+        "Dailywell 2MS1T1B1M2QES-5 identity/C908280",
+        "SPDT PC-pin through-hole variant",
+        "8.13 x 5.08 mm listed case dimensions"
+      ],
+      "does_not_establish": [
+        "live JLC allocation",
+        "accepted PCB footprint",
+        "exact assembled panel height"
+      ]
+    },
+    {
+      "id": "c908280-jlc",
+      "url": "https://jlcpcb.com/partdetail/Dailywell-2MS1T1B1M2QES5/C908280",
+      "authority": "ASSEMBLER_LISTING",
+      "availability": "CACHED_TEXT_RETRIEVED",
+      "supports": [
+        "JLCPCB C908280 exact identity",
+        "Wave Soldering classification and fixture note"
+      ],
+      "does_not_establish": [
+        "current stock",
+        "order-specific process acceptance"
+      ]
+    },
+    {
+      "id": "thonk-dw2",
+      "url": "https://www.thonk.co.uk/shop/sub-mini-toggle-switches/",
+      "authority": "SUPPLIER_IDENTITY",
+      "availability": "TEXT_RETRIEVED",
+      "supports": [
+        "DW1 SPDT ON-ON and DW2 SPDT ON-OFF-ON",
+        "Dailywell PCB pins, 2.54 mm pitch",
+        "matching DW2 drawing link"
+      ],
+      "does_not_establish": [
+        "reserved inventory",
+        "JLC consignment acceptance"
+      ]
+    },
+    {
+      "id": "dailywell-dw2-drawing",
+      "url": "https://www.thonk.co.uk/wp-content/uploads/2017/05/DW2-SPDT-ON-OFF-ON-2MS3T1B1M2QES.pdf",
+      "authority": "MANUFACTURER_DOCUMENT_SUPPLIER_MIRROR",
+      "availability": "PARSED_PDF_TEXT_RETRIEVED",
+      "supports": [
+        "exact DW2 code 2MS3T1B1M2QES and ON-OFF-ON identification"
+      ],
+      "local_file": null,
+      "caveat": "PDF screenshot requests and container download failed in this environment. No new DW2 PDF bytes or exact CAD are claimed as bundled. Existing T1 family geometry remains partial reference evidence."
+    },
+    {
+      "id": "bourns-ptv09",
+      "url": "https://www.bourns.com/docs/product-datasheets/PTV09.pdf",
+      "authority": "MANUFACTURER_PRIMARY",
+      "availability": "TEXT_AND_PAGE_2_IMAGE_RETRIEVED",
+      "local_file": "parts/bourns-ptv09a/PTV09.pdf",
+      "local_file_origin": "Inherited original asset; current public diagram rechecked separately, not an assertion that the local and online revisions are identical.",
+      "supports": [
+        "F-type shaft nominal 6 mm diameter and 4.5 mm flat-to-back distance",
+        "PTV09A-4 mechanical arrangement and ordering structure"
+      ],
+      "does_not_establish": [
+        "12 x 12 mm project pad reservation",
+        "final AR response law or resistance value for every other circuit"
+      ]
+    },
+    {
+      "id": "dailywell-2m",
+      "url": "https://www.dailywell.com.tw/en/product/Sub-miniature-toggle-switches_2M-Series.html",
+      "authority": "MANUFACTURER_PRIMARY",
+      "availability": "TEXT_RETRIEVED",
+      "supports": [
+        "2M subminiature toggle family; separate actuator, bushing and termination options"
+      ],
+      "does_not_establish": [
+        "exact incoming switch nut and throw-angle dimensions"
+      ]
+    },
+    {
+      "id": "jlc-consignment",
+      "url": "https://jlcpcb.com/help/article/how-to-consign-parts-to-jlcpcb",
+      "authority": "ASSEMBLER_SERVICE_DOCUMENT",
+      "availability": "TEXT_RETRIEVED",
+      "supports": [
+        "customer-supplied parts service subject to approval and receiving instructions"
+      ],
+      "does_not_establish": [
+        "approval of this project or a shipment"
+      ]
+    }
+  ],
+  "downloads": "No new manufacturer binaries were successfully retained during R12; original inherited assets remain labeled. Original HTML needs no network to run."
+}

@@ -1,0 +1,61 @@
+---
+title: "LM13700M/NOPB"
+description: "VCA, filter and current-controlled building blocks — Texas Instruments"
+sidebar_position: 1
+---
+
+**VCA, filter and current-controlled building blocks**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | Texas Instruments |
+| Part / family | LM13700M/NOPB |
+| Identity scope | Exact ordering identity |
+| Evidence state | AVAILABLE |
+| LCSC code | C1346265 |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+LM13700M/NOPB contains two operational transconductance amplifier sections, linearizing diodes and buffers. It supports several synth functions when surrounded by the appropriate scaling and conversion circuits.
+
+## Design cautions
+
+An OTA produces a current-related output; it is not a drop-in voltage op amp or ready-made VCA module. Respect the small differential input range, bias-current programming, diode operation and output loading. Filter resonance and VCA gain are circuit properties.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-ota-orderable-identity` | `{"manufacturer": "Texas Instruments", "mpn": "LM13700M/NOPB", "package": "SOIC-16"}` NONE; Exact complete orderable identifier in the selected package; does not establish supplier stock. | [Data Sheet](https://www.ti.com/lit/ds/symlink/lm13700.pdf); PASS - primary-source confirmed |
+| `fact-ota-pinout` | `pin 1 amplifier 1 bias -&gt; pad 1; pin 2 diode 1 bias -&gt; pad 2; pin 3 input 1+ -&gt; pad 3; pin 4 input 1- -&gt; pad 4; pin 5 unbuffered output 1 -&gt; pad 5; pin 6 V- -&gt; pad 6; pin 7 buffer input 1 -&gt; pad 7; pin 8 buffer output 1 -&gt; pad 8; pin 9 buffer output 2 -&gt; pad 9; pin 10 buffer input 2 -&gt; pad 10; pin 11 V+ -&gt; pad 11; pin 12 unbuffered output 2 -&gt; pad 12; pin 13 input 2- -&gt; pad 13; pin 14 input 2+ -&gt; pad 14; pin 15 diode 2 bias -&gt; pad 15; pin 16 amplifier 2 bias -&gt; pad 16` NONE; No schematic or placement/net binding is claimed. Manufacturer pin functions are source-backed only when a retained primary document names the product family. | [Data Sheet](https://www.ti.com/lit/ds/symlink/lm13700.pdf); PASS - primary-source confirmed |
+| `fact-ota-electrical-limits` | `No exact-part electrical limits promoted from retained evidence.` NONE; The task has not promoted a source-backed limit for this exact shortlist record. | [Data Sheet](https://www.ti.com/lit/ds/symlink/lm13700.pdf); UNSOURCED |
+
+## 3D / mechanical assets
+
+**Inherited family/derived package preview.** Many imported models are intentionally coarse body envelopes, not complete manufacturer solids. Check the original receipt, drawing and mounting stack; the rendered shape does not qualify fit.
+
+<PackageModelViewer descriptor="7b2276657273696f6e223a312c227061636b6167654964223a22534f49432d31365f332e3978392e396d6d5f50312e32376d6d222c227061636b6167654c6162656c223a22534f49432d31365f332e3978392e396d6d5f50312e32376d6d222c226d6f64656c55726c223a222f6173736574732f636f6d706f6e656e742d70726576696577732f6d6f64656c732f49435f534f49432d31365f332e3978392e392e77726c222c226f6666736574223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c22726f746174696f6e223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c227363616c65223a7b2278223a312e302c2279223a312e302c227a223a312e307d7d" />
+
+Local model: `footprints/kicad/zudo-osc-hole-field.3dshapes/IC_SOIC-16_3.9x9.9.wrl`. Native rendering is supplied by `zudo-circuit-doc`.
+
+[Open the native generated evidence record](/docs/components/records/ota/). It preserves original claim wording, locators and verdicts.
+
+## Datasheets, drawings and source leads
+
+- [LM13700 Dual Operational Transconductance Amps w/Linearizing Diodes and Buffers datasheet (Rev. F)](https://www.ti.com/lit/ds/symlink/lm13700.pdf) — retained local bytes: `circuit/sources/ic-library/LM13700.pdf`; SHA-256 `8b2239a8b97659008b7373e29cf4401cacc76c377b50a6d0c90ed52ecfc7acee`.
+- [OSC-ES-1 parts shortlist](https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json) — source metadata/link only in this edition; no local download implied.
+
+[Recorded LCSC identity C-number](https://www.lcsc.com/product-detail/C1346265.html).
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

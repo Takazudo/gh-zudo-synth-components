@@ -1,0 +1,62 @@
+---
+title: "2MS3T1B1M2QES"
+description: "Three-state mode selectors — Dailywell"
+sidebar_position: 1
+---
+
+**Three-state mode selectors**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | Dailywell |
+| Part / family | 2MS3T1B1M2QES |
+| Identity scope | Exact-identity mapping unresolved |
+| Evidence state | SOURCE UNAVAILABLE |
+| LCSC code | Not established for this identity |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+The matching T1-lever ON–OFF–ON direction gives three maintained mechanical positions for functions such as ASR/AR/LOOP or SOFT/OFF/HARD. The centre-open contact condition can be decoded as an active operating mode.
+
+## Design cautions
+
+Do not use the two-position C908280 as a substitute. The centre needs deliberate pull-up/pull-down or analog default circuitry, and the unpowered state must remain defined. The source retains unresolved exact-suffix equivalence; Thonk DW2 is a sourcing lead, not a universal code for all Dailywell variants.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-2ms3-exact-mpn` | `The retained 2M catalog lists the unsuffixed design MPN 2MS3T1B1M2QES, but no exact supplier listing is retained.` NONE; Exact candidate in the unvalidated project draft. | [2M Series](https://static.chipdip.ru/lib/866/DOC027866893.pdf); UNSOURCED |
+| `fact-2ms3-suffix-equivalence` | `DW2 drawing title identifies 2MS3T1B1M2QES-5; equivalence to unsuffixed 2MS3T1B1M2QES is not established.` NONE; Exact candidate in the unvalidated project draft. | [DW2](https://www.thonk.co.uk/wp-content/uploads/2017/05/DW2-SPDT-ON-OFF-ON-2MS3T1B1M2QES.pdf); UNSOURCED |
+| `fact-2ms3-contact` | `Exact manufacturer-hosted three-position contact map was not retrieved; retained mirror data is not promoted to primary-source confirmation.` NONE; Exact candidate in the unvalidated project draft. | [2M Series](https://www.dailywell.com.tw/Templates/att/2M%20Series.pdf?lng=en); UNSOURCED |
+| `fact-2ms3-panel-fit` | `Panel stack, lever sweep, and fit against fixed controls remain unmeasured; -5 drawing dimensions are provisional for the unsuffixed MPN.` NONE; Fixed R21 panel centres; no toggle position or panel coordinate may move. | [DW2](https://www.thonk.co.uk/wp-content/uploads/2017/05/DW2-SPDT-ON-OFF-ON-2MS3T1B1M2QES.pdf); NEEDS BENCH |
+| `fact-2ms3-cad-fidelity` | `The existing 2MS3 symbol and shared 2M footprint are provisional because the mechanical source names the -5 suffix.` NONE; Exact candidate in the unvalidated project draft. | [DW2](https://www.thonk.co.uk/wp-content/uploads/2017/05/DW2-SPDT-ON-OFF-ON-2MS3T1B1M2QES.pdf); UNSOURCED |
+
+## 3D / mechanical assets
+
+**Inherited family/derived package preview.** Many imported models are intentionally coarse body envelopes, not complete manufacturer solids. Check the original receipt, drawing and mounting stack; the rendered shape does not qualify fit.
+
+<PackageModelViewer descriptor="7b2276657273696f6e223a312c227061636b6167654964223a22546f67676c655f4461696c7977656c6c5f324d535f543142314d32222c227061636b6167654c6162656c223a22546f67676c655f4461696c7977656c6c5f324d535f543142314d32222c226d6f64656c55726c223a222f6173736574732f636f6d706f6e656e742d70726576696577732f6d6f64656c732f546f67676c655f4461696c7977656c6c5f324d535f543142314d322e77726c222c226f6666736574223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c22726f746174696f6e223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c227363616c65223a7b2278223a312e302c2279223a312e302c227a223a312e307d7d" />
+
+Local model: `footprints/kicad/zudo-osc-hole-field.3dshapes/Toggle_Dailywell_2MS_T1B1M2.wrl`. Native rendering is supplied by `zudo-circuit-doc`.
+
+[Open the native generated evidence record](/docs/components/records/dailywell-2ms3t1b1m2qes/). It preserves original claim wording, locators and verdicts.
+
+## Datasheets, drawings and source leads
+
+- [Dailywell 2M Series official download](https://www.dailywell.com.tw/Templates/att/2M%20Series.pdf?lng=en) — source metadata/link only in this edition; no local download implied.
+- [Dailywell 2M Series catalog (manufacturer-authored mirror)](https://static.chipdip.ru/lib/866/DOC027866893.pdf) — retained local bytes: `circuit/sources/toggle-button/Dailywell-2M-Series.pdf`; SHA-256 `a8c5687f9fd671b0299354f813d38ddd5241fda2afe89b4d18155f94bd6fac48`.
+- [Dailywell 2MS3T1B1M2QES-5 drawing (manufacturer-authored mirror)](https://www.thonk.co.uk/wp-content/uploads/2017/05/DW2-SPDT-ON-OFF-ON-2MS3T1B1M2QES.pdf) — retained local bytes: `circuit/sources/toggle-button/DW2-2MS3T1B1M2QES.pdf`; SHA-256 `1fa575eb2679dd10fffd94c1bb3dbaf8ecff15b528c2a971e2caf32effa73448`.
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

@@ -1,0 +1,25 @@
+---
+title: "No soldering at home is a delivery requirement"
+description: "Reusable component-led synth design note"
+sidebar_position: 13
+---
+
+JLCPCB preference and no-home-soldering are related but different constraints. The first chooses a sourcing/assembly route; the second defines the state in which the instrument's electrical assemblies must arrive.
+
+Standard potentiometers, toggles, faders, jacks, programmed devices and externally sourced parts can still satisfy the requirement when the factory accepts their exact procurement and assembly operations. A catalogue entry is not an accepted order, and distributor stock is not reserved PCBA stock.
+
+### Specify the complete delivered assembly
+
+Include soldered through-hole parts, both sides of board connectors, terminated cables, programmed components, any alignment fixture, electrical inspection and the agreed calibration. No adapter or board-to-board joint should quietly be deferred to the user's soldering iron.
+
+Mechanical final assembly—nuts, screws, board supports and plugging completed connectors—can remain separate if that is the agreed delivery arrangement. Full enclosure integration needs its own accepted scope; it cannot be inferred from ordinary PCB assembly service.
+
+### Processes can constrain the part choice
+
+Check the exact component's solder profile, wash restrictions, masking and heat exposure. A plastic actuator that clears the panel may still be incompatible with the assumed assembly process. Ask about the actual orientation and fixture needed for tall or heavy through-hole parts.
+
+### Prototype without committing the whole instrument
+
+A small factory-assembled mechanical coupon can exercise the real jack/nut/panel, pot shaft, rotary selector, toggle, button/plunger and LED optical path. A separate electrical coupon can test a complete oscillator or sample/hold/slew channel. Preserve failures and setup conditions, not only successful photographs.
+
+Source route: [JLCPCB assembly FAQ](https://jlcpcb.com/help/article/pcb-assembly-faqs). Service scope and availability require rechecking at the quotation/order stage; this corpus submits no quote or order.
