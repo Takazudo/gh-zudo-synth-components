@@ -1,0 +1,124 @@
+[
+  {
+    "id": "dailywell-2ms1-c908280",
+    "manufacturer": "Dailywell",
+    "name": "2MS1T1B1M2QES-5",
+    "mpn": "2MS1T1B1M2QES-5",
+    "jlc_code": "C908280",
+    "jlc_url": "https://jlcpcb.com/partdetail/Dailywell-2MS1T1B1M2QES5/C908280",
+    "quantity": 17,
+    "role": "Two-position selectors",
+    "geometry_state": "FAMILY_REFERENCE_PARTIAL",
+    "source_url": "https://www.dailywell.com.tw/en/product/Sub-miniature-toggle-switches_2M-Series.html",
+    "listing_state": "Cached public response showed 46; not a live reservation or order-time inventory.",
+    "facts": [
+      "SPDT PCB-pin M2, not M1 solder-lug.",
+      "T1 lever option: reference height 9.4 mm; 2.54 mm diameter.",
+      "Family nominal case8.13\u00d75.08 mm and2.54 mm pinpitch."
+    ],
+    "caveats": [
+      "Exact suffix drawing, washer/nut fit, tolerances, pivot/sweep and soldering process acceptance remain open.",
+      "Silver Q contacts: qualify low-level switching or use a compatible gold-contact variant after sourcing review.",
+      "Reference silhouette is not qualified exact-part STEP or a fabrication aperture."
+    ],
+    "reference_geometry": {
+      "body_mm": [
+        8.13,
+        5.08,
+        8.64
+      ],
+      "lever_height_mm": 9.4,
+      "lever_diameter_mm": 2.54,
+      "bushing_height_mm": 5.59,
+      "assumed_throw_angle_deg": 20
+    },
+    "source_ids": [
+      "dailywell-family-mirror",
+      "jlc-c908280"
+    ],
+    "actual_quote_accepted": false
+  },
+  {
+    "id": "dailywell-2ms3-c19270342",
+    "manufacturer": "Dailywell",
+    "name": "2MS3T2B1M2QES",
+    "mpn": "2MS3T2B1M2QES",
+    "jlc_code": "C19270342",
+    "jlc_url": "https://jlcpcb.com/partdetail/Dailywell-2MS3T2B1M2QES/C19270342",
+    "quantity": 11,
+    "role": "Three-position selectors",
+    "geometry_state": "FAMILY_REFERENCE_PARTIAL",
+    "source_url": "https://www.dailywell.com.tw/en/product/Sub-miniature-toggle-switches_2M-Series.html",
+    "listing_state": "Indexed cached response showed 0 and minimum 443; re-quote required. Placeholder pricing deliberately not used.",
+    "facts": [
+      "SPDT PCB-pin M2, not M1 solder-lug.",
+      "T2 lever option: reference height 5.33 mm; 2.54 mm diameter.",
+      "Family nominal case8.13\u00d75.08 mm and2.54 mm pinpitch."
+    ],
+    "caveats": [
+      "Exact suffix drawing, washer/nut fit, tolerances, pivot/sweep and soldering process acceptance remain open.",
+      "Silver Q contacts: qualify low-level switching or use a compatible gold-contact variant after sourcing review.",
+      "Reference silhouette is not qualified exact-part STEP or a fabrication aperture."
+    ],
+    "reference_geometry": {
+      "body_mm": [
+        8.13,
+        5.08,
+        8.64
+      ],
+      "lever_height_mm": 5.33,
+      "lever_diameter_mm": 2.54,
+      "bushing_height_mm": 5.59,
+      "assumed_throw_angle_deg": 20
+    },
+    "source_ids": [
+      "dailywell-family-mirror",
+      "jlc-c19270342"
+    ],
+    "actual_quote_accepted": false
+  },
+  {
+    "id": "dailywell-dw2-t1-external",
+    "manufacturer": "Dailywell",
+    "name": "2MS3T1B1M2QES / Thonk DW2",
+    "mpn": "2MS3T1B1M2QES",
+    "jlc_code": null,
+    "source_url": "https://www.thonk.co.uk/shop/sub-mini-toggle-switches/",
+    "role": "Optional long-lever three-position counterpart",
+    "geometry_state": "FAMILY_REFERENCE_PARTIAL",
+    "listing_state": "External sourcing / approved consignment only; no verified directly orderable JLC identity in this pass.",
+    "facts": [
+      "ON-OFF-ON PCB-pin; T1 reference9.40 mm lever."
+    ],
+    "caveats": [
+      "Request procurement and factory assembly before shipping parts.",
+      "Same-family visual comparison; not authority to substitute on an order."
+    ]
+  },
+  {
+    "id": "dailywell-2md3-c908283",
+    "manufacturer": "Dailywell",
+    "mpn": "2MD3T1B1M2QES-5",
+    "name": "2MD3T1B1M2QES-5",
+    "jlc_code": "C908283",
+    "jlc_url": "https://jlcpcb.com/partdetail/Dailywell-2MD3T1B1M2QES5/C908283",
+    "role": "Three-position DPDT alternative; NOT assigned in panel",
+    "facts": [
+      "DPDT ON-OFF-ON PCB-pin candidate, T1 lever.",
+      "JLC public record displayed495 in stock and483 available to order, minimum1; cached snapshot, not reservation.",
+      "Nominal DP family body8.13 \u00d79.14 mm rather than SP8.13 \u00d75.08 mm.",
+      "JLC lists wave soldering, fixture, Economy/Standard."
+    ],
+    "listing_state": "Retrieved cached listing with positive stock; recheck quotation.",
+    "geometry_state": "FAMILY_REFERENCE_PARTIAL_NOT_APPLIED",
+    "caveats": [
+      "Requires a different six-pad footprint. Extra pole can be unused only after electrical design review.",
+      "Do not fit it silently: cross-body dimension may reduce or eliminate AR fader-to-switch body clearance at unchanged centres.",
+      "No trial DPDT body substitution is enabled in this preview."
+    ],
+    "source_ids": [
+      "dailywell-family-mirror",
+      "jlc-c908283"
+    ]
+  }
+]

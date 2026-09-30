@@ -1,0 +1,23 @@
+---
+title: "Noise source, color shaping and output buffers"
+description: "Reusable component-led synth design note"
+sidebar_position: 12
+---
+
+The noise block began as one white output and grew to white, pink, blue and brown. These are useful circuit responsibilities to preserve independently of the panel tile.
+
+Electric Druid NOISE2 offers programmed white/pink generation. A blank microcontroller with the same package is not equivalent; programmed identity and delivery must be part of the factory bill of materials. This route is digital pseudorandom generation. A reverse-biased analog junction is a different source with its own repeatability, level and noise-characterization work.
+
+### Shaping within a defined band
+
+Ideal white noise has flat power spectral density. Pink has less high-frequency power; blue has more; brown has a stronger low-frequency weighting. Practical colored-noise outputs must define a useful frequency band and level rather than claiming an ideal spectrum down to DC and up to infinity.
+
+One proposal was leaky/band-limited integration of white for brown and bounded differentiation of pink for blue. The leakage and bandwidth limits prevent uncontrolled DC drift or excessive high-frequency gain. These are proposed topologies, not measured filters or proof of exact coloration.
+
+### Independent outputs
+
+Buffer each output so patch loading does not change the others or the shaping network. Define common level/headroom targets and test spectra, clipping, startup and correlation as appropriate to the musical use.
+
+The corpus retains the NOISE2 source and a separate record for the analog-source direction. It does not invent transistor avalanche ratings or call a noise-colored panel label a finished circuit.
+
+Source: [Electric Druid NOISE2](https://electricdruid.net/product/noise2-white-pink-generator/), with the original manufacturer PDF retained in the source archive.

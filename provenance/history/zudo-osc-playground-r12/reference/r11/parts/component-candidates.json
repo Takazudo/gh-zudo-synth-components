@@ -1,0 +1,388 @@
+{
+  "date": "2026-09-27",
+  "status": "Inherited component evidence plus R10 toggle candidates; not an accepted BOM.",
+  "records": [
+    {
+      "id": "qingpu-wqp518ma",
+      "name": "QingPu WQP-WQP518MA",
+      "role": "Front-entry jack family candidate for all 182 signal ports; exact incoming variant and EARS nut pairing remain open.",
+      "jlc_code": "C9900052034",
+      "jlc_url": "https://jlcpcb.com/partdetail/8460744-WQPWQP518MA/C9900052034",
+      "source_url": "https://www.thonk.co.uk/shop/thonkiconn/",
+      "extra_url": "https://www.lcsc.com/product-detail/C53058333.html",
+      "listing_state": "Inherited R06 observation: JLC entry named QingPu and offered consignment, not purchase from stock. Not refreshed as an accepted quote in R07.",
+      "geometry_state": "FAMILY_REFERENCE",
+      "facts": [
+        "Front-entry 3.5 mm mono switching jack, threaded panel bushing.",
+        "Retained Thonk/PJ398SM family drawing: 9 mm body width; 6 + 4.5 = 10.5 mm body projection in the other direction.",
+        "Family side view: 9 mm body depth + 5.5 mm bushing projection; solder tails excluded. Bushing drawn as diameter 6 mm; thread pitch is not established by that drawing.",
+        "Overlay default: rotate the family body 90 degrees in the panel plane so its 9 mm axis follows the close vertical jack pitch. Jack centres do not move.",
+        "The old generic JLC Assembly code C9900079089 did not identify the manufacturer. It is not evidence of equivalence.",
+        "LCSC C53058333 separately names QingPu, but LCSC availability is not JLC assembly acceptance."
+      ],
+      "caveats": [
+        "Use an incoming exact WQP518MA drawing or sample before footprint freeze; PJ398SM is a family reference.",
+        "EARS nut thread, outer diameter, thickness and fit remain open.",
+        "The switched contact is unused unless deliberately required by the final circuit. No inter-block normalled connections.",
+        "Neither a front-hole symbol nor the family body overlay is a qualified solder-pad/lead footprint."
+      ],
+      "drawing": "parts/qingpu-wqp518ma/Thonk-WQP518MA-reference.jpg",
+      "model": "parts/qingpu-wqp518ma/PJ398SM-family.step",
+      "revision_application": "R09; source evidence inherited unless a source entry explicitly records a recheck."
+    },
+    {
+      "id": "alps-rk09l1140a5l",
+      "name": "ALPS RK09L1140A5L",
+      "role": "Historical comparison only. No Type A/15 mm cap placements remain in R09.",
+      "jlc_code": "C7419101",
+      "jlc_url": "https://jlcpcb.com/partdetail/ALPSALPINE-RK09L1140A5L/C7419101",
+      "source_url": "https://tech.alpsalpine.com/e/products/detail/RK09L1140A5L/",
+      "extra_url": "https://tech.alpsalpine.com/cms.media/product_catalog_rv_01_rk09l_en_b8437bd47d.pdf",
+      "listing_state": "Exact manufacturer product page rechecked; JLC code retained as a sourcing lead, not a live stock or quote confirmation.",
+      "geometry_state": "MANUFACTURER_DIMENSIONS",
+      "facts": [
+        "10 kOhm linear (1B), no centre detent; 300 degrees +/-5 degrees travel.",
+        "6 mm flat shaft, 4.5 mm D dimension; nominal shaft length L1=15 mm from the drawing datum, not the visible height above a panel.",
+        "M9 x 0.75 threaded bushing; nominal bushing length 5 mm.",
+        "Drawing No.3 front body/support width 12.1 mm; main body projection extends 4.85 mm above the shaft centre and 6.5 mm below it. Electrical terminals and footprint pads require their own envelope.",
+        "Drawing No.3: mounting surface to shaft-base datum 10 mm; nominal shaft-tip reach 10+15=25 mm.",
+        "Attached hardware drawing: nut 11 mm across flats and 2 mm thick; washer 14 mm OD, 9.1 mm ID and 0.5 mm thick."
+      ],
+      "caveats": [
+        "No active R09 assignment. Do not treat retained ALPS CAD as Bourns geometry.",
+        "The prior 15 mm cap was nominal geometry; complete seller cap drawing and cap/shaft fit were never qualified.",
+        "Original mechanical evidence remains available for comparison."
+      ],
+      "drawing": "parts/alps-rk09l1140a5l/product_detail_fig_rk09l_d_222_en_34014d0696.gif",
+      "fastener_drawing": "parts/alps-rk09l1140a5l/product_detail_fig_rk09l_c_101_en_acab65d7d7.gif",
+      "model": "parts/alps-rk09l1140a5l/RK09L1140-F15.STEP",
+      "revision_application": "R09; source evidence inherited unless a source entry explicitly records a recheck."
+    },
+    {
+      "id": "alps-rs20h111c009",
+      "name": "ALPS RS20H111C009",
+      "role": "Historical R07 unilluminated fader. Not the proposed illuminated R08 selection. Kept for comparison; its STEP must not be relabeled PTL20.",
+      "jlc_code": "C470622",
+      "jlc_url": "https://jlcpcb.com/partdetail/ALPSALPINE-RS20H111C009/C470622",
+      "source_url": "https://tech.alpsalpine.com/e/products/detail/RS20H111C009/",
+      "extra_url": "https://tech.alpsalpine.com/cms.media/product_catalog_rv_06_rs_h_en_c18c7ded81.pdf",
+      "listing_state": "Manufacturer product page re-inspected in R07 for the selected geometry. The exact JLC C470622 supply route, lifecycle status, and factory acceptance have NOT been reconfirmed; retain as a mechanical reference pending procurement review.",
+      "geometry_state": "MANUFACTURER_DIMENSIONS",
+      "facts": [
+        "50 kOhm linear (1B); no detent; top-operated vertical C lever.",
+        "20 mm travel, 35 mm nominal body length. The length tolerance on Drawing No.2 is +/-0.1 mm where not individually specified.",
+        "6 mm main side-view body width; top projection includes 4.5 mm on one side of the lever axis and 2.8 +/-0.3 mm on the other. Overlay shows the nominal 7.3 mm combined side envelope, not just 6 mm.",
+        "Body height 12.5 +/-0.3 mm above mounting surface.",
+        "Lever L1=14.5 +/-0.3 mm from its designated datum. Total nominal lever-tip height is L1+13=27.5 mm; drawing gives +/-0.5 mm for the total dimension.",
+        "Lever tip cross-section is 4 mm (0/-0.1) along travel by 1.8 mm (0/-0.2) across travel.",
+        "Support-hole pitch along body is 32.5 mm. The 3 electrical terminals and mechanical lugs require the complete mounting drawing.",
+        "R07 RISE/FALL centres are 38 mm apart: nominal body gap 3 mm; 2.9 mm if both bodies reach 35.1 mm, before placement tolerance."
+      ],
+      "caveats": [
+        "The endpoint travel is not the front-panel slot length. A 4 mm-long lever moving 20 mm sweeps 24 mm along travel before cutout clearances and tolerances.",
+        "R07 uses a 24.6 x 2.4 mm illustrative slot around the swept stem: 0.3 mm clearance on each side. It is a planning assumption, not a manufacturer-approved cutout.",
+        "No slider-cap SKU is selected. Cap sweep, retention, wobble and hand access must be checked.",
+        "All bodies must clear the underside of the single flat panel. Separate PCB mounting heights may be required.",
+        "10 V DC operating limit and manufacturer DC-use/wiper-loading guidance still apply.",
+        "Do not replace 20 mm travel with a scaled drawing. A part substitution requires a new exact body, stem, pad and height review."
+      ],
+      "drawing": "parts/alps-rs20h111c009/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+      "mounting_drawing": "parts/alps-rs20h111c009/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+      "model": "parts/alps-rs20h111c009/RS20H111C009.STEP",
+      "revision_application": "R09; source evidence inherited unless a source entry explicitly records a recheck."
+    },
+    {
+      "id": "bourns-ptv09a",
+      "name": "Bourns PTV09A-4020F-B103",
+      "role": "Mechanical reference for all 89 continuous pots; nominal 6.0 mm F shaft drawn without an added cap. Per-circuit resistance/taper still to be selected.",
+      "jlc_code": "C5848782",
+      "jlc_url": "https://jlcpcb.com/partdetail/BOURNS-PTV09A_4020FB103/C5848782",
+      "source_url": "https://www.bourns.com/docs/product-datasheets/PTV09.pdf",
+      "listing_state": "C5848782 retained from prior research. Manufacturer dimensions rechecked; no new inventory reservation or PCBA acceptance.",
+      "geometry_state": "MANUFACTURER_FAMILY_DIMENSIONS",
+      "facts": [
+        "10 kOhm linear, bushingless rear-mount configuration 4, no detent, nominal 20 mm flat insulated shaft.",
+        "Manufacturer F shaft: diameter 6 mm; D dimension 4.5 mm. No panel nut on this bushingless variant.",
+        "Manufacturer states 20 V DC maximum; do not span the full 24 V between -12 and +12 V.",
+        "The PTV09A-4 front-view drawing shows 10 mm main width and 11.4 mm across the indicated support outline.",
+        "R07 reserves a centred 12 x 12 mm body window for packing; this is a planning allowance, NOT the full manufacturer footprint or pad courtyard.",
+        "The large ALPS nut and washer are not part of the bushingless PTV09A-4 configuration.",
+        "Nominal mechanical rotation is 280 degrees +/-10 degrees; the interactive continuous-pot rotation uses the nominal 280-degree sweep.",
+        "F-type shaft: diameter 6.0 +0/-0.1 mm, 4.5 mm across flat, 20 mm nominal length for 4020F ordering code; manufacturer drawing page 2.",
+        "A capless F shaft is an interface proposal; it is not a separately sourced miniature knob. No torque/grip/marking test has been performed."
+      ],
+      "caveats": [
+        "This is an explicit mechanical-candidate change from R06, not a claim that every circuit accepts a 10 kOhm pot.",
+        "Shaft reach, mounting supports, exact solder pads, Z-stack, cap retention and finger spacing still need qualification.",
+        "The 9 mm cap remains an unselected compatible-cap envelope.",
+        "No exact Bourns STEP was recovered; no scaled ALPS model is relabeled as Bourns CAD.",
+        "Do not connect this 20 V maximum DC-rated family directly between -12 V and +12 V."
+      ],
+      "drawing": "parts/bourns-ptv09a/PTV09.pdf",
+      "revision_application": "R09; source evidence inherited unless a source entry explicitly records a recheck.",
+      "r09_assignment": {
+        "count": 89,
+        "shaft_diameter_nominal_mm": 6.0,
+        "across_flat_mm": 4.5,
+        "body_reservation_mm": [
+          12,
+          12
+        ],
+        "reservation_status": "Not a footprint or complete pad/lead tolerance proof"
+      }
+    },
+    {
+      "id": "ears-dress-nuts",
+      "name": "EARS 3.5 mm jack dress nuts",
+      "role": "Black IN / red OUT",
+      "jlc_code": null,
+      "jlc_url": null,
+      "source_url": "https://ears-modular.com/products/%E9%9B%BB%E7%BE%8E%E3%83%8A%E3%83%83%E3%83%88-3-5-%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AF%E7%94%A8%E3%83%89%E3%83%AC%E3%82%B9%E3%83%8A%E3%83%83%E3%83%88-100%E5%80%8B-1",
+      "extra_url": "https://ears-modular.com/collections/%E3%83%8A%E3%83%83%E3%83%88",
+      "listing_state": "External mechanical accessory specified by the user. Exact product page unavailable in this retrieval; collection warns of incompatible larger-diameter jacks.",
+      "geometry_state": "DIMENSIONS_OPEN",
+      "facts": [
+        "Colors fixed by the project: black input, red output.",
+        "8.3 mm OD is inherited R05 artwork, NOT a verified dimension of this EARS product.",
+        "R07 can display a larger trial envelope, explicitly labeled an assumption."
+      ],
+      "caveats": [
+        "Confirm OD, thickness, bore/thread and seated fit with the selected jack.",
+        "One confirmed jack/nut pairing should set the pitch and decorative keepout for all 181 ports.",
+        "Fitting nuts is mechanical assembly; electrical soldering remains at the factory."
+      ],
+      "revision_application": "R09; source evidence inherited unless a source entry explicitly records a recheck."
+    },
+    {
+      "id": "octave-switch-open",
+      "name": "Six-position octave selector — exact SKU not frozen",
+      "role": "Five six-position octave selectors, small nominal Ø6 mm visible actuator. Exact switch package is not selected.",
+      "geometry_state": "UNQUALIFIED_SMALL_SWITCH_ACTUATOR_RESERVATION",
+      "source_url": null,
+      "jlc_code": null,
+      "jlc_url": null,
+      "listing_state": "Open exact-part and assembly selection",
+      "facts": [
+        "Five OCT controls retain six fixed positions: -2 / -1 / 0 / +1 / +2 / +3.",
+        "The R07 cap envelope is 9 mm. The exact selector shaft, switch body, angular indexing, and pad layout remain OPEN.",
+        "The artwork retains six illustrative detent marks. Their angular spread must follow the chosen part later."
+      ],
+      "caveats": [
+        "OCT is not a continuous potentiometer. Do not substitute PTV09A for the switch.",
+        "The visible Ø6 mm and underlying 14 × 14 mm boxes are unqualified reservations. Exact switch, actuator, contacts and shaft interface remain open."
+      ],
+      "revision_application": "R09; source evidence inherited unless a source entry explicitly records a recheck.",
+      "r09_assignment": {
+        "count": 5,
+        "visible_diameter_mm": 6.0,
+        "body_reservation_mm": [
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "control-hardware-open",
+      "name": "Other switches / trigger buttons / caps",
+      "role": "Remaining mechanical completion",
+      "geometry_state": "DIMENSIONS_OPEN",
+      "source_url": null,
+      "jlc_code": null,
+      "jlc_url": null,
+      "listing_state": "Open exact variants",
+      "facts": [
+        "No new switch, trigger-button or cap dimensions are invented in this revision."
+      ],
+      "caveats": [
+        "Keep these provisional until exact variant drawings are accepted; R07 is not a fabrication package."
+      ],
+      "revision_application": "R10: trigger buttons and other unresolved hardware only. 28 selectors now have their own toggle candidate records."
+    },
+    {
+      "id": "user-aluminum-cap-15mm",
+      "name": "User-selected nominal 15 mm aluminum knob",
+      "role": "Historical nominal Ø15 mm cap from the user link; zero placements in R09. Full supplier drawing/mating geometry still unavailable.",
+      "source_url": "https://www.alibaba.com/product-detail/15mm-Diameter-Black-Full-Aluminum-6_1601503932880.html",
+      "status": "USER_SPECIFIED_URL_NOT_RETRIEVED",
+      "facts": [
+        "Nominal 15 mm outside diameter taken from the user-selected product URL, not a retrieved manufacturer drawing."
+      ],
+      "open": [
+        "Exact bore diameter and shape; grub-screw presence and projection; bore depth; cap height; tolerance; seating clearance."
+      ],
+      "compatibility": "The ALPS part uses a 6 mm flat shaft. A 6 mm round bore secured by a suitable set screw could be a candidate; compatibility is not established by the title.",
+      "revision_application": "HISTORICAL_ONLY_IN_R09",
+      "r09_assignment": {
+        "count": 0
+      }
+    },
+    {
+      "id": "bourns-ptl20-led-candidate",
+      "name": "Bourns PTL20-10G0-103B2",
+      "jlc_code": "C17491098",
+      "jlc_url": "https://jlcpcb.com/partdetail/BOURNS-PTL20_10G0103B2/C17491098",
+      "source_url": "https://www.bourns.com/docs/product-datasheets/PTL.pdf",
+      "status": "JLC_PUBLIC_LISTING_LOCATED_FACTORY_ACCEPTANCE_OPEN",
+      "role": "Twelve independently illuminated AR sliders; green exact listing, amber artwork is an unconfirmed color alternative.",
+      "facts": [
+        "20 mm nominal travel; family mechanical travel tolerance +/-0.5 mm.",
+        "20 mm family body: 35 +/-0.5 mm long, 9 +/-0.5 mm wide; 7 +/-0.5 mm nominal body height.",
+        "Lever top drawing: 6.0 +/-0.1 mm along travel, 2.05 +/-0.1 mm across; PTL20-10 ordering variant has nominal 10 mm lever height.",
+        "Exact JLC page identifies Bourns, 10 kOhm, 50 mW, +/-20%, through-hole. It is not a quote or assembly reservation.",
+        "Manufacturer family specifies manual 300 +/-5 C for 3 seconds; wave 260 +/-5 C for 5 seconds; wash not recommended."
+      ],
+      "open": [
+        "Exact amber or white variant procurement",
+        "Resistance/taper suited to actual AR circuit",
+        "Numeric resistor, LED and extra terminal mapping",
+        "Seated height, screw access, PCB pad clearance and faceplate slot",
+        "LED polarity/current/brightness matching",
+        "No PTL20 STEP retained; do not substitute ALPS geometry"
+      ],
+      "datasheet_bytes": "Manufacturer PDF inspected through web renderer; direct byte download failed, URL retained.",
+      "user_reference_url": "https://www.alibaba.com/product-detail/IN-STOCK-100-ORIGINAL-BRAND-NEW_1601698938117.html",
+      "user_reference_identity": "Exact Alibaba listing could not be retrieved; not claimed to be the Bourns part.",
+      "revision_application": "R09; source evidence inherited unless a source entry explicitly records a recheck."
+    },
+    {
+      "id": "indicator-hardware-open",
+      "name": "Level / CLIP indicator package not selected",
+      "role": "86 magnitude lights plus 12 output CLIP lights; stage lights belong to the sliders",
+      "status": "OUTLINE_RESERVATION_ONLY",
+      "facts": [
+        "Drawing allocates 1.2 mm apparent aperture and generic 0.8 x 1.6 mm SMD-body reservation.",
+        "Level site is +6.35 mm in X from jack center; CLIP is 2.4 mm below level."
+      ],
+      "open": [
+        "Exact LED MPN; light pipe versus exposed device; actual pad, courtyard, tail and jack-nut clearance; drive current; attenuation/buffering; detector thresholds."
+      ],
+      "revision_application": "R09; source evidence inherited unless a source entry explicitly records a recheck."
+    },
+    {
+      "id": "dailywell-2ms1-c908280",
+      "manufacturer": "Dailywell",
+      "name": "2MS1T1B1M2QES-5",
+      "mpn": "2MS1T1B1M2QES-5",
+      "jlc_code": "C908280",
+      "jlc_url": "https://jlcpcb.com/partdetail/Dailywell-2MS1T1B1M2QES5/C908280",
+      "quantity": 17,
+      "role": "Two-position selectors",
+      "geometry_state": "FAMILY_REFERENCE_PARTIAL",
+      "source_url": "https://www.dailywell.com.tw/en/product/Sub-miniature-toggle-switches_2M-Series.html",
+      "listing_state": "Exact listing verified. User reports current JLCPCB stock and accepts external purchase if insufficient; no stock reservation or quote accepted.",
+      "facts": [
+        "SPDT PCB-pin M2, not M1 solder-lug.",
+        "T1 lever option: reference height 9.4 mm; 2.54 mm diameter.",
+        "Family nominal case8.13×5.08 mm and2.54 mm pinpitch."
+      ],
+      "caveats": [
+        "Exact suffix drawing, washer/nut fit, tolerances, pivot/sweep and soldering process acceptance remain open.",
+        "Silver Q contacts: qualify low-level switching or use a compatible gold-contact variant after sourcing review.",
+        "Reference silhouette is not qualified exact-part STEP or a fabrication aperture."
+      ],
+      "reference_geometry": {
+        "body_mm": [
+          8.13,
+          5.08,
+          8.64
+        ],
+        "lever_height_mm": 9.4,
+        "lever_diameter_mm": 2.54,
+        "bushing_height_mm": 5.59,
+        "assumed_throw_angle_deg": 20
+      },
+      "source_ids": [
+        "dailywell-family-mirror",
+        "jlc-c908280"
+      ],
+      "actual_quote_accepted": false,
+      "selection_state": "USER_SELECTED",
+      "lcsc_url": "https://www.lcsc.com/product-detail/C908280.html"
+    },
+    {
+      "id": "dailywell-2ms3-c19270342",
+      "manufacturer": "Dailywell",
+      "name": "2MS3T2B1M2QES",
+      "mpn": "2MS3T2B1M2QES",
+      "jlc_code": "C19270342",
+      "jlc_url": "https://jlcpcb.com/partdetail/Dailywell-2MS3T2B1M2QES/C19270342",
+      "quantity": 11,
+      "role": "Three-position selectors",
+      "geometry_state": "FAMILY_REFERENCE_PARTIAL",
+      "source_url": "https://www.dailywell.com.tw/en/product/Sub-miniature-toggle-switches_2M-Series.html",
+      "listing_state": "Indexed cached response showed 0 and minimum 443; re-quote required. Placeholder pricing deliberately not used.",
+      "facts": [
+        "SPDT PCB-pin M2, not M1 solder-lug.",
+        "T2 lever option: reference height 5.33 mm; 2.54 mm diameter.",
+        "Family nominal case8.13×5.08 mm and2.54 mm pinpitch."
+      ],
+      "caveats": [
+        "Exact suffix drawing, washer/nut fit, tolerances, pivot/sweep and soldering process acceptance remain open.",
+        "Silver Q contacts: qualify low-level switching or use a compatible gold-contact variant after sourcing review.",
+        "Reference silhouette is not qualified exact-part STEP or a fabrication aperture."
+      ],
+      "reference_geometry": {
+        "body_mm": [
+          8.13,
+          5.08,
+          8.64
+        ],
+        "lever_height_mm": 5.33,
+        "lever_diameter_mm": 2.54,
+        "bushing_height_mm": 5.59,
+        "assumed_throw_angle_deg": 20
+      },
+      "source_ids": [
+        "dailywell-family-mirror",
+        "jlc-c19270342"
+      ],
+      "actual_quote_accepted": false
+    },
+    {
+      "id": "dailywell-dw2-t1-external",
+      "manufacturer": "Dailywell",
+      "name": "2MS3T1B1M2QES / Thonk DW2",
+      "mpn": "2MS3T1B1M2QES",
+      "jlc_code": null,
+      "source_url": "https://www.thonk.co.uk/shop/sub-mini-toggle-switches/",
+      "role": "Optional long-lever three-position counterpart",
+      "geometry_state": "FAMILY_REFERENCE_PARTIAL",
+      "listing_state": "External sourcing / approved consignment only; no verified directly orderable JLC identity in this pass.",
+      "facts": [
+        "ON-OFF-ON PCB-pin; T1 reference9.40 mm lever."
+      ],
+      "caveats": [
+        "Request procurement and factory assembly before shipping parts.",
+        "Same-family visual comparison; not authority to substitute on an order."
+      ]
+    },
+    {
+      "id": "dailywell-2md3-c908283",
+      "manufacturer": "Dailywell",
+      "mpn": "2MD3T1B1M2QES-5",
+      "name": "2MD3T1B1M2QES-5",
+      "jlc_code": "C908283",
+      "jlc_url": "https://jlcpcb.com/partdetail/Dailywell-2MD3T1B1M2QES5/C908283",
+      "role": "Three-position DPDT alternative; NOT assigned in panel",
+      "facts": [
+        "DPDT ON-OFF-ON PCB-pin candidate, T1 lever.",
+        "JLC public record displayed495 in stock and483 available to order, minimum1; cached snapshot, not reservation.",
+        "Nominal DP family body8.13 ×9.14 mm rather than SP8.13 ×5.08 mm.",
+        "JLC lists wave soldering, fixture, Economy/Standard."
+      ],
+      "listing_state": "Retrieved cached listing with positive stock; recheck quotation.",
+      "geometry_state": "FAMILY_REFERENCE_PARTIAL_NOT_APPLIED",
+      "caveats": [
+        "Requires a different six-pad footprint. Extra pole can be unused only after electrical design review.",
+        "Do not fit it silently: cross-body dimension may reduce or eliminate AR fader-to-switch body clearance at unchanged centres.",
+        "No trial DPDT body substitution is enabled in this preview."
+      ],
+      "source_ids": [
+        "dailywell-family-mirror",
+        "jlc-c908283"
+      ]
+    }
+  ],
+  "revision": "R11",
+  "current_decisions": "C908280 selected only for two-position functions. Existing dimensions/evidence are inherited unless r11-research-sources.json records a recheck."
+}

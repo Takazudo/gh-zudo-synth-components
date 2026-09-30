@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "path": "favicon.svg",
+      "reason": "Site favicon shipped by the zudo-doc scaffold; not component evidence or CAD."
+    },
+    {
+      "path": "assets/corpus-browser.html",
+      "reason": "Self-contained corpus browser with explicitly scoped retained WRL and STEP-derived meshes; no datasheet bytes or fonts published."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+---
+title: "APHHS1005QWF/D"
+description: "Compact magnitude and stage emitters — Kingbright"
+sidebar_position: 1
+---
+
+**Compact magnitude and stage emitters**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | Kingbright |
+| Part / family | APHHS1005QWF/D |
+| Identity scope | Exact ordering identity |
+| Evidence state | AVAILABLE |
+| LCSC code | Not established for this identity |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+The 0402 white emitter was introduced when larger indicator packages conflicted with the dense jack/pot layout. A smaller light source can reduce the PCB courtyard while preserving the front-panel light window.
+
+## Design cautions
+
+The package height and optical path still matter. Maximum continuous current is not a recommended brightness target. Qualify current limiting at the actual hot ambient, aperture coupling, light bleed and the separately mounted stage-LED plane.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-kingbright-white-identity` | `Kingbright APHHS1005QWF/D; 0402 top emitter; 0.5 mm package height` NONE; Exact manufacturer part at 25 C unless stated otherwise | [DSAK0125 / 1203009228](https://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005QWF-D.pdf); PASS - primary-source confirmed |
+| `fact-kingbright-white-polarity` | `Pin 1 cathode; pin 2 anode` NONE; Exact manufacturer part at 25 C unless stated otherwise | [DSAK0125 / 1203009228](https://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005QWF-D.pdf); PASS - primary-source confirmed |
+| `fact-kingbright-white-electrical` | `30` mA; Exact manufacturer part at 25 C unless stated otherwise | [DSAK0125 / 1203009228](https://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005QWF-D.pdf); PASS - primary-source confirmed |
+| `fact-kingbright-white-land` | `Two 0.7 x 0.5 mm pads, separated by 0.2 mm; mask open area ratio 80%` NONE; Exact manufacturer part at 25 C unless stated otherwise | [DSAK0125 / 1203009228](https://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005QWF-D.pdf); PASS - primary-source confirmed |
+| `fact-kingbright-white-optical-fit` | `Window coupling, brightness at draft drive current, light bleed, and assembled height are unmeasured` NONE; Fixed R21 optical windows; assembled stack unknown | [DSAK0125 / 1203009228](https://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005QWF-D.pdf); NEEDS BENCH |
+| `fact-kingbright-white-current-limit` | `Maximum LED current under tolerance, startup and fault states remains unbounded by this datasheet` NONE; Unvalidated draft driver, supply tolerance and resistor procurement | [DSAK0125 / 1203009228](https://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005QWF-D.pdf); UNSOURCED |
+
+## 3D / mechanical assets
+
+**Inherited family/derived package preview.** Many imported models are intentionally coarse body envelopes, not complete manufacturer solids. Check the original receipt, drawing and mounting stack; the rendered shape does not qualify fit.
+
+<PackageModelViewer descriptor="7b2276657273696f6e223a312c227061636b6167654964223a224c4544303430322d4b696e676272696768742d5768697465222c227061636b6167654c6162656c223a224c4544303430322d4b696e676272696768742d5768697465222c226d6f64656c55726c223a222f6173736574732f636f6d706f6e656e742d70726576696577732f6d6f64656c732f4c4544303430322d4b696e676272696768742d57686974652e77726c222c226f6666736574223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c22726f746174696f6e223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c227363616c65223a7b2278223a312e302c2279223a312e302c227a223a312e307d7d" />
+
+Local model: `footprints/kicad/zudo-osc-hole-field.3dshapes/LED0402-Kingbright-White.wrl`. Native rendering is supplied by `zudo-circuit-doc`.
+
+[Open the native generated evidence record](/docs/components/records/kingbright-white/). It preserves original claim wording, locators and verdicts.
+
+## Datasheets, drawings and source leads
+
+- [Kingbright APHHS1005QWF/D LED lamp datasheet](https://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005QWF-D.pdf) — retained local bytes: `circuit/source-archive/kingbright/APHHS1005QWF-D.pdf`; SHA-256 `025c18fdb1abd9cb727a24a04f44af8f609b492e7a55c62679ee665bbd09765c`.
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

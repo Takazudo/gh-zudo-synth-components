@@ -1,0 +1,25 @@
+---
+title: "Magnitude, clipping and envelope stage indication"
+description: "Reusable component-led synth design note"
+sidebar_position: 8
+---
+
+An LED can communicate several different quantities. Specify which before drawing a light beside every jack.
+
+**Magnitude** indication should observe a buffered signal, with an appropriate rectifier/envelope response when both CV and audio are expected. Equal positive and negative magnitudes can intentionally produce equal brightness; that is not a polarity indicator.
+
+**CLIP** indication needs a threshold related to actual circuit headroom. It is not just a brighter magnitude LED. If a VCA follows a summing stage, monitor upstream clipping as well as the final output where required.
+
+**Stage** indication combines two signals: the generated envelope level and the active rise/fall state. The RISE light may brighten during rise and the FALL light dim during fall; both can be off during sustain even though ENV remains high. The pots set durations, not LED brightness directly.
+
+### Electrical and optical design are inseparable
+
+A small 0402 package may clear a dense PCB while a large light window remains on the faceplate. That still needs a controlled optical path: direct near-panel emitter, diffuser or lightpipe, with no unwanted bleed. Package height can differ between white and red LEDs with similar footprints.
+
+Current must be bounded during normal, startup, tolerance and fault conditions. Use maximum supply, minimum relevant forward voltage and resistor tolerance for a first current screen, then the resistor/LED derating at installed hot ambient. An absolute maximum is not an operating target.
+
+### Layout lesson
+
+Put the emitter/driver where it fits and route the indicator artwork around the real aperture and component keepout. Do not tuck an LED into a corner because it looks empty in a top view while the pot body occupies that volume below.
+
+Sources: retained Kingbright [white](https://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005QWF-D.pdf) and [red](https://www.kingbrightusa.com/images/catalog/SPEC/APG1005SEC-E-T.pdf) documents; exact acquired-byte records are in the source manifest.

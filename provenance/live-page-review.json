@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-30",
+  "kind": "Primary page/drawing review during corpus writing; not a stock refresh",
+  "sources": [
+    {
+      "url": "https://www.bourns.com/docs/product-datasheets/PTV09.pdf",
+      "scope": "Family rating and shaft/layout distinction; retained snapshot hash remains authoritative for inherited facts."
+    },
+    {
+      "url": "https://www.bourns.com/docs/product-datasheets/PTL.pdf",
+      "scope": "20 mm travel vs 35 mm body and lever-length options; missing local bytes remain in acquisition queue."
+    },
+    {
+      "url": "https://tech.alpsalpine.com/e/products/detail/RK09L1140A5L/",
+      "scope": "Exact product reference; legacy CAD scope retained."
+    },
+    {
+      "url": "https://tech.alpsalpine.com/e/products/detail/RS20H111C009/",
+      "scope": "Exact product reference; legacy STEP original preserved."
+    },
+    {
+      "url": "https://tech.alpsalpine.com/e/products/detail/SRBV160803/",
+      "scope": "Rotary selector identity and body/shaft datums."
+    },
+    {
+      "url": "https://tech.alpsalpine.com/e/products/detail/SRBM160700/",
+      "scope": "Alternative rotary selector orientation."
+    },
+    {
+      "url": "https://www.ti.com/product/LF398-N",
+      "scope": "Sample/hold role and package distinction."
+    },
+    {
+      "url": "https://www.ti.com/product/LM13700",
+      "scope": "OTA building block rather than complete VCA/filter."
+    },
+    {
+      "url": "https://www.thonk.co.uk/shop/sub-mini-toggle-switches/",
+      "scope": "Synth toggle family and positions; order-time stock not reserved."
+    }
+  ],
+  "not_performed": [
+    "Full new re-audit of all inherited facts",
+    "Live stock refresh",
+    "Supplier contact",
+    "New physical tests",
+    "Automatic source-evidence promotion"
+  ]
+}

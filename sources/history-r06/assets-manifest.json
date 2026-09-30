@@ -1,0 +1,149 @@
+[
+  {
+    "path": "parts/alps-rk09l1140a5l/Read-me-first.rtf",
+    "sha256": "8876b93a81abf812c3aaf52b3801bea233ec49905c763754a60a43b26d315ec8",
+    "source_url": "https://tech.alpsalpine.com/cms.media/product_3dcad_rk09l1140a5l_en_5f99b140b5.zip",
+    "provenance": "Retained original from zudo-synth-components-v03; bytes reused, not newly downloaded in R06.",
+    "applies_to": "alps-rk09l1140a5l"
+  },
+  {
+    "path": "parts/alps-rk09l1140a5l/RK09L1140-F15.pdf",
+    "sha256": "43f87b03b11193d752628ff4c6174ec4f20524e07c2a3268bec712505f147553",
+    "source_url": "https://tech.alpsalpine.com/cms.media/product_3dcad_rk09l1140a5l_en_5f99b140b5.zip",
+    "provenance": "Retained original from zudo-synth-components-v03; bytes reused, not newly downloaded in R06.",
+    "applies_to": "alps-rk09l1140a5l"
+  },
+  {
+    "path": "parts/alps-rk09l1140a5l/RK09L1140-F15.STEP",
+    "sha256": "a67271ce2e6911aba3a23c88eb34c7b514f74ccd99545806524535efde795d43",
+    "source_url": "https://tech.alpsalpine.com/cms.media/product_3dcad_rk09l1140a5l_en_5f99b140b5.zip",
+    "provenance": "Retained original from zudo-synth-components-v03; bytes reused, not newly downloaded in R06.",
+    "applies_to": "alps-rk09l1140a5l"
+  },
+  {
+    "path": "parts/alps-rk09l1140a5l/product_catalog_rv_01_rk09l_en_b8437bd47d.pdf",
+    "sha256": "45176642b75760db42093394f6204a127e7abac542df13ab4312f11ff51d4c3f",
+    "source_url": "https://tech.alpsalpine.com/cms.media/product_catalog_rv_01_rk09l_en_b8437bd47d.pdf",
+    "provenance": "Retained original from zudo-synth-components-v03; bytes reused, not newly downloaded in R06.",
+    "applies_to": "alps-rk09l1140a5l"
+  },
+  {
+    "path": "parts/alps-rk09l1140a5l/product_detail_fig_rk09l_c_101_en_acab65d7d7.gif",
+    "sha256": "626d3d204b16f181ca063eaa6311d53d001d7f29e63aceda29c5e2219ed83147",
+    "source_url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rk09l_c_101_en_acab65d7d7.gif",
+    "provenance": "Retained original from zudo-synth-components-v03; bytes reused, not newly downloaded in R06.",
+    "applies_to": "alps-rk09l1140a5l"
+  },
+  {
+    "path": "parts/alps-rk09l1140a5l/product_detail_fig_rk09l_c_1_en_60d88f1440.gif",
+    "sha256": "08137933b50c389638c33b04b2339ec1a98bbc9b2e4f346bf4b5805440cec498",
+    "source_url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rk09l_c_1_en_60d88f1440.gif",
+    "provenance": "Retained original from zudo-synth-components-v03; bytes reused, not newly downloaded in R06.",
+    "applies_to": "alps-rk09l1140a5l"
+  },
+  {
+    "path": "parts/alps-rk09l1140a5l/product_detail_fig_rk09l_d_222_en_34014d0696.gif",
+    "sha256": "97e4f667d4e6756804d7ef7b5e6d5a6a92cde9a91e19a6a2f89805df73894ae8",
+    "source_url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rk09l_d_222_en_34014d0696.gif",
+    "provenance": "Retained original from zudo-synth-components-v03; bytes reused, not newly downloaded in R06.",
+    "applies_to": "alps-rk09l1140a5l"
+  },
+  {
+    "path": "parts/alps-rk09l1140a5l/product_detail_fig_rk09l_d_231_en_08e696475d.gif",
+    "sha256": "3d9b8dca14fdc9ef2dfde4254382b86838ba1777c10c7234157f5cc47796a112",
+    "source_url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rk09l_d_231_en_08e696475d.gif",
+    "provenance": "Retained original from zudo-synth-components-v03; bytes reused, not newly downloaded in R06.",
+    "applies_to": "alps-rk09l1140a5l"
+  },
+  {
+    "path": "parts/alps-rs20h111c009/manufacturer-family-datasheet.pdf",
+    "sha256": "8e1ac9a6fe4d7889c0277595343296baeb17a3648130531a3e44c87069d80536",
+    "source_url": "https://tech.alpsalpine.com/cms.media/product_catalog_rv_06_rs_h_en_c18c7ded81.pdf",
+    "provenance": "Retained original from zudo-synth-components-v03; bytes reused, not newly downloaded in R06.",
+    "applies_to": "alps-rs20h111c009"
+  },
+  {
+    "path": "parts/alps-rs20h111c009/RS20H111C009.STEP",
+    "sha256": "aae470004acf4e33c9ea661ad13869a3ad9ff6328a18d774ad41349f637b3838",
+    "source_url": "https://tech.alpsalpine.com/cms.media/product_3dcad_rs20h111c009_en_497a56ddfd.zip",
+    "provenance": "Retained original from zudo-synth-components-v03; bytes reused, not newly downloaded in R06.",
+    "applies_to": "alps-rs20h111c009"
+  },
+  {
+    "path": "parts/alps-rs20h111c009/RS20H111C009.pdf",
+    "sha256": "4842eaa3385688f92f3fb3d055ddfb9651d9b443b6c968ef10e08205a6543847",
+    "source_url": "https://tech.alpsalpine.com/cms.media/product_3dcad_rs20h111c009_en_497a56ddfd.zip",
+    "provenance": "Retained original from zudo-synth-components-v03; bytes reused, not newly downloaded in R06.",
+    "applies_to": "alps-rs20h111c009"
+  },
+  {
+    "path": "parts/alps-rs20h111c009/Read-me-first.rtf",
+    "sha256": "8876b93a81abf812c3aaf52b3801bea233ec49905c763754a60a43b26d315ec8",
+    "source_url": "https://tech.alpsalpine.com/cms.media/product_3dcad_rs20h111c009_en_497a56ddfd.zip",
+    "provenance": "Retained original from zudo-synth-components-v03; bytes reused, not newly downloaded in R06.",
+    "applies_to": "alps-rs20h111c009"
+  },
+  {
+    "path": "parts/alps-rs20h111c009/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+    "sha256": "0280441d667993cb78443f98710505ebab85b95e20ebcef940b5451d74e62273",
+    "source_url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+    "provenance": "Retained original from zudo-synth-components-v03; bytes reused, not newly downloaded in R06.",
+    "applies_to": "alps-rs20h111c009"
+  },
+  {
+    "path": "parts/alps-rs20h111c009/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+    "sha256": "9247029765c8fdc2690dd3a007de2651bb46c897263e3c54e298457438e39554",
+    "source_url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+    "provenance": "Retained original from zudo-synth-components-v03; bytes reused, not newly downloaded in R06.",
+    "applies_to": "alps-rs20h111c009"
+  },
+  {
+    "path": "parts/alps-rs20h111c009/product_detail_fig_rs_h_d_24_en_21894a698f.gif",
+    "sha256": "b64e3b197ddb9eb1221b652348f27decb632c4343b194e73a22a2ce32f8c274f",
+    "source_url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_24_en_21894a698f.gif",
+    "provenance": "Retained original from zudo-synth-components-v03; bytes reused, not newly downloaded in R06.",
+    "applies_to": "alps-rs20h111c009"
+  },
+  {
+    "path": "parts/alps-rs20h111c009/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif",
+    "sha256": "c9d1a6aa9c150f2956a246133192a9a9d7f9b627762f3607d28609814018d427",
+    "source_url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif",
+    "provenance": "Retained original from zudo-synth-components-v03; bytes reused, not newly downloaded in R06.",
+    "applies_to": "alps-rs20h111c009"
+  },
+  {
+    "path": "parts/qingpu-wqp518ma/Thonk-WQP518MA-reference.jpg",
+    "sha256": "fae736d9826acd87360abe74ec0cffc51388e491647030139d2479617b482413",
+    "source_url": "https://www.thonk.co.uk/wp-content/uploads/2018/07/Thonkiconn_Jack_Datasheet-new.jpg",
+    "provenance": "Retained original from zudo-synth-components-v03; bytes reused, not newly downloaded in R06.",
+    "applies_to": "qingpu-wqp518ma"
+  },
+  {
+    "path": "parts/qingpu-wqp518ma/PJ398SM-family.step",
+    "sha256": "b512ffe4c3e67d593e1a1bccd4397cf9a044c4f5534f91018fe626332f97bd7a",
+    "source_url": "https://raw.githubusercontent.com/clacktronics/AudioJacks/14a88866e93b8ce4a31ad376b0c6eb85cd4d2cf3/AudioJacks.3dshapes/PJ398SM.step",
+    "provenance": "Retained original from zudo-synth-components-v03; bytes reused, not newly downloaded in R06.",
+    "applies_to": "qingpu-wqp518ma"
+  },
+  {
+    "path": "parts/qingpu-wqp518ma/AudioJacks-LICENSE",
+    "sha256": "b97cfc57745a140ad456ab5418a8a1ac7369fcbbfd115d8b7fca9c64d9e15334",
+    "source_url": "https://raw.githubusercontent.com/clacktronics/AudioJacks/14a88866e93b8ce4a31ad376b0c6eb85cd4d2cf3/LICENSE",
+    "provenance": "Retained original from zudo-synth-components-v03; bytes reused, not newly downloaded in R06.",
+    "applies_to": "qingpu-wqp518ma"
+  },
+  {
+    "path": "parts/qingpu-wqp518ma/AudioJacks-DATA.md",
+    "sha256": "e60d1de5b3c39a03db8d451c2e3c247d0125a30f6aac2a1854ff682b86841801",
+    "source_url": "https://raw.githubusercontent.com/clacktronics/AudioJacks/14a88866e93b8ce4a31ad376b0c6eb85cd4d2cf3/DATA.md",
+    "provenance": "Retained original from zudo-synth-components-v03; bytes reused, not newly downloaded in R06.",
+    "applies_to": "qingpu-wqp518ma"
+  },
+  {
+    "path": "parts/bourns-ptv09a/PTV09.pdf",
+    "sha256": "411cdb6a62e61f9c5bc2df76ed64ee21d7bcfbee035c1ba36beff08c43f28558",
+    "source_url": "https://www.bourns.com/docs/product-datasheets/PTV09.pdf",
+    "provenance": "Retained original from v03",
+    "applies_to": "bourns-ptv09a"
+  }
+]

@@ -1,0 +1,63 @@
+---
+title: "SRBV160803"
+description: "Six-position octave selection — Alps Alpine"
+sidebar_position: 1
+---
+
+**Six-position octave selection**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | Alps Alpine |
+| Part / family | SRBV160803 |
+| Identity scope | Exact ordering identity |
+| Evidence state | AVAILABLE |
+| LCSC code | C470374 |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+This is a maintained rotary selector, not a continuous potentiometer. It can select a reference ladder or coded state for repeatable octave steps, while a separate continuous control handles tuning.
+
+## Design cautions
+
+Body envelope, support features, asymmetric pin geometry, rotation, bushing and shaft indexing must all be checked. In the source instrument a fixed-centre multi-plane adapter was considered; that is a project-specific solution, not evidence that this selector fits every 17 mm lane. Never convert a mounting-hole diameter into an assumed solid-leg diameter.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-srbv-pin` | `1/10 common; 2–7 positions; 8/9 dummy; MP1/MP2 mechanical` NONE; viewed from direction A | [SRBV](https://tech.alpsalpine.com/cms.media/product_catalog_sw_04_srbv_en_7f096645b6.pdf); PASS - primary-source confirmed |
+| `fact-srbv-envelope` | `Main body nominal 16.2 x 18.5 x 7.5 mm; 18.2 mm support span; shaft-centered body y=-10.5..+8 mm` NONE; Nominal drawing callouts only; no unstated general tolerances or installed qualification inferred | [SRBV](https://tech.alpsalpine.com/cms.media/product_catalog_sw_04_srbv_en_7f096645b6.pdf); PASS - primary-source confirmed |
+| `fact-srbv-shaft` | `Nominal shaft diameter 6 mm and flat dimension 4.5 mm; C1 chamfer` NONE; Nominal drawing callouts only; no unstated general tolerances or installed qualification inferred | [SRBV160803 Operation Part Details (a)](https://tech.alpsalpine.com/cms.media/product_detail_fig_srbv_d_13_en_67f206af61.gif); PASS - primary-source confirmed |
+| `fact-srbv-hardware` | `Included M9x0.75 nut, 11 mm AF x 2 mm; washer OD14/ID9.1 x 0.5 mm` NONE; Nominal drawing callouts only; no unstated general tolerances or installed qualification inferred | [SRBV160803 Attached Parts](https://tech.alpsalpine.com/cms.media/product_detail_fig_srbv_ap_1_en_173ba8d251.gif); PASS - primary-source confirmed |
+
+## 3D / mechanical assets
+
+**Inherited family/derived package preview.** Many imported models are intentionally coarse body envelopes, not complete manufacturer solids. Check the original receipt, drawing and mounting stack; the rendered shape does not qualify fit.
+
+<PackageModelViewer descriptor="7b2276657273696f6e223a312c227061636b6167654964223a2253524256313630383033222c227061636b6167654c6162656c223a2253524256313630383033222c226d6f64656c55726c223a222f6173736574732f636f6d706f6e656e742d70726576696577732f6d6f64656c732f535242563136303830332e77726c222c226f6666736574223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c22726f746174696f6e223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c227363616c65223a7b2278223a312e302c2279223a312e302c227a223a312e307d7d" />
+
+Local model: `footprints/kicad/zudo-osc-hole-field.3dshapes/SRBV160803.wrl`. Native rendering is supplied by `zudo-circuit-doc`.
+
+[Open the native generated evidence record](/docs/components/records/srbv/). It preserves original claim wording, locators and verdicts.
+
+## Datasheets, drawings and source leads
+
+- [Alps Alpine SRBV Series catalogue, update 2510](https://tech.alpsalpine.com/cms.media/product_catalog_sw_04_srbv_en_7f096645b6.pdf) — retained local bytes: `sources/documents/4389058192ce--alps-srbv.pdf`; SHA-256 `4389058192ce8e89188d5c1c0f23de85945916542cd477ba04f3c75ac9f69ec8`.
+- [Alps Alpine SRBV160803 Operation Part Details (a)](https://tech.alpsalpine.com/cms.media/product_detail_fig_srbv_d_13_en_67f206af61.gif) — source metadata/link only in this edition; no local download implied.
+- [Alps Alpine SRBV160803 Attached Parts](https://tech.alpsalpine.com/cms.media/product_detail_fig_srbv_ap_1_en_173ba8d251.gif) — source metadata/link only in this edition; no local download implied.
+
+[Recorded LCSC identity C-number](https://www.lcsc.com/product-detail/C470374.html).
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

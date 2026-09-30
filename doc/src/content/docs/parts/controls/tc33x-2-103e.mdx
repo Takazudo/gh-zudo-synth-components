@@ -1,0 +1,55 @@
+---
+title: "TC33X-2-103E"
+description: "10 kΩ calibration trim — Bourns"
+sidebar_position: 1
+---
+
+**10 kΩ calibration trim**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | Bourns |
+| Part / family | TC33X-2-103E |
+| Identity scope | Exact ordering identity |
+| Evidence state | AVAILABLE |
+| LCSC code | Not established for this identity |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+TC33X-2-103E shares the trimmer family while providing a 10 kΩ adjustment range. A change of value can alter calibration sensitivity and drift contribution without changing board area.
+
+## Design cautions
+
+Determine whether a one-turn adjustment gives sufficient resolution and whether the wiper-open state is safe. Factory calibration and readback must be included when the user does not solder or tune assemblies at home.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-trim-103-orderable-identity` | `{"manufacturer": "Bourns", "mpn": "TC33X-2-103E", "package": "3 mm SMD"}` NONE; Exact complete orderable identifier in the selected package; does not establish supplier stock. | [Bourns® Trimpot® Trimming Potentiometers](https://www.bourns.com/docs/product-datasheets/tc33.pdf); PASS - primary-source confirmed |
+| `fact-trim-103-pinout` | `pin 1 CCW -&gt; pad 1; pin 2 Wiper -&gt; pad 2; pin 3 CW -&gt; pad 3` NONE; No schematic or placement/net binding is claimed. Manufacturer pin functions are source-backed only when a retained primary document names the product family. | [Bourns® Trimpot® Trimming Potentiometers](https://www.bourns.com/docs/product-datasheets/tc33.pdf); PASS - primary-source confirmed |
+| `fact-trim-103-nominal-resistance` | `{"nominal": 10000, "standard_tolerance_percent": 25}` ohm and percent; Bourns TC33X-2 family; standard resistance code 103; tolerance +/-25% standard. | [Bourns® Trimpot® Trimming Potentiometers](https://www.bourns.com/docs/product-datasheets/tc33.pdf); PASS - primary-source confirmed |
+
+## 3D / mechanical assets
+
+**No usable part-specific model published in this edition.** A document or a footprint may exist without a qualified 3D model. No unrelated shape is substituted.
+
+The complete inherited owner bundle is retained locally at `.claude/skills/component-passives-family/`. It is not in the native preview selection because complete publishable model coverage is absent for some records in this group.
+
+## Datasheets, drawings and source leads
+
+- [TC33 3 mm SMD Trimpot® Trimming Potentiometer](https://www.bourns.com/docs/product-datasheets/tc33.pdf) — retained local bytes: `circuit/sources/ic-library/TC33X.pdf`; SHA-256 `b13258ee9f777b70198554ad4ed43cab2167b2bdf31bdcbe52c4956bfff1adbf`.
+- [OSC-ES-1 parts shortlist](https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json) — source metadata/link only in this edition; no local download implied.
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

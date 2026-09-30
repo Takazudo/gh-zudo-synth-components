@@ -1,0 +1,36 @@
+---
+title: "Separate sample storage from the slew output"
+description: "Reusable component-led synth design note"
+sidebar_position: 5
+---
+
+A sample-and-hold captures a target voltage. A slew stage controls how the output approaches that target. Keeping the two separate avoids corrupting the held charge while adjusting the glide.
+
+```text
+protected/conditioned trigger → acquisition pulse
+                                      ↓
+conditioned IN → sample-and-hold → buffer → variable lag → buffer → OUT
+                       ↓
+                local hold capacitor
+```
+
+The LF398 tracks while its sampling control is asserted. A long gate applied directly therefore produces tracking rather than a single short acquisition. The CD74HC221 one-shot proposal addresses that distinction, but the pulse width still has to exceed acquisition needs under the chosen capacitor, step and accuracy conditions.
+
+### Storage error and timing
+
+For an ideal capacitor, a leakage current produces droop approximately `dV/dt = I/C`. Increasing C reduces that contribution but usually increases acquisition time. Offset, hold step, dielectric absorption, board leakage and temperature add separate errors. Room-temperature typical figures are not long-hold pitch guarantees.
+
+The LF398M/NOPB package is SOIC-14, distinct from the eight-pin DIP option. Keep the exact pin map and the sensitive storage node on a local clean PCB region; do not put the hold capacitor or that node on a harness.
+
+### The two-knob slew proposal
+
+The R21 starting point used 500 kΩ linear resistance, a 2.2 kΩ minimum series resistance and nominal 0.50 µF lag capacitance, **after** the storage buffer. The ideal time constant is:
+
+```text
+tau = (2.2 kohm + R_slew) × 0.50 microfarad
+nominal tau range = 1.1 ms to 251.1 ms
+```
+
+This is exponential lag, not constant-rate linear slew and not an exact reproduction of ADDAC215. FAST retains some lag. A new sample during a transition updates the destination from the current output level. The indicator should show the final slewed output.
+
+Sources: [TI LF398](https://www.ti.com/lit/gpn/lf398-n), [TI CD74HC221](https://www.ti.com/product/CD74HC221), [ADDAC215](https://www.addacsystem.com/en/products/modules/addac200-series/addac215).

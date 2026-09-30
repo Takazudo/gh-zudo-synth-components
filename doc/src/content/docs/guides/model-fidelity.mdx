@@ -1,0 +1,28 @@
+---
+title: "What a 3D preview proves—and what it does not"
+description: "Reusable component-led synth design note"
+sidebar_position: 14
+---
+
+The corpus keeps original CAD, derived browser geometry and physical qualification separate.
+
+| Class | Meaning |
+| --- | --- |
+| Manufacturer-supplied | Acquired from the identified product/family source; suffix and drawing agreement still need review |
+| Family/community | Useful shared geometry, not proven exact to the selected variant |
+| Derived | A recorded transformation of a source, including tessellation or a drawing-based proxy |
+| Unavailable | No usable model; no placeholder is presented as an acquired model |
+
+Most native package previews inherited from the instrument are small, drawing-derived envelope models. They intentionally lack some detail. They must not be mistaken for full manufacturer solids. The recovered ALPS pot and fader STEP files provide more detailed source geometry, while the PJ398SM model remains a community family reference.
+
+### This edition's STEP path
+
+The local conversion script tessellates the original STEP with CadQuery/OpenCascade and records input hash, output hash, tool versions, tessellation parameters, triangle count and bounds. It does not edit the original. The browser mesh is a derived viewing asset, not a new exact-vendor STEP or a drilling template.
+
+The standard zudo-circuit-doc viewer remains responsible for the published WRL package previews. The supplementary hardware viewer handles these additional STEP-derived meshes without putting unselected files into the generator-owned model directory.
+
+### A usable mechanical check
+
+Verify units, axes, origin, mounting plane, full envelope, terminal detail, rotation and scale against the drawing. A render can expose a mismatch; it cannot prove thread engagement, cap retention, tolerance stack or strength. Use the exact model receipt and source drawing before designing around it.
+
+Datasheets and vendor CAD retain their original rights. The package is a local research archive; copying a source into it does not grant public redistribution rights.

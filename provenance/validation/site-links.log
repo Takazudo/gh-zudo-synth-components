@@ -1,0 +1,11 @@
+Checking links (base: /, trailingSlash: false)...
+Source scan: src/content/docs; dist/ pass enabled
+
+=== Broken Links in Built HTML ===
+  dist/assets/corpus-browser.html:4297  ${Bt(r)}
+
+✗ Found 1 broken link
+
+Built HTML scan: 36615 internal links and 2738 ID attributes inspected.
+
+❌ STRICT FAIL: 1 broken link (after allowlist).

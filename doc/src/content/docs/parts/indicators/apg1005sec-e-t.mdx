@@ -1,0 +1,61 @@
+---
+title: "APG1005SEC/E-T"
+description: "Distinct clipping indication — Kingbright"
+sidebar_position: 1
+---
+
+**Distinct clipping indication**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | Kingbright |
+| Part / family | APG1005SEC/E-T |
+| Identity scope | Exact ordering identity |
+| Evidence state | AVAILABLE |
+| LCSC code | Not established for this identity |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+A separate red emitter can distinguish overload from ordinary signal magnitude. That semantic distinction belongs to the comparator/driver circuit and the panel labeling, not to the LED alone.
+
+## Design cautions
+
+An output-level detector can miss clipping upstream of an attenuating VCA. Define which node and headroom the comparator observes. Package polarity, hot-current limit, light output and optical separation need their own checks.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-kingbright-red-identity` | `Kingbright APG1005SEC/E-T; 0402 top emitter; 0.2 mm package height` NONE; Exact manufacturer part at 25 C unless stated otherwise | [DSAM9600 / 1203013767](https://www.kingbrightusa.com/images/catalog/spec/apg1005sec-e-t.pdf); PASS - primary-source confirmed |
+| `fact-kingbright-red-polarity` | `Pin 1 cathode; pin 2 anode` NONE; Exact manufacturer part at 25 C unless stated otherwise | [DSAM9600 / 1203013767](https://www.kingbrightusa.com/images/catalog/spec/apg1005sec-e-t.pdf); PASS - primary-source confirmed |
+| `fact-kingbright-red-electrical` | `25` mA; Exact manufacturer part at 25 C unless stated otherwise | [DSAM9600 / 1203013767](https://www.kingbrightusa.com/images/catalog/spec/apg1005sec-e-t.pdf); PASS - primary-source confirmed |
+| `fact-kingbright-red-land` | `Two 0.7 x 0.5 mm pads, separated by 0.2 mm; mask open area ratio 80%` NONE; Exact manufacturer part at 25 C unless stated otherwise | [DSAM9600 / 1203013767](https://www.kingbrightusa.com/images/catalog/spec/apg1005sec-e-t.pdf); PASS - primary-source confirmed |
+| `fact-kingbright-red-optical-fit` | `Window coupling, brightness at draft drive current, light bleed, and assembled height are unmeasured` NONE; Fixed R21 optical windows; assembled stack unknown | [DSAM9600 / 1203013767](https://www.kingbrightusa.com/images/catalog/spec/apg1005sec-e-t.pdf); NEEDS BENCH |
+| `fact-kingbright-red-current-limit` | `Maximum LED current under tolerance, startup and fault states remains unbounded by this datasheet` NONE; Unvalidated draft driver, supply tolerance and resistor procurement | [DSAM9600 / 1203013767](https://www.kingbrightusa.com/images/catalog/spec/apg1005sec-e-t.pdf); UNSOURCED |
+
+## 3D / mechanical assets
+
+**Inherited family/derived package preview.** Many imported models are intentionally coarse body envelopes, not complete manufacturer solids. Check the original receipt, drawing and mounting stack; the rendered shape does not qualify fit.
+
+<PackageModelViewer descriptor="7b2276657273696f6e223a312c227061636b6167654964223a224c4544303430322d4b696e676272696768742d526564222c227061636b6167654c6162656c223a224c4544303430322d4b696e676272696768742d526564222c226d6f64656c55726c223a222f6173736574732f636f6d706f6e656e742d70726576696577732f6d6f64656c732f4c4544303430322d4b696e676272696768742d5265642e77726c222c226f6666736574223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c22726f746174696f6e223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c227363616c65223a7b2278223a312e302c2279223a312e302c227a223a312e307d7d" />
+
+Local model: `footprints/kicad/zudo-osc-hole-field.3dshapes/LED0402-Kingbright-Red.wrl`. Native rendering is supplied by `zudo-circuit-doc`.
+
+[Open the native generated evidence record](/docs/components/records/kingbright-red/). It preserves original claim wording, locators and verdicts.
+
+## Datasheets, drawings and source leads
+
+- [Kingbright APG1005SEC/E-T LED lamp datasheet](https://www.kingbrightusa.com/images/catalog/spec/apg1005sec-e-t.pdf) — retained local bytes: `circuit/source-archive/kingbright/APG1005SEC-E-T.pdf`; SHA-256 `19570994f99319c3b602ab3d854b1cb9e6c15a34aa69879e84d9a10594b8c03e`.
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

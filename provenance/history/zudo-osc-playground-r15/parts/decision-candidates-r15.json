@@ -1,0 +1,416 @@
+{
+  "revision": "R15",
+  "date": "2026-09-27",
+  "status": "Decision support, not fitted BOM",
+  "sources_policy": "Manufacturer specifications and supplier catalogues; availability is not a quote",
+  "records": [
+    {
+      "id": "pot",
+      "role": "99 continuous controls",
+      "part": "Bourns PTV09A-4020F-B103 / C5848782",
+      "state": "Existing mechanical reference",
+      "recommendation": "Keep this body/shaft family",
+      "reason": "Capless nominal 6 mm F-shaft; body does not shrink with the actuator. The B103 orderable is 10 kΩ linear.",
+      "sources": [
+        {
+          "url": "https://www.bourns.com/docs/product-datasheets/PTV09.pdf",
+          "kind": "manufacturer datasheet"
+        },
+        {
+          "url": "https://www.lcsc.com/product-detail/C5848782.html",
+          "kind": "supplier identity"
+        },
+        {
+          "url": "https://jlcpcb.com/partdetail/BOURNS-PTV09A_4020FB103/C5848782",
+          "kind": "assembly catalogue; current fetch unavailable"
+        }
+      ],
+      "quantity": 99,
+      "limitations": [
+        "Assign value/taper per circuit. 99 controls does not prove 99 × B103 is the final electrical BOM.",
+        "12 × 12 mm body boxes are planning reservations, not qualified footprints.",
+        "Bourns shaft is not a separate 6 mm knob-cap SKU."
+      ],
+      "checked": "2026-09-27",
+      "stock": "Public page snapshot only; no inventory allocation, price quotation or assembly acceptance",
+      "changes_preview_geometry": false
+    },
+    {
+      "id": "toggle-two",
+      "role": "OSC RANGE / AR SHAPE / AR STAGE",
+      "part": "Dailywell 2MS1T1B1M2QES-5 / C908280",
+      "state": "User-selected",
+      "recommendation": "Keep",
+      "reason": "Two maintained positions, SPDT ON–ON; T1 actuator family.",
+      "sources": [
+        {
+          "url": "https://jlcpcb.com/partdetail/C908280",
+          "kind": "assembly catalogue"
+        },
+        {
+          "url": "https://www.lcsc.com/product-detail/C908280.html",
+          "kind": "supplier identity"
+        }
+      ],
+      "quantity": 17,
+      "limitations": [
+        "Final pad map, nut, washer, lever sweep and panel stack must still be checked."
+      ],
+      "checked": "2026-09-27",
+      "stock": "Public page snapshot only; no inventory allocation, price quotation or assembly acceptance",
+      "changes_preview_geometry": false
+    },
+    {
+      "id": "toggle-three",
+      "role": "OSC SYNC / AR MODE",
+      "part": "Dailywell 2MS3T1B1M2QES / Thonk DW2",
+      "state": "Selected design intent; externally procured",
+      "recommendation": "Keep matching T1 counterpart",
+      "reason": "SPDT ON–OFF–ON; the centre-open contact is deliberately decoded for the required middle function.",
+      "sources": [
+        {
+          "url": "https://www.thonk.co.uk/shop/sub-mini-toggle-switches/",
+          "kind": "supplier orderable"
+        },
+        {
+          "url": "https://www.thonk.co.uk/wp-content/uploads/2017/05/DW2-SPDT-ON-OFF-ON-2MS3T1B1M2QES.pdf",
+          "kind": "manufacturer drawing hosted by supplier"
+        }
+      ],
+      "quantity": 11,
+      "limitations": [
+        "No verified matching JLC number assigned. Arrange authorized sourcing or consignment."
+      ],
+      "checked": "2026-09-27",
+      "stock": "Public page snapshot only; no inventory allocation, price quotation or assembly acceptance",
+      "changes_preview_geometry": false
+    },
+    {
+      "id": "jack",
+      "role": "180 signal jacks",
+      "part": "QingPu WQP518MA / Thonkiconn",
+      "state": "Existing candidate",
+      "recommendation": "Use one qualified batch for the whole panel",
+      "reason": "Front-entry threaded 3.5 mm jack is consistent with the existing panel concept. JLC has a QingPu global-sourcing record.",
+      "sources": [
+        {
+          "url": "https://www.thonk.co.uk/shop/thonkiconn/",
+          "kind": "supplier"
+        },
+        {
+          "url": "https://jlcpcb.com/partdetail/8460744-WQPWQP518MA/C9900052034",
+          "kind": "global sourcing record"
+        }
+      ],
+      "quantity": 180,
+      "limitations": [
+        "JLC record is not evidence of normal local-stock availability; retained snapshot offered consignment.",
+        "Test black/red EARS dress nuts against the actual jack batch. Nut OD, height and thread engagement are not qualified.",
+        "Do not use the switch contact to add hidden normals."
+      ],
+      "checked": "2026-09-27",
+      "stock": "Public page snapshot only; no inventory allocation, price quotation or assembly acceptance",
+      "changes_preview_geometry": false
+    },
+    {
+      "id": "oct-srbm",
+      "role": "Five OCT selectors",
+      "part": "ALPS SRBM160700 / C278332",
+      "state": "New candidate",
+      "recommendation": "First compact-layout sample to qualify",
+      "reason": "Six positions, non-shorting, 30° changeover; manufacturer W×D×H is 10.0 × 12.5 × 11.5 mm. 15 mm long, 18-tooth serrated actuator.",
+      "sources": [
+        {
+          "url": "https://tech.alpsalpine.com/e/products/detail/SRBM160700/",
+          "kind": "manufacturer specifications"
+        },
+        {
+          "url": "https://jlcpcb.com/partdetail/ALPSALPINE-SRBM160700/C278332",
+          "kind": "assembly catalogue"
+        }
+      ],
+      "quantity": 5,
+      "limitations": [
+        "Horizontal operating type: for a front-facing axis on a flat panel it needs a perpendicular PCB/daughterboard and mechanical support. Not a drop-in for the current parallel UI PCB assumption.",
+        "Formal drawing, pin network/common connections, shaft diameter, knob cap and daughterboard retention remain open. The manufacturer page notes external wiring of common terminals.",
+        "This is a candidate, not an approved 14 mm lane fit. The preview OCT remains a placeholder.",
+        "Manufacturer minimum contact rating 50 μA at 3 V must be considered for any resistor ladder or sensing scheme."
+      ],
+      "checked": "2026-09-27",
+      "stock": "Public page snapshot only; no inventory allocation, price quotation or assembly acceptance",
+      "changes_preview_geometry": false
+    },
+    {
+      "id": "oct-srbv",
+      "role": "Five OCT selectors, simpler PCB orientation",
+      "part": "ALPS SRBV160803 / C470374",
+      "state": "Alternative; current pitch conflict",
+      "recommendation": "Only if local OCT spacing can widen",
+      "reason": "Exact orderable has six positions despite the eight-position series title. Vertical operation; 16.2 × 18.5 × 7.5 mm body; 15 mm flat actuator.",
+      "sources": [
+        {
+          "url": "https://tech.alpsalpine.com/e/products/detail/SRBV160803/",
+          "kind": "manufacturer specifications"
+        },
+        {
+          "url": "https://jlcpcb.com/partdetail/ALPSALPINE-SRBV160803/C470374",
+          "kind": "assembly catalogue"
+        }
+      ],
+      "quantity": 5,
+      "limitations": [
+        "16.2 mm body width cannot be assumed to fit adjacent 14 mm centres in one coplanar row.",
+        "Do not shrink the model to make it fit. No widening was applied in R15."
+      ],
+      "checked": "2026-09-27",
+      "stock": "Public page snapshot only; no inventory allocation, price quotation or assembly acceptance",
+      "changes_preview_geometry": false
+    },
+    {
+      "id": "oct-grayhill",
+      "role": "OCT alternative, premium procurement",
+      "part": "Grayhill 56P36-01-1-06N",
+      "state": "External-sourcing alternative",
+      "recommendation": "Fallback; not the low-cost first choice",
+      "reason": "Exact supplier record identifies six positions, non-shorting contacts and PC-pin termination; 3.17 mm flatted shaft, not a 6 mm Bourns shaft.",
+      "sources": [
+        {
+          "url": "https://grayhill.com/products/rotational-controls/rotary-switches/56/",
+          "kind": "manufacturer family"
+        },
+        {
+          "url": "https://www.digikey.com/en/products/detail/grayhill-inc/56P36-01-1-06N/4115368",
+          "kind": "exact supplier orderable"
+        }
+      ],
+      "quantity": 5,
+      "limitations": [
+        "Distributor snapshot was available-to-order rather than stocked, with a 25-piece minimum; do not assume five-piece prototype availability.",
+        "Exact package drawing and compatible cap must be qualified before considering 14 mm pitch.",
+        "No exact model downloaded or applied."
+      ],
+      "checked": "2026-09-27",
+      "stock": "Public page snapshot only; no inventory allocation, price quotation or assembly acceptance",
+      "changes_preview_geometry": false
+    },
+    {
+      "id": "led-white",
+      "role": "Magnitude indicators and optional stage indicators",
+      "part": "KENTO KT-0603W / C2290",
+      "state": "New sample recommendation",
+      "recommendation": "Low-cost 0603 white reference",
+      "reason": "JLC catalogue identifies a white top-emitting 0603 LED and SMT assembly. Use current-limited, low-current visual trials.",
+      "sources": [
+        {
+          "url": "https://jlcpcb.com/partdetail/C2290",
+          "kind": "assembly catalogue with datasheet link"
+        }
+      ],
+      "quantity": 94,
+      "limitations": [
+        "82 magnitude sites + 12 stage sites = 94 if all use this emitter; stage amber option is not yet a selected MPN.",
+        "White is not automatically warm white. Ignore unverified catalogue CCT anomalies; check exact bin and samples.",
+        "LED aperture, diffuser/lightpipe and PCB-to-panel optical path are separate dimensions. A 0603 on a recessed PCB is not automatically visible.",
+        "Do not attach directly to an audio or timing node; buffered detector/driver required."
+      ],
+      "checked": "2026-09-27",
+      "stock": "Public page snapshot only; no inventory allocation, price quotation or assembly acceptance",
+      "changes_preview_geometry": false
+    },
+    {
+      "id": "led-clip",
+      "role": "Ten clipping indicators",
+      "part": "KENTO KT-0603R / C2286",
+      "state": "New sample recommendation",
+      "recommendation": "Use red for CLIP",
+      "reason": "Same 0603 footprint class as the white candidate; separate detector rather than changing the output nut colour.",
+      "sources": [
+        {
+          "url": "https://jlcpcb.com/partdetail/C2286",
+          "kind": "assembly catalogue with datasheet link"
+        }
+      ],
+      "quantity": 10,
+      "limitations": [
+        "Four mixer sums and six AO outputs. Monitor mixer pre-VCA clipping as well as output clipping.",
+        "Rated/test current is not the recommended panel drive current. Brightness balance and current limit need measurement."
+      ],
+      "checked": "2026-09-27",
+      "stock": "Public page snapshot only; no inventory allocation, price quotation or assembly acceptance",
+      "changes_preview_geometry": false
+    },
+    {
+      "id": "trigger-omron",
+      "role": "Six trigger buttons",
+      "part": "Omron B3F-1020 / C722171",
+      "state": "New candidate",
+      "recommendation": "Compare this with the XUNPU on a UI coupon",
+      "reason": "JLC lists a 6 × 6 mm through-hole tactile SPST. Better to qualify a real button/stack now than retain the decorative circle.",
+      "sources": [
+        {
+          "url": "https://jlcpcb.com/partdetail/C722171",
+          "kind": "assembly catalogue"
+        }
+      ],
+      "quantity": 6,
+      "limitations": [
+        "Actuator height, finger cap or plunger and panel opening are unresolved. The existing Ø5 mm drawing is not this part’s full geometry.",
+        "No unverified B32 cap pairing is assumed."
+      ],
+      "checked": "2026-09-27",
+      "stock": "Public page snapshot only; no inventory allocation, price quotation or assembly acceptance",
+      "changes_preview_geometry": false
+    },
+    {
+      "id": "trigger-xunpu",
+      "role": "Six trigger buttons, low-cost alternative",
+      "part": "XUNPU TS-1088-AR02016 / C720477",
+      "state": "Alternative",
+      "recommendation": "Use only with a near-panel UI PCB and qualified plunger",
+      "reason": "JLC identifies 3.9 × 3 mm plan, 2 mm height, SMT tactile switch.",
+      "sources": [
+        {
+          "url": "https://jlcpcb.com/partdetail/TS-1088-AR02016/C720477",
+          "kind": "assembly catalogue"
+        }
+      ],
+      "quantity": 6,
+      "limitations": [
+        "2 mm total switch height will be buried if placed on the same low board as tall pots.",
+        "Factory fitting of a plunger or a separate UI board is part of the assembly plan."
+      ],
+      "checked": "2026-09-27",
+      "stock": "Public page snapshot only; no inventory allocation, price quotation or assembly acceptance",
+      "changes_preview_geometry": false
+    },
+    {
+      "id": "opamp",
+      "role": "Audio SUM, shaping and general buffers",
+      "part": "ST TL074CDT / C6963",
+      "state": "Electronic candidate",
+      "recommendation": "General-purpose low-cost analogue workhorse",
+      "reason": "Quad FET-input amplifier, SOIC-14. Use conditioned signal amplitudes on the designed bipolar rails.",
+      "sources": [
+        {
+          "url": "https://jlcpcb.com/partdetail/STMicroelectronics-TL074CDT/C6963",
+          "kind": "assembly catalogue"
+        },
+        {
+          "url": "https://www.st.com/resource/en/datasheet/tl074.pdf",
+          "kind": "manufacturer datasheet link; retrieval not completed this pass"
+        }
+      ],
+      "quantity": null,
+      "limitations": [
+        "Not a precision pitch-mult approval. Budget input offset and output series-resistor/load errors for 1 V/oct fan-out; qualify a precision alternative where needed.",
+        "Channel count, supply current and final quantity require a circuit graph."
+      ],
+      "checked": "2026-09-27",
+      "stock": "Public page snapshot only; no inventory allocation, price quotation or assembly acceptance",
+      "changes_preview_geometry": false
+    },
+    {
+      "id": "ota",
+      "role": "MIX4 VCAs and VCF/VCA blocks",
+      "part": "TI LM13700M/NOPB / C1346265",
+      "state": "Electronic candidate",
+      "recommendation": "Use OTA-based stages for the first circuit prototype",
+      "reason": "Two independent transconductance cells, linearizing diodes and buffers. VCA/filter behavior requires surrounding circuits and appropriate input scaling.",
+      "sources": [
+        {
+          "url": "https://www.ti.com/product/LM13700",
+          "kind": "manufacturer"
+        },
+        {
+          "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM13700MNOPB/C1346265",
+          "kind": "assembly catalogue"
+        }
+      ],
+      "quantity": null,
+      "limitations": [
+        "An LM13700 is not two complete plug-and-play synth VCAs.",
+        "DC feedthrough, distortion, resonance stability and per-output buffering remain design tasks."
+      ],
+      "checked": "2026-09-27",
+      "stock": "Public page snapshot only; no inventory allocation, price quotation or assembly acceptance",
+      "changes_preview_geometry": false
+    },
+    {
+      "id": "vco",
+      "role": "Five independent oscillator cores",
+      "part": "ALFA AS3340D (SOIC-16)",
+      "state": "External component candidate",
+      "recommendation": "Prototype one complete oscillator before replicating five",
+      "reason": "Manufacturer-authored AS3340/3345 document identifies exponential and linear control, sync inputs and triangle/saw/pulse capabilities. Sine requires another shaping stage.",
+      "sources": [
+        {
+          "url": "https://www.alldatasheet.com/html-pdf/1159052/ALFA/AS3340D/111/1/AS3340D.html",
+          "kind": "manufacturer-authored datasheet mirror"
+        },
+        {
+          "url": "https://www.banzaimusic.com/as3340d.html",
+          "kind": "external supplier lead"
+        }
+      ],
+      "quantity": 5,
+      "limitations": [
+        "Manufacturer website retrieval failed this pass; exact current datasheet and lot identity need review. No verified JLC code assigned.",
+        "Do not connect the negative supply pin directly to −12 V. Use the exact revision’s specified limiting/regulation arrangement.",
+        "No through-zero FM promise. Wide LFO range, 1 V/oct tracking, calibration and sine distortion need measured prototype tests."
+      ],
+      "checked": "2026-09-27",
+      "stock": "Public page snapshot only; no inventory allocation, price quotation or assembly acceptance",
+      "changes_preview_geometry": false
+    },
+    {
+      "id": "noise-druid",
+      "role": "White/Pink basis for the four-colour noise block",
+      "part": "Electric Druid NOISE2",
+      "state": "External preprogrammed option",
+      "recommendation": "Recommended first prototype when pseudo-random noise is acceptable",
+      "reason": "Preprogrammed noise chip supplies separate white and pink outputs. Brown and blue still need band-limited analogue shaping and individual output buffers.",
+      "sources": [
+        {
+          "url": "https://electricdruid.net/product/noise2-white-pink-generator/",
+          "kind": "creator shop"
+        },
+        {
+          "url": "https://electricdruid.net/noise2-white-pink-noise-source/",
+          "kind": "creator technical article"
+        }
+      ],
+      "quantity": 1,
+      "limitations": [
+        "This is digital pseudo-random generation internally, not an all-analogue noise source.",
+        "No direct JLC stock record confirmed; supply the programmed chip through approved external sourcing/consignment. A blank PIC is not equivalent.",
+        "Avoid assuming all four outputs are statistically independent.",
+        "Pink output requires buffering; final levels are not automatically Eurorack signal levels."
+      ],
+      "checked": "2026-09-27",
+      "stock": "Public page snapshot only; no inventory allocation, price quotation or assembly acceptance",
+      "changes_preview_geometry": false
+    },
+    {
+      "id": "noise-analogue",
+      "role": "White/Pink/Blue/Brown alternative",
+      "part": "Analogue junction-noise source + filter network",
+      "state": "Topology candidate; exact source MPN open",
+      "recommendation": "Choose this only if an all-analogue noise source is a requirement",
+      "reason": "One qualified broadband source feeds four finite-band shaping/buffer paths. Uses common analogue supporting components but needs source/noise and offset qualification.",
+      "sources": [
+        {
+          "url": "https://electricdruid.net/noise2-white-pink-noise-source/",
+          "kind": "comparison: creator discusses analogue pink-filter alternative"
+        }
+      ],
+      "quantity": 1,
+      "limitations": [
+        "No transistor is nominated for reverse base-emitter avalanche merely because it is common; breakdown/noise lifetime and batch behavior need qualification.",
+        "This is not yet an orderable complete design, and is not claimed cheaper overall than NOISE2."
+      ],
+      "checked": "2026-09-27",
+      "stock": "Public page snapshot only; no inventory allocation, price quotation or assembly acceptance",
+      "changes_preview_geometry": false
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+---
+title: "TLV75533PDBVR"
+description: "Optional local low-voltage domain — Texas Instruments"
+sidebar_position: 1
+---
+
+**Optional local low-voltage domain**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | Texas Instruments |
+| Part / family | TLV75533PDBVR |
+| Identity scope | Exact ordering identity |
+| Evidence state | AVAILABLE |
+| LCSC code | Not established for this identity |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+TLV75533PDBVR was retained as an optional local 3.3 V regulator, not an automatic requirement for the analog instrument. Keeping deferred parts is useful when a later interface or logic block needs them.
+
+## Design cautions
+
+Confirm input limits, dropout at load, output-capacitor requirements, enable state, thermal dissipation and reverse-power paths. An optional rail does not justify connecting its loads in the current circuit.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-regulator-3v3-orderable-identity` | `{"manufacturer": "Texas Instruments", "mpn": "TLV75533PDBVR", "package": "SOT-23-5"}` NONE; Exact complete orderable identifier in the selected package; does not establish supplier stock. | [Data Sheet](https://www.ti.com/lit/ds/symlink/tlv755p.pdf); PASS - primary-source confirmed |
+| `fact-regulator-3v3-pinout` | `pin 1 IN -&gt; pad 1; pin 2 GND -&gt; pad 2; pin 3 EN -&gt; pad 3; pin 4 NC -&gt; pad 4; pin 5 OUT -&gt; pad 5` NONE; No schematic or placement/net binding is claimed. Manufacturer pin functions are source-backed only when a retained primary document names the product family. | [Data Sheet](https://www.ti.com/lit/ds/symlink/tlv755p.pdf); PASS - primary-source confirmed |
+| `fact-regulator-3v3-input-voltage-range` | `{"minimum": 1.45, "maximum": 5.5}` V; TLV755P family; recommended input range. Output variant is 3.3 V per exact TLV75533 orderable code. | [Data Sheet](https://www.ti.com/lit/ds/symlink/tlv755p.pdf); PASS - primary-source confirmed |
+
+## 3D / mechanical assets
+
+**Inherited family/derived package preview.** Many imported models are intentionally coarse body envelopes, not complete manufacturer solids. Check the original receipt, drawing and mounting stack; the rendered shape does not qualify fit.
+
+<PackageModelViewer descriptor="7b2276657273696f6e223a312c227061636b6167654964223a22534f542d32332d35222c227061636b6167654c6162656c223a22534f542d32332d35222c226d6f64656c55726c223a222f6173736574732f636f6d706f6e656e742d70726576696577732f6d6f64656c732f49435f534f542d32332d352e77726c222c226f6666736574223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c22726f746174696f6e223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c227363616c65223a7b2278223a312e302c2279223a312e302c227a223a312e307d7d" />
+
+Local model: `footprints/kicad/zudo-osc-hole-field.3dshapes/IC_SOT-23-5.wrl`. Native rendering is supplied by `zudo-circuit-doc`.
+
+[Open the native generated evidence record](/docs/components/records/regulator-3v3/). It preserves original claim wording, locators and verdicts.
+
+## Datasheets, drawings and source leads
+
+- [TLV755P 500mA, Low-IQ , Small-Size, Low-Dropout Regulator datasheet (Rev. D)](https://www.ti.com/lit/ds/symlink/tlv755p.pdf) — retained local bytes: `circuit/sources/ic-library/TLV755P.pdf`; SHA-256 `7eb7bc6935bf6c1d247b2fce62c9e5a49a474fd94359ddc390a4baf0ac1f5293`.
+- [OSC-ES-1 parts shortlist](https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json) — source metadata/link only in this edition; no local download implied.
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

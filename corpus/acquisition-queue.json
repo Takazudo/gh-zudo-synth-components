@@ -1,0 +1,1100 @@
+[
+  {
+    "id": "srbv--1",
+    "profile_id": "srbv",
+    "purpose": "source-acquisition",
+    "url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_srbv_d_13_en_67f206af61.gif",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "srbv--2",
+    "profile_id": "srbv",
+    "purpose": "source-acquisition",
+    "url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_srbv_ap_1_en_173ba8d251.gif",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "wqp518ma--3",
+    "profile_id": "wqp518ma",
+    "purpose": "source-acquisition",
+    "url": "https://www.thonk.co.uk/shop/thonkiconn/",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "wqp518ma--4",
+    "profile_id": "wqp518ma",
+    "purpose": "source-acquisition",
+    "url": "https://www.thonk.co.uk/shop/thonkiconn/",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "wqp518ma--5",
+    "profile_id": "wqp518ma",
+    "purpose": "source-acquisition",
+    "url": "https://jlcpcb.com/partdetail/8460744-WQPWQP518MA/C9900052034",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "2ms1--6",
+    "profile_id": "2ms1",
+    "purpose": "source-acquisition",
+    "url": "https://www.dailywell.com.tw/Templates/att/2M%20Series.pdf?lng=en",
+    "expected_kind": "pdf",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "2ms1--7",
+    "profile_id": "2ms1",
+    "purpose": "source-acquisition",
+    "url": "https://www.lcsc.com/pt/product-detail/Toggle-Switches_Dailywell-2MS1T1B1M2QES-5_C908280.html",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "2ms3--8",
+    "profile_id": "2ms3",
+    "purpose": "source-acquisition",
+    "url": "https://www.dailywell.com.tw/Templates/att/2M%20Series.pdf?lng=en",
+    "expected_kind": "pdf",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "b3f-1020--9",
+    "profile_id": "b3f-1020",
+    "purpose": "source-acquisition",
+    "url": "https://www.lcsc.com/product-detail/tactile-switches_omron-electronics-b3f-1020_C722171.html",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "b3f-1020--10",
+    "profile_id": "b3f-1020",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/786d5dfd14dffb0ca58f1b1014a26046b7422359/design/mechanical/facts/button.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "dealon-header--11",
+    "profile_id": "dealon-header",
+    "purpose": "source-acquisition",
+    "url": "https://www.lcsc.com/es/product-detail/IDC-Connectors_DEALON-DW254P-2X8-L0_C4749189.html",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "op-audio--12",
+    "profile_id": "op-audio",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "op-audio--13",
+    "profile_id": "op-audio",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/rail-budget-preliminary.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "op-precision--14",
+    "profile_id": "op-precision",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "op-precision--15",
+    "profile_id": "op-precision",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/sourcing-risks.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "op-precision--16",
+    "profile_id": "op-precision",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/reports/spice/precision-output-sweep.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "op-precision--17",
+    "profile_id": "op-precision",
+    "purpose": "source-acquisition",
+    "url": "https://www.ti.com/lit/zip/sboma34",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "fault-switch--18",
+    "profile_id": "fault-switch",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "comparator--19",
+    "profile_id": "comparator",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "schmitt--20",
+    "profile_id": "schmitt",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "flipflop--21",
+    "profile_id": "flipflop",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "nand--22",
+    "profile_id": "nand",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "one-shot--23",
+    "profile_id": "one-shot",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "ota--24",
+    "profile_id": "ota",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "sample-hold--25",
+    "profile_id": "sample-hold",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "vco--26",
+    "profile_id": "vco",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "noise--27",
+    "profile_id": "noise",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "reference--28",
+    "profile_id": "reference",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "regulator-3v3--29",
+    "profile_id": "regulator-3v3",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "signal-diode--30",
+    "profile_id": "signal-diode",
+    "purpose": "source-acquisition",
+    "url": "https://www.nexperia.com/chemical-content/BAS16GW-Q.html?identifier=BAS16GW-Q",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "signal-diode--31",
+    "profile_id": "signal-diode",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "clamp-diode--32",
+    "profile_id": "clamp-diode",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "npn--33",
+    "profile_id": "npn",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "pnp--34",
+    "profile_id": "pnp",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "mosfet--35",
+    "profile_id": "mosfet",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "matched-npn--36",
+    "profile_id": "matched-npn",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "trim-102--37",
+    "profile_id": "trim-102",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "trim-102--model",
+    "profile_id": "trim-102",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "trim-103--39",
+    "profile_id": "trim-103",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "trim-103--model",
+    "profile_id": "trim-103",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "r-general--41",
+    "profile_id": "r-general",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "r-precision--42",
+    "profile_id": "r-precision",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "r-precision--model",
+    "profile_id": "r-precision",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "r-ladder--44",
+    "profile_id": "r-ladder",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "r-ladder--model",
+    "profile_id": "r-ladder",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "r-power--46",
+    "profile_id": "r-power",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "r-power--model",
+    "profile_id": "r-power",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "c-bypass--48",
+    "profile_id": "c-bypass",
+    "purpose": "source-acquisition",
+    "url": "https://www.murata.com/",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "c-bypass--49",
+    "profile_id": "c-bypass",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "c-bypass--model",
+    "profile_id": "c-bypass",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "c-bulk--51",
+    "profile_id": "c-bulk",
+    "purpose": "source-acquisition",
+    "url": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E475KA12-01A.pdf",
+    "expected_kind": "pdf",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "c-bulk--52",
+    "profile_id": "c-bulk",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "c-bulk--53",
+    "profile_id": "c-bulk",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/sourcing-risks.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "c-bulk--model",
+    "profile_id": "c-bulk",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "c-small--55",
+    "profile_id": "c-small",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "c-small--model",
+    "profile_id": "c-small",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "c-hold--57",
+    "profile_id": "c-hold",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "c-hold--model",
+    "profile_id": "c-hold",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "c-slew--59",
+    "profile_id": "c-slew",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "c-slew--60",
+    "profile_id": "c-slew",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/sourcing-risks.json",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "c-slew--model",
+    "profile_id": "c-slew",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "gh3-housing--model",
+    "profile_id": "gh3-housing",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "gh7-housing--model",
+    "profile_id": "gh7-housing",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "gh8-housing--model",
+    "profile_id": "gh8-housing",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "gh-contact--model",
+    "profile_id": "gh-contact",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "bourns-ptl20--66",
+    "profile_id": "bourns-ptl20",
+    "purpose": "source-acquisition",
+    "url": "https://www.bourns.com/docs/product-datasheets/PTL.pdf",
+    "expected_kind": "pdf",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "bourns-ptl20--model",
+    "profile_id": "bourns-ptl20",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "alpha-9mm-vertical--68",
+    "profile_id": "alpha-9mm-vertical",
+    "purpose": "source-acquisition",
+    "url": "https://www.thonk.co.uk/product-category/parts/potentiometers/",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "alpha-9mm-vertical--model",
+    "profile_id": "alpha-9mm-vertical",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "alpha-20mm-led--70",
+    "profile_id": "alpha-20mm-led",
+    "purpose": "source-acquisition",
+    "url": "https://www.thonk.co.uk/product-category/parts/potentiometers/",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "alpha-20mm-led--model",
+    "profile_id": "alpha-20mm-led",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "weston-se1-slider--72",
+    "profile_id": "weston-se1-slider",
+    "purpose": "source-acquisition",
+    "url": "https://www.westonaudio.com/diy.html",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "weston-se1-slider--model",
+    "profile_id": "weston-se1-slider",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "alps-srbm160700--74",
+    "profile_id": "alps-srbm160700",
+    "purpose": "source-acquisition",
+    "url": "https://tech.alpsalpine.com/e/products/detail/SRBM160700/",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "alps-srbm160700--model",
+    "profile_id": "alps-srbm160700",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "grayhill-56p36--76",
+    "profile_id": "grayhill-56p36",
+    "purpose": "source-acquisition",
+    "url": "https://grayhill.com/",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "grayhill-56p36--model",
+    "profile_id": "grayhill-56p36",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "dailywell-2ms3t2--78",
+    "profile_id": "dailywell-2ms3t2",
+    "purpose": "source-acquisition",
+    "url": "https://www.dailywell.com.tw/en/category/2M-Series.html",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "dailywell-2ms3t2--model",
+    "profile_id": "dailywell-2ms3t2",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "dailywell-2md3--80",
+    "profile_id": "dailywell-2md3",
+    "purpose": "source-acquisition",
+    "url": "https://www.dailywell.com.tw/en/category/2M-Series.html",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "dailywell-2md3--model",
+    "profile_id": "dailywell-2md3",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "g-switch-ss12--82",
+    "profile_id": "g-switch-ss12",
+    "purpose": "source-acquisition",
+    "url": "https://jlcpcb.com/partdetail/C5446803",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "g-switch-ss12--model",
+    "profile_id": "g-switch-ss12",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "kento-kt0603w--84",
+    "profile_id": "kento-kt0603w",
+    "purpose": "source-acquisition",
+    "url": "https://jlcpcb.com/partdetail/C2290",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "kento-kt0603w--model",
+    "profile_id": "kento-kt0603w",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "kento-kt0603r--86",
+    "profile_id": "kento-kt0603r",
+    "purpose": "source-acquisition",
+    "url": "https://jlcpcb.com/partdetail/C2286",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "kento-kt0603r--model",
+    "profile_id": "kento-kt0603r",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "kingbright-apg1005vwf--model",
+    "profile_id": "kingbright-apg1005vwf",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "xunpu-ts1088--model",
+    "profile_id": "xunpu-ts1088",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "pj398sm-family--90",
+    "profile_id": "pj398sm-family",
+    "purpose": "source-acquisition",
+    "url": "https://github.com/clacktronics/AudioJacks/tree/14a88866e93b8ce4a31ad376b0c6eb85cd4d2cf3",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "pj313-5jcj--model",
+    "profile_id": "pj313-5jcj",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "ears-dress-nuts--92",
+    "profile_id": "ears-dress-nuts",
+    "purpose": "source-acquisition",
+    "url": "https://ears-modular.com/collections/%E3%83%8A%E3%83%83%E3%83%88",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "ears-dress-nuts--model",
+    "profile_id": "ears-dress-nuts",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "aluminum-15mm-cap--94",
+    "profile_id": "aluminum-15mm-cap",
+    "purpose": "source-acquisition",
+    "url": "https://www.alibaba.com/product-detail/15mm-Diameter-Black-Full-Aluminum-6_1601503932880.html",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "aluminum-15mm-cap--model",
+    "profile_id": "aluminum-15mm-cap",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "xfcn-pz254--96",
+    "profile_id": "xfcn-pz254",
+    "purpose": "source-acquisition",
+    "url": "https://jlcpcb.com/partdetail/PZ254V-11-10P/C492409",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "xfcn-pz254--model",
+    "profile_id": "xfcn-pz254",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "xfcn-pm254--98",
+    "profile_id": "xfcn-pm254",
+    "purpose": "source-acquisition",
+    "url": "https://jlcpcb.com/partdetail/XFCN-PM254V_11_10H85/C46595975",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "xfcn-pm254--model",
+    "profile_id": "xfcn-pm254",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "samtec-tsw--100",
+    "profile_id": "samtec-tsw",
+    "purpose": "source-acquisition",
+    "url": "https://www.samtec.com/products/tsw",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "samtec-tsw--model",
+    "profile_id": "samtec-tsw",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "samtec-ssw--102",
+    "profile_id": "samtec-ssw",
+    "purpose": "source-acquisition",
+    "url": "https://www.samtec.com/products/ssw",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "samtec-ssw--model",
+    "profile_id": "samtec-ssw",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "alpha-wire-6821--model",
+    "profile_id": "alpha-wire-6821",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "alpha-wire-5859--model",
+    "profile_id": "alpha-wire-5859",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "molex-header--106",
+    "profile_id": "molex-header",
+    "purpose": "source-acquisition",
+    "url": "https://www.molex.com/en-us/products/part-detail/430450800",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "molex-header--model",
+    "profile_id": "molex-header",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "molex-housing--108",
+    "profile_id": "molex-housing",
+    "purpose": "source-acquisition",
+    "url": "https://www.molex.com/en-us/products/part-detail/430250800",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "molex-housing--model",
+    "profile_id": "molex-housing",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "molex-contact--110",
+    "profile_id": "molex-contact",
+    "purpose": "source-acquisition",
+    "url": "https://www.molex.com/en-us/products/part-detail/430300007",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "molex-contact--model",
+    "profile_id": "molex-contact",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "ti-lm74502--model",
+    "profile_id": "ti-lm74502",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "nexperia-psmn--model",
+    "profile_id": "nexperia-psmn",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "msmd11033v--model",
+    "profile_id": "msmd11033v",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "brightking-smaj65--model",
+    "profile_id": "brightking-smaj65",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "highdiode-smaj15--model",
+    "profile_id": "highdiode-smaj15",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "yageo-1k2--model",
+    "profile_id": "yageo-1k2",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "yageo-2k2--model",
+    "profile_id": "yageo-2k2",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "ti-lm393dr--119",
+    "profile_id": "ti-lm393dr",
+    "purpose": "source-acquisition",
+    "url": "https://www.ti.com/product/LM393",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "ti-lm393dr--model",
+    "profile_id": "ti-lm393dr",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  },
+  {
+    "id": "ti-tl074-family--121",
+    "profile_id": "ti-tl074-family",
+    "purpose": "source-acquisition",
+    "url": "https://www.ti.com/product/TL074",
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No locally retained document bytes mapped to this source lead; do not equate URL with successful download."
+  },
+  {
+    "id": "ti-tl074-family--model",
+    "profile_id": "ti-tl074-family",
+    "purpose": "exact-model-acquisition",
+    "url": null,
+    "expected_kind": "manual-review",
+    "state": "PENDING",
+    "reason": "No selected exact/family model with explicit fidelity. Obtain correct variant or leave visibly missing."
+  }
+]

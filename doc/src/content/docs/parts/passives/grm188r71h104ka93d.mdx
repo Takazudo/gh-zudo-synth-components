@@ -1,0 +1,55 @@
+---
+title: "GRM188R71H104KA93D"
+description: "Local supply bypassing — Murata"
+sidebar_position: 1
+---
+
+**Local supply bypassing**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | Murata |
+| Part / family | GRM188R71H104KA93D |
+| Identity scope | Exact-identity mapping unresolved |
+| Evidence state | SOURCE UNAVAILABLE |
+| LCSC code | Not established for this identity |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+GRM188R71H104KA93D is the exact Murata bypass candidate recorded in the source, where primary-document acquisition remained incomplete. It must not be silently generalized to any 100 nF MLCC.
+
+## Design cautions
+
+Confirm exact capacitance/dielectric, package, voltage and bias/temperature behavior from the manufacturer. Place the current loop near the relevant supply pin and return; a nearby centre coordinate does not establish a short routed loop.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-c-bypass-orderable-identity` | `{"manufacturer": "Murata", "mpn": "GRM188R71H104KA93D", "package": "0603"}` NONE; Exact complete orderable identifier in the selected package; does not establish supplier stock. | [Not retained](https://www.murata.com/); UNSOURCED |
+| `fact-c-bypass-pinout` | `Functional pinout is UNSOURCED; numbers below only retain draft symbol-to-footprint pad positions and do not assign pin functions.` NONE; No schematic or placement/net binding is claimed. Manufacturer pin functions are source-backed only when a retained primary document names the product family. | [Not retained](https://www.murata.com/); UNSOURCED |
+| `fact-c-bypass-electrical-limits` | `No exact-part electrical limits promoted from retained evidence.` NONE; The task has not promoted a source-backed limit for this exact shortlist record. | [Not retained](https://www.murata.com/); UNSOURCED |
+
+## 3D / mechanical assets
+
+**No usable part-specific model published in this edition.** A document or a footprint may exist without a qualified 3D model. No unrelated shape is substituted.
+
+The complete inherited owner bundle is retained locally at `.claude/skills/component-passives-family/`. It is not in the native preview selection because complete publishable model coverage is absent for some records in this group.
+
+## Datasheets, drawings and source leads
+
+- [Manufacturer datasheet for GRM188R71H104KA93D (unavailable)](https://www.murata.com/) — source metadata/link only in this edition; no local download implied.
+- [OSC-ES-1 parts shortlist](https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json) — source metadata/link only in this edition; no local download implied.
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

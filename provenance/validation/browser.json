@@ -1,0 +1,309 @@
+{
+  "checks": [
+    {
+      "name": "86 embedded profiles",
+      "passed": true
+    },
+    {
+      "name": "25 shared/derived mesh assets",
+      "passed": true
+    },
+    {
+      "name": "all 86 entries selectable",
+      "passed": true
+    },
+    {
+      "name": "fallback reports actual backend",
+      "passed": true
+    },
+    {
+      "name": "full STEP renders",
+      "passed": true
+    },
+    {
+      "name": "camera changes geometry projection",
+      "passed": true
+    },
+    {
+      "name": "wireframe toggles",
+      "passed": true
+    },
+    {
+      "name": "sources tab exposes links",
+      "passed": true
+    },
+    {
+      "name": "retained source filepaths shown",
+      "passed": true
+    },
+    {
+      "name": "LF398 search finds identity",
+      "passed": true
+    },
+    {
+      "name": "empty search message",
+      "passed": true
+    },
+    {
+      "name": "model filter has 38 profiles",
+      "passed": true
+    },
+    {
+      "name": "category filter count",
+      "passed": true
+    },
+    {
+      "name": "missing model explicitly visible",
+      "passed": true
+    },
+    {
+      "name": "missing model does not show previous object",
+      "passed": true
+    },
+    {
+      "name": "model renders: PTV09A-4020F.wrl",
+      "passed": true,
+      "detail": {
+        "profile": "b103",
+        "svg_paths": 11,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: SRBV160803.wrl",
+      "passed": true,
+      "detail": {
+        "profile": "srbv",
+        "svg_paths": 46,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: Jack_3.5mm_QingPu_WQP518MA.wrl",
+      "passed": true,
+      "detail": {
+        "profile": "wqp518ma",
+        "svg_paths": 11,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: Toggle_Dailywell_2MS_T1B1M2.wrl",
+      "passed": true,
+      "detail": {
+        "profile": "2ms1",
+        "svg_paths": 10,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: Button_Omron_B3F_6x6_P6.5x4.5.wrl",
+      "passed": true,
+      "detail": {
+        "profile": "b3f-1020",
+        "svg_paths": 11,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: LED0402-Kingbright-White.wrl",
+      "passed": true,
+      "detail": {
+        "profile": "kingbright-white",
+        "svg_paths": 10,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: LED0402-Kingbright-Red.wrl",
+      "passed": true,
+      "detail": {
+        "profile": "kingbright-red",
+        "svg_paths": 12,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: IDC-TH_16P-P2.54_321016RG0ABK00A01.wrl",
+      "passed": true,
+      "detail": {
+        "profile": "dealon-header",
+        "svg_paths": 2829,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: IC_SOIC-14_3.9x8.7.wrl",
+      "passed": true,
+      "detail": {
+        "profile": "op-audio",
+        "svg_paths": 12,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: IC_TSSOP-14_4.4x5.0.wrl",
+      "passed": true,
+      "detail": {
+        "profile": "op-precision",
+        "svg_paths": 12,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: IC_TSSOP-16_4.4x5.0.wrl",
+      "passed": true,
+      "detail": {
+        "profile": "fault-switch",
+        "svg_paths": 12,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: IC_SOIC-8_3.9x4.9.wrl",
+      "passed": true,
+      "detail": {
+        "profile": "comparator",
+        "svg_paths": 12,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: IC_SOIC-16_3.9x9.9.wrl",
+      "passed": true,
+      "detail": {
+        "profile": "one-shot",
+        "svg_paths": 11,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: IC_DIP-8_W7.62mm.wrl",
+      "passed": true,
+      "detail": {
+        "profile": "noise",
+        "svg_paths": 12,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: IC_SOT-23-5.wrl",
+      "passed": true,
+      "detail": {
+        "profile": "regulator-3v3",
+        "svg_paths": 10,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: D_SOD-123.wrl",
+      "passed": true,
+      "detail": {
+        "profile": "signal-diode",
+        "svg_paths": 10,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: IC_SOT-23.wrl",
+      "passed": true,
+      "detail": {
+        "profile": "clamp-diode",
+        "svg_paths": 12,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: IC_SOT-363_SC-70-6.wrl",
+      "passed": true,
+      "detail": {
+        "profile": "matched-npn",
+        "svg_paths": 10,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: R0603.wrl",
+      "passed": true,
+      "detail": {
+        "profile": "r-general",
+        "svg_paths": 1029,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: JST_GH3_BM_TopEntry.wrl",
+      "passed": true,
+      "detail": {
+        "profile": "gh3-header",
+        "svg_paths": 10,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: JST_GH7_BM_TopEntry.wrl",
+      "passed": true,
+      "detail": {
+        "profile": "gh7-header",
+        "svg_paths": 11,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: JST_GH8_BM_TopEntry.wrl",
+      "passed": true,
+      "detail": {
+        "profile": "gh8-header",
+        "svg_paths": 11,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: rk09l1140",
+      "passed": true,
+      "detail": {
+        "profile": "alps-rk09l1140a5l",
+        "svg_paths": 24774,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: rs20h111c009",
+      "passed": true,
+      "detail": {
+        "profile": "alps-rs20h111c009",
+        "svg_paths": 7023,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "model renders: pj398sm",
+      "passed": true,
+      "detail": {
+        "profile": "pj398sm-family",
+        "svg_paths": 3893,
+        "backend": "SVG fallback"
+      }
+    },
+    {
+      "name": "mobile no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile model reflows",
+      "passed": true
+    },
+    {
+      "name": "mobile model has rendered surfaces",
+      "passed": true
+    }
+  ],
+  "passed": 43,
+  "failed": 0,
+  "input": "doc/public/assets/corpus-browser.html exact bytes via page.set_content",
+  "transport": "Managed browser blocks local URL navigation; local server/file navigation NOT TESTED.",
+  "graphics": "WebGL context unavailable in this container; actual 3D geometry rendered by included Three.js SVGRenderer fallback.",
+  "unhandled_javascript_errors": [],
+  "external_network_requests": [],
+  "scope": "Supplementary browser controls and 25 unique mesh assets, desktop/mobile. Native framework WebGL rendering NOT RUN."
+}

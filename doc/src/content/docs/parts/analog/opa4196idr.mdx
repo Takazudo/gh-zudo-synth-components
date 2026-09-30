@@ -1,0 +1,62 @@
+---
+title: "OPA4196IDR"
+description: "Low-quiescent-current general CV/audio stages — Texas Instruments"
+sidebar_position: 1
+---
+
+**Low-quiescent-current general CV/audio stages**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | Texas Instruments |
+| Part / family | OPA4196IDR |
+| Identity scope | Exact ordering identity |
+| Evidence state | AVAILABLE |
+| LCSC code | C2057385 |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+OPA4196IDR was selected in the source research for general audio, CV and indicator amplifiers, where multiplying quiescent current by a large number of amplifier sections becomes important.
+
+## Design cautions
+
+Keep per-amplifier and per-package current separate. Add load current, indicator current and temperature maxima to the rail budget. Precision, bandwidth, capacitive-load stability and output swing still need application-level checks; a rail-to-rail label is not an all-load guarantee.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-op-audio-orderable-identity` | `{"manufacturer": "Texas Instruments", "mpn": "OPA4196IDR", "package": "SOIC-14"}` NONE; Exact complete orderable identifier in the selected package; does not establish supplier stock. | [Data Sheet](https://www.ti.com/lit/ds/symlink/opa4196.pdf); PASS - primary-source confirmed |
+| `fact-op-audio-pinout` | `pin 1 OUT A -&gt; pad 1; pin 2 IN- A -&gt; pad 2; pin 3 IN+ A -&gt; pad 3; pin 4 V+ -&gt; pad 4; pin 5 IN+ B -&gt; pad 5; pin 6 IN- B -&gt; pad 6; pin 7 OUT B -&gt; pad 7; pin 8 OUT C -&gt; pad 8; pin 9 IN- C -&gt; pad 9; pin 10 IN+ C -&gt; pad 10; pin 11 V- -&gt; pad 11; pin 12 IN+ D -&gt; pad 12; pin 13 IN- D -&gt; pad 13; pin 14 OUT D -&gt; pad 14` NONE; No schematic or placement/net binding is claimed. Manufacturer pin functions are source-backed only when a retained primary document names the product family. | [Data Sheet](https://www.ti.com/lit/ds/symlink/opa4196.pdf); PASS - primary-source confirmed |
+| `fact-op-audio-quiescent-current` | `{"typical_at_25C": 140, "maximum_at_25C": 200, "maximum_full_temperature": 250}` uA per amplifier; IO = 0 A; TA = 25 C for typ/max at 25 C; TA = -40..125 C for full-temperature maximum. | [Data Sheet](https://www.ti.com/lit/ds/symlink/opa4196.pdf); PASS - primary-source confirmed |
+
+## 3D / mechanical assets
+
+**Inherited family/derived package preview.** Many imported models are intentionally coarse body envelopes, not complete manufacturer solids. Check the original receipt, drawing and mounting stack; the rendered shape does not qualify fit.
+
+<PackageModelViewer descriptor="7b2276657273696f6e223a312c227061636b6167654964223a22534f49432d31345f332e3978382e376d6d5f50312e32376d6d222c227061636b6167654c6162656c223a22534f49432d31345f332e3978382e376d6d5f50312e32376d6d222c226d6f64656c55726c223a222f6173736574732f636f6d706f6e656e742d70726576696577732f6d6f64656c732f49435f534f49432d31345f332e3978382e372e77726c222c226f6666736574223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c22726f746174696f6e223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c227363616c65223a7b2278223a312e302c2279223a312e302c227a223a312e307d7d" />
+
+Local model: `footprints/kicad/zudo-osc-hole-field.3dshapes/IC_SOIC-14_3.9x8.7.wrl`. Native rendering is supplied by `zudo-circuit-doc`.
+
+[Open the native generated evidence record](/docs/components/records/op-audio/). It preserves original claim wording, locators and verdicts.
+
+## Datasheets, drawings and source leads
+
+- [OPAx196 36-V, Low-Power, Low Offset Voltage,	 Rail-to-Rail Operational Amplifier datasheet](https://www.ti.com/lit/ds/symlink/opa4196.pdf) — retained local bytes: `circuit/sources/ic-library/OPA4196.pdf`; SHA-256 `d89dd6009d109bf18b349e77ff46e4df60bf7d4faaefd4c3ebe6ec0e2fc7793d`.
+- [OSC-ES-1 parts shortlist](https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json) — source metadata/link only in this edition; no local download implied.
+- [OSC-ES-1 preliminary rail-current model](https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/rail-budget-preliminary.json) — source metadata/link only in this edition; no local download implied.
+
+[Recorded LCSC identity C-number](https://www.lcsc.com/product-detail/C2057385.html).
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

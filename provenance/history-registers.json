@@ -1,0 +1,362 @@
+[
+  {
+    "archive": "zudo-osc-playground-r06.zip",
+    "member": "zudo-osc-playground-r06/SOURCE-RIGHTS.md",
+    "path": "provenance/history/zudo-osc-playground-r06/SOURCE-RIGHTS.md",
+    "sha256": "baab25f450ab4e621b0727837f22f8332623c634af20bd0de34251c1de62561d"
+  },
+  {
+    "archive": "zudo-osc-playground-r06.zip",
+    "member": "zudo-osc-playground-r06/docs/PARTS-AND-FIT.md",
+    "path": "provenance/history/zudo-osc-playground-r06/docs/PARTS-AND-FIT.md",
+    "sha256": "cd145381da375e0425035b71893e27c362c0389207f89ab061aef7d401d6f6b4"
+  },
+  {
+    "archive": "zudo-osc-playground-r06.zip",
+    "member": "zudo-osc-playground-r06/parts/component-candidates.json",
+    "path": "provenance/history/zudo-osc-playground-r06/parts/component-candidates.json",
+    "sha256": "71f5cb18bc0dece1fc6333a81200c170253834c2fb8413e7e227de57c05265cd"
+  },
+  {
+    "archive": "zudo-osc-playground-r06.zip",
+    "member": "zudo-osc-playground-r06/reference/c7419101-v03-record.json",
+    "path": "provenance/history/zudo-osc-playground-r06/reference/c7419101-v03-record.json",
+    "sha256": "61601b3d133b25a4c16e603071093c9aa388d82c0b13e2b9907f266354c4bac2"
+  },
+  {
+    "archive": "zudo-osc-playground-r06.zip",
+    "member": "zudo-osc-playground-r06/reference/c9900079089-v03-record.json",
+    "path": "provenance/history/zudo-osc-playground-r06/reference/c9900079089-v03-record.json",
+    "sha256": "16ac483df0459ad79406eadd66d96031e24d219cdfca0bcfb97af8055e6264a6"
+  },
+  {
+    "archive": "zudo-osc-playground-r06.zip",
+    "member": "zudo-osc-playground-r06/reference/rs20h111c009-v03-record.json",
+    "path": "provenance/history/zudo-osc-playground-r06/reference/rs20h111c009-v03-record.json",
+    "sha256": "0128d74875566399f3266aceaa13c084cd7450dac565670dd9063e2d2f95b990"
+  },
+  {
+    "archive": "zudo-osc-playground-r07.zip",
+    "member": "zudo-osc-playground-r07/SOURCE-RIGHTS.md",
+    "path": "provenance/history/zudo-osc-playground-r07/SOURCE-RIGHTS.md",
+    "sha256": "779da519b624f54e2d222acbedf6dc22049447c1bfea6a67cd5b4dcc2061c2b3"
+  },
+  {
+    "archive": "zudo-osc-playground-r07.zip",
+    "member": "zudo-osc-playground-r07/parts/component-candidates.json",
+    "path": "provenance/history/zudo-osc-playground-r07/parts/component-candidates.json",
+    "sha256": "206e7f647b6f6b226b0f043bedf7cd1bf18bde894eec629bc9e111ca396b40b6"
+  },
+  {
+    "archive": "zudo-osc-playground-r07.zip",
+    "member": "zudo-osc-playground-r07/reference/r06-component-candidates.json",
+    "path": "provenance/history/zudo-osc-playground-r07/reference/r06-component-candidates.json",
+    "sha256": "71f5cb18bc0dece1fc6333a81200c170253834c2fb8413e7e227de57c05265cd"
+  },
+  {
+    "archive": "zudo-osc-playground-r07.zip",
+    "member": "zudo-osc-playground-r07/reference/r06-source-rights.md",
+    "path": "provenance/history/zudo-osc-playground-r07/reference/r06-source-rights.md",
+    "sha256": "baab25f450ab4e621b0727837f22f8332623c634af20bd0de34251c1de62561d"
+  },
+  {
+    "archive": "zudo-osc-playground-r08-corrected.zip",
+    "member": "zudo-osc-playground-r08-corrected/SOURCE-RIGHTS.md",
+    "path": "provenance/history/zudo-osc-playground-r08-corrected/SOURCE-RIGHTS.md",
+    "sha256": "dcbbef34692ec960aa364d79144f653d84f12f6cf7282a1b1f7e8ce37aa9d707"
+  },
+  {
+    "archive": "zudo-osc-playground-r08-corrected.zip",
+    "member": "zudo-osc-playground-r08-corrected/docs/COMPONENT-DECISIONS.md",
+    "path": "provenance/history/zudo-osc-playground-r08-corrected/docs/COMPONENT-DECISIONS.md",
+    "sha256": "c44aec4f1d556f69e590165c59758d4f5312909aa299b0a1bf8c825746b452a7"
+  },
+  {
+    "archive": "zudo-osc-playground-r08-corrected.zip",
+    "member": "zudo-osc-playground-r08-corrected/parts/component-candidates.json",
+    "path": "provenance/history/zudo-osc-playground-r08-corrected/parts/component-candidates.json",
+    "sha256": "b09087930e10eaeff28eabf23351774f2395a50a8c0868cd1d902029f3433d0d"
+  },
+  {
+    "archive": "zudo-osc-playground-r08-corrected.zip",
+    "member": "zudo-osc-playground-r08-corrected/parts/research-sources.json",
+    "path": "provenance/history/zudo-osc-playground-r08-corrected/parts/research-sources.json",
+    "sha256": "33442bd28b39e18f23a20c1f0d9eef3b320a7235ccb9c11b0d50a164f40b62b1"
+  },
+  {
+    "archive": "zudo-osc-playground-r08-corrected.zip",
+    "member": "zudo-osc-playground-r08-corrected/reference/r07-component-candidates.json",
+    "path": "provenance/history/zudo-osc-playground-r08-corrected/reference/r07-component-candidates.json",
+    "sha256": "206e7f647b6f6b226b0f043bedf7cd1bf18bde894eec629bc9e111ca396b40b6"
+  },
+  {
+    "archive": "zudo-osc-playground-r09.zip",
+    "member": "zudo-osc-playground-r09/SOURCE-RIGHTS.md",
+    "path": "provenance/history/zudo-osc-playground-r09/SOURCE-RIGHTS.md",
+    "sha256": "9750c61d2116a402f2f3f5bd15c80cf5326a53bd1cf4d29deb8a29281cf4d1d3"
+  },
+  {
+    "archive": "zudo-osc-playground-r09.zip",
+    "member": "zudo-osc-playground-r09/parts/component-candidates.json",
+    "path": "provenance/history/zudo-osc-playground-r09/parts/component-candidates.json",
+    "sha256": "da4421795596c04777d61bf86bb0d249d2c39de2640e0efdaf2e9fabe5b4c5a4"
+  },
+  {
+    "archive": "zudo-osc-playground-r09.zip",
+    "member": "zudo-osc-playground-r09/parts/research-sources.json",
+    "path": "provenance/history/zudo-osc-playground-r09/parts/research-sources.json",
+    "sha256": "bad81cfd8ef8adba7b902cac47cf5a07881d42ff406589f9162f5d12f4b190ae"
+  },
+  {
+    "archive": "zudo-osc-playground-r09.zip",
+    "member": "zudo-osc-playground-r09/reference/r08-component-candidates.json",
+    "path": "provenance/history/zudo-osc-playground-r09/reference/r08-component-candidates.json",
+    "sha256": "b09087930e10eaeff28eabf23351774f2395a50a8c0868cd1d902029f3433d0d"
+  },
+  {
+    "archive": "zudo-osc-playground-r10.zip",
+    "member": "zudo-osc-playground-r10/parts/component-candidates.json",
+    "path": "provenance/history/zudo-osc-playground-r10/parts/component-candidates.json",
+    "sha256": "efa198274da09fd8d982a15342def78b0ad3f6fc13295a1b36b5df461c3ca8cd"
+  },
+  {
+    "archive": "zudo-osc-playground-r10.zip",
+    "member": "zudo-osc-playground-r10/parts/research-sources.json",
+    "path": "provenance/history/zudo-osc-playground-r10/parts/research-sources.json",
+    "sha256": "bad81cfd8ef8adba7b902cac47cf5a07881d42ff406589f9162f5d12f4b190ae"
+  },
+  {
+    "archive": "zudo-osc-playground-r10.zip",
+    "member": "zudo-osc-playground-r10/parts/toggle-candidates.json",
+    "path": "provenance/history/zudo-osc-playground-r10/parts/toggle-candidates.json",
+    "sha256": "822c0c73675c8972b1af965df592ec7d0e243d0b089e71ce083513772a2ba4f8"
+  },
+  {
+    "archive": "zudo-osc-playground-r11.zip",
+    "member": "zudo-osc-playground-r11/parts/component-candidates.json",
+    "path": "provenance/history/zudo-osc-playground-r11/parts/component-candidates.json",
+    "sha256": "1fcd1c249b0e3eb7b4afe196124a1d36129ba7ad39907d8cb863eb093eb5fb68"
+  },
+  {
+    "archive": "zudo-osc-playground-r11.zip",
+    "member": "zudo-osc-playground-r11/parts/r11-research-sources.json",
+    "path": "provenance/history/zudo-osc-playground-r11/parts/r11-research-sources.json",
+    "sha256": "c09b2744d867049a12fb49e4ffeb8aa909fdd1cc3a445a66fcb893c0f889a2d1"
+  },
+  {
+    "archive": "zudo-osc-playground-r11.zip",
+    "member": "zudo-osc-playground-r11/parts/research-sources.json",
+    "path": "provenance/history/zudo-osc-playground-r11/parts/research-sources.json",
+    "sha256": "bad81cfd8ef8adba7b902cac47cf5a07881d42ff406589f9162f5d12f4b190ae"
+  },
+  {
+    "archive": "zudo-osc-playground-r11.zip",
+    "member": "zudo-osc-playground-r11/parts/toggle-candidates.json",
+    "path": "provenance/history/zudo-osc-playground-r11/parts/toggle-candidates.json",
+    "sha256": "f88b4254d0a2e897f98e58d3f6c320a8762ab71b91874f829de92ceb8ce70653"
+  },
+  {
+    "archive": "zudo-osc-playground-r12.zip",
+    "member": "zudo-osc-playground-r12/parts/component-candidates.json",
+    "path": "provenance/history/zudo-osc-playground-r12/parts/component-candidates.json",
+    "sha256": "59201ff1171c03ea0462ec1ced1232d71e8c92accaebbbe2790b5cfc50086bfd"
+  },
+  {
+    "archive": "zudo-osc-playground-r12.zip",
+    "member": "zudo-osc-playground-r12/parts/r11-research-sources.json",
+    "path": "provenance/history/zudo-osc-playground-r12/parts/r11-research-sources.json",
+    "sha256": "c09b2744d867049a12fb49e4ffeb8aa909fdd1cc3a445a66fcb893c0f889a2d1"
+  },
+  {
+    "archive": "zudo-osc-playground-r12.zip",
+    "member": "zudo-osc-playground-r12/parts/r12-research-sources.json",
+    "path": "provenance/history/zudo-osc-playground-r12/parts/r12-research-sources.json",
+    "sha256": "8e5fe5ba2f10c2f7ec136262f0dfc1f9109c4d1aa7351c5d94e12b2ed01e925d"
+  },
+  {
+    "archive": "zudo-osc-playground-r12.zip",
+    "member": "zudo-osc-playground-r12/parts/research-sources.json",
+    "path": "provenance/history/zudo-osc-playground-r12/parts/research-sources.json",
+    "sha256": "bad81cfd8ef8adba7b902cac47cf5a07881d42ff406589f9162f5d12f4b190ae"
+  },
+  {
+    "archive": "zudo-osc-playground-r12.zip",
+    "member": "zudo-osc-playground-r12/parts/toggle-candidates.json",
+    "path": "provenance/history/zudo-osc-playground-r12/parts/toggle-candidates.json",
+    "sha256": "2a4292a17e566666be4915606b6d3812f5d6ef00a0abca57161f5d440104318d"
+  },
+  {
+    "archive": "zudo-osc-playground-r12.zip",
+    "member": "zudo-osc-playground-r12/reference/r11/parts/component-candidates.json",
+    "path": "provenance/history/zudo-osc-playground-r12/reference/r11/parts/component-candidates.json",
+    "sha256": "1fcd1c249b0e3eb7b4afe196124a1d36129ba7ad39907d8cb863eb093eb5fb68"
+  },
+  {
+    "archive": "zudo-osc-playground-r12.zip",
+    "member": "zudo-osc-playground-r12/reference/r11/parts/toggle-candidates.json",
+    "path": "provenance/history/zudo-osc-playground-r12/reference/r11/parts/toggle-candidates.json",
+    "sha256": "f88b4254d0a2e897f98e58d3f6c320a8762ab71b91874f829de92ceb8ce70653"
+  },
+  {
+    "archive": "zudo-osc-playground-r13.zip",
+    "member": "zudo-osc-playground-r13/parts/component-candidates.json",
+    "path": "provenance/history/zudo-osc-playground-r13/parts/component-candidates.json",
+    "sha256": "59201ff1171c03ea0462ec1ced1232d71e8c92accaebbbe2790b5cfc50086bfd"
+  },
+  {
+    "archive": "zudo-osc-playground-r13.zip",
+    "member": "zudo-osc-playground-r13/parts/r11-research-sources.json",
+    "path": "provenance/history/zudo-osc-playground-r13/parts/r11-research-sources.json",
+    "sha256": "c09b2744d867049a12fb49e4ffeb8aa909fdd1cc3a445a66fcb893c0f889a2d1"
+  },
+  {
+    "archive": "zudo-osc-playground-r13.zip",
+    "member": "zudo-osc-playground-r13/parts/r12-research-sources.json",
+    "path": "provenance/history/zudo-osc-playground-r13/parts/r12-research-sources.json",
+    "sha256": "8e5fe5ba2f10c2f7ec136262f0dfc1f9109c4d1aa7351c5d94e12b2ed01e925d"
+  },
+  {
+    "archive": "zudo-osc-playground-r13.zip",
+    "member": "zudo-osc-playground-r13/parts/research-sources.json",
+    "path": "provenance/history/zudo-osc-playground-r13/parts/research-sources.json",
+    "sha256": "bad81cfd8ef8adba7b902cac47cf5a07881d42ff406589f9162f5d12f4b190ae"
+  },
+  {
+    "archive": "zudo-osc-playground-r13.zip",
+    "member": "zudo-osc-playground-r13/parts/toggle-candidates.json",
+    "path": "provenance/history/zudo-osc-playground-r13/parts/toggle-candidates.json",
+    "sha256": "2a4292a17e566666be4915606b6d3812f5d6ef00a0abca57161f5d440104318d"
+  },
+  {
+    "archive": "zudo-osc-playground-r14.zip",
+    "member": "zudo-osc-playground-r14/parts/component-candidates.json",
+    "path": "provenance/history/zudo-osc-playground-r14/parts/component-candidates.json",
+    "sha256": "59201ff1171c03ea0462ec1ced1232d71e8c92accaebbbe2790b5cfc50086bfd"
+  },
+  {
+    "archive": "zudo-osc-playground-r14.zip",
+    "member": "zudo-osc-playground-r14/parts/r11-research-sources.json",
+    "path": "provenance/history/zudo-osc-playground-r14/parts/r11-research-sources.json",
+    "sha256": "c09b2744d867049a12fb49e4ffeb8aa909fdd1cc3a445a66fcb893c0f889a2d1"
+  },
+  {
+    "archive": "zudo-osc-playground-r14.zip",
+    "member": "zudo-osc-playground-r14/parts/r12-research-sources.json",
+    "path": "provenance/history/zudo-osc-playground-r14/parts/r12-research-sources.json",
+    "sha256": "8e5fe5ba2f10c2f7ec136262f0dfc1f9109c4d1aa7351c5d94e12b2ed01e925d"
+  },
+  {
+    "archive": "zudo-osc-playground-r14.zip",
+    "member": "zudo-osc-playground-r14/parts/research-sources.json",
+    "path": "provenance/history/zudo-osc-playground-r14/parts/research-sources.json",
+    "sha256": "bad81cfd8ef8adba7b902cac47cf5a07881d42ff406589f9162f5d12f4b190ae"
+  },
+  {
+    "archive": "zudo-osc-playground-r14.zip",
+    "member": "zudo-osc-playground-r14/parts/toggle-candidates.json",
+    "path": "provenance/history/zudo-osc-playground-r14/parts/toggle-candidates.json",
+    "sha256": "2a4292a17e566666be4915606b6d3812f5d6ef00a0abca57161f5d440104318d"
+  },
+  {
+    "archive": "zudo-osc-playground-r15.zip",
+    "member": "zudo-osc-playground-r15/SOURCE-RIGHTS.md",
+    "path": "provenance/history/zudo-osc-playground-r15/SOURCE-RIGHTS.md",
+    "sha256": "dea156430b1f1a72721486ed7fd3c908dd468949a176ea34d0d951fe8f71d745"
+  },
+  {
+    "archive": "zudo-osc-playground-r15.zip",
+    "member": "zudo-osc-playground-r15/docs/COMPONENT-DECISIONS.md",
+    "path": "provenance/history/zudo-osc-playground-r15/docs/COMPONENT-DECISIONS.md",
+    "sha256": "91333039cac6a70ed22a6fb0eb2d33b576e56c2e4bbc231d7cc4c273fd383b12"
+  },
+  {
+    "archive": "zudo-osc-playground-r15.zip",
+    "member": "zudo-osc-playground-r15/parts/component-candidates.json",
+    "path": "provenance/history/zudo-osc-playground-r15/parts/component-candidates.json",
+    "sha256": "c7deb3469606ffa36ac513f36acc728c9b7ef4ef0ab7519077bbde6c870385d3"
+  },
+  {
+    "archive": "zudo-osc-playground-r15.zip",
+    "member": "zudo-osc-playground-r15/parts/decision-candidates-r15.json",
+    "path": "provenance/history/zudo-osc-playground-r15/parts/decision-candidates-r15.json",
+    "sha256": "14a7b12fcd47707eac7c8c154e37cb746616b1db38655d36c6b31dbd53f05031"
+  },
+  {
+    "archive": "zudo-osc-playground-r15.zip",
+    "member": "zudo-osc-playground-r15/parts/r11-research-sources.json",
+    "path": "provenance/history/zudo-osc-playground-r15/parts/r11-research-sources.json",
+    "sha256": "c09b2744d867049a12fb49e4ffeb8aa909fdd1cc3a445a66fcb893c0f889a2d1"
+  },
+  {
+    "archive": "zudo-osc-playground-r15.zip",
+    "member": "zudo-osc-playground-r15/parts/r12-research-sources.json",
+    "path": "provenance/history/zudo-osc-playground-r15/parts/r12-research-sources.json",
+    "sha256": "8e5fe5ba2f10c2f7ec136262f0dfc1f9109c4d1aa7351c5d94e12b2ed01e925d"
+  },
+  {
+    "archive": "zudo-osc-playground-r15.zip",
+    "member": "zudo-osc-playground-r15/parts/research-sources.json",
+    "path": "provenance/history/zudo-osc-playground-r15/parts/research-sources.json",
+    "sha256": "bad81cfd8ef8adba7b902cac47cf5a07881d42ff406589f9162f5d12f4b190ae"
+  },
+  {
+    "archive": "zudo-osc-playground-r15.zip",
+    "member": "zudo-osc-playground-r15/parts/toggle-candidates.json",
+    "path": "provenance/history/zudo-osc-playground-r15/parts/toggle-candidates.json",
+    "sha256": "2a4292a17e566666be4915606b6d3812f5d6ef00a0abca57161f5d440104318d"
+  },
+  {
+    "archive": "zudo-osc-playground-r17.zip",
+    "member": "zudo-osc-playground-r17/SOURCE-RIGHTS.md",
+    "path": "provenance/history/zudo-osc-playground-r17/SOURCE-RIGHTS.md",
+    "sha256": "717037cfe82f147e98701bfe828a410d87ce682f51cbd69a4371fdbb62daea22"
+  },
+  {
+    "archive": "zudo-osc-playground-r17.zip",
+    "member": "zudo-osc-playground-r17/parts/component-decisions.json",
+    "path": "provenance/history/zudo-osc-playground-r17/parts/component-decisions.json",
+    "sha256": "abad7f6376c28a22665f978d4cacd6c8ed0236358c50bbd71cea71f6e9f7dd56"
+  },
+  {
+    "archive": "zudo-osc-playground-r18.zip",
+    "member": "zudo-osc-playground-r18/SOURCE-RIGHTS.md",
+    "path": "provenance/history/zudo-osc-playground-r18/SOURCE-RIGHTS.md",
+    "sha256": "d66408891151635a814e8689d3b7e332258457384918de0075a49b8a3adf4532"
+  },
+  {
+    "archive": "zudo-osc-playground-r20.zip",
+    "member": "zudo-osc-playground-r20/docs/COMPONENT-DECISIONS.md",
+    "path": "provenance/history/zudo-osc-playground-r20/docs/COMPONENT-DECISIONS.md",
+    "sha256": "d5641014cab97a364c3c3d7edc4130c529a072b13d78de30ef818aca739d91d6"
+  },
+  {
+    "archive": "zudo-osc-playground-r20.zip",
+    "member": "zudo-osc-playground-r20/parts/components.json",
+    "path": "provenance/history/zudo-osc-playground-r20/parts/components.json",
+    "sha256": "39590940cd21466dc59cf72ef9e876009db49546292eeb17f0a5930d06c93964"
+  },
+  {
+    "archive": "zudo-osc-playground-r20.zip",
+    "member": "zudo-osc-playground-r20/reference/r17-component-decisions.json",
+    "path": "provenance/history/zudo-osc-playground-r20/reference/r17-component-decisions.json",
+    "sha256": "abad7f6376c28a22665f978d4cacd6c8ed0236358c50bbd71cea71f6e9f7dd56"
+  },
+  {
+    "archive": "zudo-osc-playground-r21-handoff.zip",
+    "member": "zudo-osc-playground-r21-handoff/payload/project/osc-playground/workbench/parts/components.json",
+    "path": "provenance/history/zudo-osc-playground-r21-handoff/payload/project/osc-playground/workbench/parts/components.json",
+    "sha256": "ef461420d2f46d15450c5fe48aa342ae6fa5ef62c3a0096a504b30641ea3daa5"
+  },
+  {
+    "archive": "zudo-osc-playground-r21-handoff.zip",
+    "member": "zudo-osc-playground-r21-handoff/payload/project/osc-playground/workbench/reference/r17-component-decisions.json",
+    "path": "provenance/history/zudo-osc-playground-r21-handoff/payload/project/osc-playground/workbench/reference/r17-component-decisions.json",
+    "sha256": "abad7f6376c28a22665f978d4cacd6c8ed0236358c50bbd71cea71f6e9f7dd56"
+  },
+  {
+    "archive": "zudo-osc-playground-r21-handoff.zip",
+    "member": "zudo-osc-playground-r21-handoff/payload/research/osc-playground/component-candidates.json",
+    "path": "provenance/history/zudo-osc-playground-r21-handoff/payload/research/osc-playground/component-candidates.json",
+    "sha256": "c2ec32648700a7a816a32767615d36958445eb84aa0dae3f1bcf04d5e8848bc8"
+  }
+]

@@ -1,0 +1,59 @@
+---
+title: "SN74HC14DR"
+description: "Clean digital edges after analog conditioning — Texas Instruments"
+sidebar_position: 1
+---
+
+**Clean digital edges after analog conditioning**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | Texas Instruments |
+| Part / family | SN74HC14DR |
+| Identity scope | Exact ordering identity |
+| Evidence state | AVAILABLE |
+| LCSC code | Not established for this identity |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+SN74HC14DR provides Schmitt-trigger logic after a signal has been made safe for its supply domain. It is useful for shaping already-conditioned gates and for defined state-machine inputs.
+
+## Design cautions
+
+It must not receive a bipolar modular signal directly. Check injection during power-off, thresholds at the actual supply, unused-input termination and local decoupling. Multiple gates share one physical supply pair.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-schmitt-orderable-identity` | `{"manufacturer": "Texas Instruments", "mpn": "SN74HC14DR", "package": "SOIC-14"}` NONE; Exact complete orderable identifier in the selected package; does not establish supplier stock. | [Data Sheet](https://www.ti.com/lit/ds/symlink/sn74hc14.pdf); PASS - primary-source confirmed |
+| `fact-schmitt-pinout` | `pin 1 1A input -&gt; pad 1; pin 2 1Y output -&gt; pad 2; pin 3 2A input -&gt; pad 3; pin 4 2Y output -&gt; pad 4; pin 5 3A input -&gt; pad 5; pin 6 3Y output -&gt; pad 6; pin 7 GND -&gt; pad 7; pin 8 4Y output -&gt; pad 8; pin 9 4A input -&gt; pad 9; pin 10 5Y output -&gt; pad 10; pin 11 5A input -&gt; pad 11; pin 12 6Y output -&gt; pad 12; pin 13 6A input -&gt; pad 13; pin 14 VCC -&gt; pad 14` NONE; No schematic or placement/net binding is claimed. Manufacturer pin functions are source-backed only when a retained primary document names the product family. | [Data Sheet](https://www.ti.com/lit/ds/symlink/sn74hc14.pdf); PASS - primary-source confirmed |
+| `fact-schmitt-electrical-limits` | `No exact-part electrical limits promoted from retained evidence.` NONE; The task has not promoted a source-backed limit for this exact shortlist record. | [Data Sheet](https://www.ti.com/lit/ds/symlink/sn74hc14.pdf); UNSOURCED |
+
+## 3D / mechanical assets
+
+**Inherited family/derived package preview.** Many imported models are intentionally coarse body envelopes, not complete manufacturer solids. Check the original receipt, drawing and mounting stack; the rendered shape does not qualify fit.
+
+<PackageModelViewer descriptor="7b2276657273696f6e223a312c227061636b6167654964223a22534f49432d31345f332e3978382e376d6d5f50312e32376d6d222c227061636b6167654c6162656c223a22534f49432d31345f332e3978382e376d6d5f50312e32376d6d222c226d6f64656c55726c223a222f6173736574732f636f6d706f6e656e742d70726576696577732f6d6f64656c732f49435f534f49432d31345f332e3978382e372e77726c222c226f6666736574223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c22726f746174696f6e223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c227363616c65223a7b2278223a312e302c2279223a312e302c227a223a312e307d7d" />
+
+Local model: `footprints/kicad/zudo-osc-hole-field.3dshapes/IC_SOIC-14_3.9x8.7.wrl`. Native rendering is supplied by `zudo-circuit-doc`.
+
+[Open the native generated evidence record](/docs/components/records/schmitt/). It preserves original claim wording, locators and verdicts.
+
+## Datasheets, drawings and source leads
+
+- [SNx4HC14 Hex Inverters with Schmitt-Trigger Inputs datasheet (Rev. L)](https://www.ti.com/lit/ds/symlink/sn74hc14.pdf) — retained local bytes: `circuit/sources/ic-library/SN74HC14.pdf`; SHA-256 `0eaa0a53e41053aec950a8be0b3989dfa608583928e46544b7922e233aa4362d`.
+- [OSC-ES-1 parts shortlist](https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json) — source metadata/link only in this edition; no local download implied.
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

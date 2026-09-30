@@ -1,0 +1,59 @@
+---
+title: "MMBT3904,215"
+description: "General NPN and LED-current sink — Nexperia"
+sidebar_position: 1
+---
+
+**General NPN and LED-current sink**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | Nexperia |
+| Part / family | MMBT3904,215 |
+| Identity scope | Exact ordering identity |
+| Evidence state | AVAILABLE |
+| LCSC code | Not established for this identity |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+MMBT3904,215 is a surface-mount general-purpose NPN candidate for indicator sinks and control circuitry. It is not automatically a characterized analog-noise source.
+
+## Design cautions
+
+Check pin ordering, collector dissipation, saturation/base drive and reverse junction limits. Device gain variation and temperature prevent assuming a current sink is accurate solely because the transistor is familiar.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-npn-orderable-identity` | `{"manufacturer": "Nexperia", "mpn": "MMBT3904,215", "package": "SOT-23"}` NONE; Exact complete orderable identifier in the selected package; does not establish supplier stock. | [MMBT3904](https://assets.nexperia.com/documents/data-sheet/MMBT3904.pdf); UNSOURCED |
+| `fact-npn-pinout` | `pin 1 B -&gt; pad 1; pin 2 E -&gt; pad 2; pin 3 C -&gt; pad 3` NONE; No schematic or placement/net binding is claimed. Manufacturer pin functions are source-backed only when a retained primary document names the product family. | [MMBT3904](https://assets.nexperia.com/documents/data-sheet/MMBT3904.pdf); PASS - primary-source confirmed |
+| `fact-npn-collector-emitter-voltage` | `{"maximum": 40}` V; MMBT3904; collector open base; maximum rating. | [MMBT3904](https://assets.nexperia.com/documents/data-sheet/MMBT3904.pdf); PASS - primary-source confirmed |
+
+## 3D / mechanical assets
+
+**Inherited family/derived package preview.** Many imported models are intentionally coarse body envelopes, not complete manufacturer solids. Check the original receipt, drawing and mounting stack; the rendered shape does not qualify fit.
+
+<PackageModelViewer descriptor="7b2276657273696f6e223a312c227061636b6167654964223a22534f542d3233222c227061636b6167654c6162656c223a22534f542d3233222c226d6f64656c55726c223a222f6173736574732f636f6d706f6e656e742d70726576696577732f6d6f64656c732f49435f534f542d32332e77726c222c226f6666736574223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c22726f746174696f6e223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c227363616c65223a7b2278223a312e302c2279223a312e302c227a223a312e307d7d" />
+
+Local model: `footprints/kicad/zudo-osc-hole-field.3dshapes/IC_SOT-23.wrl`. Native rendering is supplied by `zudo-circuit-doc`.
+
+[Open the native generated evidence record](/docs/components/records/npn/). It preserves original claim wording, locators and verdicts.
+
+## Datasheets, drawings and source leads
+
+- [40 V, 200 mA NPN switching transistor](https://assets.nexperia.com/documents/data-sheet/MMBT3904.pdf) — retained local bytes: `circuit/sources/ic-library/MMBT3904.pdf`; SHA-256 `ade27b408c77a94ea4448c8473a9e80096dd60da3e1914e004c52344e9cd8d00`.
+- [OSC-ES-1 parts shortlist](https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json) — source metadata/link only in this edition; no local download implied.
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

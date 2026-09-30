@@ -1,0 +1,479 @@
+{
+  "id": "c9900079089",
+  "name": "WQP-WQP518MA",
+  "mpn": "WQP-WQP518MA",
+  "manufacturer": "JLCPCB Assembly (catalog label; actual manufacturer unconfirmed)",
+  "jlc_code": "C9900079089",
+  "jlc_url": "https://jlcpcb.com/partdetail/JLCPCBAssembly-WQPWQP518MA/C9900079089",
+  "kind": "jack",
+  "identity": "listing_identity_unresolved",
+  "geometry": "Do not claim this is proven Thonkiconn or copy its footprint. Thonk's genuine WQP518MA is vertically mounted switching mono3.5mm with panel bushing, but this JLC record supplies no identified maker or datasheet establishing equivalence.",
+  "application": "Research lead for vertical switched3.5mm patch jack; unresolved identity",
+  "scope": "primary",
+  "original_catalog_record": {
+    "mpn": "WQP-WQP518MA",
+    "jlc_code": "C9900079089",
+    "manufacturer": "JLCPCB Assembly (catalog label; actual manufacturer unconfirmed)",
+    "role": "Research lead for vertical switched3.5mm patch jack; unresolved identity",
+    "package": "Plugin (JLC catalog); category Others/New Arrivals. Exact manufacturer drawing not obtained.",
+    "jlc_url": "https://jlcpcb.com/partdetail/JLCPCBAssembly-WQPWQP518MA/C9900079089",
+    "manufacturer_url": null,
+    "lcsc_url": null,
+    "geometry_notes": "Do not claim this is proven Thonkiconn or copy its footprint. Thonk's genuine WQP518MA is vertically mounted switching mono3.5mm with panel bushing, but this JLC record supplies no identified maker or datasheet establishing equivalence.",
+    "electrical_notes": "No exact trustworthy electrical/contact specification obtained from JLC record. Genuine Thonk product reference is separate and must not be inherited automatically.",
+    "assembly": "JLC page says Wave Soldering; Economic and Standard. Generic Assembly record alone does not prove procurable catalog supply.",
+    "stock_status": "No stock quantity, genuine supplier identity, datasheet or procurement route verified.",
+    "reference_url": "https://www.thonk.co.uk/shop/thonkiconn/",
+    "open_questions": [
+      "Exact manufacturer and genuineMPN",
+      "Whether the exact item is procurable and usable for this account and assembly order",
+      "Current stock/MOQ/leadtime",
+      "Switched contact schematic and PCB/panel geometry",
+      "Nut/washer supply and factory fitting"
+    ],
+    "category": "Controls and connectors",
+    "record_basis": "catalog_record_only_identity_unresolved",
+    "listing_checked": "2026-09-25",
+    "listing_checked_timezone": "UTC (2026-09-26 in Japan)",
+    "qualification_status": "Research candidate; no design-specific footprint, assembled sample, or order-specific acceptance established."
+  },
+  "listing_record": {
+    "mpn": "WQP-WQP518MA",
+    "jlc_code": "C9900079089",
+    "manufacturer": "JLCPCB Assembly (catalog label; actual manufacturer unconfirmed)",
+    "role": "Research lead for vertical switched3.5mm patch jack; unresolved identity",
+    "package": "Plugin (JLC catalog); category Others/New Arrivals. Exact manufacturer drawing not obtained.",
+    "jlc_url": "https://jlcpcb.com/partdetail/JLCPCBAssembly-WQPWQP518MA/C9900079089",
+    "manufacturer_url": null,
+    "lcsc_url": null,
+    "geometry_notes": "Do not claim this is proven Thonkiconn or copy its footprint. Thonk's genuine WQP518MA is vertically mounted switching mono3.5mm with panel bushing, but this JLC record supplies no identified maker or datasheet establishing equivalence.",
+    "electrical_notes": "No exact trustworthy electrical/contact specification obtained from JLC record. Genuine Thonk product reference is separate and must not be inherited automatically.",
+    "assembly": "JLC page says Wave Soldering; Economic and Standard. Generic Assembly record alone does not prove procurable catalog supply.",
+    "stock_status": "No stock quantity, genuine supplier identity, datasheet or procurement route verified.",
+    "reference_url": "https://www.thonk.co.uk/shop/thonkiconn/",
+    "open_questions": [
+      "Exact manufacturer and genuineMPN",
+      "Whether the exact item is procurable and usable for this account and assembly order",
+      "Current stock/MOQ/leadtime",
+      "Switched contact schematic and PCB/panel geometry",
+      "Nut/washer supply and factory fitting"
+    ],
+    "category": "Controls and connectors",
+    "record_basis": "catalog_record_only_identity_unresolved",
+    "listing_checked": "2026-09-25",
+    "listing_checked_timezone": "UTC (2026-09-26 in Japan)",
+    "qualification_status": "Research candidate; no design-specific footprint, assembled sample, or order-specific acceptance established."
+  },
+  "research": {
+    "id": "c9900079089",
+    "manufacturer": "JLC listing says JLCPCB Assembly; actual manufacturer unresolved",
+    "mpn": "WQP-WQP518MA",
+    "files": [
+      {
+        "path": "component-assets/fae736d9826acd87/Thonk-WQP518MA-reference.jpg",
+        "relative_path": "component-assets/fae736d9826acd87/Thonk-WQP518MA-reference.jpg",
+        "source_url": "https://www.thonk.co.uk/wp-content/uploads/2018/07/Thonkiconn_Jack_Datasheet-new.jpg",
+        "content_type": "image/jpeg",
+        "model_match": "reference_family_unresolved_jlc_identity",
+        "provenance": "Thonk official WQP518MA product page links this PJ398SM drawing as its new Thonkiconn datasheet. It does not establish that the generic JLC row has the same maker or geometry.",
+        "license": "Manufacturer/supplier reference document; copyright remains with its owner. No open redistribution license identified.",
+        "date": "2026-09-25",
+        "downloaded": true,
+        "bytes": 177468,
+        "sha256": "fae736d9826acd87360abe74ec0cffc51388e491647030139d2479617b482413"
+      },
+      {
+        "path": "component-assets/b512ffe4c3e67d59/PJ398SM-family.step",
+        "relative_path": "component-assets/b512ffe4c3e67d59/PJ398SM-family.step",
+        "source_url": "https://raw.githubusercontent.com/clacktronics/AudioJacks/14a88866e93b8ce4a31ad376b0c6eb85cd4d2cf3/AudioJacks.3dshapes/PJ398SM.step",
+        "content_type": "model/step",
+        "model_match": "reference_family_unresolved_jlc_identity",
+        "provenance": "Original community CAD from clacktronics/AudioJacks, directly linked by Thonk. Unchanged file at commit 14a88866e93b8ce4a31ad376b0c6eb85cd4d2cf3.",
+        "license": "MIT; original license and attribution retained in AudioJacks-LICENSE. Original community CAD, not manufacturer CAD.",
+        "date": "2026-09-25",
+        "downloaded": true,
+        "bytes": 851385,
+        "sha256": "b512ffe4c3e67d593e1a1bccd4397cf9a044c4f5534f91018fe626332f97bd7a",
+        "cad_validation": {
+          "file": "component-assets/b512ffe4c3e67d59/PJ398SM-family.step",
+          "read_ok": true,
+          "valid": true,
+          "solid_count": 5,
+          "bounds_mm": [
+            -4.500000279962936,
+            -6.730000279962937,
+            -3.5500002799629446,
+            4.500000279962936,
+            6.000000279962937,
+            15.963342044186936
+          ],
+          "volume_mm3": 519.4542090588149
+        }
+      },
+      {
+        "path": "component-assets/b97cfc57745a140a/AudioJacks-LICENSE",
+        "relative_path": "component-assets/b97cfc57745a140a/AudioJacks-LICENSE",
+        "source_url": "https://raw.githubusercontent.com/clacktronics/AudioJacks/14a88866e93b8ce4a31ad376b0c6eb85cd4d2cf3/LICENSE",
+        "content_type": "text/plain",
+        "model_match": "license",
+        "provenance": "License copied unchanged with the model.",
+        "license": "MIT; original license and attribution retained in AudioJacks-LICENSE. Original community CAD, not manufacturer CAD.",
+        "date": "2026-09-25",
+        "downloaded": true,
+        "bytes": 1064,
+        "sha256": "b97cfc57745a140ad456ab5418a8a1ac7369fcbbfd115d8b7fca9c64d9e15334"
+      },
+      {
+        "path": "component-assets/e60d1de5b3c39a03/AudioJacks-DATA.md",
+        "relative_path": "component-assets/e60d1de5b3c39a03/AudioJacks-DATA.md",
+        "source_url": "https://raw.githubusercontent.com/clacktronics/AudioJacks/14a88866e93b8ce4a31ad376b0c6eb85cd4d2cf3/DATA.md",
+        "content_type": "text/markdown",
+        "model_match": "reference_metadata",
+        "provenance": "Original repository metadata identifies PJ398SM as Thonkiconn and explicitly marks it untested.",
+        "license": "MIT; original license and attribution retained in AudioJacks-LICENSE. Original community CAD, not manufacturer CAD.",
+        "date": "2026-09-25",
+        "downloaded": true,
+        "bytes": 2743,
+        "sha256": "e60d1de5b3c39a03db8d451c2e3c247d0125a30f6aac2a1854ff682b86841801"
+      }
+    ],
+    "pins": {
+      "scope": "Reference Thonk / PJ398SM only; exact JLC part is unqualified.",
+      "electrical_count": 3,
+      "roles": {
+        "1": "sleeve",
+        "2": "tip normal",
+        "3": "tip spring"
+      },
+      "switching": "Contacts 2 and 3 are connected with no plug; inserting a plug opens the normal contact. Verify against the actual sourced part."
+    },
+    "critical_dimensions": {
+      "scope": "Reference Thonk / PJ398SM drawing; not accepted as exact JLC geometry.",
+      "units": "mm",
+      "housing_front_width": 9,
+      "housing_depth_in_shaft_direction": 9,
+      "barrel_diameter": 6,
+      "barrel_total_projection": 5.5,
+      "threaded_length": 4.5,
+      "pin_1_to_pin_2_pitch": 3.1,
+      "pin_2_to_pin_3_pitch": 8.3,
+      "barrel_center_to_pin_2": 3.38,
+      "barrel_center_to_pin_3": 4.92,
+      "pin_1_to_barrel_center": 6.48,
+      "reference_pcb_clearance_hole": 3,
+      "notes": [
+        "Thonk advises a 3 mm PCB hole below the barrel or copper and trace clearance in that area.",
+        "The saved model has no nut; upstream nut variants are separate files.",
+        "Thread pitch is not dimensioned in this drawing; do not infer it from barrel diameter."
+      ]
+    },
+    "facts": [
+      "Thonk states that WQP-made WQP518MA, PJ398SM and PJ301M-12 are functionally interchangeable; the old and new tab shapes differ.",
+      "Reference drawing rates the jack at DC 30 V, 0.5 A, with contact resistance at most 0.03 ohm, 3 to 25 N insertion/extraction force and 5,000 cycles.",
+      "Open CASCADE imports the saved STEP as five valid solids. See model-validation.json. CAD solidity is not proof of physical fit.",
+      "AudioJacks README marks the repository unfinished; DATA.md marks PJ398SM untested and suggests AudioJack3 instead of the required switched mono symbol. Use the contact drawing rather than that symbol hint."
+    ],
+    "gaps": [
+      "The exact JLC row manufacturer, source, stock mode and accepted revision remain unresolved. Neither this drawing nor the community model establishes an exact JLC match.",
+      "Model dimensions and origin require a full audit before footprint use; mechanical and tolerance fit remains unqualified.",
+      "Bind the chosen orderable part to its accepted drawing before placing a factory order."
+    ],
+    "links": [
+      "https://jlcpcb.com/partdetail/JLCPCBAssembly-WQPWQP518MA/C9900079089",
+      "https://www.thonk.co.uk/shop/thonkiconn/",
+      "https://github.com/clacktronics/AudioJacks"
+    ],
+    "model_status": "downloaded_reference_family_only"
+  },
+  "remote_assets": [],
+  "assets": [
+    {
+      "path": "component-assets/fae736d9826acd87/Thonk-WQP518MA-reference.jpg",
+      "source_url": "https://www.thonk.co.uk/wp-content/uploads/2018/07/Thonkiconn_Jack_Datasheet-new.jpg",
+      "content_type": "image/jpeg",
+      "model_match": "reference_family_unresolved_jlc_identity",
+      "provenance": "Thonk official WQP518MA product page links this PJ398SM drawing as its new Thonkiconn datasheet. It does not establish that the generic JLC row has the same maker or geometry.",
+      "license": "Manufacturer/supplier reference document; copyright remains with its owner. No open redistribution license identified.",
+      "date": "2026-09-25",
+      "downloaded": true,
+      "bytes": 177468,
+      "sha256": "fae736d9826acd87360abe74ec0cffc51388e491647030139d2479617b482413",
+      "filename": "Thonk-WQP518MA-reference.jpg",
+      "original_filename": "Thonk-WQP518MA-reference.jpg",
+      "kind": "image",
+      "notes": "Thonk official WQP518MA product page links this PJ398SM drawing as its new Thonkiconn datasheet. It does not establish that the generic JLC row has the same maker or geometry.",
+      "research_origin": "component-research/connectors/c9900079089/Thonk-WQP518MA-reference.jpg"
+    },
+    {
+      "path": "component-assets/b512ffe4c3e67d59/PJ398SM-family.step",
+      "source_url": "https://raw.githubusercontent.com/clacktronics/AudioJacks/14a88866e93b8ce4a31ad376b0c6eb85cd4d2cf3/AudioJacks.3dshapes/PJ398SM.step",
+      "content_type": "model/step",
+      "model_match": "reference_family_unresolved_jlc_identity",
+      "provenance": "Original community CAD from clacktronics/AudioJacks, directly linked by Thonk. Unchanged file at commit 14a88866e93b8ce4a31ad376b0c6eb85cd4d2cf3.",
+      "license": "MIT; original license and attribution retained in AudioJacks-LICENSE. Original community CAD, not manufacturer CAD.",
+      "date": "2026-09-25",
+      "downloaded": true,
+      "bytes": 851385,
+      "sha256": "b512ffe4c3e67d593e1a1bccd4397cf9a044c4f5534f91018fe626332f97bd7a",
+      "cad_validation": {
+        "file": "/workspace/scratch/427e7414012d/component-research/connectors/c9900079089/PJ398SM-family.step",
+        "read_ok": true,
+        "valid": true,
+        "solid_count": 5,
+        "bounds_mm": [
+          -4.500000279962936,
+          -6.730000279962937,
+          -3.5500002799629446,
+          4.500000279962936,
+          6.000000279962937,
+          15.963342044186936
+        ],
+        "volume_mm3": 519.4542090588149
+      },
+      "filename": "PJ398SM-family.step",
+      "original_filename": "PJ398SM-family.step",
+      "kind": "step",
+      "notes": "Original community CAD from clacktronics/AudioJacks, directly linked by Thonk. Unchanged file at commit 14a88866e93b8ce4a31ad376b0c6eb85cd4d2cf3.",
+      "research_origin": "component-research/connectors/c9900079089/PJ398SM-family.step"
+    },
+    {
+      "path": "component-assets/b97cfc57745a140a/AudioJacks-LICENSE",
+      "source_url": "https://raw.githubusercontent.com/clacktronics/AudioJacks/14a88866e93b8ce4a31ad376b0c6eb85cd4d2cf3/LICENSE",
+      "content_type": "text/plain",
+      "model_match": "license",
+      "provenance": "License copied unchanged with the model.",
+      "license": "MIT; original license and attribution retained in AudioJacks-LICENSE. Original community CAD, not manufacturer CAD.",
+      "date": "2026-09-25",
+      "downloaded": true,
+      "bytes": 1064,
+      "sha256": "b97cfc57745a140ad456ab5418a8a1ac7369fcbbfd115d8b7fca9c64d9e15334",
+      "filename": "AudioJacks-LICENSE",
+      "original_filename": "AudioJacks-LICENSE",
+      "kind": "license",
+      "notes": "License copied unchanged with the model.",
+      "research_origin": "component-research/connectors/c9900079089/AudioJacks-LICENSE"
+    },
+    {
+      "path": "component-assets/e60d1de5b3c39a03/AudioJacks-DATA.md",
+      "source_url": "https://raw.githubusercontent.com/clacktronics/AudioJacks/14a88866e93b8ce4a31ad376b0c6eb85cd4d2cf3/DATA.md",
+      "content_type": "text/markdown",
+      "model_match": "reference_metadata",
+      "provenance": "Original repository metadata identifies PJ398SM as Thonkiconn and explicitly marks it untested.",
+      "license": "MIT; original license and attribution retained in AudioJacks-LICENSE. Original community CAD, not manufacturer CAD.",
+      "date": "2026-09-25",
+      "downloaded": true,
+      "bytes": 2743,
+      "sha256": "e60d1de5b3c39a03db8d451c2e3c247d0125a30f6aac2a1854ff682b86841801",
+      "filename": "AudioJacks-DATA.md",
+      "original_filename": "AudioJacks-DATA.md",
+      "kind": "document",
+      "notes": "Original repository metadata identifies PJ398SM as Thonkiconn and explicitly marks it untested.",
+      "research_origin": "component-research/connectors/c9900079089/AudioJacks-DATA.md"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Facts 1",
+      "value": "Thonk states that WQP-made WQP518MA, PJ398SM and PJ301M-12 are functionally interchangeable; the old and new tab shapes differ.",
+      "source_urls": []
+    },
+    {
+      "label": "Facts 2",
+      "value": "Reference drawing rates the jack at DC 30 V, 0.5 A, with contact resistance at most 0.03 ohm, 3 to 25 N insertion/extraction force and 5,000 cycles.",
+      "source_urls": []
+    },
+    {
+      "label": "Facts 3",
+      "value": "Open CASCADE imports the saved STEP as five valid solids. See model-validation.json. CAD solidity is not proof of physical fit.",
+      "source_urls": []
+    },
+    {
+      "label": "Facts 4",
+      "value": "AudioJacks README marks the repository unfinished; DATA.md marks PJ398SM untested and suggests AudioJack3 instead of the required switched mono symbol. Use the contact drawing rather than that symbol hint.",
+      "source_urls": []
+    },
+    {
+      "label": "Critical dimensions / Scope",
+      "value": "Reference Thonk / PJ398SM drawing; not accepted as exact JLC geometry.",
+      "source_urls": []
+    },
+    {
+      "label": "Critical dimensions / Units",
+      "value": "mm",
+      "source_urls": []
+    },
+    {
+      "label": "Critical dimensions / Housing front width",
+      "value": "9",
+      "source_urls": []
+    },
+    {
+      "label": "Critical dimensions / Housing depth in shaft direction",
+      "value": "9",
+      "source_urls": []
+    },
+    {
+      "label": "Critical dimensions / Barrel diameter",
+      "value": "6",
+      "source_urls": []
+    },
+    {
+      "label": "Critical dimensions / Barrel total projection",
+      "value": "5.5",
+      "source_urls": []
+    },
+    {
+      "label": "Critical dimensions / Threaded length",
+      "value": "4.5",
+      "source_urls": []
+    },
+    {
+      "label": "Critical dimensions / Pin 1 to pin 2 pitch",
+      "value": "3.1",
+      "source_urls": []
+    },
+    {
+      "label": "Critical dimensions / Pin 2 to pin 3 pitch",
+      "value": "8.3",
+      "source_urls": []
+    },
+    {
+      "label": "Critical dimensions / Barrel center to pin 2",
+      "value": "3.38",
+      "source_urls": []
+    },
+    {
+      "label": "Critical dimensions / Barrel center to pin 3",
+      "value": "4.92",
+      "source_urls": []
+    },
+    {
+      "label": "Critical dimensions / Pin 1 to barrel center",
+      "value": "6.48",
+      "source_urls": []
+    },
+    {
+      "label": "Critical dimensions / Reference pcb clearance hole",
+      "value": "3",
+      "source_urls": []
+    },
+    {
+      "label": "Critical dimensions / Notes 1",
+      "value": "Thonk advises a 3 mm PCB hole below the barrel or copper and trace clearance in that area.",
+      "source_urls": []
+    },
+    {
+      "label": "Critical dimensions / Notes 2",
+      "value": "The saved model has no nut; upstream nut variants are separate files.",
+      "source_urls": []
+    },
+    {
+      "label": "Critical dimensions / Notes 3",
+      "value": "Thread pitch is not dimensioned in this drawing; do not infer it from barrel diameter.",
+      "source_urls": []
+    }
+  ],
+  "pinmap": {
+    "scope": "Reference Thonk / PJ398SM only; exact JLC part is unqualified.",
+    "electrical_count": 3,
+    "roles": {
+      "1": "sleeve",
+      "2": "tip normal",
+      "3": "tip spring"
+    },
+    "switching": "Contacts 2 and 3 are connected with no plug; inserting a plug opens the normal contact. Verify against the actual sourced part."
+  },
+  "pinmap_source": "Use the source drawing and its stated view; no CAD pad coordinates have been qualified.",
+  "gaps": [
+    "The exact JLC row manufacturer, source, stock mode and accepted revision remain unresolved. Neither this drawing nor the community model establishes an exact JLC match.",
+    "Model dimensions and origin require a full audit before footprint use; mechanical and tolerance fit remains unqualified.",
+    "Bind the chosen orderable part to its accepted drawing before placing a factory order."
+  ],
+  "assembly": "JLC page says Wave Soldering; Economic and Standard. Generic Assembly record alone does not prove procurable catalog supply.",
+  "models": [
+    {
+      "path": "component-previews/b512ffe4c3e67d59.glb",
+      "preview": "component-previews/b512ffe4c3e67d59.png",
+      "source_step": "component-assets/b512ffe4c3e67d59/PJ398SM-family.step",
+      "source_sha256": "b512ffe4c3e67d593e1a1bccd4397cf9a044c4f5534f91018fe626332f97bd7a",
+      "source_url": "https://raw.githubusercontent.com/clacktronics/AudioJacks/14a88866e93b8ce4a31ad376b0c6eb85cd4d2cf3/AudioJacks.3dshapes/PJ398SM.step",
+      "label": "Family / other-variant reference",
+      "model_match": "family_reference",
+      "original_model_match": "reference_family_unresolved_jlc_identity",
+      "bbox_mm": {
+        "x": 9.0,
+        "y": 12.7315,
+        "z": 19.0598
+      },
+      "notes": "Original community CAD from clacktronics/AudioJacks, directly linked by Thonk. Unchanged file at commit 14a88866e93b8ce4a31ad376b0c6eb85cd4d2cf3.",
+      "license": "MIT; original license and attribution retained in AudioJacks-LICENSE. Original community CAD, not manufacturer CAD.",
+      "inspection": {
+        "source_sha256": "b512ffe4c3e67d593e1a1bccd4397cf9a044c4f5534f91018fe626332f97bd7a",
+        "glb": "b512ffe4c3e67d59.glb",
+        "png": "b512ffe4c3e67d59.png",
+        "vertices": 5809,
+        "triangles": 5536,
+        "source_bounding_box_mm": {
+          "x": 9.0,
+          "y": 12.7315,
+          "z": 19.0598
+        },
+        "bbox_basis": "Imported STEP geometry, including terminals/hardware represented in the file; not measured physical dimensions.",
+        "source_units": "mm (OpenCascade import normalization)",
+        "glb_units": "metres",
+        "glb_axis_mapping": "x,y,z -> x,z,-y",
+        "linear_tessellation_tolerance_mm": 0.07,
+        "angular_tessellation_tolerance_radians": 0.2,
+        "material": "Neutral inspection material; original STEP surface colours are not reproduced.",
+        "solids": 5,
+        "valid_shape": true,
+        "derivation": "Tessellation and preview only. The source STEP is retained unchanged with separate provenance.",
+        "glb_sha256": "0b6372babe094efee97187398ca74cb3624ed92d8e376661fbd6443a9d427cd9",
+        "png_sha256": "27d583ca6d18c68073fc745b6529385797c8e185b7a4987ab46f7e3cd2ef4173"
+      },
+      "generated": false
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.thonk.co.uk/wp-content/uploads/2018/07/Thonkiconn_Jack_Datasheet-new.jpg",
+      "label": "www.thonk.co.uk — Thonkiconn_Jack_Datasheet-new.jpg"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/clacktronics/AudioJacks/14a88866e93b8ce4a31ad376b0c6eb85cd4d2cf3/AudioJacks.3dshapes/PJ398SM.step",
+      "label": "raw.githubusercontent.com — PJ398SM.step"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/clacktronics/AudioJacks/14a88866e93b8ce4a31ad376b0c6eb85cd4d2cf3/LICENSE",
+      "label": "raw.githubusercontent.com"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/clacktronics/AudioJacks/14a88866e93b8ce4a31ad376b0c6eb85cd4d2cf3/DATA.md",
+      "label": "raw.githubusercontent.com — DATA.md"
+    },
+    {
+      "url": "https://jlcpcb.com/partdetail/JLCPCBAssembly-WQPWQP518MA/C9900079089",
+      "label": "jlcpcb.com"
+    },
+    {
+      "url": "https://www.thonk.co.uk/shop/thonkiconn/",
+      "label": "www.thonk.co.uk"
+    },
+    {
+      "url": "https://github.com/clacktronics/AudioJacks",
+      "label": "github.com"
+    }
+  ],
+  "research_group": "connectors",
+  "coverage": {
+    "downloaded_pdf": false,
+    "downloaded_step": true,
+    "downloaded_model": true,
+    "viewer_models": 1,
+    "generated_envelope": false,
+    "best_model_match": "family_reference",
+    "fit_qualified": false,
+    "production_footprint_qualified": false,
+    "factory_order_approved": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "edition": "0.1.0",
+  "assembled_on": "2026-09-30",
+  "instrument": {
+    "repository": "Takazudo/zudo-osc-hole-field",
+    "commit": "fac99297702eabd97bbc3fae58876af4017fcaea"
+  },
+  "framework": {
+    "repository": "Takazudo/zudo-circuit-doc",
+    "commit": "5d0e2b630776489d394be341586b889dfe0d1cb8",
+    "runtime": "0.1.0"
+  },
+  "input_boundary": "Committed remote snapshot and available conversation archives; unpublished local issue-38 work not included.",
+  "inventory_policy": "All 49 imported records are not fitted in the standalone corpus and have zero placements. Original source inventory retained separately.",
+  "freshness": "Source-byte matches are not current stock checks. Only explicitly logged live-page checks were refreshed.",
+  "deployment": "Not deployed. Third-party redistribution review required before public asset hosting.",
+  "main_refs_rechecked_on": "2026-09-30",
+  "source_export": {
+    "branch": "corpus/component-evidence-export-20260930",
+    "run_id": 36701568494,
+    "purpose": "Read-only pinned public source and official initializer artifact export. Instrument main not modified."
+  },
+  "native_model_graphics": "Installed framework requires WebGL; unavailable here. Supplementary viewer uses actual SVG fallback when unavailable.",
+  "retained_archive_range": "R06\u2013R21; see history-registers.json for the exact fourteen archive names",
+  "conversation_scope": "Earlier discussion decisions inform authored historical profiles; do not claim every earlier generated artifact was recovered."
+}

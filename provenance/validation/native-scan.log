@@ -1,0 +1,23 @@
+[PUBLICATION_POLICY] 170 denied value(s) reached a published artifact
+  count: 170
+  hits:
+    dist/assets/corpus-browser.html ← [1].sources[1].sha256
+    dist/assets/corpus-browser.html ← [1].sources[1].evidence_extract
+    dist/assets/corpus-browser.html ← [8].sources[0].evidence_extract
+    dist/assets/corpus-browser.html ← [8].sources[1].sha256
+    dist/assets/corpus-browser.html ← [8].sources[1].evidence_extract
+    dist/assets/corpus-browser.html ← [15].sources[0].evidence_extract
+    dist/assets/corpus-browser.html ← [15].sources[1].sha256
+    dist/assets/corpus-browser.html ← [15].sources[1].evidence_extract
+    dist/assets/corpus-browser.html ← [15].sources[2].sha256
+    dist/assets/corpus-browser.html ← [15].sources[2].evidence_extract
+    dist/assets/corpus-browser.html ← [22].sources[0].evidence_extract
+    dist/assets/corpus-browser.html ← [22].sources[1].evidence_extract
+    dist/assets/corpus-browser.html ← [29].sources[1].evidence_extract
+    dist/assets/corpus-browser.html ← [36].sources[1].evidence_extract
+    dist/assets/corpus-browser.html ← [43].sources[0].evidence_extract
+    dist/assets/corpus-browser.html ← [43].sources[1].evidence_extract
+    dist/assets/corpus-browser.html ← [43].sources[2].sha256
+    dist/assets/corpus-browser.html ← [43].sources[2].evidence_extract
+    dist/assets/corpus-browser.html ← [43].sources[2].refresh_policy
+    dist/assets/corpus-browser.html ← [43].sources[2].identity_extract_sha256

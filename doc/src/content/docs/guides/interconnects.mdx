@@ -1,0 +1,23 @@
+---
+title: "Factory-complete connections between separate boards"
+description: "Reusable component-led synth design note"
+sidebar_position: 10
+---
+
+The no-home-soldering requirement permits ordinary synth components and separate PCBs. What it requires is that every electrical joint be completed before delivery.
+
+A rigid header/socket pair can work where boards overlap and its engaged height fits the mounting stack. A terminated, keyed harness can work between side-by-side boards or where several mounting depths must be bridged. Straight pins cannot join non-overlapping boards without an intermediate backplane or a different connector arrangement.
+
+### A connector is a system
+
+Keep the board header, cable housing, contact, wire, termination tool/process and inspection criteria as separate identities. The JST GH records demonstrate this: a housing or loose crimp contact is not a PCB-mounted component. Some source footprints are explicitly numbering aids and must not be fabricated as actual housing land patterns.
+
+Specify pin count, numbering view, mating pair, polarity/keying, conductor gauge, insulation range, engagement, latch access and strain relief. A socket body height is not the complete board separation. Do not assign mating status from similar pitch alone.
+
+### Electrical requirements
+
+Account for contact and wire resistance, permissible voltage drop, loaded contact heating and return-current distribution. Local sensitive nodes such as an S&H hold capacitor should not travel through a harness; buffer them first. Constrain cable length and capacitance where an amplifier drives the connection.
+
+Mechanical supports must carry torque, insertion force and cable pull. Mating connectors are not a substitute for the board's structural mounting plan.
+
+Sources: [JST GH family](https://www.jst-mfg.com/product/detail_e.php?series=105), [Samtec SSW](https://www.samtec.com/products/ssw), [Samtec TSW](https://www.samtec.com/products/tsw). The corpus keeps the original JST PDF and Alpha Wire documents with their hashes.

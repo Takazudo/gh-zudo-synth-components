@@ -1,0 +1,169 @@
+{
+  "date": "2026-09-27",
+  "status": "CANDIDATES_AND_GEOMETRY_REFERENCE_NOT_FITTED_BOM",
+  "records": [
+    {
+      "id": "qingpu-wqp518ma",
+      "name": "QingPu WQP-WQP518MA",
+      "role": "Panel jack candidate for all 157 ports",
+      "jlc_code": "C9900052034",
+      "jlc_url": "https://jlcpcb.com/partdetail/8460744-WQPWQP518MA/C9900052034",
+      "source_url": "https://www.thonk.co.uk/shop/thonkiconn/",
+      "extra_url": "https://www.lcsc.com/product-detail/C53058333.html",
+      "listing_state": "JLC Global Sourcing entry names Wenzhou QingPu. Retrieved page says unavailable for purchase and offers consignment. Not a stocked-part promise.",
+      "geometry_state": "FAMILY_REFERENCE",
+      "facts": [
+        "Front-entry 3.5 mm mono switching jack, threaded panel bushing.",
+        "Retained Thonk/PJ398SM family drawing: 9 mm body width; 6 + 4.5 = 10.5 mm body projection in the other direction.",
+        "Family side view: 9 mm body depth + 5.5 mm bushing projection; solder tails excluded. Bushing drawn as diameter 6 mm; thread pitch is not established by that drawing.",
+        "Overlay default: rotate the family body 90 degrees in the panel plane so its 9 mm axis follows the close vertical jack pitch. Jack centres do not move.",
+        "The old generic JLC Assembly code C9900079089 did not identify the manufacturer. It is not evidence of equivalence.",
+        "LCSC C53058333 separately names QingPu, but LCSC availability is not JLC assembly acceptance."
+      ],
+      "caveats": [
+        "Use an incoming exact WQP518MA drawing or sample before footprint freeze; PJ398SM is a family reference.",
+        "EARS nut thread, outer diameter, thickness and fit remain open.",
+        "The switched contact is unused unless deliberately required by the final circuit. No inter-block normalled connections.",
+        "Neither a front-hole symbol nor the family body overlay is a qualified solder-pad/lead footprint."
+      ],
+      "drawing": "parts/qingpu-wqp518ma/Thonk-WQP518MA-reference.jpg",
+      "model": "parts/qingpu-wqp518ma/PJ398SM-family.step"
+    },
+    {
+      "id": "alps-rk09l1140a5l",
+      "name": "ALPS RK09L1140A5L",
+      "role": "Rotary-pot mechanical baseline, not a frozen electrical BOM for every position",
+      "jlc_code": "C7419101",
+      "jlc_url": "https://jlcpcb.com/partdetail/ALPSALPINE-RK09L1140A5L/C7419101",
+      "source_url": "https://tech.alpsalpine.com/e/products/detail/RK09L1140A5L/",
+      "extra_url": "https://tech.alpsalpine.com/cms.media/product_catalog_rv_01_rk09l_en_b8437bd47d.pdf",
+      "listing_state": "Named ALPS JLC entry retrieved; Extended, through-hole / Wave Soldering, fixture required. Quantity and price must be checked for the actual order.",
+      "geometry_state": "MANUFACTURER_DIMENSIONS",
+      "facts": [
+        "10 kOhm linear (1B), no centre detent; 300 degrees +/-5 degrees travel.",
+        "6 mm flat shaft, 4.5 mm D dimension; nominal shaft length L1=15 mm from the drawing datum, not the visible height above a panel.",
+        "M9 x 0.75 threaded bushing; nominal bushing length 5 mm.",
+        "Drawing No.3 front body/support width 12.1 mm; main body projection extends 4.85 mm above the shaft centre and 6.5 mm below it. Electrical terminals and footprint pads require their own envelope.",
+        "Drawing No.3: mounting surface to shaft-base datum 10 mm; nominal shaft-tip reach 10+15=25 mm.",
+        "Attached hardware drawing: nut 11 mm across flats and 2 mm thick; washer 14 mm OD, 9.1 mm ID and 0.5 mm thick."
+      ],
+      "caveats": [
+        "The 14/9 mm caps in the artwork are unselected cap envelopes, not dimensions of this potentiometer.",
+        "A 14 mm washer is wider than a 9 mm small knob and can cover small Corner Keys artwork if fitted on top of the panel.",
+        "Use the optional washer overlay to see this conflict. Do not remove required retention hardware simply to hide it.",
+        "Manufacturer DC limit is 10 V; do not wire the pot across -12 V and +12 V. Review wiper loading, DC-use guidance and the actual circuit.",
+        "Low-priority pots may instead use a bushingless candidate; no blanket component assignment has been approved."
+      ],
+      "drawing": "parts/alps-rk09l1140a5l/product_detail_fig_rk09l_d_222_en_34014d0696.gif",
+      "fastener_drawing": "parts/alps-rk09l1140a5l/product_detail_fig_rk09l_c_101_en_acab65d7d7.gif",
+      "model": "parts/alps-rk09l1140a5l/RK09L1140-F15.STEP"
+    },
+    {
+      "id": "alps-rs20h111c009",
+      "name": "ALPS RS20H111C009",
+      "role": "All twelve AR faders: selected mechanical reference",
+      "jlc_code": "C470622",
+      "jlc_url": "https://jlcpcb.com/partdetail/ALPSALPINE-RS20H111C009/C470622",
+      "source_url": "https://tech.alpsalpine.com/e/products/detail/RS20H111C009/",
+      "extra_url": "https://tech.alpsalpine.com/cms.media/product_catalog_rv_06_rs_h_en_c18c7ded81.pdf",
+      "listing_state": "C470622 is the previously identified catalog code. Current exact JLC page could not be retrieved in R06. Manufacturer dimensions were verified; live JLC stock and order acceptance were NOT verified.",
+      "geometry_state": "MANUFACTURER_DIMENSIONS",
+      "facts": [
+        "50 kOhm linear (1B); no detent; top-operated vertical C lever.",
+        "20 mm travel, 35 mm nominal body length. The length tolerance on Drawing No.2 is +/-0.1 mm where not individually specified.",
+        "6 mm main side-view body width; top projection includes 4.5 mm on one side of the lever axis and 2.8 +/-0.3 mm on the other. Overlay shows the nominal 7.3 mm combined side envelope, not just 6 mm.",
+        "Body height 12.5 +/-0.3 mm above mounting surface.",
+        "Lever L1=14.5 +/-0.3 mm from its designated datum. Total nominal lever-tip height is L1+13=27.5 mm; drawing gives +/-0.5 mm for the total dimension.",
+        "Lever tip cross-section is 4 mm (0/-0.1) along travel by 1.8 mm (0/-0.2) across travel.",
+        "Support-hole pitch along body is 32.5 mm. The 3 electrical terminals and mechanical lugs require the complete mounting drawing.",
+        "Current R05/R06 RISE and FALL centres are 36 mm apart. Two centred nominal 35 mm bodies leave 1 mm; at 35.1 mm each, 0.9 mm remains before placement tolerances."
+      ],
+      "caveats": [
+        "The endpoint travel is not the front-panel slot length. A 4 mm-long lever moving 20 mm sweeps 24 mm along travel before cutout clearances and tolerances.",
+        "R06 uses a 24.6 x 2.4 mm illustrative slot around the swept stem: 0.3 mm clearance on each side. It is a planning assumption, not a manufacturer-approved cutout.",
+        "Default view now shows a bare 1.8 x 4 mm lever tip instead of the invented 6 x 3 mm cap. The old cap can be overlaid only as an unqualified reference.",
+        "No slider-cap SKU is selected. Cap sweep, retention, wobble and hand access must be checked.",
+        "All bodies must clear the underside of the single flat panel. Separate PCB mounting heights may be required.",
+        "10 V DC operating limit and manufacturer DC-use/wiper-loading guidance still apply."
+      ],
+      "drawing": "parts/alps-rs20h111c009/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+      "mounting_drawing": "parts/alps-rs20h111c009/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+      "model": "parts/alps-rs20h111c009/RS20H111C009.STEP"
+    },
+    {
+      "id": "bourns-ptv09a",
+      "name": "Bourns PTV09A-4020F-B103",
+      "role": "Alternative for small controls where a large top washer is undesirable",
+      "jlc_code": "C5848782",
+      "jlc_url": "https://jlcpcb.com/partdetail/BOURNS-PTV09A_4020FB103/C5848782",
+      "source_url": "https://www.bourns.com/docs/product-datasheets/PTV09.pdf",
+      "listing_state": "Exact JLC listing found in search results; displayed zero stock and pre-order. This is an alternative, not a stocked approved substitute.",
+      "geometry_state": "MANUFACTURER_FAMILY_DIMENSIONS",
+      "facts": [
+        "10 kOhm linear, bushingless rear-mount configuration 4, no detent, nominal 20 mm flat insulated shaft.",
+        "Manufacturer F shaft: diameter 6 mm; D dimension 4.5 mm. No panel nut on this bushingless variant.",
+        "Manufacturer states 20 V DC maximum; do not span the full 24 V between -12 and +12 V."
+      ],
+      "caveats": [
+        "Not silently substituted in the panel: current body overlay remains the ALPS baseline.",
+        "Needs exact shaft reach, knob-retention, board support, pad layout and quantity review.",
+        "A small 9 mm cap still needs a selected compatible SKU."
+      ],
+      "drawing": "parts/bourns-ptv09a/PTV09.pdf"
+    },
+    {
+      "id": "ears-dress-nuts",
+      "name": "EARS 3.5 mm jack dress nuts",
+      "role": "Black IN / red OUT",
+      "jlc_code": null,
+      "jlc_url": null,
+      "source_url": "https://ears-modular.com/products/%E9%9B%BB%E7%BE%8E%E3%83%8A%E3%83%83%E3%83%88-3-5-%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AF%E7%94%A8%E3%83%89%E3%83%AC%E3%82%B9%E3%83%8A%E3%83%83%E3%83%88-100%E5%80%8B-1",
+      "extra_url": "https://ears-modular.com/collections/%E3%83%8A%E3%83%83%E3%83%88",
+      "listing_state": "External mechanical accessory specified by the user. Exact product page unavailable in this retrieval; collection warns of incompatible larger-diameter jacks.",
+      "geometry_state": "DIMENSIONS_OPEN",
+      "facts": [
+        "Colors fixed by the project: black input, red output.",
+        "8.3 mm OD is inherited R05 artwork, NOT a verified dimension of this EARS product.",
+        "R06 can display a larger trial envelope, explicitly labeled an assumption."
+      ],
+      "caveats": [
+        "Confirm OD, thickness, bore/thread and seated fit with the selected jack.",
+        "One confirmed jack/nut pairing should set the pitch and decorative keepout for all 157 ports.",
+        "Fitting nuts is mechanical assembly; electrical soldering remains at the factory."
+      ]
+    },
+    {
+      "id": "octave-switch-open",
+      "name": "Six-position octave selector — exact SKU not frozen",
+      "role": "Five OCT controls",
+      "geometry_state": "DIMENSIONS_OPEN",
+      "source_url": null,
+      "jlc_code": null,
+      "jlc_url": null,
+      "listing_state": "Open exact-part and assembly selection",
+      "facts": [
+        "OCT is an indexed rotary switch, not the continuous pot used for TUNE and FINE.",
+        "The 14 mm cap is only an artwork envelope. Its body, terminals and PCB clearance are not qualified."
+      ],
+      "caveats": [
+        "A passing 14 mm front-cap clearance does not prove a rotary switch fits underneath."
+      ]
+    },
+    {
+      "id": "control-hardware-open",
+      "name": "Other switches / trigger buttons / caps",
+      "role": "Remaining mechanical completion",
+      "geometry_state": "DIMENSIONS_OPEN",
+      "source_url": null,
+      "jlc_code": null,
+      "jlc_url": null,
+      "listing_state": "Open exact variants",
+      "facts": [
+        "No new switch, trigger-button or cap dimensions are invented in this revision."
+      ],
+      "caveats": [
+        "Keep these provisional until exact variant drawings are accepted; R06 is not a fabrication package."
+      ]
+    }
+  ]
+}

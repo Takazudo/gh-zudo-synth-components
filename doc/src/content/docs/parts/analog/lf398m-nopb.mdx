@@ -1,0 +1,63 @@
+---
+title: "LF398M/NOPB"
+description: "Analog voltage storage — Texas Instruments"
+sidebar_position: 1
+---
+
+**Analog voltage storage**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | Texas Instruments |
+| Part / family | LF398M/NOPB |
+| Identity scope | Exact ordering identity |
+| Evidence state | AVAILABLE |
+| LCSC code | C1346172 |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+LF398M/NOPB was chosen as a first sample-and-hold implementation candidate. This M/NOPB version uses SOIC-14; an eight-pin DIP drawing is not its package pin map.
+
+## Design cautions
+
+Keep the hold capacitor and sensitive node local. Larger capacitance can reduce droop but lengthen acquisition. Offset, hold step, leakage and temperature matter for pitch storage. Slew must follow a buffered held output rather than loading the storage node.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-sample-hold-orderable-identity` | `{"manufacturer": "Texas Instruments", "mpn": "LF398M/NOPB", "package": "SOIC-14"}` NONE; Exact complete orderable identifier in the selected package; does not establish supplier stock. | [Data Sheet](https://www.ti.com/lit/ds/symlink/lf398-n.pdf); PASS - primary-source confirmed |
+| `fact-sample-hold-pinout` | `pin 1 analog input -&gt; pad 1; pin 2 NC -&gt; pad 2; pin 3 V- -&gt; pad 3; pin 4 NC -&gt; pad 4; pin 5 NC -&gt; pad 5; pin 6 NC -&gt; pad 6; pin 7 output -&gt; pad 7; pin 8 hold capacitor -&gt; pad 8; pin 9 NC -&gt; pad 9; pin 10 logic reference -&gt; pad 10; pin 11 logic input -&gt; pad 11; pin 12 V+ -&gt; pad 12; pin 13 NC -&gt; pad 13; pin 14 offset adjust -&gt; pad 14` NONE; No schematic or placement/net binding is claimed. Manufacturer pin functions are source-backed only when a retained primary document names the product family. | [Data Sheet](https://www.ti.com/lit/ds/symlink/lf398-n.pdf); PASS - primary-source confirmed |
+| `fact-sample-hold-input-offset-voltage` | `{"typical_at_25C": 2, "maximum_at_25C": 7, "maximum_full_temperature": 10}` mV; LF398-N only; VS = +/-15 V; TA = TJ = 25 C for 2/7 mV and full temperature for 10 mV; Ch=0.01 uF, RL=10 kohm. | [Data Sheet](https://www.ti.com/lit/ds/symlink/lf398-n.pdf); PASS - primary-source confirmed |
+| `fact-sample-hold-input-bias-current` | `{"typical_at_25C": 10, "maximum_at_25C": 50, "maximum_full_temperature": 100}` nA; LF398-N only; VS = +/-15 V; TA = TJ = 25 C for 10/50 nA and full temperature for 100 nA; Ch=0.01 uF, RL=10 kohm. | [Data Sheet](https://www.ti.com/lit/ds/symlink/lf398-n.pdf); PASS - primary-source confirmed |
+| `fact-sample-hold-hold-step` | `{"typical_at_25C": 1, "maximum_at_25C": 2.5}` mV; LF398-N; TA = 25 C; Ch = 0.01 uF; VOUT = 0 V. | [Data Sheet](https://www.ti.com/lit/ds/symlink/lf398-n.pdf); PASS - primary-source confirmed |
+
+## 3D / mechanical assets
+
+**Inherited family/derived package preview.** Many imported models are intentionally coarse body envelopes, not complete manufacturer solids. Check the original receipt, drawing and mounting stack; the rendered shape does not qualify fit.
+
+<PackageModelViewer descriptor="7b2276657273696f6e223a312c227061636b6167654964223a22534f49432d31345f332e3978382e376d6d5f50312e32376d6d222c227061636b6167654c6162656c223a22534f49432d31345f332e3978382e376d6d5f50312e32376d6d222c226d6f64656c55726c223a222f6173736574732f636f6d706f6e656e742d70726576696577732f6d6f64656c732f49435f534f49432d31345f332e3978382e372e77726c222c226f6666736574223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c22726f746174696f6e223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c227363616c65223a7b2278223a312e302c2279223a312e302c227a223a312e307d7d" />
+
+Local model: `footprints/kicad/zudo-osc-hole-field.3dshapes/IC_SOIC-14_3.9x8.7.wrl`. Native rendering is supplied by `zudo-circuit-doc`.
+
+[Open the native generated evidence record](/docs/components/records/sample-hold/). It preserves original claim wording, locators and verdicts.
+
+## Datasheets, drawings and source leads
+
+- [LFx98x Monolithic Sample-and-Hold	 Circuits datasheet (Rev. C)](https://www.ti.com/lit/ds/symlink/lf398-n.pdf) — retained local bytes: `circuit/sources/ic-library/LF398.pdf`; SHA-256 `050375f8bda46b6dea071d0273fdb65f1b0b972245f4fa7e4aa5ca7af1b88e9b`.
+- [OSC-ES-1 parts shortlist](https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json) — source metadata/link only in this edition; no local download implied.
+
+[Recorded LCSC identity C-number](https://www.lcsc.com/product-detail/C1346172.html).
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

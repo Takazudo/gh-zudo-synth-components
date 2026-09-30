@@ -1,0 +1,59 @@
+---
+title: "NOISE2"
+description: "Programmed white/pink noise source — Electric Druid"
+sidebar_position: 1
+---
+
+**Programmed white/pink noise source**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | Electric Druid |
+| Part / family | NOISE2 |
+| Identity scope | Exact ordering identity |
+| Evidence state | AVAILABLE |
+| LCSC code | Not established for this identity |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+Electric Druid NOISE2 is a programmed noise-generator device, not a blank microcontroller. It offered a repeatable white/pink source before separate blue/brown shaping stages.
+
+## Design cautions
+
+Preserve the programmed identity and delivery method in procurement. This is digital pseudorandom generation, not a purely analog noise junction. Output spectra, filtering, levels, bandwidth and buffering still require measurement.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-noise-orderable-identity` | `{"manufacturer": "Electric Druid", "mpn": "NOISE2", "package": "PDIP-8 programmed device"}` NONE; Exact complete orderable identifier in the selected package; does not establish supplier stock. | [NOISE2 chip](https://electricdruid.net/datasheets/NOISE2Datasheet.pdf); PASS - primary-source confirmed |
+| `fact-noise-pinout` | `pin 1 +5V supply -&gt; pad 1; pin 2 unused digital input -&gt; pad 2; pin 3 white digital output -&gt; pad 3; pin 4 unused digital input -&gt; pad 4; pin 5 unused digital input -&gt; pad 5; pin 6 unused digital input -&gt; pad 6; pin 7 pink analog output -&gt; pad 7; pin 8 0V supply -&gt; pad 8` NONE; No schematic or placement/net binding is claimed. Manufacturer pin functions are source-backed only when a retained primary document names the product family. | [NOISE2 chip](https://electricdruid.net/datasheets/NOISE2Datasheet.pdf); PASS - primary-source confirmed |
+| `fact-noise-noise-output-rate` | `{"approximate": 100}` kHz; Manufacturer describes the generated pseudo-random output rate as around 100 kHz; this is not a guaranteed minimum or maximum. | [NOISE2 chip](https://electricdruid.net/datasheets/NOISE2Datasheet.pdf); PASS - primary-source confirmed |
+
+## 3D / mechanical assets
+
+**Inherited family/derived package preview.** Many imported models are intentionally coarse body envelopes, not complete manufacturer solids. Check the original receipt, drawing and mounting stack; the rendered shape does not qualify fit.
+
+<PackageModelViewer descriptor="7b2276657273696f6e223a312c227061636b6167654964223a224449502d385f57372e36326d6d222c227061636b6167654c6162656c223a224449502d385f57372e36326d6d222c226d6f64656c55726c223a222f6173736574732f636f6d706f6e656e742d70726576696577732f6d6f64656c732f49435f4449502d385f57372e36326d6d2e77726c222c226f6666736574223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c22726f746174696f6e223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c227363616c65223a7b2278223a312e302c2279223a312e302c227a223a312e307d7d" />
+
+Local model: `footprints/kicad/zudo-osc-hole-field.3dshapes/IC_DIP-8_W7.62mm.wrl`. Native rendering is supplied by `zudo-circuit-doc`.
+
+[Open the native generated evidence record](/docs/components/records/noise/). It preserves original claim wording, locators and verdicts.
+
+## Datasheets, drawings and source leads
+
+- [NOISE2Datasheet.pages](https://electricdruid.net/datasheets/NOISE2Datasheet.pdf) — retained local bytes: `circuit/sources/ic-library/NOISE2.pdf`; SHA-256 `24161c9363c1d2249d9447879d0e93c27aa6df384e6413cc5f8ea223149739a0`.
+- [OSC-ES-1 parts shortlist](https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json) — source metadata/link only in this edition; no local download implied.
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

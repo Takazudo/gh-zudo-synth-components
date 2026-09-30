@@ -1,0 +1,61 @@
+---
+title: "CD74HC221M96"
+description: "Bounded sample-acquisition pulses — Texas Instruments"
+sidebar_position: 1
+---
+
+**Bounded sample-acquisition pulses**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | Texas Instruments |
+| Part / family | CD74HC221M96 |
+| Identity scope | Exact ordering identity |
+| Evidence state | AVAILABLE |
+| LCSC code | C133954 |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+CD74HC221M96 is the non-retriggerable one-shot candidate used to turn a trigger event into a controlled acquisition window for each sample-and-hold channel.
+
+## Design cautions
+
+Pulse width depends on the specified external timing network and operating conditions. Confirm trigger polarity, reset behavior and pulse completion. A long gate wired directly to a track/hold control would track continuously instead of capturing a single destination.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-one-shot-orderable-identity` | `{"manufacturer": "Texas Instruments", "mpn": "CD74HC221M96", "package": "SOIC-16"}` NONE; Exact complete orderable identifier in the selected package; does not establish supplier stock. | [Data Sheet](https://www.ti.com/lit/ds/symlink/cd74hc221.pdf); PASS - primary-source confirmed |
+| `fact-one-shot-pinout` | `pin 1 1A trailing-edge trigger -&gt; pad 1; pin 2 1B leading-edge trigger -&gt; pad 2; pin 3 1R active-low reset -&gt; pad 3; pin 4 1Q -&gt; pad 4; pin 5 2Q inverted -&gt; pad 5; pin 6 2CX timing capacitor -&gt; pad 6; pin 7 2RXCX timing resistor/capacitor -&gt; pad 7; pin 8 GND -&gt; pad 8; pin 9 2A trailing-edge trigger -&gt; pad 9; pin 10 2B leading-edge trigger -&gt; pad 10; pin 11 2R active-low reset -&gt; pad 11; pin 12 2Q -&gt; pad 12; pin 13 1Q inverted -&gt; pad 13; pin 14 1CX timing capacitor -&gt; pad 14; pin 15 1RXCX timi...` NONE; No schematic or placement/net binding is claimed. Manufacturer pin functions are source-backed only when a retained primary document names the product family. | [Data Sheet](https://www.ti.com/lit/ds/symlink/cd74hc221.pdf); PASS - primary-source confirmed |
+| `fact-one-shot-electrical-limits` | `No exact-part electrical limits promoted from retained evidence.` NONE; The task has not promoted a source-backed limit for this exact shortlist record. | [Data Sheet](https://www.ti.com/lit/ds/symlink/cd74hc221.pdf); UNSOURCED |
+
+## 3D / mechanical assets
+
+**Inherited family/derived package preview.** Many imported models are intentionally coarse body envelopes, not complete manufacturer solids. Check the original receipt, drawing and mounting stack; the rendered shape does not qualify fit.
+
+<PackageModelViewer descriptor="7b2276657273696f6e223a312c227061636b6167654964223a22534f49432d31365f332e3978392e396d6d5f50312e32376d6d222c227061636b6167654c6162656c223a22534f49432d31365f332e3978392e396d6d5f50312e32376d6d222c226d6f64656c55726c223a222f6173736574732f636f6d706f6e656e742d70726576696577732f6d6f64656c732f49435f534f49432d31365f332e3978392e392e77726c222c226f6666736574223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c22726f746174696f6e223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c227363616c65223a7b2278223a312e302c2279223a312e302c227a223a312e307d7d" />
+
+Local model: `footprints/kicad/zudo-osc-hole-field.3dshapes/IC_SOIC-16_3.9x9.9.wrl`. Native rendering is supplied by `zudo-circuit-doc`.
+
+[Open the native generated evidence record](/docs/components/records/one-shot/). It preserves original claim wording, locators and verdicts.
+
+## Datasheets, drawings and source leads
+
+- [CD54HC221, CD74HC221, CD74HCT221 datasheet (Rev. F)](https://www.ti.com/lit/ds/symlink/cd74hc221.pdf) — retained local bytes: `circuit/sources/ic-library/CD74HC221.pdf`; SHA-256 `7f1f24f5229cfed79662b850f2aa6a92a1fcca9530d4c264b05af80638ad67e0`.
+- [OSC-ES-1 parts shortlist](https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json) — source metadata/link only in this edition; no local download implied.
+
+[Recorded LCSC identity C-number](https://www.lcsc.com/product-detail/C133954.html).
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

@@ -1,0 +1,26 @@
+zfb info: [plugin:@takazudo/zudo-doc/plugins/routes] [asset-viewer] Git metadata unavailable Error: Command failed: git rev-parse --is-inside-work-tree
+fatal: not a git repository (or any of the parent directories): .git
+
+[90m    at genericNodeError (node:internal/errors:986:15)[39m
+[90m    at wrappedFn (node:internal/errors:540:14)[39m
+[90m    at ChildProcess.exithandler (node:child_process:417:12)[39m
+[90m    at ChildProcess.emit (node:events:514:28)[39m
+[90m    at maybeClose (node:internal/child_process:1141:16)[39m
+[90m    at Socket.<anonymous> (node:internal/child_process:498:11)[39m
+[90m    at Socket.emit (node:events:514:28)[39m
+[90m    at Pipe.<anonymous> (node:net:362:12)[39m {
+  code: [33m128[39m,
+  killed: [33mfalse[39m,
+  signal: [1mnull[22m,
+  cmd: [32m'git rev-parse --is-inside-work-tree'[39m,
+  stdout: [32m''[39m,
+  stderr: [32m'fatal: not a git repository (or any of the parent directories): .git\n'[39m
+}
+zfb info: [plugin:@takazudo/zudo-doc-claude-resources] claude-resources: 1 CLAUDE.md, 0 commands, 35 skills, 0 agents
+[36minfo[39m package route `/docs/[[...slug]]` (from plugin `@takazudo/zudo-doc/plugins/routes`) is shadowed by a user pages/ route (user wins); skipping
+[36minfo[39m package route `/404` → pages/404.tsx
+[36minfo[39m package route `/robots.txt` → pages/robots.txt.tsx
+[36minfo[39m package route `/files/[[...path]]` → pages/files/[[...path]].tsx
+zfb info: [plugin:search-index] Generated search index with 200 entries
+zfb info: [plugin:llms-txt] Generated llms.txt and llms-full.txt (200 pages)
+[32m✓[39m 251 pages built in 46.15s

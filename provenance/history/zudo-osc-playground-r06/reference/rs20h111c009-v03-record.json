@@ -1,0 +1,801 @@
+{
+  "id": "rs20h111c009",
+  "kind": "fader",
+  "name": "RS20H111C009",
+  "manufacturer": "Alps Alpine",
+  "identity": "exact_mpn",
+  "mpn": "RS20H111C009",
+  "jlc_code": "C470622",
+  "jlc_url": "https://jlcpcb.com/partdetail/ALPSALPINE-RS20H111C009/C470622",
+  "value": "50 kΩ · 1B (linear) · no detent",
+  "geometry": "20 mm travel; C, insulated; 14.5 mm lever; top access",
+  "application": "Compact control-voltage or modulation fader",
+  "evidence": {
+    "checked_date": "2026-09-25 UTC / 2026-09-26 JST",
+    "category": "slide_potentiometer",
+    "gangs": 1,
+    "footprint_status": "Not qualified against a PCB footprint or panel drawing",
+    "stock_status": "Public listing/source verified only; live allocated stock, final quote and lead time unverified",
+    "cap_status": "No exact cap-to-lever fit qualified",
+    "factory_assembly_status": "Candidate for factory assembly; no home soldering planned; complete PCBA/process acceptance pending",
+    "manufacturer": "Alps Alpine",
+    "mpn": "RS20H111C009",
+    "manufacturer_url": "https://tech.alpsalpine.com/e/products/detail/RS20H111C009/",
+    "travel_mm": 20,
+    "resistance_ohms": 50000,
+    "taper": "1B (linear)",
+    "detent": "Without",
+    "lever_orientation": "Vertical / top access",
+    "lever_style": "C, insulated",
+    "lever_length_mm": 14.5,
+    "body_height_mm": null,
+    "life_cycles": 10000,
+    "power_w": 0.05,
+    "maximum_operating_voltage": "100 V AC; 10 V DC (manufacturer). JLC generic 300 V field must not be used as operating voltage.",
+    "jlc_code": "C470622",
+    "lcsc_code": "C470622",
+    "jlc_url": "https://jlcpcb.com/partdetail/ALPSALPINE-RS20H111C009/C470622",
+    "lcsc_url": null,
+    "listing_status": "Exact JLC and exact manufacturer product verified",
+    "assembly": "Wave Soldering; Economic and Standard (public JLC listing)",
+    "mechanical_anchoring": "Solder all metal lugs; exact panel/board support and reference drawing to be qualified.",
+    "cap_options": "Match ALPS C insulated lever; do not assume compatibility with flat-metal fader caps.",
+    "best_use": "Compact control-voltage or modulation fader",
+    "unknowns": [
+      "Exact cap geometry/fit",
+      "Panel stand-off stack",
+      "Factory fixture/cleaning profile",
+      "DC-use formal supply specification"
+    ]
+  },
+  "scope": "primary",
+  "original_catalog_record": {
+    "id": "rs20h111c009",
+    "kind": "fader",
+    "name": "RS20H111C009",
+    "manufacturer": "Alps Alpine",
+    "identity": "exact_mpn",
+    "mpn": "RS20H111C009",
+    "jlc_code": "C470622",
+    "jlc_url": "https://jlcpcb.com/partdetail/ALPSALPINE-RS20H111C009/C470622",
+    "value": "50 kΩ · 1B (linear) · no detent",
+    "geometry": "20 mm travel; C, insulated; 14.5 mm lever; top access",
+    "application": "Compact control-voltage or modulation fader",
+    "evidence": {
+      "checked_date": "2026-09-25 UTC / 2026-09-26 JST",
+      "category": "slide_potentiometer",
+      "gangs": 1,
+      "footprint_status": "Not qualified against a PCB footprint or panel drawing",
+      "stock_status": "Public listing/source verified only; live allocated stock, final quote and lead time unverified",
+      "cap_status": "No exact cap-to-lever fit qualified",
+      "factory_assembly_status": "Candidate for factory assembly; no home soldering planned; complete PCBA/process acceptance pending",
+      "manufacturer": "Alps Alpine",
+      "mpn": "RS20H111C009",
+      "manufacturer_url": "https://tech.alpsalpine.com/e/products/detail/RS20H111C009/",
+      "travel_mm": 20,
+      "resistance_ohms": 50000,
+      "taper": "1B (linear)",
+      "detent": "Without",
+      "lever_orientation": "Vertical / top access",
+      "lever_style": "C, insulated",
+      "lever_length_mm": 14.5,
+      "body_height_mm": null,
+      "life_cycles": 10000,
+      "power_w": 0.05,
+      "maximum_operating_voltage": "100 V AC; 10 V DC (manufacturer). JLC generic 300 V field must not be used as operating voltage.",
+      "jlc_code": "C470622",
+      "lcsc_code": "C470622",
+      "jlc_url": "https://jlcpcb.com/partdetail/ALPSALPINE-RS20H111C009/C470622",
+      "lcsc_url": null,
+      "listing_status": "Exact JLC and exact manufacturer product verified",
+      "assembly": "Wave Soldering; Economic and Standard (public JLC listing)",
+      "mechanical_anchoring": "Solder all metal lugs; exact panel/board support and reference drawing to be qualified.",
+      "cap_options": "Match ALPS C insulated lever; do not assume compatibility with flat-metal fader caps.",
+      "best_use": "Compact control-voltage or modulation fader",
+      "unknowns": [
+        "Exact cap geometry/fit",
+        "Panel stand-off stack",
+        "Factory fixture/cleaning profile",
+        "DC-use formal supply specification"
+      ]
+    }
+  },
+  "listing_record": {
+    "mpn": "RS20H111C009",
+    "jlc_code": "C470622",
+    "manufacturer": "Alps Alpine",
+    "role": "Primary compact top-access slider for CV shaping, envelope, mixer or sequence stages",
+    "package": "Through hole / Plugin",
+    "jlc_url": "https://jlcpcb.com/partdetail/ALPSALPINE-RS20H111C009/C470622",
+    "manufacturer_url": "https://tech.alpsalpine.com/e/products/detail/RS20H111C009/",
+    "lcsc_url": "https://item.szlcsc.com/476702.html",
+    "geometry_notes": "Manufacturer exact product: vertical lever;20mm travel; C lever,14.5mm length; single gang; no detent; no tap. Top-access performance slider candidate. Panel slot, body envelope, cap and PCB datum still require drawing review.",
+    "electrical_notes": "50kΩ ±20%, linear1B,0.05W; manufacturer maximum100VAC/10VDC;10,000cycles; nominal force0.6N (+0.5/−0.4). JLC and LCSC catalog show300V; do not use that as operating voltage. It conflicts with manufacturer operating specification.",
+    "assembly": "JLC listing: Wave Soldering; Economic and Standard; Extended. Manufacturer dip reference260°C maximum5s once, preheat100°C maximum1min. Quote pending.",
+    "stock_status": "JLC and LCSC actual available quantity not verified.",
+    "open_questions": [
+      "JLC stock/lead time and assembly acceptance",
+      "Panel slot/lever/cap exact geometry",
+      "Long term fader feel and dust protection",
+      "Resolve catalog voltage field in release record"
+    ],
+    "category": "Controls and connectors",
+    "record_basis": "named_part_and_assembly_listing",
+    "listing_checked": "2026-09-25",
+    "listing_checked_timezone": "UTC (2026-09-26 in Japan)",
+    "qualification_status": "Research candidate; no design-specific footprint, assembled sample, or order-specific acceptance established.",
+    "expanded_control_record_id": "rs20h111c009"
+  },
+  "research": {
+    "id": "rs20h111c009",
+    "mpn": "RS20H111C009",
+    "manufacturer": "Alps Alpine",
+    "name": "RS20H111C009",
+    "downloaded_files": [
+      {
+        "path": "component-assets/b04e01b3e2cafd90/product.html",
+        "local_path": "component-assets/b04e01b3e2cafd90/product.html",
+        "source_url": "https://tech.alpsalpine.com/e/products/detail/RS20H111C009/",
+        "type": "manufacturer_product_page",
+        "model_match": "exact_product_page",
+        "license": "Manufacturer copyright; no open license stated. Original download/readme retained for local engineering reference. Not relicensed by this catalog.",
+        "provenance": "Direct official ALPS/Bourns source",
+        "date": "2026-09-25",
+        "bytes": 67874,
+        "sha256": "b04e01b3e2cafd909625aa58395a5d34cdbb22c9ac85569b11990f287130b3a6",
+        "final_url": "https://tech.alpsalpine.com/e/products/detail/RS20H111C009/"
+      },
+      {
+        "path": "component-assets/8e1ac9a6fe4d7889/manufacturer-family-datasheet.pdf",
+        "local_path": "component-assets/8e1ac9a6fe4d7889/manufacturer-family-datasheet.pdf",
+        "source_url": "https://tech.alpsalpine.com/cms.media/product_catalog_rv_06_rs_h_en_c18c7ded81.pdf",
+        "type": "manufacturer_datasheet",
+        "model_match": "manufacturer_family_includes_order_code",
+        "license": "Manufacturer copyright; no open license stated. Original download/readme retained for local engineering reference. Not relicensed by this catalog.",
+        "provenance": "Direct official ALPS/Bourns source",
+        "date": "2026-09-25",
+        "bytes": 742207,
+        "sha256": "8e1ac9a6fe4d7889c0277595343296baeb17a3648130531a3e44c87069d80536",
+        "final_url": "https://tech.alpsalpine.com/cms.media/product_catalog_rv_06_rs_h_en_c18c7ded81.pdf"
+      },
+      {
+        "path": "component-assets/9d0a1c2bfbf9458f/product_3dcad_rs20h111c009_en_497a56ddfd.zip",
+        "local_path": "component-assets/9d0a1c2bfbf9458f/product_3dcad_rs20h111c009_en_497a56ddfd.zip",
+        "source_url": "https://tech.alpsalpine.com/cms.media/product_3dcad_rs20h111c009_en_497a56ddfd.zip",
+        "type": "manufacturer_cad_archive",
+        "model_match": "exact_mpn_manufacturer",
+        "license": "Manufacturer copyright; no open license stated. Original download/readme retained for local engineering reference. Not relicensed by this catalog.",
+        "provenance": "Public file URL in exact ALPS product page HTML; no login or supplier contact",
+        "date": "2026-09-25",
+        "bytes": 472030,
+        "sha256": "9d0a1c2bfbf9458f4c98285a9b8bd059a9de069b92950f2ee344040b94ba3012"
+      },
+      {
+        "path": "component-assets/aae470004acf4e33/RS20H111C009.STEP",
+        "local_path": "component-assets/aae470004acf4e33/RS20H111C009.STEP",
+        "source_url": "https://tech.alpsalpine.com/cms.media/product_3dcad_rs20h111c009_en_497a56ddfd.zip",
+        "type": "step_model",
+        "model_match": "exact_mpn_manufacturer",
+        "license": "Manufacturer copyright; no open license stated. Original download/readme retained for local engineering reference. Not relicensed by this catalog.",
+        "provenance": "Extracted unmodified from official ALPS ZIP; original filename preserved",
+        "date": "2026-09-25",
+        "bytes": 2224869,
+        "sha256": "aae470004acf4e33c9ea661ad13869a3ad9ff6328a18d774ad41349f637b3838",
+        "archive_member": "RS20H111C009.STEP",
+        "archive_path": "component-assets/9d0a1c2bfbf9458f/product_3dcad_rs20h111c009_en_497a56ddfd.zip"
+      },
+      {
+        "path": "component-assets/4842eaa3385688f9/RS20H111C009.pdf",
+        "local_path": "component-assets/4842eaa3385688f9/RS20H111C009.pdf",
+        "source_url": "https://tech.alpsalpine.com/cms.media/product_3dcad_rs20h111c009_en_497a56ddfd.zip",
+        "type": "3d_pdf",
+        "model_match": "exact_mpn_manufacturer",
+        "license": "Manufacturer copyright; no open license stated. Original download/readme retained for local engineering reference. Not relicensed by this catalog.",
+        "provenance": "Extracted unmodified from official ALPS ZIP; original filename preserved",
+        "date": "2026-09-25",
+        "bytes": 194281,
+        "sha256": "4842eaa3385688f92f3fb3d055ddfb9651d9b443b6c968ef10e08205a6543847",
+        "archive_member": "RS20H111C009.pdf",
+        "archive_path": "component-assets/9d0a1c2bfbf9458f/product_3dcad_rs20h111c009_en_497a56ddfd.zip"
+      },
+      {
+        "path": "component-assets/8876b93a81abf812/Read-me-first.rtf",
+        "local_path": "component-assets/8876b93a81abf812/Read-me-first.rtf",
+        "source_url": "https://tech.alpsalpine.com/cms.media/product_3dcad_rs20h111c009_en_497a56ddfd.zip",
+        "type": "manufacturer_readme",
+        "model_match": "exact_mpn_manufacturer",
+        "license": "Manufacturer copyright; no open license stated. Original download/readme retained for local engineering reference. Not relicensed by this catalog.",
+        "provenance": "Extracted unmodified from official ALPS ZIP; original filename preserved",
+        "date": "2026-09-25",
+        "bytes": 8712,
+        "sha256": "8876b93a81abf812c3aaf52b3801bea233ec49905c763754a60a43b26d315ec8",
+        "archive_member": "Read me first.rtf",
+        "archive_path": "component-assets/9d0a1c2bfbf9458f/product_3dcad_rs20h111c009_en_497a56ddfd.zip"
+      },
+      {
+        "path": "component-assets/0280441d667993cb/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+        "local_path": "component-assets/0280441d667993cb/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+        "source_url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+        "type": "manufacturer_drawing",
+        "model_match": "exact_product_page_drawing",
+        "license": "Manufacturer copyright; no open license stated. Original download/readme retained for local engineering reference. Not relicensed by this catalog.",
+        "provenance": "Public file URL in exact ALPS product page HTML; no login or supplier contact",
+        "date": "2026-09-25",
+        "bytes": 17537,
+        "sha256": "0280441d667993cb78443f98710505ebab85b95e20ebcef940b5451d74e62273"
+      },
+      {
+        "path": "component-assets/9247029765c8fdc2/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+        "local_path": "component-assets/9247029765c8fdc2/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+        "source_url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+        "type": "manufacturer_drawing",
+        "model_match": "exact_product_page_drawing",
+        "license": "Manufacturer copyright; no open license stated. Original download/readme retained for local engineering reference. Not relicensed by this catalog.",
+        "provenance": "Public file URL in exact ALPS product page HTML; no login or supplier contact",
+        "date": "2026-09-25",
+        "bytes": 8772,
+        "sha256": "9247029765c8fdc2690dd3a007de2651bb46c897263e3c54e298457438e39554"
+      },
+      {
+        "path": "component-assets/b64e3b197ddb9eb1/product_detail_fig_rs_h_d_24_en_21894a698f.gif",
+        "local_path": "component-assets/b64e3b197ddb9eb1/product_detail_fig_rs_h_d_24_en_21894a698f.gif",
+        "source_url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_24_en_21894a698f.gif",
+        "type": "manufacturer_drawing",
+        "model_match": "exact_product_page_drawing",
+        "license": "Manufacturer copyright; no open license stated. Original download/readme retained for local engineering reference. Not relicensed by this catalog.",
+        "provenance": "Public file URL in exact ALPS product page HTML; no login or supplier contact",
+        "date": "2026-09-25",
+        "bytes": 7421,
+        "sha256": "b64e3b197ddb9eb1221b652348f27decb632c4343b194e73a22a2ce32f8c274f"
+      },
+      {
+        "path": "component-assets/c9d1a6aa9c150f29/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif",
+        "local_path": "component-assets/c9d1a6aa9c150f29/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif",
+        "source_url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif",
+        "type": "manufacturer_drawing",
+        "model_match": "exact_product_page_drawing",
+        "license": "Manufacturer copyright; no open license stated. Original download/readme retained for local engineering reference. Not relicensed by this catalog.",
+        "provenance": "Public file URL in exact ALPS product page HTML; no login or supplier contact",
+        "date": "2026-09-25",
+        "bytes": 4244,
+        "sha256": "c9d1a6aa9c150f2956a246133192a9a9d7f9b627762f3607d28609814018d427"
+      }
+    ],
+    "model_status": "downloaded",
+    "model_match": "exact_mpn_manufacturer",
+    "primary_model_path": "component-assets/aae470004acf4e33/RS20H111C009.STEP",
+    "source_backed_dimensions": {
+      "travel_mm": 20,
+      "body_length_mm": 35,
+      "body_plan_width_mm": 6,
+      "body_vertical_dimension_mm": 12.5,
+      "body_vertical_tolerance_mm": 0.3,
+      "lever_length_mm": 14.5,
+      "lever_tip_width_mm": 4,
+      "lever_tip_thickness_mm": 1.8,
+      "lever_base_width_mm": 5,
+      "lever_type": "C insulated",
+      "orientation": "Vertical/top access",
+      "mounting_notes": "All metal lugs must be soldered. Drawing identifies PCB mounting surface; total height is L1+13 ±0.5 mm, with L1=14.5 mm. 12.5 mm is drawing body vertical dimension, not lever length.",
+      "total_height_above_pcb_nominal_mm": 27.5,
+      "pcb_holes": "2 x diameter 1.6 +0.1/-0; 6 x diameter 0.8 +0.1/-0. See mounting-side drawing for staggered arrangement.",
+      "evidence": {
+        "source": {
+          "path": "component-assets/0280441d667993cb/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+          "source_url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif"
+        },
+        "layout": {
+          "path": "component-assets/9247029765c8fdc2/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+          "source_url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif"
+        },
+        "circuit": {
+          "path": "component-assets/c9d1a6aa9c150f29/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif",
+          "source_url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif"
+        }
+      }
+    },
+    "pinmap": {
+      "terminals": {
+        "1": "fixed end",
+        "2": "wiper",
+        "3": "fixed end"
+      },
+      "mechanical_lugs": "L denotes lug terminal where present; other support holes are mechanical, not additional signal terminals.",
+      "view": "Use manufacturer mounting-side drawing; not converted to a KiCad coordinate system.",
+      "evidence": {
+        "path": "component-assets/c9d1a6aa9c150f29/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif",
+        "source_url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif"
+      }
+    },
+    "electrical_and_selection_facts": {
+      "travel_mm": 20,
+      "resistance_ohms": 50000,
+      "taper": "1B (linear)",
+      "detent": "Without",
+      "lever_orientation": "Vertical / top access",
+      "lever_style": "C, insulated",
+      "lever_length_mm": 14.5,
+      "life_cycles": 10000,
+      "maximum_operating_voltage": "100 V AC; 10 V DC (manufacturer). JLC generic 300 V field must not be used as operating voltage."
+    },
+    "unresolved_data": [
+      "Cap retention and exact mating fit have not been qualified.",
+      "Panel thickness, standoff stack and PCB footprint remain to be checked against these drawings and a sample.",
+      "Factory soldering, fixture and final assembly acceptance remain unconfirmed."
+    ],
+    "source_page": "https://tech.alpsalpine.com/e/products/detail/RS20H111C009/",
+    "research_date": "2026-09-25"
+  },
+  "remote_assets": [],
+  "assets": [
+    {
+      "path": "component-assets/b04e01b3e2cafd90/product.html",
+      "source_url": "https://tech.alpsalpine.com/e/products/detail/RS20H111C009/",
+      "type": "manufacturer_product_page",
+      "model_match": "exact_product_page",
+      "license": "Manufacturer copyright; no open license stated. Original download/readme retained for local engineering reference. Not relicensed by this catalog.",
+      "provenance": "Direct official ALPS/Bourns source",
+      "date": "2026-09-25",
+      "bytes": 67874,
+      "sha256": "b04e01b3e2cafd909625aa58395a5d34cdbb22c9ac85569b11990f287130b3a6",
+      "final_url": "https://tech.alpsalpine.com/e/products/detail/RS20H111C009/",
+      "filename": "product.html",
+      "original_filename": "product.html",
+      "kind": "document",
+      "notes": "Direct official ALPS/Bourns source",
+      "research_origin": "component-research/faders/rs20h111c009/product.html"
+    },
+    {
+      "path": "component-assets/8e1ac9a6fe4d7889/manufacturer-family-datasheet.pdf",
+      "source_url": "https://tech.alpsalpine.com/cms.media/product_catalog_rv_06_rs_h_en_c18c7ded81.pdf",
+      "type": "manufacturer_datasheet",
+      "model_match": "manufacturer_family_includes_order_code",
+      "license": "Manufacturer copyright; no open license stated. Original download/readme retained for local engineering reference. Not relicensed by this catalog.",
+      "provenance": "Direct official ALPS/Bourns source",
+      "date": "2026-09-25",
+      "bytes": 742207,
+      "sha256": "8e1ac9a6fe4d7889c0277595343296baeb17a3648130531a3e44c87069d80536",
+      "final_url": "https://tech.alpsalpine.com/cms.media/product_catalog_rv_06_rs_h_en_c18c7ded81.pdf",
+      "filename": "manufacturer-family-datasheet.pdf",
+      "original_filename": "manufacturer-family-datasheet.pdf",
+      "kind": "pdf",
+      "notes": "Direct official ALPS/Bourns source",
+      "research_origin": "component-research/faders/rs20h111c009/manufacturer-family-datasheet.pdf"
+    },
+    {
+      "path": "component-assets/9d0a1c2bfbf9458f/product_3dcad_rs20h111c009_en_497a56ddfd.zip",
+      "source_url": "https://tech.alpsalpine.com/cms.media/product_3dcad_rs20h111c009_en_497a56ddfd.zip",
+      "type": "manufacturer_cad_archive",
+      "model_match": "exact_mpn_manufacturer",
+      "license": "Manufacturer copyright; no open license stated. Original download/readme retained for local engineering reference. Not relicensed by this catalog.",
+      "provenance": "Public file URL in exact ALPS product page HTML; no login or supplier contact",
+      "date": "2026-09-25",
+      "bytes": 472030,
+      "sha256": "9d0a1c2bfbf9458f4c98285a9b8bd059a9de069b92950f2ee344040b94ba3012",
+      "filename": "product_3dcad_rs20h111c009_en_497a56ddfd.zip",
+      "original_filename": "product_3dcad_rs20h111c009_en_497a56ddfd.zip",
+      "kind": "archive",
+      "notes": "Public file URL in exact ALPS product page HTML; no login or supplier contact",
+      "research_origin": "component-research/faders/rs20h111c009/product_3dcad_rs20h111c009_en_497a56ddfd.zip"
+    },
+    {
+      "path": "component-assets/aae470004acf4e33/RS20H111C009.STEP",
+      "source_url": "https://tech.alpsalpine.com/cms.media/product_3dcad_rs20h111c009_en_497a56ddfd.zip",
+      "type": "step_model",
+      "model_match": "exact_mpn_manufacturer",
+      "license": "Manufacturer copyright; no open license stated. Original download/readme retained for local engineering reference. Not relicensed by this catalog.",
+      "provenance": "Extracted unmodified from official ALPS ZIP; original filename preserved",
+      "date": "2026-09-25",
+      "bytes": 2224869,
+      "sha256": "aae470004acf4e33c9ea661ad13869a3ad9ff6328a18d774ad41349f637b3838",
+      "archive_member": "RS20H111C009.STEP",
+      "archive_path": "rs20h111c009/product_3dcad_rs20h111c009_en_497a56ddfd.zip",
+      "filename": "RS20H111C009.STEP",
+      "original_filename": "RS20H111C009.STEP",
+      "kind": "step",
+      "notes": "Extracted unmodified from official ALPS ZIP; original filename preserved",
+      "research_origin": "component-research/faders/rs20h111c009/cad/RS20H111C009.STEP"
+    },
+    {
+      "path": "component-assets/4842eaa3385688f9/RS20H111C009.pdf",
+      "source_url": "https://tech.alpsalpine.com/cms.media/product_3dcad_rs20h111c009_en_497a56ddfd.zip",
+      "type": "3d_pdf",
+      "model_match": "exact_mpn_manufacturer",
+      "license": "Manufacturer copyright; no open license stated. Original download/readme retained for local engineering reference. Not relicensed by this catalog.",
+      "provenance": "Extracted unmodified from official ALPS ZIP; original filename preserved",
+      "date": "2026-09-25",
+      "bytes": 194281,
+      "sha256": "4842eaa3385688f92f3fb3d055ddfb9651d9b443b6c968ef10e08205a6543847",
+      "archive_member": "RS20H111C009.pdf",
+      "archive_path": "rs20h111c009/product_3dcad_rs20h111c009_en_497a56ddfd.zip",
+      "filename": "RS20H111C009.pdf",
+      "original_filename": "RS20H111C009.pdf",
+      "kind": "pdf",
+      "notes": "Extracted unmodified from official ALPS ZIP; original filename preserved",
+      "research_origin": "component-research/faders/rs20h111c009/cad/RS20H111C009.pdf"
+    },
+    {
+      "path": "component-assets/8876b93a81abf812/Read-me-first.rtf",
+      "source_url": "https://tech.alpsalpine.com/cms.media/product_3dcad_rs20h111c009_en_497a56ddfd.zip",
+      "type": "manufacturer_readme",
+      "model_match": "exact_mpn_manufacturer",
+      "license": "Manufacturer copyright; no open license stated. Original download/readme retained for local engineering reference. Not relicensed by this catalog.",
+      "provenance": "Extracted unmodified from official ALPS ZIP; original filename preserved",
+      "date": "2026-09-25",
+      "bytes": 8712,
+      "sha256": "8876b93a81abf812c3aaf52b3801bea233ec49905c763754a60a43b26d315ec8",
+      "archive_member": "Read me first.rtf",
+      "archive_path": "rs20h111c009/product_3dcad_rs20h111c009_en_497a56ddfd.zip",
+      "filename": "Read-me-first.rtf",
+      "original_filename": "Read me first.rtf",
+      "kind": "license",
+      "notes": "Extracted unmodified from official ALPS ZIP; original filename preserved",
+      "research_origin": "component-research/faders/rs20h111c009/cad/Read me first.rtf"
+    },
+    {
+      "path": "component-assets/0280441d667993cb/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+      "source_url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+      "type": "manufacturer_drawing",
+      "model_match": "exact_product_page_drawing",
+      "license": "Manufacturer copyright; no open license stated. Original download/readme retained for local engineering reference. Not relicensed by this catalog.",
+      "provenance": "Public file URL in exact ALPS product page HTML; no login or supplier contact",
+      "date": "2026-09-25",
+      "bytes": 17537,
+      "sha256": "0280441d667993cb78443f98710505ebab85b95e20ebcef940b5451d74e62273",
+      "filename": "product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+      "original_filename": "product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+      "kind": "image",
+      "notes": "Public file URL in exact ALPS product page HTML; no login or supplier contact",
+      "research_origin": "component-research/faders/rs20h111c009/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif"
+    },
+    {
+      "path": "component-assets/9247029765c8fdc2/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+      "source_url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+      "type": "manufacturer_drawing",
+      "model_match": "exact_product_page_drawing",
+      "license": "Manufacturer copyright; no open license stated. Original download/readme retained for local engineering reference. Not relicensed by this catalog.",
+      "provenance": "Public file URL in exact ALPS product page HTML; no login or supplier contact",
+      "date": "2026-09-25",
+      "bytes": 8772,
+      "sha256": "9247029765c8fdc2690dd3a007de2651bb46c897263e3c54e298457438e39554",
+      "filename": "product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+      "original_filename": "product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+      "kind": "image",
+      "notes": "Public file URL in exact ALPS product page HTML; no login or supplier contact",
+      "research_origin": "component-research/faders/rs20h111c009/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif"
+    },
+    {
+      "path": "component-assets/b64e3b197ddb9eb1/product_detail_fig_rs_h_d_24_en_21894a698f.gif",
+      "source_url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_24_en_21894a698f.gif",
+      "type": "manufacturer_drawing",
+      "model_match": "exact_product_page_drawing",
+      "license": "Manufacturer copyright; no open license stated. Original download/readme retained for local engineering reference. Not relicensed by this catalog.",
+      "provenance": "Public file URL in exact ALPS product page HTML; no login or supplier contact",
+      "date": "2026-09-25",
+      "bytes": 7421,
+      "sha256": "b64e3b197ddb9eb1221b652348f27decb632c4343b194e73a22a2ce32f8c274f",
+      "filename": "product_detail_fig_rs_h_d_24_en_21894a698f.gif",
+      "original_filename": "product_detail_fig_rs_h_d_24_en_21894a698f.gif",
+      "kind": "image",
+      "notes": "Public file URL in exact ALPS product page HTML; no login or supplier contact",
+      "research_origin": "component-research/faders/rs20h111c009/product_detail_fig_rs_h_d_24_en_21894a698f.gif"
+    },
+    {
+      "path": "component-assets/c9d1a6aa9c150f29/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif",
+      "source_url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif",
+      "type": "manufacturer_drawing",
+      "model_match": "exact_product_page_drawing",
+      "license": "Manufacturer copyright; no open license stated. Original download/readme retained for local engineering reference. Not relicensed by this catalog.",
+      "provenance": "Public file URL in exact ALPS product page HTML; no login or supplier contact",
+      "date": "2026-09-25",
+      "bytes": 4244,
+      "sha256": "c9d1a6aa9c150f2956a246133192a9a9d7f9b627762f3607d28609814018d427",
+      "filename": "product_detail_fig_rs_h_d_31_en_7bda2aee02.gif",
+      "original_filename": "product_detail_fig_rs_h_d_31_en_7bda2aee02.gif",
+      "kind": "image",
+      "notes": "Public file URL in exact ALPS product page HTML; no login or supplier contact",
+      "research_origin": "component-research/faders/rs20h111c009/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Source backed dimensions / Travel (mm)",
+      "value": "20",
+      "source_urls": [
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif"
+      ]
+    },
+    {
+      "label": "Source backed dimensions / Body length (mm)",
+      "value": "35",
+      "source_urls": [
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif"
+      ]
+    },
+    {
+      "label": "Source backed dimensions / Body plan width (mm)",
+      "value": "6",
+      "source_urls": [
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif"
+      ]
+    },
+    {
+      "label": "Source backed dimensions / Body vertical dimension (mm)",
+      "value": "12.5",
+      "source_urls": [
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif"
+      ]
+    },
+    {
+      "label": "Source backed dimensions / Body vertical tolerance (mm)",
+      "value": "0.3",
+      "source_urls": [
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif"
+      ]
+    },
+    {
+      "label": "Source backed dimensions / Lever length (mm)",
+      "value": "14.5",
+      "source_urls": [
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif"
+      ]
+    },
+    {
+      "label": "Source backed dimensions / Lever tip width (mm)",
+      "value": "4",
+      "source_urls": [
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif"
+      ]
+    },
+    {
+      "label": "Source backed dimensions / Lever tip thickness (mm)",
+      "value": "1.8",
+      "source_urls": [
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif"
+      ]
+    },
+    {
+      "label": "Source backed dimensions / Lever base width (mm)",
+      "value": "5",
+      "source_urls": [
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif"
+      ]
+    },
+    {
+      "label": "Source backed dimensions / Lever type",
+      "value": "C insulated",
+      "source_urls": [
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif"
+      ]
+    },
+    {
+      "label": "Source backed dimensions / Orientation",
+      "value": "Vertical/top access",
+      "source_urls": [
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif"
+      ]
+    },
+    {
+      "label": "Source backed dimensions / Mounting notes",
+      "value": "All metal lugs must be soldered. Drawing identifies PCB mounting surface; total height is L1+13 ±0.5 mm, with L1=14.5 mm. 12.5 mm is drawing body vertical dimension, not lever length.",
+      "source_urls": [
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif"
+      ]
+    },
+    {
+      "label": "Source backed dimensions / Total height above pcb nominal (mm)",
+      "value": "27.5",
+      "source_urls": [
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif"
+      ]
+    },
+    {
+      "label": "Source backed dimensions / Pcb holes",
+      "value": "2 x diameter 1.6 +0.1/-0; 6 x diameter 0.8 +0.1/-0. See mounting-side drawing for staggered arrangement.",
+      "source_urls": [
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+        "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif"
+      ]
+    },
+    {
+      "label": "Electrical and selection facts / Travel (mm)",
+      "value": "20",
+      "source_urls": [
+        "https://tech.alpsalpine.com/e/products/detail/RS20H111C009/"
+      ]
+    },
+    {
+      "label": "Electrical and selection facts / Resistance ohms",
+      "value": "50000",
+      "source_urls": [
+        "https://tech.alpsalpine.com/e/products/detail/RS20H111C009/"
+      ]
+    },
+    {
+      "label": "Electrical and selection facts / Taper",
+      "value": "1B (linear)",
+      "source_urls": [
+        "https://tech.alpsalpine.com/e/products/detail/RS20H111C009/"
+      ]
+    },
+    {
+      "label": "Electrical and selection facts / Detent",
+      "value": "Without",
+      "source_urls": [
+        "https://tech.alpsalpine.com/e/products/detail/RS20H111C009/"
+      ]
+    },
+    {
+      "label": "Electrical and selection facts / Lever orientation",
+      "value": "Vertical / top access",
+      "source_urls": [
+        "https://tech.alpsalpine.com/e/products/detail/RS20H111C009/"
+      ]
+    },
+    {
+      "label": "Electrical and selection facts / Lever style",
+      "value": "C, insulated",
+      "source_urls": [
+        "https://tech.alpsalpine.com/e/products/detail/RS20H111C009/"
+      ]
+    },
+    {
+      "label": "Electrical and selection facts / Lever length (mm)",
+      "value": "14.5",
+      "source_urls": [
+        "https://tech.alpsalpine.com/e/products/detail/RS20H111C009/"
+      ]
+    },
+    {
+      "label": "Electrical and selection facts / Life cycles",
+      "value": "10000",
+      "source_urls": [
+        "https://tech.alpsalpine.com/e/products/detail/RS20H111C009/"
+      ]
+    },
+    {
+      "label": "Electrical and selection facts / Maximum operating voltage",
+      "value": "100 V AC; 10 V DC (manufacturer). JLC generic 300 V field must not be used as operating voltage.",
+      "source_urls": [
+        "https://tech.alpsalpine.com/e/products/detail/RS20H111C009/"
+      ]
+    }
+  ],
+  "pinmap": {
+    "terminals": {
+      "1": "fixed end",
+      "2": "wiper",
+      "3": "fixed end"
+    },
+    "mechanical_lugs": "L denotes lug terminal where present; other support holes are mechanical, not additional signal terminals.",
+    "view": "Use manufacturer mounting-side drawing; not converted to a KiCad coordinate system.",
+    "evidence": {
+      "path": "rs20h111c009/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif",
+      "source_url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif"
+    }
+  },
+  "pinmap_source": "Use the source drawing and its stated view; no CAD pad coordinates have been qualified.",
+  "gaps": [
+    "Cap retention and exact mating fit have not been qualified.",
+    "Panel thickness, standoff stack and PCB footprint remain to be checked against these drawings and a sample.",
+    "Factory soldering, fixture and final assembly acceptance remain unconfirmed."
+  ],
+  "assembly": "JLC listing: Wave Soldering; Economic and Standard; Extended. Manufacturer dip reference260°C maximum5s once, preheat100°C maximum1min. Quote pending.",
+  "models": [
+    {
+      "path": "component-previews/aae470004acf4e33.glb",
+      "preview": "component-previews/aae470004acf4e33.png",
+      "source_step": "component-assets/aae470004acf4e33/RS20H111C009.STEP",
+      "source_sha256": "aae470004acf4e33c9ea661ad13869a3ad9ff6328a18d774ad41349f637b3838",
+      "source_url": "https://tech.alpsalpine.com/cms.media/product_3dcad_rs20h111c009_en_497a56ddfd.zip",
+      "label": "Manufacturer CAD linked to the exact part",
+      "model_match": "manufacturer_part",
+      "original_model_match": "exact_mpn_manufacturer",
+      "bbox_mm": {
+        "x": 35.0807,
+        "y": 7.105,
+        "z": 31.9008
+      },
+      "notes": "Extracted unmodified from official ALPS ZIP; original filename preserved",
+      "license": "Manufacturer copyright; no open license stated. Original download/readme retained for local engineering reference. Not relicensed by this catalog.",
+      "inspection": {
+        "source_sha256": "aae470004acf4e33c9ea661ad13869a3ad9ff6328a18d774ad41349f637b3838",
+        "glb": "aae470004acf4e33.glb",
+        "png": "aae470004acf4e33.png",
+        "vertices": 11273,
+        "triangles": 11996,
+        "source_bounding_box_mm": {
+          "x": 35.0807,
+          "y": 7.105,
+          "z": 31.9008
+        },
+        "bbox_basis": "Imported STEP geometry, including terminals/hardware represented in the file; not measured physical dimensions.",
+        "source_units": "mm (OpenCascade import normalization)",
+        "glb_units": "metres",
+        "glb_axis_mapping": "x,y,z -> x,z,-y",
+        "linear_tessellation_tolerance_mm": 0.07,
+        "angular_tessellation_tolerance_radians": 0.2,
+        "material": "Neutral inspection material; original STEP surface colours are not reproduced.",
+        "solids": 1,
+        "valid_shape": true,
+        "derivation": "Tessellation and preview only. The source STEP is retained unchanged with separate provenance.",
+        "glb_sha256": "f20f5c5e424e44ad19b97db7f78d0571981f2916012b7a71c6092849fdbe85b4",
+        "png_sha256": "bb908a3cacfc0cdf9126a5b772180e962eb9ea5799d7e6db0d9de1f0f11b5883"
+      },
+      "generated": false
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://tech.alpsalpine.com/e/products/detail/RS20H111C009/",
+      "label": "tech.alpsalpine.com"
+    },
+    {
+      "url": "https://tech.alpsalpine.com/cms.media/product_catalog_rv_06_rs_h_en_c18c7ded81.pdf",
+      "label": "tech.alpsalpine.com — product_catalog_rv_06_rs_h_en_c18c7ded81.pdf"
+    },
+    {
+      "url": "https://tech.alpsalpine.com/cms.media/product_3dcad_rs20h111c009_en_497a56ddfd.zip",
+      "label": "tech.alpsalpine.com — product_3dcad_rs20h111c009_en_497a56ddfd.zip"
+    },
+    {
+      "url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+      "label": "tech.alpsalpine.com — product_detail_fig_rs_h_d_121_en_687b88d8d3.gif"
+    },
+    {
+      "url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+      "label": "tech.alpsalpine.com — product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif"
+    },
+    {
+      "url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_24_en_21894a698f.gif",
+      "label": "tech.alpsalpine.com — product_detail_fig_rs_h_d_24_en_21894a698f.gif"
+    },
+    {
+      "url": "https://tech.alpsalpine.com/cms.media/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif",
+      "label": "tech.alpsalpine.com — product_detail_fig_rs_h_d_31_en_7bda2aee02.gif"
+    },
+    {
+      "url": "https://jlcpcb.com/partdetail/ALPSALPINE-RS20H111C009/C470622",
+      "label": "jlcpcb.com"
+    }
+  ],
+  "research_group": "faders",
+  "coverage": {
+    "downloaded_pdf": true,
+    "downloaded_step": true,
+    "downloaded_model": true,
+    "viewer_models": 1,
+    "generated_envelope": false,
+    "best_model_match": "manufacturer_part",
+    "fit_qualified": false,
+    "production_footprint_qualified": false,
+    "factory_order_approved": false
+  }
+}

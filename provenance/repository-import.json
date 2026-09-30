@@ -1,0 +1,4017 @@
+{
+  "schema_version": 1,
+  "destination": "Takazudo/gh-zudo-synth-components",
+  "delivery_archive": "zudo-modular-component-corpus-v0.1.0.zip",
+  "delivery_archive_sha256": "a881054472b1d433b59f49053300d2eb99d061fd18fb471b9a0d4b16ee93cf0f",
+  "upstream": {
+    "instrument": "fac99297702eabd97bbc3fae58876af4017fcaea",
+    "framework": "5d0e2b630776489d394be341586b889dfe0d1cb8"
+  },
+  "restored_source_file_count": 798,
+  "restored_source_tree_sha256": "7768a84551d010d6c19d6eff95f0bea486b177ce30182096963ed4b7c1ac9c86",
+  "hash_rule": "sorted relative path, NUL, SHA-256, newline; includes original meshes; excludes regenerate-only output",
+  "method": "Pinned upstream copies plus hash-locked authored overlay, exact source recovery and deterministic STEP tessellation",
+  "package_only_not_imported": [
+    "provenance/screenshots/zudo-modular-component-corpus-browser.png",
+    "provenance/screenshots/zudo-modular-component-corpus-guide.png",
+    "SHA256SUMS.json",
+    "doc/dist/",
+    "doc/.zfb/",
+    "doc/.zudo-doc/",
+    "doc/src/content/docs/claude*/"
+  ],
+  "generated_output": "Rebuilt through package-pinned circuit-doc and corpus generators; build output and dependencies not source-controlled",
+  "physical_fit_and_electrical_tests": "NOT RUN",
+  "source_manifest": [
+    {
+      "path": ".claude/skills/circuit-spec-integration/SKILL.md",
+      "sha256": "927368841385c0910b7512ce97d8aace0010a3b0d800bf5495660365db0a6e3c",
+      "size_bytes": 2533
+    },
+    {
+      "path": ".claude/skills/circuit-spec-integration/references/rules.json",
+      "sha256": "16a7f3a3fc7b3a9e163e656ed4db884675d4d1564565c24a1cd164d9e33d9e76",
+      "size_bytes": 41
+    },
+    {
+      "path": ".claude/skills/component-adi-adg5412fbruz/SKILL.md",
+      "sha256": "07e82eb5bac998d17403b9f62746c776375323f9d622d9069247d1c0486be8f8",
+      "size_bytes": 1577
+    },
+    {
+      "path": ".claude/skills/component-adi-adg5412fbruz/coverage.json",
+      "sha256": "3847f4ba2431e98a353cee83216026e74ada631550a069db707ea5db8e31357a",
+      "size_bytes": 3388
+    },
+    {
+      "path": ".claude/skills/component-adi-adg5412fbruz/facts.json",
+      "sha256": "36f014e0ce9ac9665c83f7d253145a61c94dbdf09b6fd80b7f0dbb8c90b1b223",
+      "size_bytes": 10841
+    },
+    {
+      "path": ".claude/skills/component-adi-adg5412fbruz/interactions.json",
+      "sha256": "0cac55d20ed46ea67264685d12f7cee314ccb9646fd09dca91abdcc99d70cc7e",
+      "size_bytes": 457
+    },
+    {
+      "path": ".claude/skills/component-adi-adg5412fbruz/manifest.json",
+      "sha256": "fd6f0f0614380746bac098149dd9d6e55f40fd874e42263e7b9c2756e5354356",
+      "size_bytes": 1376
+    },
+    {
+      "path": ".claude/skills/component-adi-adg5412fbruz/pin-map.json",
+      "sha256": "82ee4f3cdcaa7ef88e98e21665c5d84b31b8c42493c645f051e1007ef008445d",
+      "size_bytes": 2883
+    },
+    {
+      "path": ".claude/skills/component-adi-adg5412fbruz/routing.json",
+      "sha256": "244f3bc698ae624179061041d63893231939c355133e5dcaaebc859aa6813aa2",
+      "size_bytes": 630
+    },
+    {
+      "path": ".claude/skills/component-adi-adg5412fbruz/sources.json",
+      "sha256": "95f3f384518ce00623e0db07ba502afe52ce27935ba7e2d9537300a12dd2e3af",
+      "size_bytes": 2282
+    },
+    {
+      "path": ".claude/skills/component-alfa-rpar-as3340d/SKILL.md",
+      "sha256": "fd58a3ef12d4fe9022ff22fb6c8de4976e3509a4c3afd7c50d4c32050478bc59",
+      "size_bytes": 1738
+    },
+    {
+      "path": ".claude/skills/component-alfa-rpar-as3340d/coverage.json",
+      "sha256": "24b9460f141f8a2ad317a43fd76649d2b7cfff374d0a24d398468c26eb4c8ef3",
+      "size_bytes": 2453
+    },
+    {
+      "path": ".claude/skills/component-alfa-rpar-as3340d/facts.json",
+      "sha256": "3deca4d433d97e635ba934e07bb2472dcd4469e2e03f113b37b9e5e6984af856",
+      "size_bytes": 7576
+    },
+    {
+      "path": ".claude/skills/component-alfa-rpar-as3340d/interactions.json",
+      "sha256": "556f6249680395daede00d2926c7e1a0848ff88f40f2df0843ef2515443bee65",
+      "size_bytes": 540
+    },
+    {
+      "path": ".claude/skills/component-alfa-rpar-as3340d/manifest.json",
+      "sha256": "04e5cf6c1d30a7c49fb4a21af5e06f9d145944043cd5d70edc48066c1abbeb36",
+      "size_bytes": 988
+    },
+    {
+      "path": ".claude/skills/component-alfa-rpar-as3340d/pin-map.json",
+      "sha256": "1d32fd1b5545e0b81a89029f33c372164a89a461d84339101a8a9d4003b97b17",
+      "size_bytes": 2853
+    },
+    {
+      "path": ".claude/skills/component-alfa-rpar-as3340d/routing.json",
+      "sha256": "c1e56801e0309a031363a277ae492cd111d3b02b2863b918e49bbd4b1ddcb0b8",
+      "size_bytes": 503
+    },
+    {
+      "path": ".claude/skills/component-alfa-rpar-as3340d/sources.json",
+      "sha256": "611af8822efe5611a1a81aa8bbd7374feac367610bea0e0c11f8de2ae97316a7",
+      "size_bytes": 2301
+    },
+    {
+      "path": ".claude/skills/component-alps-alpine-srbv160803/SKILL.md",
+      "sha256": "4c77309bdd03dd2079e944c8f851b9c2a9c6cf92ac167aeb35ce7cb95b80c17f",
+      "size_bytes": 431
+    },
+    {
+      "path": ".claude/skills/component-alps-alpine-srbv160803/coverage.json",
+      "sha256": "2d0a37d4e12fa0deb6689a0e12323ea1c1e686e5a5af57c2bf2afad54d5b1d00",
+      "size_bytes": 928
+    },
+    {
+      "path": ".claude/skills/component-alps-alpine-srbv160803/facts.json",
+      "sha256": "52e2fe687abdf44f69ccb2054deb0c50d3ace0968d442b2ed162313104f6632e",
+      "size_bytes": 3438
+    },
+    {
+      "path": ".claude/skills/component-alps-alpine-srbv160803/interactions.json",
+      "sha256": "553ce2f947570de5a6d7133359821def5ecbd96aa930428b8d9fa6794de156ad",
+      "size_bytes": 280
+    },
+    {
+      "path": ".claude/skills/component-alps-alpine-srbv160803/manifest.json",
+      "sha256": "f6ed6f63f6fa855df70487bcb8793964e2a48aba8f5b69db1f2ade1033cad790",
+      "size_bytes": 773
+    },
+    {
+      "path": ".claude/skills/component-alps-alpine-srbv160803/pin-map.json",
+      "sha256": "a148ac06c568cf2f775f06403ddac51c6801b150a946662a749f2573edeb65ce",
+      "size_bytes": 2520
+    },
+    {
+      "path": ".claude/skills/component-alps-alpine-srbv160803/routing.json",
+      "sha256": "9b086a43b40def1073d540efb194940e34e3ef26c78d2e054445243d13dace0f",
+      "size_bytes": 524
+    },
+    {
+      "path": ".claude/skills/component-alps-alpine-srbv160803/sources.json",
+      "sha256": "7c9ee1edeef640ab547a680a21be53baa6be140fd7d6d80f1236d5f66e5dc1f7",
+      "size_bytes": 3253
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b103/SKILL.md",
+      "sha256": "05630be40a90e7476bd69d2abb1e06846a3aac98fe313256524b8253fd95d397",
+      "size_bytes": 442
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b103/coverage.json",
+      "sha256": "374e8f58fb3c1b5d1f4c3ba7e58edceed22737efa345759f9464d56a116a03d1",
+      "size_bytes": 674
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b103/facts.json",
+      "sha256": "05b3f14bc08981e69db4edfe6352c4690bd55b78899e121fabb90f28923f56f4",
+      "size_bytes": 1644
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b103/interactions.json",
+      "sha256": "d988a1ddaf1330af2bdfc7771d050817aea063763e5672f6b4c2c3a6d1065e3b",
+      "size_bytes": 300
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b103/manifest.json",
+      "sha256": "4dca06b2eb7661339376c9cece2dcc0adc253b08c7481ee62c954ae2e5de3baf",
+      "size_bytes": 633
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b103/pin-map.json",
+      "sha256": "7f2b7e0ad85253e5cea7ff1ae9fa3da79236e9b14d2f683d9e0951cc3dbd2885",
+      "size_bytes": 1152
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b103/routing.json",
+      "sha256": "7dcce1262292241e9c3e7d276f9f2a70087a811ba2d2cc299d20c0eaef65d2ee",
+      "size_bytes": 540
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b103/sources.json",
+      "sha256": "4698dcef91d5a00a083acbfb84593a885409851611b78199f2e3b3bd6b03e690",
+      "size_bytes": 1807
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b104/SKILL.md",
+      "sha256": "924d91665a962ac12331505674fc2fb692401148c03180af800c3d9fb1a58147",
+      "size_bytes": 442
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b104/coverage.json",
+      "sha256": "08ac918eebcdda2561df5c6b4cb9648c990d67ede26d35bf7b4def8733740155",
+      "size_bytes": 674
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b104/facts.json",
+      "sha256": "356c1d5081d35c2a0bb16db469ecde865784124a30c89083599565b329d7938c",
+      "size_bytes": 1645
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b104/interactions.json",
+      "sha256": "d86962c670f1ab12410e81952b678145f87291b3da222048964320f42be57022",
+      "size_bytes": 300
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b104/manifest.json",
+      "sha256": "f2ffe6910d20f2180933da63bc54a9cf392c3502ba3a1e09ab625b937ec31864",
+      "size_bytes": 625
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b104/pin-map.json",
+      "sha256": "15e0465516f8403d53c05685e28aeabc16c8f35a2f00ddb77aaa3cf528dbd1d6",
+      "size_bytes": 1152
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b104/routing.json",
+      "sha256": "4cb438b03dec2786d16c7aec321a5205cf36e7e392e91f4e1b76923a40367fce",
+      "size_bytes": 510
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b104/sources.json",
+      "sha256": "483119cec01f53212cfc5250f6dde939393d38c8390724dce8b49c09dc36dc1c",
+      "size_bytes": 1808
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b504/SKILL.md",
+      "sha256": "e1725067a856c452bb0cf23cfad9fcfd8d35e3132cc02659a40286a8a314b5b7",
+      "size_bytes": 442
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b504/coverage.json",
+      "sha256": "9bac1f39352d3501d0f84177fc514961453516520dc7447de4d3a4000633ad85",
+      "size_bytes": 674
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b504/facts.json",
+      "sha256": "ccc9a5375a13a2a77a190fe5e450333a91a159f5cbb1e57fb9162319d4c64168",
+      "size_bytes": 1645
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b504/interactions.json",
+      "sha256": "402274c5d3940e815d0a08aa59c565ff4e1c81a8ebf62bc3863c83f8ad7f596e",
+      "size_bytes": 300
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b504/manifest.json",
+      "sha256": "e28e036604e972547f2cf4a597537719974206181dc6991f34b1fe1418a443fe",
+      "size_bytes": 633
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b504/pin-map.json",
+      "sha256": "2c911f6d479d7be137f53df07e62b824511f6863bf0b227c9e8f55d688cd1082",
+      "size_bytes": 1152
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b504/routing.json",
+      "sha256": "e4ca56d5262e3943b6d41b7bd6d7bb2286c3fb09223b3173efd75757d6d80b32",
+      "size_bytes": 540
+    },
+    {
+      "path": ".claude/skills/component-bourns-ptv09a-4020f-b504/sources.json",
+      "sha256": "9f45ff14256453fdb431b3b0eb2123a9d0d36bc0e4dfeee9c4eb6c183857e651",
+      "size_bytes": 1808
+    },
+    {
+      "path": ".claude/skills/component-dailywell-2ms1t1b1m2qes-5/SKILL.md",
+      "sha256": "e0ba72b0beead6b619b6d72e8453ea1106a3d5b059c574d99e8dcb98ae764f1b",
+      "size_bytes": 708
+    },
+    {
+      "path": ".claude/skills/component-dailywell-2ms1t1b1m2qes-5/coverage.json",
+      "sha256": "c9f821ad4edbbaaa61006ca86f847994bbcd9d041915f44e26a22bb530b03ffa",
+      "size_bytes": 1750
+    },
+    {
+      "path": ".claude/skills/component-dailywell-2ms1t1b1m2qes-5/facts.json",
+      "sha256": "6077bfe56b38a75a31538b4c2d63c19cb592cb0dca3b4fbd685457137132577b",
+      "size_bytes": 3413
+    },
+    {
+      "path": ".claude/skills/component-dailywell-2ms1t1b1m2qes-5/interactions.json",
+      "sha256": "0d83a4a8d2bb0baa32149630931e55f1d0dee64e33915a6679b1281addbb7b4c",
+      "size_bytes": 474
+    },
+    {
+      "path": ".claude/skills/component-dailywell-2ms1t1b1m2qes-5/manifest.json",
+      "sha256": "56aa5552cd34c602f33fd1dc169938fa878e49f2858ff4306f1277d2d603ba86",
+      "size_bytes": 883
+    },
+    {
+      "path": ".claude/skills/component-dailywell-2ms1t1b1m2qes-5/pin-map.json",
+      "sha256": "bb18fc42f5c565f2aa875d602aaa0a6eb89239a4ee5db4970aef05cb2ed9c61f",
+      "size_bytes": 1108
+    },
+    {
+      "path": ".claude/skills/component-dailywell-2ms1t1b1m2qes-5/routing.json",
+      "sha256": "3a2661612047414459543084d9279be1cce2a4f4389747b78952b71e09f105ea",
+      "size_bytes": 571
+    },
+    {
+      "path": ".claude/skills/component-dailywell-2ms1t1b1m2qes-5/sources.json",
+      "sha256": "5a6ad4740cda3d62583b907762dbc82700b58c9194543cc7b40eae641ed569e0",
+      "size_bytes": 3751
+    },
+    {
+      "path": ".claude/skills/component-dailywell-2ms3t1b1m2qes/SKILL.md",
+      "sha256": "c8c3d17a17128629ac03d557feb98050bca59f0eab22c9d616c17d19be89d35e",
+      "size_bytes": 704
+    },
+    {
+      "path": ".claude/skills/component-dailywell-2ms3t1b1m2qes/coverage.json",
+      "sha256": "85a5a0b728a488049d8efb6243156fea8440f4db94d75030fa2cf968babcb6bd",
+      "size_bytes": 1767
+    },
+    {
+      "path": ".claude/skills/component-dailywell-2ms3t1b1m2qes/facts.json",
+      "sha256": "cd0875ebe458cbcbb314cb405cf849230002015a0b065c5b87e6ebca98d96c3a",
+      "size_bytes": 3883
+    },
+    {
+      "path": ".claude/skills/component-dailywell-2ms3t1b1m2qes/interactions.json",
+      "sha256": "13a3284794b5f7247eabc59c9aed8c48a3e020832c8dfe53ac71f3429a63485a",
+      "size_bytes": 515
+    },
+    {
+      "path": ".claude/skills/component-dailywell-2ms3t1b1m2qes/manifest.json",
+      "sha256": "2ae253ac513099ec2468fdb9a7ed45778b1404121b2e1fab8c4f4259cf046549",
+      "size_bytes": 955
+    },
+    {
+      "path": ".claude/skills/component-dailywell-2ms3t1b1m2qes/pin-map.json",
+      "sha256": "0a3513ae8119e1d88a1b0a70e2272fe10bfa86e8824ea4dc80cf4ba54b4010d9",
+      "size_bytes": 972
+    },
+    {
+      "path": ".claude/skills/component-dailywell-2ms3t1b1m2qes/routing.json",
+      "sha256": "47da0421845b56437881c7b5c9f0bbf1edeb6d988246cb3366578b18233f9099",
+      "size_bytes": 536
+    },
+    {
+      "path": ".claude/skills/component-dailywell-2ms3t1b1m2qes/sources.json",
+      "sha256": "a47be9ab198c4f0163d0169a295974fc860cc280ccb22fdf9e665cb71bd8d812",
+      "size_bytes": 3367
+    },
+    {
+      "path": ".claude/skills/component-dealon-dw254p-2x8-l0/SKILL.md",
+      "sha256": "7700e4eb32f0d6a8b51fc4d826e59c8beb0ad41436f645cf87bee3c94bfb1a46",
+      "size_bytes": 639
+    },
+    {
+      "path": ".claude/skills/component-dealon-dw254p-2x8-l0/coverage.json",
+      "sha256": "4b9051ebfa369affad1a630a02a366bb4e21d02cfccf73cd74ed5cfb2e4e9406",
+      "size_bytes": 1632
+    },
+    {
+      "path": ".claude/skills/component-dealon-dw254p-2x8-l0/facts.json",
+      "sha256": "747feb6e514b633829e919dd4c39eff440f5fa0efac8558257db9cc87c374397",
+      "size_bytes": 3202
+    },
+    {
+      "path": ".claude/skills/component-dealon-dw254p-2x8-l0/interactions.json",
+      "sha256": "98601f99e4098498b53083c67636b8f25b85a239d3ad64a0f8a377c5c7adc956",
+      "size_bytes": 495
+    },
+    {
+      "path": ".claude/skills/component-dealon-dw254p-2x8-l0/manifest.json",
+      "sha256": "673fb19a552a6cd117eb25e496c086754d3a01de18b66d8cbe7800b68fc14bbc",
+      "size_bytes": 845
+    },
+    {
+      "path": ".claude/skills/component-dealon-dw254p-2x8-l0/pin-map.json",
+      "sha256": "26eeede3e6dbe85ab455db76c455784fd17f2247eadee861c6775e37b61d6a0d",
+      "size_bytes": 4429
+    },
+    {
+      "path": ".claude/skills/component-dealon-dw254p-2x8-l0/routing.json",
+      "sha256": "fc1528265643c7825b89c272a8110d04889504f44e65b7fdddfe4d8608fd3841",
+      "size_bytes": 576
+    },
+    {
+      "path": ".claude/skills/component-dealon-dw254p-2x8-l0/sources.json",
+      "sha256": "6ad2ed53d2ff52b576ff38debba53449d166d5b41ec7734e2239063dcdf1ff45",
+      "size_bytes": 1443
+    },
+    {
+      "path": ".claude/skills/component-electric-druid-noise2/SKILL.md",
+      "sha256": "15f85f51008eed876b77175a9f4694ae77c86c432ffb74f292f83607732fbaf2",
+      "size_bytes": 1562
+    },
+    {
+      "path": ".claude/skills/component-electric-druid-noise2/coverage.json",
+      "sha256": "bd05ad798bbe3b7b7f9f7fbd3b6c95682e954e7de9856451ca0504e7e3292381",
+      "size_bytes": 2492
+    },
+    {
+      "path": ".claude/skills/component-electric-druid-noise2/facts.json",
+      "sha256": "105f5fab4bc24afc04bcbfab1ea34f008f5e76a6a0bb22433836898ef0381c76",
+      "size_bytes": 5467
+    },
+    {
+      "path": ".claude/skills/component-electric-druid-noise2/interactions.json",
+      "sha256": "1f0f3b3c3900c8023a40870c8515687cbd85205b3b175856629a9addf295f466",
+      "size_bytes": 429
+    },
+    {
+      "path": ".claude/skills/component-electric-druid-noise2/manifest.json",
+      "sha256": "f3b36fb0c8716299599eeeccc654b7d783d61f2fffec635880785df7f986659c",
+      "size_bytes": 924
+    },
+    {
+      "path": ".claude/skills/component-electric-druid-noise2/pin-map.json",
+      "sha256": "771d386dbb17ab522ab5faa789f0c6e64122a549b2694a4e47d9a10a47d5b7f6",
+      "size_bytes": 1618
+    },
+    {
+      "path": ".claude/skills/component-electric-druid-noise2/routing.json",
+      "sha256": "78a11f7ee400c72272a117b6263e0b8b80a9c46f93c32d0a85af08f9714a8f41",
+      "size_bytes": 509
+    },
+    {
+      "path": ".claude/skills/component-electric-druid-noise2/sources.json",
+      "sha256": "2c287608cecfbe22d42c20e433cba4a58d1d764cf74a604349fb6d9bcd55d1fe",
+      "size_bytes": 2126
+    },
+    {
+      "path": ".claude/skills/component-jst-gh/SKILL.md",
+      "sha256": "5f9530cf4b77bf405987eb4d5bfcfcee8737a8ff2f787fadd5e78d86b490d80c",
+      "size_bytes": 612
+    },
+    {
+      "path": ".claude/skills/component-jst-gh/coverage.json",
+      "sha256": "94b312856bba0672a0d721ddff8286b5303364c63931026a5f7ad2ad44830e97",
+      "size_bytes": 5529
+    },
+    {
+      "path": ".claude/skills/component-jst-gh/facts.json",
+      "sha256": "263d2362d430a327b8d7b088bef2f9d9c673e8dd729bbab8b262229081be2341",
+      "size_bytes": 23715
+    },
+    {
+      "path": ".claude/skills/component-jst-gh/interactions.json",
+      "sha256": "ee3a534677720ff16c0fade11b86de664900ec9c1fd07f0e38c79041f234a4f4",
+      "size_bytes": 2484
+    },
+    {
+      "path": ".claude/skills/component-jst-gh/manifest.json",
+      "sha256": "154cdbf3eeadccf6353bec6bcb175426143b15a35f7e9fdd51fbe8975b7c7cf8",
+      "size_bytes": 4810
+    },
+    {
+      "path": ".claude/skills/component-jst-gh/pin-map.json",
+      "sha256": "1d79d89b2386952e6ad930e9e962696c83fb26f3026ade426a87e0b08b7385df",
+      "size_bytes": 9651
+    },
+    {
+      "path": ".claude/skills/component-jst-gh/routing.json",
+      "sha256": "86d3dd6f8ff21aef23f6c3fc94be9892c4da2bcbd1784603767fff02df69554f",
+      "size_bytes": 3476
+    },
+    {
+      "path": ".claude/skills/component-jst-gh/sources.json",
+      "sha256": "37f87a057a86f1496996e6cb1cf0a79e1b0a2b49bd2de8bca285c0bf1cb74c2a",
+      "size_bytes": 6747
+    },
+    {
+      "path": ".claude/skills/component-kingbright-apg1005sec-e-t/SKILL.md",
+      "sha256": "b96d214825c14ba39261ffe08133448e549c26661152fffa16ce4675d2a724be",
+      "size_bytes": 328
+    },
+    {
+      "path": ".claude/skills/component-kingbright-apg1005sec-e-t/coverage.json",
+      "sha256": "d49aca984f94a9924624e278510353a3fafd9660e9f7dce794a8c9d715e94a0b",
+      "size_bytes": 2061
+    },
+    {
+      "path": ".claude/skills/component-kingbright-apg1005sec-e-t/facts.json",
+      "sha256": "33180a410fd32e18372a7be00b7f140f66546b5a1904d697754f723eb5521147",
+      "size_bytes": 4072
+    },
+    {
+      "path": ".claude/skills/component-kingbright-apg1005sec-e-t/interactions.json",
+      "sha256": "5fbf15b7e8a8b28a3fa6ec644e361e127fcb86729bcb95aa7e4bfdf03e4611be",
+      "size_bytes": 470
+    },
+    {
+      "path": ".claude/skills/component-kingbright-apg1005sec-e-t/manifest.json",
+      "sha256": "299a05b4df0be9c736cd7eed96cddf7eef40b9d0e2f12bb29ea1c485807246df",
+      "size_bytes": 923
+    },
+    {
+      "path": ".claude/skills/component-kingbright-apg1005sec-e-t/pin-map.json",
+      "sha256": "f77fc273b76937ae0bce627e8be5163665a7f9d5f6a758c150d80a7a14fcd618",
+      "size_bytes": 716
+    },
+    {
+      "path": ".claude/skills/component-kingbright-apg1005sec-e-t/routing.json",
+      "sha256": "75b5a44b6033eef8eb7a90c3920de0f054c9afa1c6e1e481328ceac73851cff3",
+      "size_bytes": 544
+    },
+    {
+      "path": ".claude/skills/component-kingbright-apg1005sec-e-t/sources.json",
+      "sha256": "aef57284c57fcbdaa5f2a182acb0012d770f70d4707b6eea540dcb5b8f1afee6",
+      "size_bytes": 1218
+    },
+    {
+      "path": ".claude/skills/component-kingbright-aphhs1005qwf-d/SKILL.md",
+      "sha256": "38e005a3594052fc10a585720635ed4164478c4363e918f2918a4d0860bad1e4",
+      "size_bytes": 330
+    },
+    {
+      "path": ".claude/skills/component-kingbright-aphhs1005qwf-d/coverage.json",
+      "sha256": "77b9cc160dc82e0d8f04850c9916b04a090e522122ce04e1ac29ac37a6e22616",
+      "size_bytes": 2101
+    },
+    {
+      "path": ".claude/skills/component-kingbright-aphhs1005qwf-d/facts.json",
+      "sha256": "29d6a0e6c38e6d781b5e8c8fde308f0fc731d11947a57bcc98b91deb92f77f0b",
+      "size_bytes": 4114
+    },
+    {
+      "path": ".claude/skills/component-kingbright-aphhs1005qwf-d/interactions.json",
+      "sha256": "fb6950ba68dcb495fb77eec8dd963b3442b90de67151562649d65a2972b7cbf0",
+      "size_bytes": 480
+    },
+    {
+      "path": ".claude/skills/component-kingbright-aphhs1005qwf-d/manifest.json",
+      "sha256": "cdd8d46a37055f9e8393509e4100289e94d88853ac6f6f1d3d84bbd1f3894f18",
+      "size_bytes": 945
+    },
+    {
+      "path": ".claude/skills/component-kingbright-aphhs1005qwf-d/pin-map.json",
+      "sha256": "6ea0dbd9eb44bb279bbbc592321578a91f159b7423a770e78fbe25ff28bcaf74",
+      "size_bytes": 724
+    },
+    {
+      "path": ".claude/skills/component-kingbright-aphhs1005qwf-d/routing.json",
+      "sha256": "f5d934c3485f341fdd4171fa2a1fe37d430371c647aae2213e6f73ada6b99323",
+      "size_bytes": 565
+    },
+    {
+      "path": ".claude/skills/component-kingbright-aphhs1005qwf-d/sources.json",
+      "sha256": "29a61a56da7cbbcf24298b0d9787c79a1b63e2a0ef9e33d4eb7047589c6ddbbe",
+      "size_bytes": 1222
+    },
+    {
+      "path": ".claude/skills/component-nexperia-2n7002-215/SKILL.md",
+      "sha256": "3898ec49f377f2be3483bf9a204e6f43bbdd455068313ad66b64dfec6b23afe7",
+      "size_bytes": 1560
+    },
+    {
+      "path": ".claude/skills/component-nexperia-2n7002-215/coverage.json",
+      "sha256": "bc557929ff99c50dbc713113567c58a51809783a6c564eb707facc85fc9bec69",
+      "size_bytes": 2611
+    },
+    {
+      "path": ".claude/skills/component-nexperia-2n7002-215/facts.json",
+      "sha256": "f28faffb4093166644c9514fb601971797466541c9c7253b6c8514ff207ba809",
+      "size_bytes": 5169
+    },
+    {
+      "path": ".claude/skills/component-nexperia-2n7002-215/interactions.json",
+      "sha256": "784a9d0a837e9451446aff286dd5281ae7bf1c5db7eba992a740c9332a3e8f3c",
+      "size_bytes": 433
+    },
+    {
+      "path": ".claude/skills/component-nexperia-2n7002-215/manifest.json",
+      "sha256": "1cb5e364a1383c51c2535521014c19582f5b0d7b54bcecbef282e8077fcbeee8",
+      "size_bytes": 954
+    },
+    {
+      "path": ".claude/skills/component-nexperia-2n7002-215/pin-map.json",
+      "sha256": "d1d0744cc05aee1cdbd1edb0f4cc1670b9ea31c5bd73eb3663d9befeea656986",
+      "size_bytes": 704
+    },
+    {
+      "path": ".claude/skills/component-nexperia-2n7002-215/routing.json",
+      "sha256": "0868ed5580f7b49634c64f7b9ab864fd387a649fa365507b22236ef99a106850",
+      "size_bytes": 528
+    },
+    {
+      "path": ".claude/skills/component-nexperia-2n7002-215/sources.json",
+      "sha256": "97c93a3aabce77a5a9dc2cce70b8c655d10135e3a502fbb5ceb4cce621fd1514",
+      "size_bytes": 2154
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bas16gw-qx/SKILL.md",
+      "sha256": "0d5523907cbf269b41e6b675026a90c338209443ba89cfe4f135bb55fc9766a7",
+      "size_bytes": 1572
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bas16gw-qx/coverage.json",
+      "sha256": "aa47155d04daffafd9f438974f82551faaaeef14537b8e984435a711d1934025",
+      "size_bytes": 2630
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bas16gw-qx/facts.json",
+      "sha256": "cae2be4a0392e1ce4311fce90492df24afe39c13dfd017b1df844b56ea567727",
+      "size_bytes": 5628
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bas16gw-qx/interactions.json",
+      "sha256": "ddf403fc774ad1a6223cb62e92d7395c2d7ed8d325dab75c694cbfdb03083369",
+      "size_bytes": 457
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bas16gw-qx/manifest.json",
+      "sha256": "d52182e3cb91bb8864680e0fdb1c92ebe4ad7706880a8f57b60d49eaf9a70dbb",
+      "size_bytes": 1024
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bas16gw-qx/pin-map.json",
+      "sha256": "99df95547c0a28ad716f3579fe7747371732ed9a5caf3fd8624ee0ddbe60acd9",
+      "size_bytes": 614
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bas16gw-qx/routing.json",
+      "sha256": "dbab64106e393ed5ceb067cd33f13ab190fe91cba239e4fa1485aa9f45587bd9",
+      "size_bytes": 562
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bas16gw-qx/sources.json",
+      "sha256": "5bac21f56b09f9a949842dcafbb0b6917641c75fb71a9edd21e0219389d89846",
+      "size_bytes": 3444
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bat54s-215/SKILL.md",
+      "sha256": "dd54db72c5cc46c005358e3dcb660fe9004aa7fa257efff337ff24dbcab0f1ce",
+      "size_bytes": 1570
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bat54s-215/coverage.json",
+      "sha256": "18f1882ed150294bcf180ab528958d8669bf737ccd5eac97aad764911826faf4",
+      "size_bytes": 2711
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bat54s-215/facts.json",
+      "sha256": "f5116ced1f5c33dbff262ef5b881b8753e763e92885928b411cea1aeb8ab880d",
+      "size_bytes": 5402
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bat54s-215/interactions.json",
+      "sha256": "ad2108046f47b25be9a5d8c11c241aa17412bf2c3af1f7b815a7f5435ca812d2",
+      "size_bytes": 453
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bat54s-215/manifest.json",
+      "sha256": "2473b99335ebae249b2434a09c91cf0e2d38ceceabe9ef76a146d63ff9d6ea54",
+      "size_bytes": 1014
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bat54s-215/pin-map.json",
+      "sha256": "2e8bb0cc1eb3f938a9ef2753e2057c85050e427c5118d93dc484941fede7559d",
+      "size_bytes": 814
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bat54s-215/routing.json",
+      "sha256": "d1c29aac58460fb41508738161e405b7ddc7afbf23d5d5ececef1511b7aec18f",
+      "size_bytes": 537
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bat54s-215/sources.json",
+      "sha256": "b64db8782d07cfea07bf17491d2d1bb5527212d300d482ab69dfd70ffca035a9",
+      "size_bytes": 2111
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bcm847bs-115/SKILL.md",
+      "sha256": "ef202c053eedf3cb5a3e9237d628c88bdf109ce57b289c9ef2e6881f530962c7",
+      "size_bytes": 1574
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bcm847bs-115/coverage.json",
+      "sha256": "23f8fd39a2247b443a2820393ecec43d6216f643555b33b216d1b6af6f56b050",
+      "size_bytes": 2708
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bcm847bs-115/facts.json",
+      "sha256": "68473c134f8e37d3f5171f2acce97b1e16479ded0801551e2ccb53843465431c",
+      "size_bytes": 5451
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bcm847bs-115/interactions.json",
+      "sha256": "91d0b30dce978d44e57f7af6a797aff4e5368edc8ae60c6d5d6021d68b48ef39",
+      "size_bytes": 453
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bcm847bs-115/manifest.json",
+      "sha256": "3a74bfecc563a59fd890bdd22fc9d1021741e0b4fc4705ac68eba57ee27b4a18",
+      "size_bytes": 1016
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bcm847bs-115/pin-map.json",
+      "sha256": "4b026dceb6f392804310186c90ad4c6ba57a1f3463759795c13936541f09955c",
+      "size_bytes": 1130
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bcm847bs-115/routing.json",
+      "sha256": "f8c7705388bd2aa590e4781a19b6a2e85f167fcfca3b5455e87b1206bff32827",
+      "size_bytes": 559
+    },
+    {
+      "path": ".claude/skills/component-nexperia-bcm847bs-115/sources.json",
+      "sha256": "35da362145b889017b6f9024358465f9fe18070bc81a5a3fd5fd456ee6800641",
+      "size_bytes": 2197
+    },
+    {
+      "path": ".claude/skills/component-nexperia-mmbt3904-215/SKILL.md",
+      "sha256": "48de1451ef2b9f8bdc03dd4f388792ffe3e3fbfac8b54fa17c7c825f12192ec9",
+      "size_bytes": 1558
+    },
+    {
+      "path": ".claude/skills/component-nexperia-mmbt3904-215/coverage.json",
+      "sha256": "3e0bf8f9ba76af5f2622be821cd01dd087898ebead8af528450ab040238df51c",
+      "size_bytes": 2553
+    },
+    {
+      "path": ".claude/skills/component-nexperia-mmbt3904-215/facts.json",
+      "sha256": "d5e43dbdf5cb4367fa2ab1385b8e44d092590fbbd2ba764e3b71d1e16c8efbbd",
+      "size_bytes": 5114
+    },
+    {
+      "path": ".claude/skills/component-nexperia-mmbt3904-215/interactions.json",
+      "sha256": "a1540efcc5856b77e79d13f0c8783de5ce3f73a933158607d0c5d2715eb5f367",
+      "size_bytes": 421
+    },
+    {
+      "path": ".claude/skills/component-nexperia-mmbt3904-215/manifest.json",
+      "sha256": "079f8e3dc0482039938a1bc56680a8b1252b1ead1c45f626684af7ac1cd62a41",
+      "size_bytes": 924
+    },
+    {
+      "path": ".claude/skills/component-nexperia-mmbt3904-215/pin-map.json",
+      "sha256": "62e957c2ef9209d2e8a9f98e6d7b0505dd54b3898bd4054e94bc30383a9625e8",
+      "size_bytes": 700
+    },
+    {
+      "path": ".claude/skills/component-nexperia-mmbt3904-215/routing.json",
+      "sha256": "6e5a43aa099d6f5b920b5d75a636d007b8da96c484072ac489c7bd2249c20dc1",
+      "size_bytes": 555
+    },
+    {
+      "path": ".claude/skills/component-nexperia-mmbt3904-215/sources.json",
+      "sha256": "1390bd6013e5e20cd82c488aa602f9621f449a2e3fe5a5e8e219296d8ce26e85",
+      "size_bytes": 2133
+    },
+    {
+      "path": ".claude/skills/component-nexperia-mmbt3906-215/SKILL.md",
+      "sha256": "f5966712789c11dde9299096e84ddc0cf2aef1be56554814c7fccf33b3d36a8c",
+      "size_bytes": 1558
+    },
+    {
+      "path": ".claude/skills/component-nexperia-mmbt3906-215/coverage.json",
+      "sha256": "fd6ca71dd78e08839d3777c198839939fb231951bb3232ad73ecc3cfc6db7177",
+      "size_bytes": 2553
+    },
+    {
+      "path": ".claude/skills/component-nexperia-mmbt3906-215/facts.json",
+      "sha256": "1df1d101a0031b8820c9d022c46124e96e47f9d26f662c030c4da1048f9fc880",
+      "size_bytes": 5079
+    },
+    {
+      "path": ".claude/skills/component-nexperia-mmbt3906-215/interactions.json",
+      "sha256": "cd13f5251114f4e58451d38fe85f765fa4661d16486c02dfdb83b904899245db",
+      "size_bytes": 421
+    },
+    {
+      "path": ".claude/skills/component-nexperia-mmbt3906-215/manifest.json",
+      "sha256": "91c0e8f49ea3ef8a6602f38b30dd096f6582eafeb8e49ce8264151258882121b",
+      "size_bytes": 924
+    },
+    {
+      "path": ".claude/skills/component-nexperia-mmbt3906-215/pin-map.json",
+      "sha256": "032e98aab4d1a79974301513219653133249bc5969788d771ccedac81e92a968",
+      "size_bytes": 700
+    },
+    {
+      "path": ".claude/skills/component-nexperia-mmbt3906-215/routing.json",
+      "sha256": "13bcf03fab16e559cbdb7b9f76d3459f0bba5039bcfb00131d7506aaae4867a9",
+      "size_bytes": 527
+    },
+    {
+      "path": ".claude/skills/component-nexperia-mmbt3906-215/sources.json",
+      "sha256": "4355817adae00eea7fc2d9f30eb235529c5a83ddf90180706f76c11e5b6b7d13",
+      "size_bytes": 2112
+    },
+    {
+      "path": ".claude/skills/component-omron-b3f-1020/SKILL.md",
+      "sha256": "0cfa78e35497e93cb44e7a2d8abe10f70468510102346e0711e915bd2c100f4d",
+      "size_bytes": 667
+    },
+    {
+      "path": ".claude/skills/component-omron-b3f-1020/coverage.json",
+      "sha256": "ba3da445ec4d7fd8c3d03eaca1db03c7f497672c16b7027abdd4e09ecc47d3a4",
+      "size_bytes": 1430
+    },
+    {
+      "path": ".claude/skills/component-omron-b3f-1020/facts.json",
+      "sha256": "20a19bd4dc332169e9939233e60771c0df71d801e5bbbeda5c9afa370cd4e3ab",
+      "size_bytes": 3189
+    },
+    {
+      "path": ".claude/skills/component-omron-b3f-1020/interactions.json",
+      "sha256": "19223b0d5faf6ab241c1900b2b1942860e7f7f16b70650a5fe0b3ac3e130be12",
+      "size_bytes": 451
+    },
+    {
+      "path": ".claude/skills/component-omron-b3f-1020/manifest.json",
+      "sha256": "a1c09c02147ec94b0d5114098b139a12aa113671aedb1d8fd966b61edc068cf6",
+      "size_bytes": 818
+    },
+    {
+      "path": ".claude/skills/component-omron-b3f-1020/pin-map.json",
+      "sha256": "13ceec513d9f470dea503defc800e26c10a21d18f00eaaeb015c46e666442790",
+      "size_bytes": 1108
+    },
+    {
+      "path": ".claude/skills/component-omron-b3f-1020/routing.json",
+      "sha256": "e5af7f357397ddaf785489b3b7461b19ea3afa56e60a633cb7577a0c336bb9bd",
+      "size_bytes": 527
+    },
+    {
+      "path": ".claude/skills/component-omron-b3f-1020/sources.json",
+      "sha256": "612d6f5549da9c7659dc80854f3ad3dcd62a46ae32e218001feb1f8e1eb8dab4",
+      "size_bytes": 3506
+    },
+    {
+      "path": ".claude/skills/component-passives-family/SKILL.md",
+      "sha256": "f583ebf635c847183aed4c23bbfc5394d183a1da2e420fe8a9c856b8b9ce2aa7",
+      "size_bytes": 1678
+    },
+    {
+      "path": ".claude/skills/component-passives-family/coverage.json",
+      "sha256": "4ca94bf15f041a5bd32fa270a6a25e372ad522d58cef12a1b7b1cdbd66f99953",
+      "size_bytes": 27503
+    },
+    {
+      "path": ".claude/skills/component-passives-family/facts.json",
+      "sha256": "d6bb04afca3f677eec0eecfde5f42fbd7118b5987cc14b6d4e54aa892cc9a651",
+      "size_bytes": 59177
+    },
+    {
+      "path": ".claude/skills/component-passives-family/interactions.json",
+      "sha256": "ac3ee2b8ed2d00488d1e1b6af6c1c857325a50ac9a3769e4a098165598383192",
+      "size_bytes": 4335
+    },
+    {
+      "path": ".claude/skills/component-passives-family/manifest.json",
+      "sha256": "9b4e8962c107c0ed75c9e42b417df9459dd26d3e7c974ab27544ccbd22aa7f16",
+      "size_bytes": 10014
+    },
+    {
+      "path": ".claude/skills/component-passives-family/pin-map.json",
+      "sha256": "2eb6e10337b86b7b8abf70cef97bbd31f0d962c33f111f545058e17eefd73214",
+      "size_bytes": 7269
+    },
+    {
+      "path": ".claude/skills/component-passives-family/routing.json",
+      "sha256": "c7c2bc7feae2b35752146fc9bbab0e60a06cfb2ed9eb550aef7a086301d1ca17",
+      "size_bytes": 6062
+    },
+    {
+      "path": ".claude/skills/component-passives-family/sources.json",
+      "sha256": "cba96f11fb2d14c18af95420ef663b5b7797005399eb3c1a8eb41539dd31460a",
+      "size_bytes": 27060
+    },
+    {
+      "path": ".claude/skills/component-qingpu-wqp518ma/SKILL.md",
+      "sha256": "b87c286316ec06f1a1d6dcfab1f4f09f59d4232eb8600f38603b58abf9ede783",
+      "size_bytes": 669
+    },
+    {
+      "path": ".claude/skills/component-qingpu-wqp518ma/coverage.json",
+      "sha256": "5d83fc01a500cec2c03dfc50e69e825e4eb8a28dda83666835141e5fcced1cb9",
+      "size_bytes": 1388
+    },
+    {
+      "path": ".claude/skills/component-qingpu-wqp518ma/facts.json",
+      "sha256": "f6eb01377b9c01873826b9ae3e20f78c288a936795ac6106f9faf32291f3f3d4",
+      "size_bytes": 4454
+    },
+    {
+      "path": ".claude/skills/component-qingpu-wqp518ma/interactions.json",
+      "sha256": "d0f540b139f1c0739b6eb9c2841fead39056c40e2a4e40705b43ed17d269dea1",
+      "size_bytes": 537
+    },
+    {
+      "path": ".claude/skills/component-qingpu-wqp518ma/manifest.json",
+      "sha256": "9143cf9a0e37c54aee3bd16e9bc5ac85d2267d020d5bc98ae4aba21c50538f8c",
+      "size_bytes": 935
+    },
+    {
+      "path": ".claude/skills/component-qingpu-wqp518ma/pin-map.json",
+      "sha256": "2ca6294efe418041b514c6f16e484dce824fb6f0542ebaaec56b1d8234061c46",
+      "size_bytes": 1065
+    },
+    {
+      "path": ".claude/skills/component-qingpu-wqp518ma/routing.json",
+      "sha256": "d0349aef6ba275877ff7e1a3b871d5a58a3875a2ac3ca78d7e2147853c37edbb",
+      "size_bytes": 493
+    },
+    {
+      "path": ".claude/skills/component-qingpu-wqp518ma/sources.json",
+      "sha256": "3484bebe597775a262ad79cd697d2c1d21d05719b8eb6983c2d3573e3c251368",
+      "size_bytes": 3245
+    },
+    {
+      "path": ".claude/skills/component-spec-audit/SKILL.md",
+      "sha256": "a9fe999d6874eb1d6f90182c4ee11c316ad6477a6d2d24436051e87c8c5c33b9",
+      "size_bytes": 3258
+    },
+    {
+      "path": ".claude/skills/component-spec-audit/references/contract.md",
+      "sha256": "37a1a06db11a605d20588cc564da2151c3f0f9974f3f31e85b810d89bda0021a",
+      "size_bytes": 3902
+    },
+    {
+      "path": ".claude/skills/component-spec-audit/references/direct-routing.json",
+      "sha256": "a10dba831cd8cbb23cf78f373d614b766e4b6db45ed99fbd7dd9b2e1a2391f6f",
+      "size_bytes": 4946
+    },
+    {
+      "path": ".claude/skills/component-spec-audit/references/external-vendor-qualifiers.json",
+      "sha256": "ff5e09ecfec1afe2e2bd28faec1b15b322f28337c3c906f2d8c197df48e85ad3",
+      "size_bytes": 48
+    },
+    {
+      "path": ".claude/skills/component-spec-audit/references/inventory.json",
+      "sha256": "1d16b704b20a79c1c1389495c2a5a393f08503760023784358130fdfa848863c",
+      "size_bytes": 18820
+    },
+    {
+      "path": ".claude/skills/component-spec-audit/references/new-component-workflow.md",
+      "sha256": "873446a0400e80a43aad5cdb3ae2b00f80b1820fa06381d31fe29bfd5449330f",
+      "size_bytes": 8893
+    },
+    {
+      "path": ".claude/skills/component-ti-cd74hc221m96/SKILL.md",
+      "sha256": "34df9913fbcad5689b460ad0f48eb69a6f0fd0978e3d242d06ec59b5bfd610a9",
+      "size_bytes": 1571
+    },
+    {
+      "path": ".claude/skills/component-ti-cd74hc221m96/coverage.json",
+      "sha256": "47b9a97ced6825226293d19fcc9a07ec7f2f88a298cdf6ac042d15f59f6caf29",
+      "size_bytes": 2570
+    },
+    {
+      "path": ".claude/skills/component-ti-cd74hc221m96/facts.json",
+      "sha256": "f41eb36c679956562806fe635b3f48c6de67fc99f9a7816cb5e7a86f059b06fc",
+      "size_bytes": 5754
+    },
+    {
+      "path": ".claude/skills/component-ti-cd74hc221m96/interactions.json",
+      "sha256": "8f8de895536fb01d1dac99f2628be816107c75cfc0a557970a0abfac5c7872f8",
+      "size_bytes": 441
+    },
+    {
+      "path": ".claude/skills/component-ti-cd74hc221m96/manifest.json",
+      "sha256": "346dd10b5fdc708c8be256990b1db7fa152a2d6e29ca7e9fa21b05cca2f54e8d",
+      "size_bytes": 985
+    },
+    {
+      "path": ".claude/skills/component-ti-cd74hc221m96/pin-map.json",
+      "sha256": "0465f55065e41132982ac13a0d60bab416c132da5bb120f5ef6bc24713db3cff",
+      "size_bytes": 2946
+    },
+    {
+      "path": ".claude/skills/component-ti-cd74hc221m96/routing.json",
+      "sha256": "0bae8c181a22950a86d54d8eacd0e053fdfabe2a6a06f48d35c9d61735933349",
+      "size_bytes": 596
+    },
+    {
+      "path": ".claude/skills/component-ti-cd74hc221m96/sources.json",
+      "sha256": "a2ece3e0d5d1fef5e6587921059fe7fae58387949c47e3fbf902e54dbe49006d",
+      "size_bytes": 2188
+    },
+    {
+      "path": ".claude/skills/component-ti-lf398m-nopb/SKILL.md",
+      "sha256": "563f7c1c26de336fe738a1cae297918210aa198e4025c89d965e274d9a0acf08",
+      "size_bytes": 1575
+    },
+    {
+      "path": ".claude/skills/component-ti-lf398m-nopb/coverage.json",
+      "sha256": "5dddf6194143a25e8a968b6ca1754f4047b450e372657009c159f72e4f4e2ca7",
+      "size_bytes": 2700
+    },
+    {
+      "path": ".claude/skills/component-ti-lf398m-nopb/facts.json",
+      "sha256": "f363c5ec91360a957c52e49c662de07256b20d32efbea30065ba42a722563858",
+      "size_bytes": 7157
+    },
+    {
+      "path": ".claude/skills/component-ti-lf398m-nopb/interactions.json",
+      "sha256": "f3d8e74ae8f03e37a62c22bd20b5a2144a7dd4e52d2508dc7bccd963c0b795d4",
+      "size_bytes": 453
+    },
+    {
+      "path": ".claude/skills/component-ti-lf398m-nopb/manifest.json",
+      "sha256": "3d952cab36bbf2947b73b5e172b2841b451525b3539869a849450aa18d2bc892",
+      "size_bytes": 1082
+    },
+    {
+      "path": ".claude/skills/component-ti-lf398m-nopb/pin-map.json",
+      "sha256": "22d0df696547520018466b55a4ae18bdf09175a34463e94f1b10b73a373688a1",
+      "size_bytes": 2331
+    },
+    {
+      "path": ".claude/skills/component-ti-lf398m-nopb/routing.json",
+      "sha256": "515da1a93a7510baef164be23ba1516b5c8a14d84b2bab6f056160183030151a",
+      "size_bytes": 609
+    },
+    {
+      "path": ".claude/skills/component-ti-lf398m-nopb/sources.json",
+      "sha256": "97dfd13dd279a64fde25a389846eed64a9ad51e25af3f6e04671ce96bfdeeadd",
+      "size_bytes": 2246
+    },
+    {
+      "path": ".claude/skills/component-ti-lm13700m-nopb/SKILL.md",
+      "sha256": "4bf7c4d2c09e4d2c945b1191a11a71698a1e6c013bca992205a41d12f5229934",
+      "size_bytes": 1563
+    },
+    {
+      "path": ".claude/skills/component-ti-lm13700m-nopb/coverage.json",
+      "sha256": "47e593548b885e5ed4f3cefbbfc973b8c2a3921ce9633de36fd178a68e23686e",
+      "size_bytes": 2465
+    },
+    {
+      "path": ".claude/skills/component-ti-lm13700m-nopb/facts.json",
+      "sha256": "b2f71e655f0210e48f24c4710345da08bd3b09682bcb065cc8eeefcf2db44643",
+      "size_bytes": 5534
+    },
+    {
+      "path": ".claude/skills/component-ti-lm13700m-nopb/interactions.json",
+      "sha256": "aa4d758f0c296d8d97f0e958d700c809be9c7909f2d2c10b836a56b12c06ccd3",
+      "size_bytes": 421
+    },
+    {
+      "path": ".claude/skills/component-ti-lm13700m-nopb/manifest.json",
+      "sha256": "162c7549949085ca0d8271a4274eb0ba503a44138ae1141939cd5ef5fefd7cac",
+      "size_bytes": 923
+    },
+    {
+      "path": ".claude/skills/component-ti-lm13700m-nopb/pin-map.json",
+      "sha256": "c04d4845d6371eaf87dde588c500e165600018388f27cdb0c39e03fac0eaf2a1",
+      "size_bytes": 2781
+    },
+    {
+      "path": ".claude/skills/component-ti-lm13700m-nopb/routing.json",
+      "sha256": "84474915103b35c7cf65992c46e3fd253eaf84f54035f0f4e44894cb4fe5d1ee",
+      "size_bytes": 631
+    },
+    {
+      "path": ".claude/skills/component-ti-lm13700m-nopb/sources.json",
+      "sha256": "07e1dfc92ecb4705d06958cb6aff9dc4f49222dd4c160cf62c64fc1681388c22",
+      "size_bytes": 2305
+    },
+    {
+      "path": ".claude/skills/component-ti-lm393bidr/SKILL.md",
+      "sha256": "ebf6eba2da69a36a6181f047f98a1b2bcbb18fc3f41162496c4156ada420f550",
+      "size_bytes": 1569
+    },
+    {
+      "path": ".claude/skills/component-ti-lm393bidr/coverage.json",
+      "sha256": "a5a362466e7318fc9698601e49a26f469898427ba838c9356b7630d798a6bb8f",
+      "size_bytes": 2641
+    },
+    {
+      "path": ".claude/skills/component-ti-lm393bidr/facts.json",
+      "sha256": "325eb629af0d7ef491cd6de1959d6111f927cb8adc3cd6d7b0d82f15bcceff22",
+      "size_bytes": 6361
+    },
+    {
+      "path": ".claude/skills/component-ti-lm393bidr/interactions.json",
+      "sha256": "ab24998693f5381d1514c766db9ad00e1b9bd2cea3458cb962c7ce5afd87ba0f",
+      "size_bytes": 449
+    },
+    {
+      "path": ".claude/skills/component-ti-lm393bidr/manifest.json",
+      "sha256": "4ec215d151c287793bdaafe1c5175de0d4bdbf6ff3ecc13831f07b770a5b13e3",
+      "size_bytes": 1017
+    },
+    {
+      "path": ".claude/skills/component-ti-lm393bidr/pin-map.json",
+      "sha256": "851e590025ae0416c5dd320165045aac6bb97c05ab6eb3a511043e8fa937673d",
+      "size_bytes": 1488
+    },
+    {
+      "path": ".claude/skills/component-ti-lm393bidr/routing.json",
+      "sha256": "3b9d9972ec371853f6cadc6cf531913b40933253558d8269af69956c1345b197",
+      "size_bytes": 577
+    },
+    {
+      "path": ".claude/skills/component-ti-lm393bidr/sources.json",
+      "sha256": "4c3afa782b8ca56426f40dd56d5aad3d57437533a18c3ecce04d5f81a8061f72",
+      "size_bytes": 2304
+    },
+    {
+      "path": ".claude/skills/component-ti-opa4196idr/SKILL.md",
+      "sha256": "f05bb900a1c186c4598404398309b80acb44fef325959c6e584875bf2f6dc6c7",
+      "size_bytes": 1567
+    },
+    {
+      "path": ".claude/skills/component-ti-opa4196idr/coverage.json",
+      "sha256": "7acd4abaec62a4a096c10eb538b19260c9a9fcaf7917457315e6ad05321e8807",
+      "size_bytes": 3032
+    },
+    {
+      "path": ".claude/skills/component-ti-opa4196idr/facts.json",
+      "sha256": "617de6d47a978716ef6ad382122258cb6f7b71e3572a271515a9caa690a0aa55",
+      "size_bytes": 6343
+    },
+    {
+      "path": ".claude/skills/component-ti-opa4196idr/interactions.json",
+      "sha256": "ac12dd29a2159de79a48fadfa51ef50960822b8e8b2414413a84eca6b5b4d43f",
+      "size_bytes": 441
+    },
+    {
+      "path": ".claude/skills/component-ti-opa4196idr/manifest.json",
+      "sha256": "c624b1afd6f94087a8c39b7fdea59e2828fd219445c8ab5ab87a2a67a5a9aea5",
+      "size_bytes": 1075
+    },
+    {
+      "path": ".claude/skills/component-ti-opa4196idr/pin-map.json",
+      "sha256": "18ec31b66f3800139775a95773ccf4818560272d72f0cf655a9e0422abcd0b47",
+      "size_bytes": 2278
+    },
+    {
+      "path": ".claude/skills/component-ti-opa4196idr/routing.json",
+      "sha256": "b2112e7eae4714d59ae79ebfffc84e995e3077aadb6b6ad01e8efa42445ef5e1",
+      "size_bytes": 615
+    },
+    {
+      "path": ".claude/skills/component-ti-opa4196idr/sources.json",
+      "sha256": "978298618972b39f51609314c79927764835f791153e2ed75ed354b1ba824b10",
+      "size_bytes": 3411
+    },
+    {
+      "path": ".claude/skills/component-ti-opa4197ipwr/SKILL.md",
+      "sha256": "451a889d657c51a52145e2563fde09a4889c7e7ce0b61c72ce5cbad69ecab892",
+      "size_bytes": 1577
+    },
+    {
+      "path": ".claude/skills/component-ti-opa4197ipwr/coverage.json",
+      "sha256": "618c49dbbbdccc662215c84c714f58a5ee6f7b32c744776b2e3b2661188bf390",
+      "size_bytes": 3317
+    },
+    {
+      "path": ".claude/skills/component-ti-opa4197ipwr/facts.json",
+      "sha256": "ac4cab31fbe7b34a6af2389ba9fa1cb1c67d9eddda4787e7fd9e4a9feb2262bd",
+      "size_bytes": 8748
+    },
+    {
+      "path": ".claude/skills/component-ti-opa4197ipwr/interactions.json",
+      "sha256": "d90cc146ecad4a5183b2094c0cef7f03a861d25544a06e362312a8889c7f928b",
+      "size_bytes": 457
+    },
+    {
+      "path": ".claude/skills/component-ti-opa4197ipwr/manifest.json",
+      "sha256": "096b47006690048fd961dd366acde0baacddaa3fa15b2fb819b7be9522db0773",
+      "size_bytes": 1367
+    },
+    {
+      "path": ".claude/skills/component-ti-opa4197ipwr/pin-map.json",
+      "sha256": "cfe8e71b40161d60b3478a173f72796af3c62c496f27e997076747af050612cc",
+      "size_bytes": 2286
+    },
+    {
+      "path": ".claude/skills/component-ti-opa4197ipwr/routing.json",
+      "sha256": "5bfbb62e0c28fcb4f622f6a80329be194706317cf23bcc1712f63ac94ad4370b",
+      "size_bytes": 600
+    },
+    {
+      "path": ".claude/skills/component-ti-opa4197ipwr/sources.json",
+      "sha256": "c65ae176fdec8477fe083089737a9efed2ce1d2bdaf214492a5dd6514460c14f",
+      "size_bytes": 5961
+    },
+    {
+      "path": ".claude/skills/component-ti-ref5050aidr/SKILL.md",
+      "sha256": "1802716578daf93818b2a7e863d51ea6d21671edbce2c9fcaeb381b520336b23",
+      "size_bytes": 1571
+    },
+    {
+      "path": ".claude/skills/component-ti-ref5050aidr/coverage.json",
+      "sha256": "81c6d6a9bd1e3bdb6365f1b7b9430eafd2a00ddc2b4754134b39c482404334b0",
+      "size_bytes": 2591
+    },
+    {
+      "path": ".claude/skills/component-ti-ref5050aidr/facts.json",
+      "sha256": "2934c185bbdca9f5ed942b16292ef906dd2a2c66341e11b2eae001549f842b0c",
+      "size_bytes": 5447
+    },
+    {
+      "path": ".claude/skills/component-ti-ref5050aidr/interactions.json",
+      "sha256": "29ca9f5545f174b9287bfe527ee399b1a51d1e4f58e2aa314eb0597207398db7",
+      "size_bytes": 445
+    },
+    {
+      "path": ".claude/skills/component-ti-ref5050aidr/manifest.json",
+      "sha256": "4a9263d809d83ee137cefe718a4096e92387f3d266e122d29444078a11a95b0e",
+      "size_bytes": 994
+    },
+    {
+      "path": ".claude/skills/component-ti-ref5050aidr/pin-map.json",
+      "sha256": "4e535e340915f3de37647ca57caed79daf9ae220fd08ecbcb6a36a2e7afd0f91",
+      "size_bytes": 1426
+    },
+    {
+      "path": ".claude/skills/component-ti-ref5050aidr/routing.json",
+      "sha256": "2e0ab1fbe9164d1f2e632acd34d00b0e082713bb039e2b1116a6004d264751d9",
+      "size_bytes": 615
+    },
+    {
+      "path": ".claude/skills/component-ti-ref5050aidr/sources.json",
+      "sha256": "d9543c58d2b1540a0b37b8d64265ec05816e7d5763fc3cd6eaaa4fe2b5325355",
+      "size_bytes": 2307
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc00dr/SKILL.md",
+      "sha256": "c321a642c9305a3fff3755bbb73cb34eb8ab0947b214de0e22a7cba53435a911",
+      "size_bytes": 1559
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc00dr/coverage.json",
+      "sha256": "e6c066ac590799af3905f136072103c4cd1e28146f475324f41ab1bb0af09014",
+      "size_bytes": 2486
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc00dr/facts.json",
+      "sha256": "5385b3754cbfe5c307511a2aededce58777f55d3eceb6f4d419644e1cacdcef9",
+      "size_bytes": 5450
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc00dr/interactions.json",
+      "sha256": "7f69480657ef97af08aa46a039eb0681af0d7d91b6609b56e64e2f71ead0f023",
+      "size_bytes": 425
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc00dr/manifest.json",
+      "sha256": "8f74cc22a4a5379d381504cf5c7c8d33a0ee821154e06dca1e470291cdc7caa1",
+      "size_bytes": 922
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc00dr/pin-map.json",
+      "sha256": "2af5336cc1930328874f271b980e80a45df672f5962d9871a39f7e247c22aa3e",
+      "size_bytes": 2394
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc00dr/routing.json",
+      "sha256": "52ca0f34fb990f4301a5e82220362d72fa4e0c0e2c05205cdd8a14fef0ec2ca2",
+      "size_bytes": 532
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc00dr/sources.json",
+      "sha256": "807ddff585df2fb66d187f71250e33e4f7a73c8fd6b5a5127d8ce72aa0e763d1",
+      "size_bytes": 2201
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc14dr/SKILL.md",
+      "sha256": "e2358b8e5e081b69b09de0bf71a8dd571e3eed760b8ee87dbd5142317dfc7419",
+      "size_bytes": 1565
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc14dr/coverage.json",
+      "sha256": "c47d50b342bb556332d0bd9215c9592d6a4a66f506ed937716e0ad159c5f7028",
+      "size_bytes": 2549
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc14dr/facts.json",
+      "sha256": "4a2cfa2dada3be54c07dcf3930a73127867ecd3352318ed617ba2d3cb571d129",
+      "size_bytes": 5548
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc14dr/interactions.json",
+      "sha256": "e1b52b61010f73cb45b5dfad6efea9302ee3c6b784b8a869ba24dcb34fb09bbc",
+      "size_bytes": 437
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc14dr/manifest.json",
+      "sha256": "1df2c0b7137c052a7ffdcf132ff957bb1a8b8e9e5d833a349f4a5a933ea76559",
+      "size_bytes": 961
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc14dr/pin-map.json",
+      "sha256": "7ee2097a207fb80b18a68a45b20d91c5af4fa430fb024bec0a24de5bf4a2ad38",
+      "size_bytes": 2364
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc14dr/routing.json",
+      "sha256": "a0337462e58721937dc0a43952252784ae2571676e1faceb460d82ae7fa8a7ae",
+      "size_bytes": 549
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc14dr/sources.json",
+      "sha256": "48560786e39a8be33697799903c294eca75428972bef6a0d7f50f83695165985",
+      "size_bytes": 2239
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc74dr/SKILL.md",
+      "sha256": "9ad5c1cc4b507dda602b1016a9cc8203084e00f180a5810837957135e7e14516",
+      "size_bytes": 1567
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc74dr/coverage.json",
+      "sha256": "6adfb65aea2c9b9ed20edd89fb2d75d75233ec6eaf2c8587d6384331c26dc7ab",
+      "size_bytes": 2570
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc74dr/facts.json",
+      "sha256": "87b8a36d97d85066f35d980dfe4043cd0ceea1964078c759fae4437679bc8583",
+      "size_bytes": 5606
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc74dr/interactions.json",
+      "sha256": "649a7fa3d06a85efeff873c5384477f268dd33c84863091c6ec9cdefa2c42cdf",
+      "size_bytes": 441
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc74dr/manifest.json",
+      "sha256": "6c3781640e2ed29c17ed68b589d1a0db2fb09c052c75efcebc21bb29f54a3c30",
+      "size_bytes": 974
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc74dr/pin-map.json",
+      "sha256": "423e8a713c0bc57c5c88fa8f8165948099cbd2fae1e318dc8e1ade2a43d4e5b3",
+      "size_bytes": 2426
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc74dr/routing.json",
+      "sha256": "060323b3d9d8c61759b54750715ebc5e4f94fc228beef903339ea2be5af2b38c",
+      "size_bytes": 544
+    },
+    {
+      "path": ".claude/skills/component-ti-sn74hc74dr/sources.json",
+      "sha256": "d2e84d1e29f5540956f36f06c1001499960104186f3f89ee579f8a4c66980f28",
+      "size_bytes": 2322
+    },
+    {
+      "path": ".claude/skills/component-ti-tlv75533pdbvr/SKILL.md",
+      "sha256": "2a3c4734a53c95eedc0b53eb1a7955c1eec9dbec5463420cf30bcfdb4c6b87d3",
+      "size_bytes": 1583
+    },
+    {
+      "path": ".claude/skills/component-ti-tlv75533pdbvr/coverage.json",
+      "sha256": "01d46faa189c987c0d70e39b2b12e498917080debce46d6e45da6e5792e1e880",
+      "size_bytes": 2654
+    },
+    {
+      "path": ".claude/skills/component-ti-tlv75533pdbvr/facts.json",
+      "sha256": "7060380392cb73ec6e2758a21db9faeed697c952b04b319767599f548dca18cf",
+      "size_bytes": 5602
+    },
+    {
+      "path": ".claude/skills/component-ti-tlv75533pdbvr/interactions.json",
+      "sha256": "33f79520a22d7018ccbfd97d0280c878e827fd40ddd3039a513d8e8ee42b443e",
+      "size_bytes": 461
+    },
+    {
+      "path": ".claude/skills/component-ti-tlv75533pdbvr/manifest.json",
+      "sha256": "5300097c1b2db5ef216e131b1f24613c6f3b6f2f59a1557cf2917f091e80b4e4",
+      "size_bytes": 1019
+    },
+    {
+      "path": ".claude/skills/component-ti-tlv75533pdbvr/pin-map.json",
+      "sha256": "127b50c5a721db9e1dd1deaf4c4247ff68b3d654705c6f385c4ecab562234124",
+      "size_bytes": 999
+    },
+    {
+      "path": ".claude/skills/component-ti-tlv75533pdbvr/routing.json",
+      "sha256": "8f239a2984cc9df74e3f4a215b53d29c1de8e809b8fa29a1bb366d980f9c84b3",
+      "size_bytes": 597
+    },
+    {
+      "path": ".claude/skills/component-ti-tlv75533pdbvr/sources.json",
+      "sha256": "3ce9142d65d833ccbc8dba26e19309a47859cb30224007c4e9b4510db0c2f12d",
+      "size_bytes": 2282
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "f24c67ce1f17d131492cfae47b8c7f9f348b888bb6ba255890e582ab9c5b486d",
+      "size_bytes": 570
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "e752b908856ab8d48940d0580740ec68bacf4c6d85b3ade3784c1c5da0166f1e",
+      "size_bytes": 616
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "e752b908856ab8d48940d0580740ec68bacf4c6d85b3ade3784c1c5da0166f1e",
+      "size_bytes": 616
+    },
+    {
+      "path": "LOCAL_AGENT_PROMPT.md",
+      "sha256": "a2a4b11b75c73ead6b0a31e9c52901dd6632809390a47cd05ca1cc8549559659",
+      "size_bytes": 2836
+    },
+    {
+      "path": "README.md",
+      "sha256": "45a2e453b027b9af29c68f77f662d8fbc1d50480a7bb57040047f188b31c10cf",
+      "size_bytes": 4889
+    },
+    {
+      "path": "SOURCE-RIGHTS.md",
+      "sha256": "159e6e4931bc959ee1305c85cd7aee12c03cc08187fe5744fb819616c20b4d49",
+      "size_bytes": 1462
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "9553bde221b194bff3eb0f1b5f97297136ef36e9fdc7ab02b241485e86d3ec6b",
+      "size_bytes": 1861
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "d40448aea62d529865a5c4a7f94093ddcd17a188c17741fb26e8672ff2812153",
+      "size_bytes": 5003
+    },
+    {
+      "path": "ZUDO_DEPS_PINS.md",
+      "sha256": "8519820836ca20f9378a7ffa948d5d4a732cb08ee903767df20a6e73b17e5a35",
+      "size_bytes": 3019
+    },
+    {
+      "path": "circuit.config.ts",
+      "sha256": "abfaf4741b796c6ce19700d6cf3077abbc71883ab92516c23c5ded317ab05741",
+      "size_bytes": 2010
+    },
+    {
+      "path": "circuit/WORKFLOW.md",
+      "sha256": "770854932fff0730b703026d6ff1c5226c46841c2f28b9db189ece719b884bf3",
+      "size_bytes": 33386
+    },
+    {
+      "path": "circuit/agent-task-examples.md",
+      "sha256": "675ace7b58c7f200497a6430e9816bfeb039bd7379c127c8b352f9f33fee786d",
+      "size_bytes": 14244
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c110776-rt0603brd071kl.receipt.json",
+      "sha256": "867b3f2f228bf995e4fd773c0e3c5254e30b50da972cc2c1c3fb756114124a21",
+      "size_bytes": 4962
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c13585-cl31a106kbhnnne.receipt.json",
+      "sha256": "85624984f6815607d378b9bab2473bc5f5c0af77931575cef2fdb96b257ad906",
+      "size_bytes": 5278
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c14663-cc0603krx7r9bb104.receipt.json",
+      "sha256": "6537a59d625214c291a1e786e86d506d77a833e232641535a365073326d8d2a9",
+      "size_bytes": 5270
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c15849-cl10a105kb8nnnc.receipt.json",
+      "sha256": "3efd84cf998cc1a5b3a21e3672e09f7a42d0752b499a473c1cb1f4341e6cd46b",
+      "size_bytes": 5280
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c21189-0603waf0000t5e.receipt.json",
+      "sha256": "7edec94994158aed3dcd4b5277c2539f72904c384ad3cf4a9997aa9fa28d1333",
+      "size_bytes": 4953
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c21190-0603waf1001t5e.receipt.json",
+      "sha256": "9ccd56eee267ad171c85cbf4fae6538c712ba9128b7b41b2a9a534860f33f41c",
+      "size_bytes": 4953
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c22807-0603waf1503t5e.receipt.json",
+      "sha256": "317d003374b6193a0fd213948b7a757778ddf954c0e84dba836811a523b8046b",
+      "size_bytes": 4953
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c2286-kt-0603r.receipt.json",
+      "sha256": "088aaaca3a2015bd3a6b11a8c2985db2966d50b2914b68d6ae240bafd9380c7a",
+      "size_bytes": 5154
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c2290-0603whitelight-c2290.receipt.json",
+      "sha256": "d10c3710f967246665d04f3a9fab6ec646fbbc997d0d2daecc13e34ec95520b3",
+      "size_bytes": 5669
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c23159-0603waf4301t5e.receipt.json",
+      "sha256": "6b2ddc16465bfa16caa1ef9b6036d2f00be06ad17045123fdbc99fc0e83102e2",
+      "size_bytes": 4953
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c23162-0603waf4701t5e.receipt.json",
+      "sha256": "5a7559f6bb1a4832175f8aa535348f13a9f06394844ae9fc9ffdb81611451c0f",
+      "size_bytes": 4953
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c23179-0603waf4700t5e.receipt.json",
+      "sha256": "67525b6fd74ad2ce4e72fe321b87ae324f500f8232f5309f51e6fa5917fe7718",
+      "size_bytes": 4953
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c23186-0603waf5101t5e.receipt.json",
+      "sha256": "3f282b963b41ad4b825243c9f7ec475c9e928ad7b6afb4bee27fae886595dfc9",
+      "size_bytes": 4953
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c23206-0603waf5602t5e.receipt.json",
+      "sha256": "2ebfe3cae22ca13bd9664d95fc9194d236cb5fa8198a62e2c9aef76741f4f4f0",
+      "size_bytes": 4953
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c25803-0603waf1003t5e.receipt.json",
+      "sha256": "a41e2fb83328103b36514adaecfd053225339b5a6a26549da1acfda8c897a635",
+      "size_bytes": 4953
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c25804-0603waf1002t5e.receipt.json",
+      "sha256": "aa91e0e57f2c7df2ef7f9d5241e3186ca5dff4d65bffcfd14b505ebacb505300",
+      "size_bytes": 4953
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c4749189-dw254p-2x8-l0.receipt.json",
+      "sha256": "05f9dee5282abc21f99839c1019f24895fd38026a5d63feb1b8cf5afec418333",
+      "size_bytes": 5685
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c571368-smaj15a-c571368.receipt.json",
+      "sha256": "8836d4220ec31cbf5a62ab521f9770072f9ca77da3c0dadda5491db3be75bb7d",
+      "size_bytes": 5442
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c70119-msmd110-33v.receipt.json",
+      "sha256": "cfb46c18e5136b4a9937f8fae406c477c99c47772e89664b56e74126a2bb7fe0",
+      "size_bytes": 5239
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c861077-rt0603brd0710k5l.receipt.json",
+      "sha256": "4c98599e1702095fe0d6b351c36021956c9ae5668761854ef2b567952b3106aa",
+      "size_bytes": 4972
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c861332-rt0603brd0733rl.receipt.json",
+      "sha256": "1763dfd2f7b41533c06d9285edba291ceaa85fe54f3b4293600bd81fd9b21d83",
+      "size_bytes": 4967
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c861371-rt0603brd073k09l.receipt.json",
+      "sha256": "5c02f08c3ca5a7a06344234246197c229a1b77c398a21efc37196bb6618a024f",
+      "size_bytes": 4972
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c861519-rt0603brd07680rl.receipt.json",
+      "sha256": "ba42f587d25743fe789b2d7f84060c2304ea6221470dca8d0433c106b4f647d9",
+      "size_bytes": 4972
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c861589-rt0603brd078k2l.receipt.json",
+      "sha256": "5272ab0036ecd2a134d9c4d5207e6bd778a1c52372b779f0a2288120d3400ad1",
+      "size_bytes": 4967
+    },
+    {
+      "path": "circuit/cad-receipts/cad-c87267-smaj6-5a-c87267.receipt.json",
+      "sha256": "c6357725ef151b8b38991ca7814b542ffa75715288585469d85285e6ae9cc220",
+      "size_bytes": 5442
+    },
+    {
+      "path": "circuit/cad-receipts/cad-dailywell-2ms1-t1b1m2.receipt.json",
+      "sha256": "fe7580108edd65c29c5bb39c9cba3f445ef484a109cfe87078e9049c2efa0ee4",
+      "size_bytes": 6613
+    },
+    {
+      "path": "circuit/cad-receipts/cad-dailywell-2ms3-t1b1m2.receipt.json",
+      "sha256": "193683429c2ebc46bcc59d707caca716b0989d5a72f6e18e3a0d490344c3d1ce",
+      "size_bytes": 5821
+    },
+    {
+      "path": "circuit/cad-receipts/cad-kingbright-red-0402.receipt.json",
+      "sha256": "98dce4cf9f65db4d7ac082da96f7bbe80d903c53bf483392c6ff6fe2ebca1287",
+      "size_bytes": 3178
+    },
+    {
+      "path": "circuit/cad-receipts/cad-kingbright-white-0402.receipt.json",
+      "sha256": "4217719bf5d6e54a29d16898d29bc537bbcb7ec86cf50fe2aee3f481899a4f33",
+      "size_bytes": 3200
+    },
+    {
+      "path": "circuit/cad-receipts/cad-omron-b3f-1020.receipt.json",
+      "sha256": "974322a2278b6c52de57a1b92d6d710ba662d8f82bee5fcb32c9537db6a57a15",
+      "size_bytes": 4654
+    },
+    {
+      "path": "circuit/cad-receipts/cad-qingpu-wqp518ma.receipt.json",
+      "sha256": "d8c3e3763f9c0e01a1e2e9f6918943a968ff39321c03dd1520787027b31e2bca",
+      "size_bytes": 5564
+    },
+    {
+      "path": "circuit/cad-receipts/footprint-c0805.receipt.json",
+      "sha256": "1485c5482dc8971d45cd264e18bf330eebf5f56ef0f16151082154876520d35b",
+      "size_bytes": 4635
+    },
+    {
+      "path": "circuit/cad-receipts/footprint-fiducial-1mm-mask2mm.receipt.json",
+      "sha256": "78fd4bc53f317ac730c01b31fdb5aad749b7e66feefe4f234e733c3b493c244f",
+      "size_bytes": 3329
+    },
+    {
+      "path": "circuit/cad-receipts/footprint-load-wire-terminal-4x4mm.receipt.json",
+      "sha256": "c09d137e3438718602e737abd855c06682d3be312e323941c621a078ac7ffecd",
+      "size_bytes": 2250
+    },
+    {
+      "path": "circuit/cad-receipts/footprint-mountinghole-m3.receipt.json",
+      "sha256": "f692916daf4a457ad61e00594dcb3a4d4b32a3a386152dd8f97e0102bedf5f93",
+      "size_bytes": 3279
+    },
+    {
+      "path": "circuit/cad-receipts/footprint-testpad-d1-5mm.receipt.json",
+      "sha256": "cde60d229efbb3c628c54ffb25b5554914531c41c4e5fc041a64e003a74abff4",
+      "size_bytes": 3269
+    },
+    {
+      "path": "circuit/cad-receipts/gh-contact-mapping.receipt.json",
+      "sha256": "bb99c341ada3d44ee6a07aed5079bee5934b181665124df07288c1c00bd2dca7",
+      "size_bytes": 1734
+    },
+    {
+      "path": "circuit/cad-receipts/gh3-drawing-derived.receipt.json",
+      "sha256": "e91ee047a53c1d09da877b2161c43e6260eee486dd35f50820f06c653411dae8",
+      "size_bytes": 2087
+    },
+    {
+      "path": "circuit/cad-receipts/gh3-housing-mapping.receipt.json",
+      "sha256": "505f56e05d6d2d6b8f712eeef3c78223dadcfa5fa8a60fd86aa29a9242c03bbc",
+      "size_bytes": 1731
+    },
+    {
+      "path": "circuit/cad-receipts/gh7-drawing-derived.receipt.json",
+      "sha256": "3bdc784c84f9ffd51b2f3313d028f61672d10150591fde2a1deb9f44a6523e0e",
+      "size_bytes": 2087
+    },
+    {
+      "path": "circuit/cad-receipts/gh7-housing-mapping.receipt.json",
+      "sha256": "8e4eafc608daa138d7882caf1a02bccddee22c1c470e1300764100c831035514",
+      "size_bytes": 1731
+    },
+    {
+      "path": "circuit/cad-receipts/gh8-drawing-derived.receipt.json",
+      "sha256": "de9dd7095642a292b403ee1b0433229404f280f6a467b383ec7cd0a9214ee2c6",
+      "size_bytes": 2087
+    },
+    {
+      "path": "circuit/cad-receipts/gh8-housing-mapping.receipt.json",
+      "sha256": "dec673bb3d929f8ff8138217b8c9bf6d67c7c84d12817cf1773f35b46e488027",
+      "size_bytes": 1731
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-c_bulk.receipt.json",
+      "sha256": "021c4e18d32c0f6a6401b1e6b01b1b0217d4a2fe49fef352d6e20a9def169037",
+      "size_bytes": 2908
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-c_bypass.receipt.json",
+      "sha256": "707b4ab27e0c1a338caa731dd155072e6e78c78118101c670e7bb086c9fb7764",
+      "size_bytes": 2812
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-c_hold.receipt.json",
+      "sha256": "f7e21ce50d94ede919f6cf6b9da796a787915ab7831a24c91c67c4c88e21cf04",
+      "size_bytes": 2746
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-c_slew.receipt.json",
+      "sha256": "ce3a4cce5adfd28740f8eceef73c71cd225bfe51ab1ac1dbcd0f0e0f982ed79c",
+      "size_bytes": 3054
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-c_small.receipt.json",
+      "sha256": "d9c1e7c3deb213b8dc57f7e14713becf145f88a86bd3d38f811e7a8c2158cbdc",
+      "size_bytes": 2748
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-clamp_diode.receipt.json",
+      "sha256": "26d3e5ef6aafd1a3b3f1da25536be0046c5eb029719751b5c49d0d25009b10b1",
+      "size_bytes": 3101
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-comparator.receipt.json",
+      "sha256": "3a0c6e027ecb26ed6bfd1a6eefada5122c7ae1b7ef62c69128c1ee2d1dfcb4ce",
+      "size_bytes": 3485
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-fault_switch.receipt.json",
+      "sha256": "5344217d37dcde911d3e9fb984a8b532cc7642329103cfc6acbafc331cb3259a",
+      "size_bytes": 2820
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-flipflop.receipt.json",
+      "sha256": "f8e45cf1b5ad15c321297ea013d437331bfb874d457a8d14020a991e21f7ff75",
+      "size_bytes": 3508
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-footprint-dip-8-w7.62mm.receipt.json",
+      "sha256": "93e12f897fc956bcf45ad2448c4a8c105588205c735d8c94d83f53fffab0d576",
+      "size_bytes": 4787
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-footprint-potentiometer-bourns-tc33x-vertical.receipt.json",
+      "sha256": "8955e63784f14108192e40978d0d1d8c941e994e82c1a682c072363f6188d58f",
+      "size_bytes": 2721
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-footprint-r-0805-2012metric.receipt.json",
+      "sha256": "7b7c2364a25478d6f5aa34db03a10e83c31691711611556895eb6713341138fa",
+      "size_bytes": 2559
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-footprint-r-1210-3225metric.receipt.json",
+      "sha256": "ab883f9de067465060d8be92ea4eb99f7006bbd1bd0efcf274b86f60ea59d30a",
+      "size_bytes": 2559
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-footprint-sod-123.receipt.json",
+      "sha256": "c3fffbf51a98d592b015587ad3e6456472d53f27f9c784db1c688f0fa85c8b15",
+      "size_bytes": 4549
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-footprint-soic-14-3.9x8.7mm-p1.27mm.receipt.json",
+      "sha256": "653126f67459dd1c73a68de237233acf20c04e47f266e4a68cd583abc365fe9c",
+      "size_bytes": 4835
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-footprint-soic-16-3.9x9.9mm-p1.27mm.receipt.json",
+      "sha256": "dfff6311ffd3e08140d471800b6b19974993a5ab8ee72bdede9985ba74c96ab0",
+      "size_bytes": 5568
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-footprint-soic-8-3.9x4.9mm-p1.27mm.receipt.json",
+      "sha256": "ff8c36f6461b24526678683b01adb4ba7ad04a510ffd26a87087d7984764d0a2",
+      "size_bytes": 4718
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-footprint-sot-23-5.receipt.json",
+      "sha256": "709ca88a4600b564769d3c5452382f65f86c99d1bf7a1656f9c0ef3fe3807c36",
+      "size_bytes": 4546
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-footprint-sot-23.receipt.json",
+      "sha256": "8c90d63804ab5ef0bd99d023b20113808df84cfc5a7b8cd46a952b2d0573c1ac",
+      "size_bytes": 4605
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-footprint-sot-363-sc-70-6.receipt.json",
+      "sha256": "4c406769fbe79e3098c96f333c1ca016e34c5e92c1908b1d068c327eead80e35",
+      "size_bytes": 4627
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-footprint-tssop-14-4.4x5mm-p0.65mm.receipt.json",
+      "sha256": "c3ba9774d0578c46b5626b1b51f9a93a05b0d41b88a1851bc5887e0762b0122a",
+      "size_bytes": 4712
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-footprint-tssop-16-4.4x5mm-p0.65mm.receipt.json",
+      "sha256": "7f93edfa10193e22e8404ce8228ae6a8677136b45730361201b3504c9b4c99c7",
+      "size_bytes": 4714
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-matched_npn.receipt.json",
+      "sha256": "dfe2fd3d68c2181135850d4a30f5c66bacfa439ffd959ef3261f90a64a6ffa2f",
+      "size_bytes": 2751
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-mosfet.receipt.json",
+      "sha256": "6311306325e6c7371e9376c71aede57cfb8da2bc05c8d56c7bbfbd2b56712248",
+      "size_bytes": 3484
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-nand.receipt.json",
+      "sha256": "7006ad14f917d7990f5c5d4a3bcb5b4566dc7c9512d2710cc3253a213ba839a9",
+      "size_bytes": 3500
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-noise.receipt.json",
+      "sha256": "dd7011048ae260b40192d3f002e245b027a1ec1e885f8a34c643c6119bb80998",
+      "size_bytes": 2716
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-npn.receipt.json",
+      "sha256": "7abf70fe04c1573931f285b42107afe1ea8a1172267b565c9bdde30d42e9d75b",
+      "size_bytes": 3514
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-one_shot.receipt.json",
+      "sha256": "0578cd34e5082bd33482a31dcd0656cdbcc9104705dbde806bbe15c29de97d32",
+      "size_bytes": 2740
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-op_audio.receipt.json",
+      "sha256": "781ce4b569f23875fc9a1c6506ce8b6bcf75e20a62dde7bc6bfdebe597282b5a",
+      "size_bytes": 3502
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-op_precision.receipt.json",
+      "sha256": "8fde8811a845d9dc1f09cc802bfd1c5dda8c4a4c3d4c816239f2c0aeedc0508a",
+      "size_bytes": 3126
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-ota.receipt.json",
+      "sha256": "c0e5e2935961e930ce8c41464478e073a1c52bb9b0d7a5099d1283cd318cce9a",
+      "size_bytes": 3123
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-pnp.receipt.json",
+      "sha256": "21b4cf74a20e031a6964941b85978f6aa3a3461693c9582e81c89b9665b0f93f",
+      "size_bytes": 3514
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-r_general.receipt.json",
+      "sha256": "dbc3840489abd3d1198fa1288201a4983b514552f09a5019414cc8a60b800468",
+      "size_bytes": 2784
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-r_ladder.receipt.json",
+      "sha256": "90bdfe972a210f93c9afd249d37fc60803fa7ff333dfe6c0abc111695b7e39ca",
+      "size_bytes": 2643
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-r_power.receipt.json",
+      "sha256": "0b8c8676cfc2a3ccedcd04eea5756c8637a0eddbf1dc31ee737757eb745eea7b",
+      "size_bytes": 2722
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-r_precision.receipt.json",
+      "sha256": "07b9ce4f28e3439a4c0b68e568df1aba2c02ffa3e0d286068e637548f33e97d1",
+      "size_bytes": 2793
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-reference.receipt.json",
+      "sha256": "99ac437b201c382af833d62e1e8d49b4dd5b40e7d3332be54bf4285c676cc435",
+      "size_bytes": 3509
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-regulator_3v3.receipt.json",
+      "sha256": "4f3b978658c004d5350de5f6285b89d50c05c5f7053c1980c33f0d56804d64cd",
+      "size_bytes": 3525
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-sample_hold.receipt.json",
+      "sha256": "d347ea9a81317f524768a091f0e8c8baeb8f0cd0f76b77ef7ea611b8b9d3c2ae",
+      "size_bytes": 3115
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-schmitt.receipt.json",
+      "sha256": "08e16a2e35428117f63c86aea676ce3ab89ff0428d61cdef4a605b665c81bff0",
+      "size_bytes": 3113
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-trim_102.receipt.json",
+      "sha256": "7c6a24b9a9aed83776247a9ea1c8d3911440c2f68a8bdc8a536418d157a34643",
+      "size_bytes": 2657
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-trim_103.receipt.json",
+      "sha256": "d2877c862a53a628f1faefe7cf5e01589ed4ce661544d41596f1ec44350f314a",
+      "size_bytes": 2657
+    },
+    {
+      "path": "circuit/cad-receipts/ic15-vco.receipt.json",
+      "sha256": "2ac63de07edf42b143de4b44e8036a94193ee5baa46962c825a180b161af9d05",
+      "size_bytes": 3599
+    },
+    {
+      "path": "circuit/cad-receipts/ic18-signal_diode.receipt.json",
+      "sha256": "b88e6883535a9db49910b1f8e6f6082d399826060750484787f62b10d9da3df9",
+      "size_bytes": 3038
+    },
+    {
+      "path": "circuit/cad-receipts/power-bleeder-rc0603fr-072k2l.receipt.json",
+      "sha256": "56f279266101e763d62f2022471f1675e64d1f8a903ad00798327990caf1b679",
+      "size_bytes": 2664
+    },
+    {
+      "path": "circuit/cad-receipts/power-test-pad-d1-5mm.receipt.json",
+      "sha256": "82a2de051454ad38535d64c80fa9a475857d5dd731b9c77fd4f5207cdc4e72c5",
+      "size_bytes": 2574
+    },
+    {
+      "path": "circuit/cad-receipts/symbol-pwr-flag.receipt.json",
+      "sha256": "83e52bd89f871bed97d0e0b342787d6d61d31c17f786ca3c4220ce8b0e0c80cd",
+      "size_bytes": 3018
+    },
+    {
+      "path": "circuit/cad-receipts/topic12-b103.receipt.json",
+      "sha256": "84b7153fb5334d06020603b0d8f865245d1a505e66842329c720c184e54c142c",
+      "size_bytes": 1400
+    },
+    {
+      "path": "circuit/cad-receipts/topic12-b104.receipt.json",
+      "sha256": "994446f7e8112dcf99c753a005b9889f97a52792c3c5775422e861f94b64ee1c",
+      "size_bytes": 1400
+    },
+    {
+      "path": "circuit/cad-receipts/topic12-b504.receipt.json",
+      "sha256": "a9f6259e3c60e85ffdccde3be6426a33aa7762bba59d60fa43bd9248b41274d8",
+      "size_bytes": 1400
+    },
+    {
+      "path": "circuit/cad-receipts/topic12-footprint-pot.receipt.json",
+      "sha256": "ac3bae51db35d99453f04faef6833c9b46ef166f5d4038714a9cc21e9fa5485d",
+      "size_bytes": 2274
+    },
+    {
+      "path": "circuit/cad-receipts/topic12-footprint-selector.receipt.json",
+      "sha256": "4525ccb16f2223fe1968f9a0318927184cec245afbbd0f65c0d83e1cffbef4be",
+      "size_bytes": 2978
+    },
+    {
+      "path": "circuit/cad-receipts/topic12-srbv.receipt.json",
+      "sha256": "c3e1fe59ffc39d7da8236f8efe143d0123b876c2bda7cb4f362194434eb3915c",
+      "size_bytes": 1399
+    },
+    {
+      "path": "circuit/checks/README.md",
+      "sha256": "e380fe385fc8b759b9ae67583d13481a5758f6ca69d5fe3a9363e666e4e0685d",
+      "size_bytes": 3667
+    },
+    {
+      "path": "circuit/generated/preflight.json",
+      "sha256": "bdde41eccb7cdb6dd085aa7a080b5673800dc84a4fa3172c00c251625e2413e4",
+      "size_bytes": 30912
+    },
+    {
+      "path": "circuit/publication/assets.json",
+      "sha256": "13eb4ac06e42f4a2b7959c6787ca152dc66987e4da64025f68fa3162afd75c7e",
+      "size_bytes": 387
+    },
+    {
+      "path": "circuit/publication/selection.json",
+      "sha256": "dc9f40769b48b159076c769126b9e2d0b32d3ece56c87cfb7f4dd1b2c68eb6bf",
+      "size_bytes": 9427
+    },
+    {
+      "path": "circuit/source-archive/Yageo-RC0603FR-071K2L.pdf",
+      "sha256": "20324e9b3c842d6386823c689ea5aad1376ac3413e6fe26172e0772f8e4e2716",
+      "size_bytes": 56581
+    },
+    {
+      "path": "circuit/source-archive/kingbright/APG1005SEC-E-T.pdf",
+      "sha256": "19570994f99319c3b602ab3d854b1cb9e6c15a34aa69879e84d9a10594b8c03e",
+      "size_bytes": 509901
+    },
+    {
+      "path": "circuit/source-archive/kingbright/APG1005VWF-A1-5MAV.pdf",
+      "sha256": "f9c8a064df7c312382aafcc4e0b639d72b14a52985b7cfb7e1b5a5a4a8bd78a5",
+      "size_bytes": 543641
+    },
+    {
+      "path": "circuit/source-archive/kingbright/APHHS1005QWF-D.pdf",
+      "sha256": "025c18fdb1abd9cb727a24a04f44af8f609b492e7a55c62679ee665bbd09765c",
+      "size_bytes": 583630
+    },
+    {
+      "path": "circuit/sources/ic-library/1206CG104J500NT.pdf",
+      "sha256": "6df3d1f341ba30358717fac8bc95719e3c5630d7cc7bccc16f469958906ac4bf",
+      "size_bytes": 1006630
+    },
+    {
+      "path": "circuit/sources/ic-library/2N7002.pdf",
+      "sha256": "cc9c275457670c3cbbf2e56f5a75c800d3b5f0b396fabc798cf18cb639646475",
+      "size_bytes": 871278
+    },
+    {
+      "path": "circuit/sources/ic-library/ADG5412F.pdf",
+      "sha256": "ea3d12f983fc79a728d302675a0428a6d244e95828154bc4c970d34e23195a96",
+      "size_bytes": 647057
+    },
+    {
+      "path": "circuit/sources/ic-library/AS3340.pdf",
+      "sha256": "66108a3ddcc78a158d66974a497801ce6a429d465b338f6c8d656fd7ddce815e",
+      "size_bytes": 677430
+    },
+    {
+      "path": "circuit/sources/ic-library/BAS16GW-Q.pdf",
+      "sha256": "36b9d598de374dbdcc666f0516477d958e02471b323842704249e0e447e2be6b",
+      "size_bytes": 226253
+    },
+    {
+      "path": "circuit/sources/ic-library/BAS16GW-QX-chemical.html",
+      "sha256": "8cd1f913a81488831185205df86676af7b46f8bc6ea90cb015b3be1660eda073",
+      "size_bytes": 123638
+    },
+    {
+      "path": "circuit/sources/ic-library/BAT54S.pdf",
+      "sha256": "0baaac4f52b05b5d41932c445eb8dddc636e464b1f717d11ee41b27ba1202fe7",
+      "size_bytes": 212253
+    },
+    {
+      "path": "circuit/sources/ic-library/BCM847BS.pdf",
+      "sha256": "397d10c0be3226b032175a0c9856473c0042d3ca40ae14e8d78a2ebff83796a8",
+      "size_bytes": 248078
+    },
+    {
+      "path": "circuit/sources/ic-library/C0603C101.pdf",
+      "sha256": "1264bf36b455e746dc831ebba8a3696c328d574b9950d1c5e02ab95971e7d8d1",
+      "size_bytes": 242000
+    },
+    {
+      "path": "circuit/sources/ic-library/C0805C103.pdf",
+      "sha256": "6d0b7656a31b01c196d2aa1fba3fcb6f49f175a0cda39d3c93fed20e91c1670f",
+      "size_bytes": 241143
+    },
+    {
+      "path": "circuit/sources/ic-library/CD74HC221.pdf",
+      "sha256": "7f1f24f5229cfed79662b850f2aa6a92a1fcca9530d4c264b05af80638ad67e0",
+      "size_bytes": 755159
+    },
+    {
+      "path": "circuit/sources/ic-library/LF398.pdf",
+      "sha256": "050375f8bda46b6dea071d0273fdb65f1b0b972245f4fa7e4aa5ca7af1b88e9b",
+      "size_bytes": 3343507
+    },
+    {
+      "path": "circuit/sources/ic-library/LM13700.pdf",
+      "sha256": "8b2239a8b97659008b7373e29cf4401cacc76c377b50a6d0c90ed52ecfc7acee",
+      "size_bytes": 1792241
+    },
+    {
+      "path": "circuit/sources/ic-library/LM393B.pdf",
+      "sha256": "f28830c2f4cbd9ef6a1cd6788a840fa2b92caafee366d53385f88d1cf24e9456",
+      "size_bytes": 3289563
+    },
+    {
+      "path": "circuit/sources/ic-library/MMBT3904.pdf",
+      "sha256": "ade27b408c77a94ea4448c8473a9e80096dd60da3e1914e004c52344e9cd8d00",
+      "size_bytes": 216715
+    },
+    {
+      "path": "circuit/sources/ic-library/MMBT3906.pdf",
+      "sha256": "9589175ddb2e89e0cddef099fdd74ce6b33a2f7f9de9b4292b964f3189bf806b",
+      "size_bytes": 220358
+    },
+    {
+      "path": "circuit/sources/ic-library/NOISE2.pdf",
+      "sha256": "24161c9363c1d2249d9447879d0e93c27aa6df384e6413cc5f8ea223149739a0",
+      "size_bytes": 645557
+    },
+    {
+      "path": "circuit/sources/ic-library/OPA4196.pdf",
+      "sha256": "d89dd6009d109bf18b349e77ff46e4df60bf7d4faaefd4c3ebe6ec0e2fc7793d",
+      "size_bytes": 3172061
+    },
+    {
+      "path": "circuit/sources/ic-library/OPA4197.pdf",
+      "sha256": "27653a7d5e965cbb2d23f7998919ebd774efd5cd3e126b8f0881469ae91166fd",
+      "size_bytes": 2174683
+    },
+    {
+      "path": "circuit/sources/ic-library/RC0603FR.pdf",
+      "sha256": "9bf1013b7589c3af9750dc9a8f20c15b29881222ec31d827dc9c2625ec86c098",
+      "size_bytes": 56487
+    },
+    {
+      "path": "circuit/sources/ic-library/RC1210FR.pdf",
+      "sha256": "123d6a01482ef69ec58d05de95a70efebc1ac9fb1203e77d7fa037196644a960",
+      "size_bytes": 56427
+    },
+    {
+      "path": "circuit/sources/ic-library/REF5050.pdf",
+      "sha256": "d2da9488194dba11732c85c498b563c12e0bb6b3e2d21631022dde9bff51a13d",
+      "size_bytes": 5082549
+    },
+    {
+      "path": "circuit/sources/ic-library/RT0603BRD.pdf",
+      "sha256": "36b214e50ce608a711494bdf1ac3b888616c36508b93222bbf42212fcde7c3a1",
+      "size_bytes": 55801
+    },
+    {
+      "path": "circuit/sources/ic-library/SN74HC00.pdf",
+      "sha256": "aacc4e5e60c10be7412b635c327d42413c4f68a58bf381467fec1e54bff24af0",
+      "size_bytes": 2135978
+    },
+    {
+      "path": "circuit/sources/ic-library/SN74HC14.pdf",
+      "sha256": "0eaa0a53e41053aec950a8be0b3989dfa608583928e46544b7922e233aa4362d",
+      "size_bytes": 2079245
+    },
+    {
+      "path": "circuit/sources/ic-library/SN74HC74.pdf",
+      "sha256": "d1e57133ca40b595c670688718807c367b555b6fe57144c881d629de18230351",
+      "size_bytes": 2256544
+    },
+    {
+      "path": "circuit/sources/ic-library/TC33X.pdf",
+      "sha256": "b13258ee9f777b70198554ad4ed43cab2167b2bdf31bdcbe52c4956bfff1adbf",
+      "size_bytes": 506916
+    },
+    {
+      "path": "circuit/sources/ic-library/TLV755P.pdf",
+      "sha256": "7eb7bc6935bf6c1d247b2fce62c9e5a49a474fd94359ddc390a4baf0ac1f5293",
+      "size_bytes": 3072349
+    },
+    {
+      "path": "circuit/sources/ic-library/TNPW0805.pdf",
+      "sha256": "6f0508c568cb355aaf2accdd33fe3a780d3ea5ef207c4c9a71839a8acadc33a5",
+      "size_bytes": 363615
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/2N7002_215.parent.kicad_sympart",
+      "sha256": "debb1ad5479f32f44bd35b01f4ebf0faff39d6694a1c2b5fcd8a545d611151e1",
+      "size_bytes": 4326
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/2N7002_215.stock.kicad_sympart",
+      "sha256": "dc3a3fdbeed7f8410b96ec22656356b7ffaf1194b016aaf83747048840b84386",
+      "size_bytes": 1422
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/AS3340D.stock.kicad_sympart",
+      "sha256": "0754f5d7caf7b04caa2d469c64a33137b7bd2d652f32fd0cc3198e5e93f843c0",
+      "size_bytes": 5477
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/BAT54S_215.stock.kicad_sympart",
+      "sha256": "26fe228a5dedaf70a2843b0ec08be814c4eff1d72d502d0e92c98fa70df04f34",
+      "size_bytes": 4824
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/DIP-8_W7.62mm.stock.kicad_mod",
+      "sha256": "222fb44370968119abbd978176814cc43a71bc32ac2de275d8a3c418c0830fc6",
+      "size_bytes": 3641
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/LF398M_NOPB.stock.kicad_sympart",
+      "sha256": "354f8845eeae378d01204fdf6d7216f41f66426138cbc904602dbcfe3dd82184",
+      "size_bytes": 5550
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/LM13700M_NOPB.stock.kicad_sympart",
+      "sha256": "29d7cdd84983c7d95b30dc971cc1113f3c43f2a252d0b151f71a9e273a36874c",
+      "size_bytes": 10015
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/LM393BIDR.parent.kicad_sympart",
+      "sha256": "7c839ff834fe452cbe11625324407e6925b7115b1160b19a968f490dcd250f9a",
+      "size_bytes": 4562
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/LM393BIDR.stock.kicad_sympart",
+      "sha256": "39fff8aae937018b5d5a89b425a4d87db50f6f5822edc3fb0ccd2d794e99832b",
+      "size_bytes": 1390
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/MMBT3904_215.parent.kicad_sympart",
+      "sha256": "9fef8036218fbf896bc2005491228d9cfcc4dd9cef15bcb24d5b9f294521339f",
+      "size_bytes": 3298
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/MMBT3904_215.stock.kicad_sympart",
+      "sha256": "759b37e81489a2ff971b9430089e5015cf10e579067ec2f09ae1e920678fb11b",
+      "size_bytes": 1413
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/MMBT3906_215.parent.kicad_sympart",
+      "sha256": "b8cc27f58ec968c1863c86f4a5aefb0ea59b2815b69b55cb7056ece2d177941d",
+      "size_bytes": 3299
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/MMBT3906_215.stock.kicad_sympart",
+      "sha256": "9bf054f7869ff6132318b8e5005b799c68b9d936dcb70f68e259fa306368926a",
+      "size_bytes": 1415
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/OPA4196IDR.parent.kicad_sympart",
+      "sha256": "51aa3c12f10254a0aaa0d885b74df67980e7903b99fc9459ca9ce0c5f616d7be",
+      "size_bytes": 5899
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/OPA4196IDR.stock.kicad_sympart",
+      "sha256": "cd4fd0eec8ded246dc6b3fbd28ae4423d6b54742475fe21077a68cb8e315d453",
+      "size_bytes": 1397
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/OPA4197IPWR.stock.kicad_sympart",
+      "sha256": "87569dbfd36e514e9ed68814ea7141f52516c395701c270a2484b85d640fc672",
+      "size_bytes": 5905
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/Potentiometer_Bourns_TC33X_Vertical.stock.kicad_mod",
+      "sha256": "25da5cc05391475f2d71b7eea43b0fa42d1e40627295503de5c353d327f10b1b",
+      "size_bytes": 5106
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/REF5050AIDR.parent.kicad_sympart",
+      "sha256": "483e4885f6d1bf8873253655e1c39f1a9d98e0a9c29bc6038edb6f659bc85f0d",
+      "size_bytes": 3824
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/REF5050AIDR.stock.kicad_sympart",
+      "sha256": "4c0c8ff894354695ddaf8a7eeead8fc53ce3e51cc16454883616e59c2f6dce5e",
+      "size_bytes": 1478
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/R_0805_2012Metric.stock.kicad_mod",
+      "sha256": "f050b6a50cc7e6f86291fb7aa8f87b0d02255e21cfbddf291cdccc87e5889794",
+      "size_bytes": 1945
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/R_1210_3225Metric.stock.kicad_mod",
+      "sha256": "8816a8edfa0e619a86c5a65a59048b0fa2c3472d0df5a62244290224abacf7ff",
+      "size_bytes": 1951
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/SN74HC00DR.parent.kicad_sympart",
+      "sha256": "fd7a500f2a3f96a9bd53e7be4346224ac97843995afce6096c954c56f198ac4a",
+      "size_bytes": 14458
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/SN74HC00DR.stock.kicad_sympart",
+      "sha256": "52c0605d56a94361aa6d55c40e5b5bc200147ce28f436a3a291f21a4c4d6abb6",
+      "size_bytes": 1244
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/SN74HC14DR.stock.kicad_sympart",
+      "sha256": "b3d139d46cf6c881455a40e2347e6ae469c6f18a3b906da2065e2174951660df",
+      "size_bytes": 8713
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/SN74HC74DR.parent.kicad_sympart",
+      "sha256": "ce551ea3bc103429b6c7eb1b3b7c14fbbfe6f14b4764992d768b4d00921c15b7",
+      "size_bytes": 5502
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/SN74HC74DR.stock.kicad_sympart",
+      "sha256": "517f198558bcda834ddc66d042b23ca3997f856cf4504ed42429d5491d3c7806",
+      "size_bytes": 1271
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/SOD-123.stock.kicad_mod",
+      "sha256": "fd16785935b01254e1076f490e12f0f096da73cf087adefce51225585c62557a",
+      "size_bytes": 4584
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/SOIC-14_3.9x8.7mm_P1.27mm.stock.kicad_mod",
+      "sha256": "a885b619b22880c9559522d2bf865b059d80453b95a98defc9e6ceef284da1fc",
+      "size_bytes": 5356
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/SOIC-16_3.9x9.9mm_P1.27mm.stock.kicad_mod",
+      "sha256": "f9b5075740f7816c540ae1137f025d659beaec522ed7b86b1a5274cc9a2d8a25",
+      "size_bytes": 5724
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/SOIC-8_3.9x4.9mm_P1.27mm.stock.kicad_mod",
+      "sha256": "074ecb2092b24fa4b4b9cdd7c926fc587b0d7d6d21e7341e57935fd42d36894f",
+      "size_bytes": 4582
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/SOT-23-5.stock.kicad_mod",
+      "sha256": "455a3f7c3e5eb5b8847eaa5df23e18651e78ab9f75afd09a0883758a0d901761",
+      "size_bytes": 4745
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/SOT-23.stock.kicad_mod",
+      "sha256": "0d88c86c1b6d8c1aae4aa8c09386264c089d4451a128b6ccd63ed253f4300b15",
+      "size_bytes": 4485
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/SOT-363_SC-70-6.stock.kicad_mod",
+      "sha256": "0659d885e00b786968c3ba29152b808777240a91c1fb49ab8d814eb03530115c",
+      "size_bytes": 4450
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/TLV75533PDBVR.parent.kicad_sympart",
+      "sha256": "b71fb8ff72cdd3190d28dc21da971a6b31901e24bcf648f89eba813d76228113",
+      "size_bytes": 2973
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/TLV75533PDBVR.stock.kicad_sympart",
+      "sha256": "06856a3a562085fb2e21222cbfa95deef144c6761cc75c2cc105839f03649f8c",
+      "size_bytes": 1393
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/TSSOP-14_4.4x5mm_P0.65mm.stock.kicad_mod",
+      "sha256": "e4bf82cea6d3b3259ddf42469b1407628ad1181a28ae6f3f340190c0cca31ccd",
+      "size_bytes": 5380
+    },
+    {
+      "path": "circuit/sources/ic-library/cad/TSSOP-16_4.4x5mm_P0.65mm.stock.kicad_mod",
+      "sha256": "fbac79fc5f310754726589d67071a422c429216f843ecd6013bbe2e6a49e7064",
+      "size_bytes": 5268
+    },
+    {
+      "path": "circuit/sources/jack/KiCad10_PJ398SM_stock.kicad_mod",
+      "sha256": "5376e66b7c11f78d21d2c32579550e828919b70c90ac00bffe75dcb4d81f62ee",
+      "size_bytes": 6918
+    },
+    {
+      "path": "circuit/sources/jack/Thonkiconn_Jack_Datasheet-new.jpg",
+      "sha256": "fae736d9826acd87360abe74ec0cffc51388e491647030139d2479617b482413",
+      "size_bytes": 177468
+    },
+    {
+      "path": "circuit/sources/power/RC0603FR-072K2L.pdf",
+      "sha256": "0200f00e466cb9c7424ebcbac80c6011b60e09cf0365a76ceb8100a47d26436a",
+      "size_bytes": 56526
+    },
+    {
+      "path": "circuit/sources/power/SMAJ15A-High-Diode.pdf",
+      "sha256": "be81cafcbb6514e5bdd16cb45ebec1c7dea4f6f156063252d3f4fa3751b0e83f",
+      "size_bytes": 1906769
+    },
+    {
+      "path": "circuit/sources/power/SMAJ6.5A-Brightking.pdf",
+      "sha256": "63578e4fab6f4325c5cf21cfcee216c2af7555ec50b78cfc4f18c24f6dc821e1",
+      "size_bytes": 288239
+    },
+    {
+      "path": "circuit/sources/power/mSMD110-33V.pdf",
+      "sha256": "9f11eea6dd5ca89ad88ff7e9916030dc7ed08ad25a57587ff4ab97922623ee34",
+      "size_bytes": 164842
+    },
+    {
+      "path": "circuit/sources/protection-58/LM74502.pdf",
+      "sha256": "4badd940619090052b7260a88d7e32788f201d67ce97913b059ae6b1ed2d8bad",
+      "size_bytes": 1745602
+    },
+    {
+      "path": "circuit/sources/protection-58/PSMN1R0-40YLD.pdf",
+      "sha256": "7cf543348691beaff6586f4cfa1efe388e7a7e7a1dd386e8e4cda04e615d8de4",
+      "size_bytes": 269554
+    },
+    {
+      "path": "circuit/sources/toggle-button/DW2-2MS3T1B1M2QES.pdf",
+      "sha256": "1fa575eb2679dd10fffd94c1bb3dbaf8ecff15b528c2a971e2caf32effa73448",
+      "size_bytes": 355175
+    },
+    {
+      "path": "circuit/sources/toggle-button/Dailywell-2M-Series.pdf",
+      "sha256": "a8c5687f9fd671b0299354f813d38ddd5241fda2afe89b4d18155f94bd6fac48",
+      "size_bytes": 246811
+    },
+    {
+      "path": "circuit/sources/toggle-button/Dailywell-2MS1T1B1M2QES-5.pdf",
+      "sha256": "ce4adeea24aba998ed0ef7ae47f70edfcfe4307874eb6caa65efc2b871cf6d44",
+      "size_bytes": 246484
+    },
+    {
+      "path": "circuit/sources/toggle-button/Omron-B3F.pdf",
+      "sha256": "be9cf69e5f43fb7689448a2097c19858e5643c0e2e49cd77d018881543e27a1f",
+      "size_bytes": 711882
+    },
+    {
+      "path": "circuit/templates/README.md",
+      "sha256": "01374d5390bb27e05d4d12ab2847761b418fc4cbaba9d7599475208522c32dcc",
+      "size_bytes": 3954
+    },
+    {
+      "path": "circuit/templates/cad-asset-receipt.json",
+      "sha256": "db35b9f53cac28eb0d4bc3e7c6bf18f39c59e1b762484fe5892ff70fc8dfefdc",
+      "size_bytes": 1100
+    },
+    {
+      "path": "circuit/templates/cad-asset-receipt.md",
+      "sha256": "e80398eac332e03d40a5fcb5fc53b612387cabf7961d17d5bc864589d467a619",
+      "size_bytes": 2946
+    },
+    {
+      "path": "circuit/templates/project-docs/architecture/interfaces.mdx",
+      "sha256": "e6247c5687c698242763be8cace0d8d9ed59b0f395e8931db7c0e15476b7721c",
+      "size_bytes": 3602
+    },
+    {
+      "path": "circuit/templates/project-docs/architecture/overview.mdx",
+      "sha256": "84946b3ed2f012c6fa820c3049d09fa9c78364944bdb005c4355366c8c1fcc9e",
+      "size_bytes": 3582
+    },
+    {
+      "path": "circuit/templates/project-docs/decisions/decision.mdx",
+      "sha256": "b9452727cc69ef5c44c55d9730314eb27ab9a6bd06bcdbd20be294958a0979b6",
+      "size_bytes": 3424
+    },
+    {
+      "path": "circuit/templates/project-docs/decisions/sourcing.mdx",
+      "sha256": "4f922eaf07c2ec08c49c047f382aeac1d6cc46f0514a0de1853f358c2f703bf1",
+      "size_bytes": 3701
+    },
+    {
+      "path": "circuit/templates/project-docs/project/change-impact.mdx",
+      "sha256": "be68709d126fadf7c94db6cb7f137e44b07201398b8600e31edd4020571e140a",
+      "size_bytes": 3556
+    },
+    {
+      "path": "circuit/templates/project-docs/project/index.mdx",
+      "sha256": "c0f66f9243cd01ccd90b6f3551b480dfa4dd1a6ffe639fbd5c42644d01bb89c7",
+      "size_bytes": 3588
+    },
+    {
+      "path": "circuit/templates/project-docs/project/next-actions.mdx",
+      "sha256": "f6adadc7f00f33642c9eaa96039449d47a5f28c423fa0dc01aaee4d20f5fb243",
+      "size_bytes": 3129
+    },
+    {
+      "path": "circuit/templates/project-docs/project/task-request.mdx",
+      "sha256": "555d6f682b1104eb5776148caef28b317158ed98404632b86bbe12a36131e5d8",
+      "size_bytes": 3909
+    },
+    {
+      "path": "circuit/templates/project-docs/research/component-candidate.mdx",
+      "sha256": "2cc961508bf7ccdd070902a9a8d1d00c249a9a8a58a8885c2ceb4ae22159850e",
+      "size_bytes": 3689
+    },
+    {
+      "path": "circuit/templates/project-docs/verification/bring-up.mdx",
+      "sha256": "a097635a793947361c577c58170b6dbe7157884c048db7e2a6529851cb244370",
+      "size_bytes": 3550
+    },
+    {
+      "path": "corpus/acquisition-queue.json",
+      "sha256": "1d22bdfa65bd078e91a7c62f7c2e2884130665293974387ef56e40c90c4b21b0",
+      "size_bytes": 43913
+    },
+    {
+      "path": "corpus/catalog.json",
+      "sha256": "56f9985947ce04690c595a6ebc9eed0153600b34b2d84642251061003cc5b6db",
+      "size_bytes": 516169
+    },
+    {
+      "path": "corpus/guides.json",
+      "sha256": "3c25c62c2f82b901e6808e345c3bfe9f9eacb06b9c99acf3c6022bee980df802",
+      "size_bytes": 31558
+    },
+    {
+      "path": "corpus/models/pj398sm.json",
+      "sha256": "83bd34f08fc6282c1ce07c82e0cf8f593dfb57ff6614cad8424c8407db1c97b3",
+      "size_bytes": 184020
+    },
+    {
+      "path": "corpus/models/rk09l1140.json",
+      "sha256": "05b02751b7391103e67a188b9e2f166416951c923d7e2618cfbab3e164af8ac1",
+      "size_bytes": 971758
+    },
+    {
+      "path": "corpus/models/rs20h111c009.json",
+      "sha256": "a12ffa04357f348f6004064a16cf80d198a12cb882c83093e1f8a01fd014f007",
+      "size_bytes": 344701
+    },
+    {
+      "path": "corpus/notes-current.json",
+      "sha256": "d77927e1ef43093ead6e4c100a683e9eeaf47dfe71d81e529bf66272e7fbfc08",
+      "size_bytes": 25606
+    },
+    {
+      "path": "corpus/notes-history.json",
+      "sha256": "7d83f878f8ed8081a2bf49a48b0ce77604b460344f07adc5f19b6ce98ae8a2d3",
+      "size_bytes": 31977
+    },
+    {
+      "path": "corpus/source-records.json",
+      "sha256": "f0cb8c6829b3f408f1f934d825e10506238569df320f858c6c4f90eb93facaa8",
+      "size_bytes": 119997
+    },
+    {
+      "path": "doc/package.json",
+      "sha256": "8386956d931c0f26f4866436aa4603024421f870fd7c90477d3d92679e6f2928",
+      "size_bytes": 1190
+    },
+    {
+      "path": "doc/pages/docs/[[...slug]].tsx",
+      "sha256": "b9117b2cdd217ab0d37e3c6f51e29d76428cc28ed4173034c31f60bab871114c",
+      "size_bytes": 3025
+    },
+    {
+      "path": "doc/pages/index.tsx",
+      "sha256": "d4abf8a5823a212f066c1caf58a0d9247004da3abc6ef6ae9ee8282c71bb39c2",
+      "size_bytes": 442
+    },
+    {
+      "path": "doc/pages/lib/_circuit-doc-islands.ts",
+      "sha256": "594a1ffb77e10fdf301aa50c51aa4bcf80638a9368d22135eb158a27bc8a674c",
+      "size_bytes": 269
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/Button_Omron_B3F_6x6_P6.5x4.5.svg",
+      "sha256": "9f5b8d4c8a7795372ecb5eb0b356c59788b3c00673f1064685ad9073fcd92cca",
+      "size_bytes": 1817
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/DIP-8_W7.62mm.svg",
+      "sha256": "4aa34e4bbe9a2f3521e87ca6dfa82904db43a2cb8cc4516b63ae8391a176579d",
+      "size_bytes": 3371
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/IDC-TH_16P-P2.54_321016RG0ABK00A01.svg",
+      "sha256": "9c9177996e83e5dbda519f99e7bb8a30f3334d849166ba83dadfd1a63af955fd",
+      "size_bytes": 4494
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/JST_GH3_BM_TopEntry.svg",
+      "sha256": "62f61451feb98ca7c7951978fbf70f353a96ebe1170f84a29b3213e173d8567c",
+      "size_bytes": 1590
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/JST_GH7_BM_TopEntry.svg",
+      "sha256": "f4b13a38d0eca418e60cce445a79ead1bc2a805000da2223932dc76363cd24ae",
+      "size_bytes": 2261
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/JST_GH8_BM_TopEntry.svg",
+      "sha256": "ea0926837b292ad9da93d10143f4cda5edbf2c72d3a5e23e73ca4e8ba862ea6d",
+      "size_bytes": 2551
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/Jack_3.5mm_QingPu_WQP518MA.svg",
+      "sha256": "dfc0fc6791f72f9ebc81762d738315131b10f0701d8371f374dbda9659893bc1",
+      "size_bytes": 1768
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/LED0402-Kingbright-Red.svg",
+      "sha256": "c114f78e02fefb4a9e225b939762c42b8054d02cfae9b781eebf21bfcad2ae44",
+      "size_bytes": 1396
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/LED0402-Kingbright-White.svg",
+      "sha256": "c114f78e02fefb4a9e225b939762c42b8054d02cfae9b781eebf21bfcad2ae44",
+      "size_bytes": 1396
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/PTV09A-4020F.svg",
+      "sha256": "6965892e9791e9445d9451ccec63816aca115ca86a4fdc3d295552a627118d65",
+      "size_bytes": 2003
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/R0603.svg",
+      "sha256": "3613ec460fa0ee1ef3afa4e98001e1541382c6fb163bf6cabdbaf431be95d03a",
+      "size_bytes": 1619
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/SOD-123.svg",
+      "sha256": "d32dfd247d34a5ee69fe1c88fcc6203cda62c202ea7092193908069c56bb48ca",
+      "size_bytes": 2559
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/SOIC-14_3.9x8.7mm_P1.27mm.svg",
+      "sha256": "9acb3e6ab4a75bcaa08b7562b614f9e9b234e361bba6234f2baf07245cd06b03",
+      "size_bytes": 8034
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/SOIC-16_3.9x9.9mm_P1.27mm.svg",
+      "sha256": "1c05873d803790cbd6366a9f11a9b28a6e52108b6b7c98c8854c897626cc51be",
+      "size_bytes": 8973
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/SOIC-8_3.9x4.9mm_P1.27mm.svg",
+      "sha256": "582cbe3916b928ce356cb478768be9e0b757dd7c25ef6c844082824b512b899b",
+      "size_bytes": 5316
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/SOT-23-5.svg",
+      "sha256": "972924ea9d4f4c76604adce23d386cee3dbcfb8a692d140ed610560f91bd291a",
+      "size_bytes": 4009
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/SOT-23.svg",
+      "sha256": "e2310f8b4631c6e9a5187d3bc43a0602ffbeb10dd949eea87c6da614c38dbf3b",
+      "size_bytes": 3103
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/SOT-363_SC-70-6.svg",
+      "sha256": "f36965a55d5abdb3f97d8731eb79793cffe7bc2c89b7d973a19df2e75b610fda",
+      "size_bytes": 4410
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/SRBV160803.svg",
+      "sha256": "5b27f73c5d12d1e1bd13d7528811cfb2a0e66fd11745a35b3a452d42a56d7979",
+      "size_bytes": 3443
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/TSSOP-14_4.4x5mm_P0.65mm.svg",
+      "sha256": "4b35f910aece9126d43733a2b801772fb9fb0dcf5d257e8920a4e4b9c611d134",
+      "size_bytes": 8034
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/TSSOP-16_4.4x5mm_P0.65mm.svg",
+      "sha256": "f819b59e3af9a00763114412efed1adb3daa7d869b551dec691670ae8098d718",
+      "size_bytes": 8732
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/Toggle_Dailywell_2MS_T1B1M2.svg",
+      "sha256": "4dea995eccf4644d39d349bc96adfae2f772179a7e279112389b748f42fbd526",
+      "size_bytes": 1646
+    },
+    {
+      "path": "doc/public/assets/component-previews/footprints/manifest.json",
+      "sha256": "c2c435bbfd712b78b609406f88f8dfcefbfa908d215b0d17a0dc3fbbd4c87b10",
+      "size_bytes": 12793
+    },
+    {
+      "path": "doc/public/assets/component-previews/models/Button_Omron_B3F_6x6_P6.5x4.5.wrl",
+      "sha256": "79b822728a292391be9a37f8988fcf91f45efbe9b81ef3d26b3a33903fe26ece",
+      "size_bytes": 606
+    },
+    {
+      "path": "doc/public/assets/component-previews/models/D_SOD-123.wrl",
+      "sha256": "4838583ceb56c1d56b370bf6fa70697da444dd50e05da4ea9c1d50b94617ed92",
+      "size_bytes": 697
+    },
+    {
+      "path": "doc/public/assets/component-previews/models/IC_DIP-8_W7.62mm.wrl",
+      "sha256": "5cdebc77da4a94289742c9e3bb951e4d1fb6e526ab43f4d8fdc82908cec959ca",
+      "size_bytes": 672
+    },
+    {
+      "path": "doc/public/assets/component-previews/models/IC_SOIC-14_3.9x8.7.wrl",
+      "sha256": "8b49acd6c9f185e6753b1ba8403150a5120b202ed4e67513f6592b6b46365ebc",
+      "size_bytes": 753
+    },
+    {
+      "path": "doc/public/assets/component-previews/models/IC_SOIC-16_3.9x9.9.wrl",
+      "sha256": "fcc376e2aeb2c745467f05ca520f0182298652635eecda8f840518a96ce37bcc",
+      "size_bytes": 882
+    },
+    {
+      "path": "doc/public/assets/component-previews/models/IC_SOIC-8_3.9x4.9.wrl",
+      "sha256": "e91e487b55ddc9c5ec54d3ac4f670b05dcb6d635a06543cbeccd9ae7b12ecd43",
+      "size_bytes": 700
+    },
+    {
+      "path": "doc/public/assets/component-previews/models/IC_SOT-23-5.wrl",
+      "sha256": "5775762b08b6a5c8b2cd2c67a7a4b37f92a2780bb4d58b5bd7a5b5318add7eb2",
+      "size_bytes": 689
+    },
+    {
+      "path": "doc/public/assets/component-previews/models/IC_SOT-23.wrl",
+      "sha256": "69a916d9a2d23c153530662a3b07b5c821e8da2c12d372b952306de822c2e715",
+      "size_bytes": 731
+    },
+    {
+      "path": "doc/public/assets/component-previews/models/IC_SOT-363_SC-70-6.wrl",
+      "sha256": "d01fe597eeb19425bab967a5c16072d52f213412dea83e68afd2f8e9a4f7883f",
+      "size_bytes": 692
+    },
+    {
+      "path": "doc/public/assets/component-previews/models/IC_TSSOP-14_4.4x5.0.wrl",
+      "sha256": "31b8fecc1bd7a162193c4db1c5049ce8ef9ef21499d7bfce68e1fac99d032d65",
+      "size_bytes": 694
+    },
+    {
+      "path": "doc/public/assets/component-previews/models/IC_TSSOP-16_4.4x5.0.wrl",
+      "sha256": "abd26840ddd1d6f1400ff942d135e54cf05d1df9deb6ec6db852f8dd45e83f34",
+      "size_bytes": 694
+    },
+    {
+      "path": "doc/public/assets/component-previews/models/IDC-TH_16P-P2.54_321016RG0ABK00A01.wrl",
+      "sha256": "3fa601b3b97df0f4db234b961c86507826da8fa3eaaedf3f3a20c72cd7338c4c",
+      "size_bytes": 87470
+    },
+    {
+      "path": "doc/public/assets/component-previews/models/JST_GH3_BM_TopEntry.wrl",
+      "sha256": "bcf81ec97cc82b5fbea89999853bac82a58d1110e8323098f4c4ce635c6e6b4f",
+      "size_bytes": 489
+    },
+    {
+      "path": "doc/public/assets/component-previews/models/JST_GH7_BM_TopEntry.wrl",
+      "sha256": "dd5e88a796a70fdb1aefbad19fe8277308bca8741145065030768c308dec06aa",
+      "size_bytes": 489
+    },
+    {
+      "path": "doc/public/assets/component-previews/models/JST_GH8_BM_TopEntry.wrl",
+      "sha256": "0803a247db0cde34b509ba8e189b5fc1961cd00f489ed5640a57cd34c4105fbe",
+      "size_bytes": 489
+    },
+    {
+      "path": "doc/public/assets/component-previews/models/Jack_3.5mm_QingPu_WQP518MA.wrl",
+      "sha256": "da96487f1d0c1daf0433d20b1992dd7009cda51a0c2ebef3819dd26fa2c0b655",
+      "size_bytes": 606
+    },
+    {
+      "path": "doc/public/assets/component-previews/models/LED0402-Kingbright-Red.wrl",
+      "sha256": "6a109b4dfed83ee0ef076f88aae38c0d37a915cd56b9b31d53a7e830ae8fd18f",
+      "size_bytes": 614
+    },
+    {
+      "path": "doc/public/assets/component-previews/models/LED0402-Kingbright-White.wrl",
+      "sha256": "5e14d39e5baabde9a9f0df9b1dc0cacd5f4941757a951767b597a199e5216fb7",
+      "size_bytes": 612
+    },
+    {
+      "path": "doc/public/assets/component-previews/models/PTV09A-4020F.wrl",
+      "sha256": "24a986336911e221acec40227a58a2df02e364e367cc5bcc049ae6542db447df",
+      "size_bytes": 608
+    },
+    {
+      "path": "doc/public/assets/component-previews/models/R0603.wrl",
+      "sha256": "2a125409502d8eb68f2e196ab1c28b180e0918830445364f93a45d9461b4daad",
+      "size_bytes": 81041
+    },
+    {
+      "path": "doc/public/assets/component-previews/models/SRBV160803.wrl",
+      "sha256": "f8ecd991fa90bef7f09e714b897056e615fb35886e96ece57dd462cbd5dc2250",
+      "size_bytes": 2354
+    },
+    {
+      "path": "doc/public/assets/component-previews/models/Toggle_Dailywell_2MS_T1B1M2.wrl",
+      "sha256": "b402986b45a069ada712d104e5eb36eb0611aca6941a3c2ad6f44624d5389fd6",
+      "size_bytes": 534
+    },
+    {
+      "path": "doc/public/favicon-16x16.png",
+      "sha256": "34951457a35bfa39ff867d057dd86d285a29a3e7aa3736450583fc65e6640107",
+      "size_bytes": 767
+    },
+    {
+      "path": "doc/public/favicon-32x32.png",
+      "sha256": "54e72e42acffd05f95ebda6089cb0085a8f475de9cfd25089a2a70a9d4155a3d",
+      "size_bytes": 1291
+    },
+    {
+      "path": "doc/public/favicon.ico",
+      "sha256": "2d32951acc699902d255971823fb69d9021e47c3ca7b08fea8d4811e3b224c17",
+      "size_bytes": 7406
+    },
+    {
+      "path": "doc/public/favicon.svg",
+      "sha256": "f8719195755bc771db093d5f6c2e0892def2d75501746347dda03ca2a97e764a",
+      "size_bytes": 268
+    },
+    {
+      "path": "doc/scripts/check-links.js",
+      "sha256": "b44a7e17357470b95af514c49480f39d77a470a1889c71fe155a6f3c21e52176",
+      "size_bytes": 41949
+    },
+    {
+      "path": "doc/src/chrome-bindings.tsx",
+      "sha256": "92b998ae69191f56cddf202ebebb059b312716ec14d8f56da59d049ab141f8d6",
+      "size_bytes": 561
+    },
+    {
+      "path": "doc/src/styles/global.css",
+      "sha256": "bed29c519a5ecb4a9ae682e80ab33e5b70e2f972d7ff05cdafbe8078a97fabf7",
+      "size_bytes": 1533
+    },
+    {
+      "path": "doc/tsconfig.json",
+      "sha256": "cd0ed8397d401981da9ce9272e7248fb6858424384ee1676354005fdac5c8245",
+      "size_bytes": 367
+    },
+    {
+      "path": "doc/zfb.config.ts",
+      "sha256": "ddb7baa21c153711e84489e242134de6d48757af1d3833136fca634389823aca",
+      "size_bytes": 3659
+    },
+    {
+      "path": "footprints/README.md",
+      "sha256": "9594cca6d4b57fdb674e8a9a4047f41f8014fa2fea306b0e456165f768478c5f",
+      "size_bytes": 1650
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/Button_Omron_B3F_6x6_P6.5x4.5.wrl",
+      "sha256": "79b822728a292391be9a37f8988fcf91f45efbe9b81ef3d26b3a33903fe26ece",
+      "size_bytes": 606
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/C0603_L1.6-W0.8-H0.8.step",
+      "sha256": "f2b74e1ceda9af3ce8ac13e68f37164694e30a3792f6b6a8f0709c45c0ca28dc",
+      "size_bytes": 1811321
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/C0603_L1.6-W0.8-H0.8.wrl",
+      "sha256": "125791465c37d0e6cda3b2f45f84e01af226d81a462bfbecb7a4513327e9f22a",
+      "size_bytes": 59276
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/C0805_L2.0-W1.3-H1.3.step",
+      "sha256": "58551cc98ed0dcaf69b5dd8201a96f52391df738765988f5224072fbef4da10a",
+      "size_bytes": 1868457
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/C0805_L2.0-W1.3-H1.3.wrl",
+      "sha256": "31b2ac9a40994188ebd20202214e75f004b604b0068b3dea50d8cf7940cadb1a",
+      "size_bytes": 59211
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/C1206_L3.2-W1.6-H1.3.step",
+      "sha256": "5490b3b6503db57694500df9e009f34739f841152e215280fb909979b014d4ab",
+      "size_bytes": 1403807
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/C1206_L3.2-W1.6-H1.3.wrl",
+      "sha256": "1641b0be48933142193f9b658497e2ca292dbe52afd2b1083770c3012d1d4d02",
+      "size_bytes": 113901
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/D_SOD-123.wrl",
+      "sha256": "4838583ceb56c1d56b370bf6fa70697da444dd50e05da4ea9c1d50b94617ed92",
+      "size_bytes": 697
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/F1812_L4.5-W3.2-H1.0.step",
+      "sha256": "95ff5a91727ad874d43d64c0841fd454f6d8b059f141a110e965f170505411ea",
+      "size_bytes": 1254620
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/F1812_L4.5-W3.2-H1.0.wrl",
+      "sha256": "b6a770fde82248375dbd05db89903cb76bb43d3d9bdc427222865cc7432c3d2d",
+      "size_bytes": 23012
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/IC_DIP-8_W7.62mm.wrl",
+      "sha256": "5cdebc77da4a94289742c9e3bb951e4d1fb6e526ab43f4d8fdc82908cec959ca",
+      "size_bytes": 672
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/IC_SOIC-14_3.9x8.7.wrl",
+      "sha256": "8b49acd6c9f185e6753b1ba8403150a5120b202ed4e67513f6592b6b46365ebc",
+      "size_bytes": 753
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/IC_SOIC-16_3.9x9.9.wrl",
+      "sha256": "fcc376e2aeb2c745467f05ca520f0182298652635eecda8f840518a96ce37bcc",
+      "size_bytes": 882
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/IC_SOIC-8_3.9x4.9.wrl",
+      "sha256": "e91e487b55ddc9c5ec54d3ac4f670b05dcb6d635a06543cbeccd9ae7b12ecd43",
+      "size_bytes": 700
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/IC_SOT-23-5.wrl",
+      "sha256": "5775762b08b6a5c8b2cd2c67a7a4b37f92a2780bb4d58b5bd7a5b5318add7eb2",
+      "size_bytes": 689
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/IC_SOT-23.wrl",
+      "sha256": "69a916d9a2d23c153530662a3b07b5c821e8da2c12d372b952306de822c2e715",
+      "size_bytes": 731
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/IC_SOT-363_SC-70-6.wrl",
+      "sha256": "d01fe597eeb19425bab967a5c16072d52f213412dea83e68afd2f8e9a4f7883f",
+      "size_bytes": 692
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/IC_TSSOP-14_4.4x5.0.wrl",
+      "sha256": "31b8fecc1bd7a162193c4db1c5049ce8ef9ef21499d7bfce68e1fac99d032d65",
+      "size_bytes": 694
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/IC_TSSOP-16_4.4x5.0.wrl",
+      "sha256": "abd26840ddd1d6f1400ff942d135e54cf05d1df9deb6ec6db852f8dd45e83f34",
+      "size_bytes": 694
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/IDC-TH_16P-P2.54_321016RG0ABK00A01.step",
+      "sha256": "0c79bc26f2ac6e9d48a700111b2e4c2637343e97668901e98477eb96ad9fd0ac",
+      "size_bytes": 2733469
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/IDC-TH_16P-P2.54_321016RG0ABK00A01.wrl",
+      "sha256": "3fa601b3b97df0f4db234b961c86507826da8fa3eaaedf3f3a20c72cd7338c4c",
+      "size_bytes": 87470
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/JST_GH3_BM_TopEntry.wrl",
+      "sha256": "bcf81ec97cc82b5fbea89999853bac82a58d1110e8323098f4c4ce635c6e6b4f",
+      "size_bytes": 489
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/JST_GH7_BM_TopEntry.wrl",
+      "sha256": "dd5e88a796a70fdb1aefbad19fe8277308bca8741145065030768c308dec06aa",
+      "size_bytes": 489
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/JST_GH8_BM_TopEntry.wrl",
+      "sha256": "0803a247db0cde34b509ba8e189b5fc1961cd00f489ed5640a57cd34c4105fbe",
+      "size_bytes": 489
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/Jack_3.5mm_QingPu_WQP518MA.wrl",
+      "sha256": "da96487f1d0c1daf0433d20b1992dd7009cda51a0c2ebef3819dd26fa2c0b655",
+      "size_bytes": 606
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/LED0402-Kingbright-Red.wrl",
+      "sha256": "6a109b4dfed83ee0ef076f88aae38c0d37a915cd56b9b31d53a7e830ae8fd18f",
+      "size_bytes": 614
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/LED0402-Kingbright-White.wrl",
+      "sha256": "5e14d39e5baabde9a9f0df9b1dc0cacd5f4941757a951767b597a199e5216fb7",
+      "size_bytes": 612
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/LED0603-Generic-Family.wrl",
+      "sha256": "7dac0aa1bbf2b9fb5bbc51e009787d816dba658065cddb59f20d7b2d571916ee",
+      "size_bytes": 36524
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/LED0603-RD.step",
+      "sha256": "769ab8984e48d0884c86440206a3643199a74b1afa0d18a7e4e4d5c1ebf560ea",
+      "size_bytes": 1364080
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/LED0603-RD.wrl",
+      "sha256": "faeab91c393eb8cc93f5c901584a2a59bedbc638abaf30fd54745c77444390c1",
+      "size_bytes": 36466
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/PTV09A-4020F.wrl",
+      "sha256": "24a986336911e221acec40227a58a2df02e364e367cc5bcc049ae6542db447df",
+      "size_bytes": 608
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/R0603.step",
+      "sha256": "d9f59b954308ad0e4a384ecd7f84ccaa42245b54e3fb6432fd6c24d212b67105",
+      "size_bytes": 1031804
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/R0603.wrl",
+      "sha256": "2a125409502d8eb68f2e196ab1c28b180e0918830445364f93a45d9461b4daad",
+      "size_bytes": 81041
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/SMA_L4.2-W2.6-LS5.3-RD.step",
+      "sha256": "b101ce0a09d95257c3efe30e7039a4799b8bda59721b9f56209bc52673bd38a0",
+      "size_bytes": 1642693
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/SMA_L4.2-W2.6-LS5.3-RD.wrl",
+      "sha256": "2760e81a823d6a0f5d79b313f579d89a717e2f17f774a72634776ed22093df0f",
+      "size_bytes": 28361
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/SRBV160803.wrl",
+      "sha256": "f8ecd991fa90bef7f09e714b897056e615fb35886e96ece57dd462cbd5dc2250",
+      "size_bytes": 2354
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.3dshapes/Toggle_Dailywell_2MS_T1B1M2.wrl",
+      "sha256": "b402986b45a069ada712d104e5eb36eb0611aca6941a3c2ad6f44624d5389fd6",
+      "size_bytes": 534
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/Button_Omron_B3F_6x6_P6.5x4.5.kicad_mod",
+      "sha256": "5308867a94916318f13100fe7a07505c1c2d41ea7fc35c63d5d5ce3fcbb30c52",
+      "size_bytes": 1541
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/C0603.kicad_mod",
+      "sha256": "5deb5924199e36857d3a90a22828d73ed4b82ee4fe3c54e0d80c60130ecb7524",
+      "size_bytes": 1900
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/C0805.kicad_mod",
+      "sha256": "079221f3b848c9ed01e2841a98cdae63affc78d723ff7de3856e4e222fa25b64",
+      "size_bytes": 1898
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/C1206.kicad_mod",
+      "sha256": "1089284b6abbf5b1fec6eb471bf162f2979e02698ea3a89670a5b3e003fc866a",
+      "size_bytes": 1897
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/D-FLAT_L4.3-W2.6-LS5.3-RD.kicad_mod",
+      "sha256": "1b3640595c6cbcd2676a50821a1ce5209116ef650b7564cce51ffe1146088d98",
+      "size_bytes": 1963
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/DIP-8_W7.62mm.kicad_mod",
+      "sha256": "6a9e483a3ad167813b1d240835adb48f8d791f03e24d2ce60b196547f6af57fd",
+      "size_bytes": 3828
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/F1812.kicad_mod",
+      "sha256": "b5b38f22a2c4fb342b0abac80a6a341b97ff3cbd2381ee664f22764e241577a1",
+      "size_bytes": 1718
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/Fiducial_1mm_Mask2mm.kicad_mod",
+      "sha256": "3ad5f73dcd99531572e25b109a8193d119a6f2483a04efb904dd3b74f82fca33",
+      "size_bytes": 780
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/IDC-TH_16P-P2.54_321016RG0ABK00A01.kicad_mod",
+      "sha256": "e49bb612b1fad2afd8659f8e1f8f35c6b3c77d9ea1a3b3ddac35a3533db048a0",
+      "size_bytes": 3389
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/JST_GH1_EXTERNAL_NOT_FOR_PCB.kicad_mod",
+      "sha256": "100d49366f5b0b23622b350d85c77bf43dff9e61bd4026cd89982188ff9b9fec",
+      "size_bytes": 752
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/JST_GH3_BM_TopEntry.kicad_mod",
+      "sha256": "b83f7910b344cf401e58211f67de831301462507b09d5eb2a881f545f9a8425f",
+      "size_bytes": 1236
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/JST_GH3_EXTERNAL_NOT_FOR_PCB.kicad_mod",
+      "sha256": "7ff6404a34e315257bb6d472e81f056b44a1e8e3c5d8d387474f122897bf5648",
+      "size_bytes": 894
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/JST_GH7_BM_TopEntry.kicad_mod",
+      "sha256": "e12c44cac03badb19ca799dc0a0f448143b1466daac1399d4db5662b67c4c979",
+      "size_bytes": 1564
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/JST_GH7_EXTERNAL_NOT_FOR_PCB.kicad_mod",
+      "sha256": "ba2281ef0fb3108e1ba60331713f8163d4e52057abea1983aa61d4cb7e804868",
+      "size_bytes": 1186
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/JST_GH8_BM_TopEntry.kicad_mod",
+      "sha256": "47115bed0ac39ccb559704cfe5ade35e5eaf9b869466042a92130755a38909dd",
+      "size_bytes": 1878
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/JST_GH8_EXTERNAL_NOT_FOR_PCB.kicad_mod",
+      "sha256": "ee550d2b73502c6a667717e77d4d8a3dc32da9d63fd2f80a74408a93ded10037",
+      "size_bytes": 1273
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/Jack_3.5mm_QingPu_WQP518MA.kicad_mod",
+      "sha256": "51a6cc131190b3b1f7f9aa925d4ce08e05a796f62dc8c00d3a89086354b80a20",
+      "size_bytes": 1488
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/LED0402-Kingbright-Red.kicad_mod",
+      "sha256": "4a16e45298e7f349499aaf1157d1ee422e4775819e21859d34767c241a1eb51b",
+      "size_bytes": 1206
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/LED0402-Kingbright-White.kicad_mod",
+      "sha256": "dd17013532b5226f10fdb1d7f8480bc94a451027529dab412fd988f6955fc4bf",
+      "size_bytes": 1212
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/LED0603-R-RD_WHITE.kicad_mod",
+      "sha256": "a9156dba5198b85e5b0af20336db6a501e931707fe9e70229a7c126c12f0cdb3",
+      "size_bytes": 2018
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/LED0603-RD.kicad_mod",
+      "sha256": "5ccff83cd5e996b09602079b662c14ae0348ac76ded3d2fbae29bf526b19e6e5",
+      "size_bytes": 2305
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/LoadWireTerminal_4x4mm.kicad_mod",
+      "sha256": "32c2a7cf4625774e1ae6fbe97c0cc558eecf0ef3b40486780afa7e2b01e51dcb",
+      "size_bytes": 740
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/MountingHole_M3.kicad_mod",
+      "sha256": "d20b45bdf99af0436f1cded1f2aec675345fedc9705582a340e5bce05f973366",
+      "size_bytes": 759
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/PTV09A-4020F.kicad_mod",
+      "sha256": "c0dafcafeba8f3570b1c395c12e844ab8d237bb54edfd65130cf98f25939c557",
+      "size_bytes": 1830
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/Potentiometer_Bourns_TC33X_Vertical.kicad_mod",
+      "sha256": "f21f7dc38797a77839ca9a8af5f79774ea724cb1996e8e8ac8d0007831e3d851",
+      "size_bytes": 4561
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/R0603.kicad_mod",
+      "sha256": "25cf0c8152ddf3adbf6c02140174cf5c53cfe865e425d689fb901c6ff1fab6d0",
+      "size_bytes": 1526
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/R_0805_2012Metric.kicad_mod",
+      "sha256": "e9d6399704bb11a075dd7ee6494bc8b6285f8c3f6439986f93f209281450b305",
+      "size_bytes": 1960
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/R_1210_3225Metric.kicad_mod",
+      "sha256": "8d3df582f7d3c11e299ef0e116e8d70481f57fc57e6c669264da60a1033228df",
+      "size_bytes": 1966
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/SOD-123.kicad_mod",
+      "sha256": "163732fa59fe99507f882db80a34ee17a997baec1df55939509fa78c709408d6",
+      "size_bytes": 4231
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/SOIC-14_3.9x8.7mm_P1.27mm.kicad_mod",
+      "sha256": "d686d259c1e4bed4147735ed25de08a498e8626d082058f4f5e00168017b2337",
+      "size_bytes": 4261
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/SOIC-16_3.9x9.9mm_P1.27mm.kicad_mod",
+      "sha256": "ea0cf63ab646928b0d2d8674e20fb6b010be3ffbc01d658bcd965a9f0aefb90b",
+      "size_bytes": 4685
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/SOIC-8_3.9x4.9mm_P1.27mm.kicad_mod",
+      "sha256": "60fc4a5e63729c51bd1ddbc3dc6865f25ca972aea6ed7607bcd848a60925c9bf",
+      "size_bytes": 3495
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/SOT-23-5.kicad_mod",
+      "sha256": "240ed37b4c210c621ae3f22f877d25da656a4a5bc3de6dd6f1bd2f5afdee5dd8",
+      "size_bytes": 3180
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/SOT-23.kicad_mod",
+      "sha256": "d506ab85b553354a097c310d00106e1a8e7f5cc90c8d7643d956ae1a557c03ec",
+      "size_bytes": 2924
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/SOT-363_SC-70-6.kicad_mod",
+      "sha256": "6e4172f551a82e2c65842d333ba2dfef8c5bb208b71b844b797cb13d3aa56edc",
+      "size_bytes": 3341
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/SRBV160803.kicad_mod",
+      "sha256": "f8206a956661f5ff94ab9779e59dab9553c2df72df49aaa4a2dfa64c82a6d81b",
+      "size_bytes": 2418
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/TSSOP-14_4.4x5mm_P0.65mm.kicad_mod",
+      "sha256": "de16d50ed6610086f0827082055257c9648031d8db6e7a7da797838f2c422ec6",
+      "size_bytes": 4279
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/TSSOP-16_4.4x5mm_P0.65mm.kicad_mod",
+      "sha256": "33e27f56639b5b3bab24ea33e8b2c5723ca362a6e165f6f019bf98879ed545cd",
+      "size_bytes": 4151
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/TestPad_D1.5mm.kicad_mod",
+      "sha256": "7d9cf31ecd851c892986eceb1e492b2e62cdd3e0af8be7b725df42e0223c23a5",
+      "size_bytes": 798
+    },
+    {
+      "path": "footprints/kicad/zudo-osc-hole-field.pretty/Toggle_Dailywell_2MS_T1B1M2.kicad_mod",
+      "sha256": "11240c0c14b6378dc93f54d9146097b1b62384b0b9cab4b145dc1367be89daf4",
+      "size_bytes": 1434
+    },
+    {
+      "path": "package.json",
+      "sha256": "ea93396de3f219d9c8f396c143f3086d3590300ff000e904511be1e85c1dc846",
+      "size_bytes": 993
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "sha256": "c69fd5e545c5b9958bdd4dbcbd8901ca7024e9f29b9be21ffb4d9d02012e7f0b",
+      "size_bytes": 51425
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "sha256": "1372188e36007dd8d4129f6e5782cf4aeb3b98bd81868235ef25fbcff6468c9e",
+      "size_bytes": 407
+    },
+    {
+      "path": "provenance/content-build.json",
+      "sha256": "63ea849330d68e84a65dc236a5e93b5b4934583e1a81fedeb219b917ffd63e9b",
+      "size_bytes": 277
+    },
+    {
+      "path": "provenance/history-registers.json",
+      "sha256": "7fde841666df75484c0007d83efd922480e86de91a36616b180ccdef3e7f1c7f",
+      "size_bytes": 18147
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r06/SOURCE-RIGHTS.md",
+      "sha256": "baab25f450ab4e621b0727837f22f8332623c634af20bd0de34251c1de62561d",
+      "size_bytes": 2098
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r06/docs/PARTS-AND-FIT.md",
+      "sha256": "cd145381da375e0425035b71893e27c362c0389207f89ab061aef7d401d6f6b4",
+      "size_bytes": 8432
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r06/parts/component-candidates.json",
+      "sha256": "71f5cb18bc0dece1fc6333a81200c170253834c2fb8413e7e227de57c05265cd",
+      "size_bytes": 11183
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r06/reference/c7419101-v03-record.json",
+      "sha256": "61601b3d133b25a4c16e603071093c9aa388d82c0b13e2b9907f266354c4bac2",
+      "size_bytes": 45972
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r06/reference/c9900079089-v03-record.json",
+      "sha256": "16ac483df0459ad79406eadd66d96031e24d219cdfca0bcfb97af8055e6264a6",
+      "size_bytes": 23918
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r06/reference/rs20h111c009-v03-record.json",
+      "sha256": "0128d74875566399f3266aceaa13c084cd7450dac565670dd9063e2d2f95b990",
+      "size_bytes": 42521
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r07/SOURCE-RIGHTS.md",
+      "sha256": "779da519b624f54e2d222acbedf6dc22049447c1bfea6a67cd5b4dcc2061c2b3",
+      "size_bytes": 1317
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r07/parts/component-candidates.json",
+      "sha256": "206e7f647b6f6b226b0f043bedf7cd1bf18bde894eec629bc9e111ca396b40b6",
+      "size_bytes": 12882
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r07/reference/r06-component-candidates.json",
+      "sha256": "71f5cb18bc0dece1fc6333a81200c170253834c2fb8413e7e227de57c05265cd",
+      "size_bytes": 11183
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r07/reference/r06-source-rights.md",
+      "sha256": "baab25f450ab4e621b0727837f22f8332623c634af20bd0de34251c1de62561d",
+      "size_bytes": 2098
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r08-corrected/SOURCE-RIGHTS.md",
+      "sha256": "dcbbef34692ec960aa364d79144f653d84f12f6cf7282a1b1f7e8ce37aa9d707",
+      "size_bytes": 1209
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r08-corrected/docs/COMPONENT-DECISIONS.md",
+      "sha256": "c44aec4f1d556f69e590165c59758d4f5312909aa299b0a1bf8c825746b452a7",
+      "size_bytes": 5153
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r08-corrected/parts/component-candidates.json",
+      "sha256": "b09087930e10eaeff28eabf23351774f2395a50a8c0868cd1d902029f3433d0d",
+      "size_bytes": 16717
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r08-corrected/parts/research-sources.json",
+      "sha256": "33442bd28b39e18f23a20c1f0d9eef3b320a7235ccb9c11b0d50a164f40b62b1",
+      "size_bytes": 2636
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r08-corrected/reference/r07-component-candidates.json",
+      "sha256": "206e7f647b6f6b226b0f043bedf7cd1bf18bde894eec629bc9e111ca396b40b6",
+      "size_bytes": 12882
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r09/SOURCE-RIGHTS.md",
+      "sha256": "9750c61d2116a402f2f3f5bd15c80cf5326a53bd1cf4d29deb8a29281cf4d1d3",
+      "size_bytes": 1242
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r09/parts/component-candidates.json",
+      "sha256": "da4421795596c04777d61bf86bb0d249d2c39de2640e0efdaf2e9fabe5b4c5a4",
+      "size_bytes": 17504
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r09/parts/research-sources.json",
+      "sha256": "bad81cfd8ef8adba7b902cac47cf5a07881d42ff406589f9162f5d12f4b190ae",
+      "size_bytes": 3576
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r09/reference/r08-component-candidates.json",
+      "sha256": "b09087930e10eaeff28eabf23351774f2395a50a8c0868cd1d902029f3433d0d",
+      "size_bytes": 16717
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r10/parts/component-candidates.json",
+      "sha256": "efa198274da09fd8d982a15342def78b0ad3f6fc13295a1b36b5df461c3ca8cd",
+      "size_bytes": 22730
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r10/parts/research-sources.json",
+      "sha256": "bad81cfd8ef8adba7b902cac47cf5a07881d42ff406589f9162f5d12f4b190ae",
+      "size_bytes": 3576
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r10/parts/toggle-candidates.json",
+      "sha256": "822c0c73675c8972b1af965df592ec7d0e243d0b089e71ce083513772a2ba4f8",
+      "size_bytes": 4944
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r11/parts/component-candidates.json",
+      "sha256": "1fcd1c249b0e3eb7b4afe196124a1d36129ba7ad39907d8cb863eb093eb5fb68",
+      "size_bytes": 23076
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r11/parts/r11-research-sources.json",
+      "sha256": "c09b2744d867049a12fb49e4ffeb8aa909fdd1cc3a445a66fcb893c0f889a2d1",
+      "size_bytes": 4680
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r11/parts/research-sources.json",
+      "sha256": "bad81cfd8ef8adba7b902cac47cf5a07881d42ff406589f9162f5d12f4b190ae",
+      "size_bytes": 3576
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r11/parts/toggle-candidates.json",
+      "sha256": "f88b4254d0a2e897f98e58d3f6c320a8762ab71b91874f829de92ceb8ce70653",
+      "size_bytes": 5100
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r12/parts/component-candidates.json",
+      "sha256": "59201ff1171c03ea0462ec1ced1232d71e8c92accaebbbe2790b5cfc50086bfd",
+      "size_bytes": 26304
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r12/parts/r11-research-sources.json",
+      "sha256": "c09b2744d867049a12fb49e4ffeb8aa909fdd1cc3a445a66fcb893c0f889a2d1",
+      "size_bytes": 4680
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r12/parts/r12-research-sources.json",
+      "sha256": "8e5fe5ba2f10c2f7ec136262f0dfc1f9109c4d1aa7351c5d94e12b2ed01e925d",
+      "size_bytes": 3984
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r12/parts/research-sources.json",
+      "sha256": "bad81cfd8ef8adba7b902cac47cf5a07881d42ff406589f9162f5d12f4b190ae",
+      "size_bytes": 3576
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r12/parts/toggle-candidates.json",
+      "sha256": "2a4292a17e566666be4915606b6d3812f5d6ef00a0abca57161f5d440104318d",
+      "size_bytes": 5877
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r12/reference/r11/parts/component-candidates.json",
+      "sha256": "1fcd1c249b0e3eb7b4afe196124a1d36129ba7ad39907d8cb863eb093eb5fb68",
+      "size_bytes": 23076
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r12/reference/r11/parts/toggle-candidates.json",
+      "sha256": "f88b4254d0a2e897f98e58d3f6c320a8762ab71b91874f829de92ceb8ce70653",
+      "size_bytes": 5100
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r13/parts/component-candidates.json",
+      "sha256": "59201ff1171c03ea0462ec1ced1232d71e8c92accaebbbe2790b5cfc50086bfd",
+      "size_bytes": 26304
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r13/parts/r11-research-sources.json",
+      "sha256": "c09b2744d867049a12fb49e4ffeb8aa909fdd1cc3a445a66fcb893c0f889a2d1",
+      "size_bytes": 4680
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r13/parts/r12-research-sources.json",
+      "sha256": "8e5fe5ba2f10c2f7ec136262f0dfc1f9109c4d1aa7351c5d94e12b2ed01e925d",
+      "size_bytes": 3984
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r13/parts/research-sources.json",
+      "sha256": "bad81cfd8ef8adba7b902cac47cf5a07881d42ff406589f9162f5d12f4b190ae",
+      "size_bytes": 3576
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r13/parts/toggle-candidates.json",
+      "sha256": "2a4292a17e566666be4915606b6d3812f5d6ef00a0abca57161f5d440104318d",
+      "size_bytes": 5877
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r14/parts/component-candidates.json",
+      "sha256": "59201ff1171c03ea0462ec1ced1232d71e8c92accaebbbe2790b5cfc50086bfd",
+      "size_bytes": 26304
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r14/parts/r11-research-sources.json",
+      "sha256": "c09b2744d867049a12fb49e4ffeb8aa909fdd1cc3a445a66fcb893c0f889a2d1",
+      "size_bytes": 4680
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r14/parts/r12-research-sources.json",
+      "sha256": "8e5fe5ba2f10c2f7ec136262f0dfc1f9109c4d1aa7351c5d94e12b2ed01e925d",
+      "size_bytes": 3984
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r14/parts/research-sources.json",
+      "sha256": "bad81cfd8ef8adba7b902cac47cf5a07881d42ff406589f9162f5d12f4b190ae",
+      "size_bytes": 3576
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r14/parts/toggle-candidates.json",
+      "sha256": "2a4292a17e566666be4915606b6d3812f5d6ef00a0abca57161f5d440104318d",
+      "size_bytes": 5877
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r15/SOURCE-RIGHTS.md",
+      "sha256": "dea156430b1f1a72721486ed7fd3c908dd468949a176ea34d0d951fe8f71d745",
+      "size_bytes": 1365
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r15/docs/COMPONENT-DECISIONS.md",
+      "sha256": "91333039cac6a70ed22a6fb0eb2d33b576e56c2e4bbc231d7cc4c273fd383b12",
+      "size_bytes": 12464
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r15/parts/component-candidates.json",
+      "sha256": "c7deb3469606ffa36ac513f36acc728c9b7ef4ef0ab7519077bbde6c870385d3",
+      "size_bytes": 26491
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r15/parts/decision-candidates-r15.json",
+      "sha256": "14a7b12fcd47707eac7c8c154e37cb746616b1db38655d36c6b31dbd53f05031",
+      "size_bytes": 19114
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r15/parts/r11-research-sources.json",
+      "sha256": "c09b2744d867049a12fb49e4ffeb8aa909fdd1cc3a445a66fcb893c0f889a2d1",
+      "size_bytes": 4680
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r15/parts/r12-research-sources.json",
+      "sha256": "8e5fe5ba2f10c2f7ec136262f0dfc1f9109c4d1aa7351c5d94e12b2ed01e925d",
+      "size_bytes": 3984
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r15/parts/research-sources.json",
+      "sha256": "bad81cfd8ef8adba7b902cac47cf5a07881d42ff406589f9162f5d12f4b190ae",
+      "size_bytes": 3576
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r15/parts/toggle-candidates.json",
+      "sha256": "2a4292a17e566666be4915606b6d3812f5d6ef00a0abca57161f5d440104318d",
+      "size_bytes": 5877
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r17/SOURCE-RIGHTS.md",
+      "sha256": "717037cfe82f147e98701bfe828a410d87ce682f51cbd69a4371fdbb62daea22",
+      "size_bytes": 802
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r17/parts/component-decisions.json",
+      "sha256": "abad7f6376c28a22665f978d4cacd6c8ed0236358c50bbd71cea71f6e9f7dd56",
+      "size_bytes": 2618
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r18/SOURCE-RIGHTS.md",
+      "sha256": "d66408891151635a814e8689d3b7e332258457384918de0075a49b8a3adf4532",
+      "size_bytes": 1924
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r20/docs/COMPONENT-DECISIONS.md",
+      "sha256": "d5641014cab97a364c3c3d7edc4130c529a072b13d78de30ef818aca739d91d6",
+      "size_bytes": 12285
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r20/parts/components.json",
+      "sha256": "39590940cd21466dc59cf72ef9e876009db49546292eeb17f0a5930d06c93964",
+      "size_bytes": 17559
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r20/reference/r17-component-decisions.json",
+      "sha256": "abad7f6376c28a22665f978d4cacd6c8ed0236358c50bbd71cea71f6e9f7dd56",
+      "size_bytes": 2618
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r21-handoff/payload/project/osc-playground/workbench/parts/components.json",
+      "sha256": "ef461420d2f46d15450c5fe48aa342ae6fa5ef62c3a0096a504b30641ea3daa5",
+      "size_bytes": 19971
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r21-handoff/payload/project/osc-playground/workbench/reference/r17-component-decisions.json",
+      "sha256": "abad7f6376c28a22665f978d4cacd6c8ed0236358c50bbd71cea71f6e9f7dd56",
+      "size_bytes": 2618
+    },
+    {
+      "path": "provenance/history/zudo-osc-playground-r21-handoff/payload/research/osc-playground/component-candidates.json",
+      "sha256": "c2ec32648700a7a816a32767615d36958445eb84aa0dae3f1bcf04d5e8848bc8",
+      "size_bytes": 19972
+    },
+    {
+      "path": "provenance/instrument-decisions/osc-board-partition.mdx",
+      "sha256": "c6d3ef107dd03d42af7981a969596dafa6a5ce26fffe76ddf09dd28fa621fbc7",
+      "size_bytes": 1706
+    },
+    {
+      "path": "provenance/instrument-decisions/osc-compact-led-61.mdx",
+      "sha256": "bb17779ae61a559d7e5f537fbe77d73ebb342acdfe376495f724ac8e1a3c96c9",
+      "size_bytes": 4970
+    },
+    {
+      "path": "provenance/instrument-decisions/osc-planning-decisions.mdx",
+      "sha256": "f37cadfbf6359a1baf91cc29721f1d18352bafa6a5dae57deb4626035245d1b4",
+      "size_bytes": 7269
+    },
+    {
+      "path": "provenance/instrument-decisions/osc-protection-architecture.mdx",
+      "sha256": "5b4e6f080b12fe4ae1c8289054895b5f7dbe4e969c3cee808450748595995688",
+      "size_bytes": 14774
+    },
+    {
+      "path": "provenance/instrument-decisions/osc-rail-budget.mdx",
+      "sha256": "188045d8caf441968cb651da8bd73abefde7f7f09f488471b3b4d764afa52f27",
+      "size_bytes": 3445
+    },
+    {
+      "path": "provenance/instrument-decisions/osc-scope-freeze.mdx",
+      "sha256": "880cfb1c2b6c0ff3cfa0eb1de1a1c959e26457880166824a2c222632d97de1a2",
+      "size_bytes": 1398
+    },
+    {
+      "path": "provenance/instrument-decisions/osc-selector-assembly.mdx",
+      "sha256": "b1591dd84a4c1490970498a28a237d7fd0d14b49f0078b413626eb6de00fa465",
+      "size_bytes": 12886
+    },
+    {
+      "path": "provenance/instrument-decisions/osc-supply-architecture.mdx",
+      "sha256": "e36a42e241b73d70a6afeb73f68c5e2d85ada881acbb689c2a7bfbaa9e97707f",
+      "size_bytes": 15228
+    },
+    {
+      "path": "provenance/instrument-history.txt",
+      "sha256": "cafd5bba5b3c8cd455bb9dcf324400765f2a472c6307c8f111017d16f8025611",
+      "size_bytes": 17422
+    },
+    {
+      "path": "provenance/instrument-inventory.original.json",
+      "sha256": "645f56c15c8a3893d74ed797f8ed565b89401d946cf6a78f45e231eec88953f9",
+      "size_bytes": 18868
+    },
+    {
+      "path": "provenance/instrument-publication.original.json",
+      "sha256": "dc9f40769b48b159076c769126b9e2d0b32d3ece56c87cfb7f4dd1b2c68eb6bf",
+      "size_bytes": 9427
+    },
+    {
+      "path": "provenance/live-page-review.json",
+      "sha256": "a684ce2fe9aa662fbc20184a1958cae17b23f7bf0828e6b7430a9892e07ba742",
+      "size_bytes": 1779
+    },
+    {
+      "path": "provenance/scope.json",
+      "sha256": "f659eb5f51eeed27a88910c0a6787ff606703f1e031746bedd619d91fddf8812",
+      "size_bytes": 1545
+    },
+    {
+      "path": "provenance/source-deduplication.json",
+      "sha256": "79a12069da5321bdd89e23735649ae7748223bdc7d5bcd0c49a8264b099e5630",
+      "size_bytes": 5024
+    },
+    {
+      "path": "provenance/source-files.json",
+      "sha256": "e10054106c69b9b3f9d5abf9dfe6b8471f3affffb60f1a12b94c98c8f415e1a6",
+      "size_bytes": 27043
+    },
+    {
+      "path": "provenance/step-derivation.json",
+      "sha256": "166b74a6d4ec72b8e2e68edd6087085246e056e2baeee240e82f08588200a6ed",
+      "size_bytes": 2485
+    },
+    {
+      "path": "provenance/validation/archive-scope-browser.log",
+      "sha256": "f0782d0392dc7c0d86f10640430e39e011654aa27374322270e2fbbd0e826e19",
+      "size_bytes": 50
+    },
+    {
+      "path": "provenance/validation/archive-scope-content.log",
+      "sha256": "63ea849330d68e84a65dc236a5e93b5b4934583e1a81fedeb219b917ffd63e9b",
+      "size_bytes": 277
+    },
+    {
+      "path": "provenance/validation/browser-bundle-fallback.log",
+      "sha256": "90102d462da1f4b38572aafe34bfce336b050787e2b78b0eaedce0911c4cc7b8",
+      "size_bytes": 50
+    },
+    {
+      "path": "provenance/validation/browser-bundle-final.log",
+      "sha256": "0435bd5a2357e06535c48013d1ff56c4599f1ea1f67b23f7705cbfc2150be267",
+      "size_bytes": 50
+    },
+    {
+      "path": "provenance/validation/browser-bundle-public-filter.log",
+      "sha256": "8ae6ed1328de67ce5ad00727da53037721e7eb8b7f99c3f3012f92c563a3d5ba",
+      "size_bytes": 50
+    },
+    {
+      "path": "provenance/validation/browser-bundle.log",
+      "sha256": "a705edc8fa6b1a6a5a589a4390377c41ecebf83ba53e7ebd9ba18b56a0723af1",
+      "size_bytes": 50
+    },
+    {
+      "path": "provenance/validation/browser-final-rendering.log",
+      "sha256": "f2136dcaf31cec9038de3baed20a7e6ecb03a6feb576c91fc5bb7f4e109e0f12",
+      "size_bytes": 50
+    },
+    {
+      "path": "provenance/validation/browser-final.log",
+      "sha256": "c99c82567a196b47c22218775c9d6ac2d3172cfe8235b3377195bccedd8fa4eb",
+      "size_bytes": 1169
+    },
+    {
+      "path": "provenance/validation/browser-repro.json",
+      "sha256": "cddaa1ae9f46a74694a496ac63ea6f4243f687de3d9c5ebeb4d2426488eb84c5",
+      "size_bytes": 5423
+    },
+    {
+      "path": "provenance/validation/browser-repro.log",
+      "sha256": "c99c82567a196b47c22218775c9d6ac2d3172cfe8235b3377195bccedd8fa4eb",
+      "size_bytes": 1169
+    },
+    {
+      "path": "provenance/validation/browser.json",
+      "sha256": "a4d48cfbd36da1d650bd0d79dbecaa74b4f2de688b09c39c7332183c209d2cc9",
+      "size_bytes": 7182
+    },
+    {
+      "path": "provenance/validation/commands.json",
+      "sha256": "4aad109a036a76cf77b01eec6732148a6c0006fe58a2d6bed15c2257a3c7f1a1",
+      "size_bytes": 12359
+    },
+    {
+      "path": "provenance/validation/corpus-generate.log",
+      "sha256": "63ea849330d68e84a65dc236a5e93b5b4934583e1a81fedeb219b917ffd63e9b",
+      "size_bytes": 277
+    },
+    {
+      "path": "provenance/validation/corpus-integrity-final.log",
+      "sha256": "1abfc70434e8e4b1a10746d30478aad3841da62329e130ebc5f308f6c7419c2b",
+      "size_bytes": 112
+    },
+    {
+      "path": "provenance/validation/corpus-integrity-fixed.log",
+      "sha256": "e577e3c176d948ef4a2e3bed221e725a8d4c7a5c6142eee9ee9681fc6f2d69a1",
+      "size_bytes": 151
+    },
+    {
+      "path": "provenance/validation/corpus-integrity.log",
+      "sha256": "47cc6492a7a241becc43ce282bdbd797ff42554493d7fc2d2b0fbe1c16ccce43",
+      "size_bytes": 641
+    },
+    {
+      "path": "provenance/validation/corpus-python-compile.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "provenance/validation/deduplicated-browser-build.log",
+      "sha256": "f0782d0392dc7c0d86f10640430e39e011654aa27374322270e2fbbd0e826e19",
+      "size_bytes": 50
+    },
+    {
+      "path": "provenance/validation/deduplicated-corpus-check.log",
+      "sha256": "1abfc70434e8e4b1a10746d30478aad3841da62329e130ebc5f308f6c7419c2b",
+      "size_bytes": 112
+    },
+    {
+      "path": "provenance/validation/deduplicated-corpus-generate.log",
+      "sha256": "63ea849330d68e84a65dc236a5e93b5b4934583e1a81fedeb219b917ffd63e9b",
+      "size_bytes": 277
+    },
+    {
+      "path": "provenance/validation/delivery-corpus-integrity.log",
+      "sha256": "1abfc70434e8e4b1a10746d30478aad3841da62329e130ebc5f308f6c7419c2b",
+      "size_bytes": 112
+    },
+    {
+      "path": "provenance/validation/delivery-links.log",
+      "sha256": "6782078930f2313839563fd503097c71ab849242e328c82ffd9370fe522f3730",
+      "size_bytes": 242
+    },
+    {
+      "path": "provenance/validation/delivery-native-check-built.log",
+      "sha256": "3f47462db9930a8394bb2da23ebf7a2f5ee5201ea9b4f67165c857a8a0b20f92",
+      "size_bytes": 103
+    },
+    {
+      "path": "provenance/validation/delivery-native-check.log",
+      "sha256": "27e0754b5af327caf6b2520ef65be89eb61f4fb9c29d05af1f7e1729085884ca",
+      "size_bytes": 1019
+    },
+    {
+      "path": "provenance/validation/delivery-native-scan.log",
+      "sha256": "b707ada31d4367c4f5f13756a246f3c3889d02ca2e3da06fa49d11e26f09a75e",
+      "size_bytes": 1065
+    },
+    {
+      "path": "provenance/validation/final-integrity.log",
+      "sha256": "1abfc70434e8e4b1a10746d30478aad3841da62329e130ebc5f308f6c7419c2b",
+      "size_bytes": 112
+    },
+    {
+      "path": "provenance/validation/final-types.log",
+      "sha256": "40907113c4c3f914ebada7e20e8231c0c86ae2a292a8f5abf70e3bb130577a30",
+      "size_bytes": 155
+    },
+    {
+      "path": "provenance/validation/links-filtered-built.log",
+      "sha256": "6782078930f2313839563fd503097c71ab849242e328c82ffd9370fe522f3730",
+      "size_bytes": 242
+    },
+    {
+      "path": "provenance/validation/mesh-derive.log",
+      "sha256": "59d27a42888bda9e43953b0e00f1e7d98202107b72cef3aa9b887623da99822e",
+      "size_bytes": 1139
+    },
+    {
+      "path": "provenance/validation/native-check-built.log",
+      "sha256": "3f47462db9930a8394bb2da23ebf7a2f5ee5201ea9b4f67165c857a8a0b20f92",
+      "size_bytes": 103
+    },
+    {
+      "path": "provenance/validation/native-check.log",
+      "sha256": "27e0754b5af327caf6b2520ef65be89eb61f4fb9c29d05af1f7e1729085884ca",
+      "size_bytes": 1019
+    },
+    {
+      "path": "provenance/validation/native-generate.log",
+      "sha256": "5e563c54b98ccc6c79e62001ad203cb66b1073647e8561f91d292217ba49a6da",
+      "size_bytes": 2847
+    },
+    {
+      "path": "provenance/validation/native-models.log",
+      "sha256": "60158fa0eb1e6bebe3ace98e85f8e7811771d54c93605ad6ae20507257155f06",
+      "size_bytes": 53
+    },
+    {
+      "path": "provenance/validation/native-scan-filtered.log",
+      "sha256": "7e5b850fd9dcd3a9e4aa17ed2a65565c89534c3bfb1a7c434fa6240151257777",
+      "size_bytes": 1699
+    },
+    {
+      "path": "provenance/validation/native-scan.log",
+      "sha256": "761415ec8533236c6ccd7b7cc1378f00e4d3c3bff8a8137e5d457a46c9b87482",
+      "size_bytes": 1501
+    },
+    {
+      "path": "provenance/validation/native-validate.log",
+      "sha256": "1c47c0a5f3d0c4ec28cda64fe69dcf60914b7a59f61e2a40439647d07c0f978a",
+      "size_bytes": 218
+    },
+    {
+      "path": "provenance/validation/packaged-native-check-built.log",
+      "sha256": "3f47462db9930a8394bb2da23ebf7a2f5ee5201ea9b4f67165c857a8a0b20f92",
+      "size_bytes": 103
+    },
+    {
+      "path": "provenance/validation/packaged-native-check.log",
+      "sha256": "27e0754b5af327caf6b2520ef65be89eb61f4fb9c29d05af1f7e1729085884ca",
+      "size_bytes": 1019
+    },
+    {
+      "path": "provenance/validation/packaged-native-scan.log",
+      "sha256": "b707ada31d4367c4f5f13756a246f3c3889d02ca2e3da06fa49d11e26f09a75e",
+      "size_bytes": 1065
+    },
+    {
+      "path": "provenance/validation/packaged-site-links.log",
+      "sha256": "6782078930f2313839563fd503097c71ab849242e328c82ffd9370fe522f3730",
+      "size_bytes": 242
+    },
+    {
+      "path": "provenance/validation/release-scope-integrity.log",
+      "sha256": "1abfc70434e8e4b1a10746d30478aad3841da62329e130ebc5f308f6c7419c2b",
+      "size_bytes": 112
+    },
+    {
+      "path": "provenance/validation/release-scope-links.log",
+      "sha256": "6782078930f2313839563fd503097c71ab849242e328c82ffd9370fe522f3730",
+      "size_bytes": 242
+    },
+    {
+      "path": "provenance/validation/release-scope-scan.log",
+      "sha256": "b707ada31d4367c4f5f13756a246f3c3889d02ca2e3da06fa49d11e26f09a75e",
+      "size_bytes": 1065
+    },
+    {
+      "path": "provenance/validation/scan-filtered-built.log",
+      "sha256": "b707ada31d4367c4f5f13756a246f3c3889d02ca2e3da06fa49d11e26f09a75e",
+      "size_bytes": 1065
+    },
+    {
+      "path": "provenance/validation/site-links.log",
+      "sha256": "a724e98f44fdcaa8ff75f9e4324819bc21c161dcf87a522aeaa964666cd03f5e",
+      "size_bytes": 334
+    },
+    {
+      "path": "provenance/validation/source-downloader-dry-run.log",
+      "sha256": "73df018de6b2ed6d1782cbfc74cae6dcf99fdebfa18d0a14bd82d75c1f0c97be",
+      "size_bytes": 62
+    },
+    {
+      "path": "provenance/validation/zfb-build-archive-scope.log",
+      "sha256": "3bb2264ddbd680dcd8f03dfc4d97d81e8516a37efbc9fa47d299ee805776be98",
+      "size_bytes": 1629
+    },
+    {
+      "path": "provenance/validation/zfb-build-delivery.log",
+      "sha256": "0ffd4b651556239881f085cd8f7e1f6c9376cf065f9706f8ec24e0e9b7cfa29a",
+      "size_bytes": 1629
+    },
+    {
+      "path": "provenance/validation/zfb-build-final.log",
+      "sha256": "9b5a0bf844e26efe64c523aad6b87c39ae53c8d33388424086e9130fc5e25f59",
+      "size_bytes": 1629
+    },
+    {
+      "path": "provenance/validation/zfb-build-packaged.log",
+      "sha256": "2d3743767611914e7095cc021236822b9460838dd504f07089c1497cbaee2ef6",
+      "size_bytes": 1629
+    },
+    {
+      "path": "provenance/validation/zfb-build.log",
+      "sha256": "9d0c9e61ea67984c4984d40478ad9f348b3582914b3d2e076bd9fd4d51e0fc9b",
+      "size_bytes": 2677
+    },
+    {
+      "path": "provenance/validation/zfb-check.log",
+      "sha256": "40907113c4c3f914ebada7e20e8231c0c86ae2a292a8f5abf70e3bb130577a30",
+      "size_bytes": 155
+    },
+    {
+      "path": "scripts/acquire_sources.py",
+      "sha256": "323a87e0b8f0c538cf64cfd3ccaa0df037296d315a8d67c9af5ff3a4e4628f9d",
+      "size_bytes": 3861
+    },
+    {
+      "path": "scripts/browser/browser.html",
+      "sha256": "2809881551c0164abb826367ce81aa02dbd28b6e1db82e73c459be10987fb974",
+      "size_bytes": 8992
+    },
+    {
+      "path": "scripts/browser/browser.js",
+      "sha256": "a8f3d627d88c134d9e47c4e35578a42725c6354d48997c529079162236134abb",
+      "size_bytes": 11041
+    },
+    {
+      "path": "scripts/build_browser.mjs",
+      "sha256": "24a7c3ac4b5c8801c7d989e8052cd823161ab9522681fd590c3cd9942846b1d7",
+      "size_bytes": 2793
+    },
+    {
+      "path": "scripts/build_corpus.py",
+      "sha256": "9c61f07aacd4901ae9d44fce3361aabd38d5ab73d40c9423dced39e8f29052c6",
+      "size_bytes": 22033
+    },
+    {
+      "path": "scripts/check_corpus.py",
+      "sha256": "3f3ed3ce7f37fd2d8656c0be7a74704fc420129f8c9d5fc902b1aa46aeb4275d",
+      "size_bytes": 5161
+    },
+    {
+      "path": "scripts/derive_step_meshes.py",
+      "sha256": "17509265f8447ff839cd3ad1278fed42cff6839f34d4283fc1f257bb9cb07cbe",
+      "size_bytes": 2384
+    },
+    {
+      "path": "scripts/serve.py",
+      "sha256": "46a9a1ccd97f9b9293a6a962d951810c5ed05321e4e2db492f6f8d99959ac866",
+      "size_bytes": 1015
+    },
+    {
+      "path": "scripts/test_browser.py",
+      "sha256": "a0e344ca6d94881552dcd5768f93b88af9947d4033b34374f7875d56d27e050c",
+      "size_bytes": 5659
+    },
+    {
+      "path": "sources/documents/368d4cc2c26b--TS-1088-AR02016.pdf",
+      "sha256": "368d4cc2c26b08cb63e1b67193f671d0860b6d3fb2e6b9f2696ffade401afc30",
+      "size_bytes": 123213
+    },
+    {
+      "path": "sources/documents/4389058192ce--alps-srbv.pdf",
+      "sha256": "4389058192ce8e89188d5c1c0f23de85945916542cd477ba04f3c75ac9f69ec8",
+      "size_bytes": 373415
+    },
+    {
+      "path": "sources/documents/8c3be6226552--PJ-313-5JCJ.pdf",
+      "sha256": "8c3be622655208735ec21158f79aba16f5b1ae0b6621efa6ea6e2e89ac0d7199",
+      "size_bytes": 1146441
+    },
+    {
+      "path": "sources/documents/b1dcb317b6b9--jst-gh.pdf",
+      "sha256": "b1dcb317b6b9a4fbbedd2dbf42c64c95306a252d23de8933b85fcf161240b722",
+      "size_bytes": 146619
+    },
+    {
+      "path": "sources/documents/efd1d9ca9629--alpha-6821.pdf",
+      "sha256": "efd1d9ca96295017e43bec8534016f8d5d30c11a1a28fc8d37b6cf35b892a80a",
+      "size_bytes": 632514
+    },
+    {
+      "path": "sources/documents/ff9da35e4717--alpha-5859.pdf",
+      "sha256": "ff9da35e471778f26ffc849985f73e53516d8c6cc60d5505aa96f7d446a5be87",
+      "size_bytes": 635386
+    },
+    {
+      "path": "sources/history-r06/alps-rk09l1140a5l/RK09L1140-F15.STEP",
+      "sha256": "a67271ce2e6911aba3a23c88eb34c7b514f74ccd99545806524535efde795d43",
+      "size_bytes": 1861371
+    },
+    {
+      "path": "sources/history-r06/alps-rk09l1140a5l/RK09L1140-F15.pdf",
+      "sha256": "43f87b03b11193d752628ff4c6174ec4f20524e07c2a3268bec712505f147553",
+      "size_bytes": 437987
+    },
+    {
+      "path": "sources/history-r06/alps-rk09l1140a5l/Read-me-first.rtf",
+      "sha256": "8876b93a81abf812c3aaf52b3801bea233ec49905c763754a60a43b26d315ec8",
+      "size_bytes": 8712
+    },
+    {
+      "path": "sources/history-r06/alps-rk09l1140a5l/product_catalog_rv_01_rk09l_en_b8437bd47d.pdf",
+      "sha256": "45176642b75760db42093394f6204a127e7abac542df13ab4312f11ff51d4c3f",
+      "size_bytes": 399193
+    },
+    {
+      "path": "sources/history-r06/alps-rk09l1140a5l/product_detail_fig_rk09l_c_101_en_acab65d7d7.gif",
+      "sha256": "626d3d204b16f181ca063eaa6311d53d001d7f29e63aceda29c5e2219ed83147",
+      "size_bytes": 11653
+    },
+    {
+      "path": "sources/history-r06/alps-rk09l1140a5l/product_detail_fig_rk09l_c_1_en_60d88f1440.gif",
+      "sha256": "08137933b50c389638c33b04b2339ec1a98bbc9b2e4f346bf4b5805440cec498",
+      "size_bytes": 7777
+    },
+    {
+      "path": "sources/history-r06/alps-rk09l1140a5l/product_detail_fig_rk09l_d_222_en_34014d0696.gif",
+      "sha256": "97e4f667d4e6756804d7ef7b5e6d5a6a92cde9a91e19a6a2f89805df73894ae8",
+      "size_bytes": 17566
+    },
+    {
+      "path": "sources/history-r06/alps-rk09l1140a5l/product_detail_fig_rk09l_d_231_en_08e696475d.gif",
+      "sha256": "3d9b8dca14fdc9ef2dfde4254382b86838ba1777c10c7234157f5cc47796a112",
+      "size_bytes": 7241
+    },
+    {
+      "path": "sources/history-r06/alps-rs20h111c009/RS20H111C009.STEP",
+      "sha256": "aae470004acf4e33c9ea661ad13869a3ad9ff6328a18d774ad41349f637b3838",
+      "size_bytes": 2224869
+    },
+    {
+      "path": "sources/history-r06/alps-rs20h111c009/RS20H111C009.pdf",
+      "sha256": "4842eaa3385688f92f3fb3d055ddfb9651d9b443b6c968ef10e08205a6543847",
+      "size_bytes": 194281
+    },
+    {
+      "path": "sources/history-r06/alps-rs20h111c009/Read-me-first.rtf",
+      "sha256": "8876b93a81abf812c3aaf52b3801bea233ec49905c763754a60a43b26d315ec8",
+      "size_bytes": 8712
+    },
+    {
+      "path": "sources/history-r06/alps-rs20h111c009/manufacturer-family-datasheet.pdf",
+      "sha256": "8e1ac9a6fe4d7889c0277595343296baeb17a3648130531a3e44c87069d80536",
+      "size_bytes": 742207
+    },
+    {
+      "path": "sources/history-r06/alps-rs20h111c009/product_detail_fig_rs_h_d_121_en_687b88d8d3.gif",
+      "sha256": "0280441d667993cb78443f98710505ebab85b95e20ebcef940b5451d74e62273",
+      "size_bytes": 17537
+    },
+    {
+      "path": "sources/history-r06/alps-rs20h111c009/product_detail_fig_rs_h_d_122_en_eab6a95ea2.gif",
+      "sha256": "9247029765c8fdc2690dd3a007de2651bb46c897263e3c54e298457438e39554",
+      "size_bytes": 8772
+    },
+    {
+      "path": "sources/history-r06/alps-rs20h111c009/product_detail_fig_rs_h_d_24_en_21894a698f.gif",
+      "sha256": "b64e3b197ddb9eb1221b652348f27decb632c4343b194e73a22a2ce32f8c274f",
+      "size_bytes": 7421
+    },
+    {
+      "path": "sources/history-r06/alps-rs20h111c009/product_detail_fig_rs_h_d_31_en_7bda2aee02.gif",
+      "sha256": "c9d1a6aa9c150f2956a246133192a9a9d7f9b627762f3607d28609814018d427",
+      "size_bytes": 4244
+    },
+    {
+      "path": "sources/history-r06/assets-manifest.json",
+      "sha256": "fa2246a9a2c23f595fa95cbea4b6d40bbef051966834f278778598b29b994905",
+      "size_bytes": 8786
+    },
+    {
+      "path": "sources/history-r06/bourns-ptv09a/PTV09.pdf",
+      "sha256": "411cdb6a62e61f9c5bc2df76ed64ee21d7bcfbee035c1ba36beff08c43f28558",
+      "size_bytes": 1372428
+    },
+    {
+      "path": "sources/history-r06/component-candidates.json",
+      "sha256": "71f5cb18bc0dece1fc6333a81200c170253834c2fb8413e7e227de57c05265cd",
+      "size_bytes": 11183
+    },
+    {
+      "path": "sources/history-r06/qingpu-wqp518ma/AudioJacks-DATA.md",
+      "sha256": "e60d1de5b3c39a03db8d451c2e3c247d0125a30f6aac2a1854ff682b86841801",
+      "size_bytes": 2743
+    },
+    {
+      "path": "sources/history-r06/qingpu-wqp518ma/AudioJacks-LICENSE",
+      "sha256": "b97cfc57745a140ad456ab5418a8a1ac7369fcbbfd115d8b7fca9c64d9e15334",
+      "size_bytes": 1064
+    },
+    {
+      "path": "sources/history-r06/qingpu-wqp518ma/PJ398SM-family.step",
+      "sha256": "b512ffe4c3e67d593e1a1bccd4397cf9a044c4f5534f91018fe626332f97bd7a",
+      "size_bytes": 851385
+    },
+    {
+      "path": "sources/history-r06/qingpu-wqp518ma/Thonk-WQP518MA-reference.jpg",
+      "sha256": "fae736d9826acd87360abe74ec0cffc51388e491647030139d2479617b482413",
+      "size_bytes": 177468
+    },
+    {
+      "path": "symbols/zudo-osc-hole-field.kicad_sym",
+      "sha256": "c4da305fc3769a0db6b97fac8f1d482fb36e9dde7d4f357f865e415d7780e2e5",
+      "size_bytes": 213517
+    },
+    {
+      "path": "third-party-notices/esbuild-LICENSE.txt",
+      "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681",
+      "size_bytes": 1069
+    },
+    {
+      "path": "third-party-notices/three-LICENSE.txt",
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "size_bytes": 1081
+    }
+  ]
+}

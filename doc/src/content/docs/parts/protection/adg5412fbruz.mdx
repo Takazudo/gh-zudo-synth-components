@@ -1,0 +1,65 @@
+---
+title: "ADG5412FBRUZ"
+description: "Fault-protected analog input switching — Analog Devices"
+sidebar_position: 1
+---
+
+**Fault-protected analog input switching**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | Analog Devices |
+| Part / family | ADG5412FBRUZ |
+| Identity scope | Exact ordering identity |
+| Evidence state | AVAILABLE |
+| LCSC code | C579073 |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+ADG5412FBRUZ is a candidate for protecting signal inputs against out-of-range or powered-off external voltages. Its fault protection is directional and conditional on the device’s specified terminals and supply states.
+
+## Design cautions
+
+Input protection does not automatically protect output drivers, feedback sense wires or reference receivers. Keep source/drain assignment, fault-current paths, enable defaults and missing-rail behavior explicit. The source instrument’s complete protection architecture remains open.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-fault-switch-orderable-identity` | `{"manufacturer": "Analog Devices", "mpn": "ADG5412FBRUZ", "package": "TSSOP-16"}` NONE; Exact complete orderable identifier in the selected package; does not establish supplier stock. | [Fault Protection and Detection, 10 Ω RON, Quad SPST Switches](https://www.analog.com/media/en/technical-documentation/data-sheets/adg5412f_5413f.pdf); PASS - primary-source confirmed |
+| `fact-fault-switch-pinout` | `pin 1 IN1 logic -&gt; pad 1; pin 2 D1 drain -&gt; pad 2; pin 3 S1 protected source -&gt; pad 3; pin 4 VSS negative supply -&gt; pad 4; pin 5 GND reference -&gt; pad 5; pin 6 S4 protected source -&gt; pad 6; pin 7 D4 drain -&gt; pad 7; pin 8 IN4 logic -&gt; pad 8; pin 9 IN3 logic -&gt; pad 9; pin 10 D3 drain -&gt; pad 10; pin 11 S3 protected source -&gt; pad 11; pin 12 FF fault flag, high normal/low fault -&gt; pad 12; pin 13 VDD positive supply -&gt; pad 13; pin 14 S2 protected source -&gt; pad 14; pin 15 D2 drain -&gt; pad 15; pin 16 I...` NONE; No schematic or placement/net binding is claimed. Manufacturer pin functions are source-backed only when a retained primary document names the product family. | [Fault Protection and Detection, 10 Ω RON, Quad SPST Switches](https://www.analog.com/media/en/technical-documentation/data-sheets/adg5412f_5413f.pdf); PASS - primary-source confirmed |
+| `fact-fault-switch-source-pin-overvoltage-protection` | `{"negative_limit": -55, "positive_limit": 55}` V; Manufacturer feature statement; source pins only. This is not a project-level +/-55 V system rating and does not validate the +/-12 V circuit behavior. | [Fault Protection and Detection, 10 Ω RON, Quad SPST Switches](https://www.analog.com/media/en/technical-documentation/data-sheets/adg5412f_5413f.pdf); PASS - primary-source confirmed |
+| `fact-fault-switch-power-off-ground` | `Source pins remain isolated with both supplies grounded or floating; device GND must be present. An 8 V VDD-to-VSS span can already permit turn-on when IN is high; one missing bipolar rail does not ensure isolation.` NONE; Power-off and power-on protection; common AGND remains connected. This does not prove arbitrary partial-power current bounds. | [Fault Protection and Detection, 10 Ω RON, Quad SPST Switches](https://www.analog.com/media/en/technical-documentation/data-sheets/adg5412f_5413f.pdf); PASS - primary-source confirmed |
+| `fact-fault-switch-current-125c` | `29` mA; Maximum continuous current per TSSOP channel at 125 C, VS from VSS to VDD; thetaJA 112.6 C/W. Not an allowance for simultaneous package or amplifier heating. | [Fault Protection and Detection, 10 Ω RON, Quad SPST Switches](https://www.analog.com/media/en/technical-documentation/data-sheets/adg5412f_5413f.pdf); PASS - primary-source confirmed |
+| `fact-fault-switch-grounded-off-leakage` | `100` nA; Absolute drain leakage maximum at -40..125 C; VDD=VSS=GND=INx=0 V; VS=+/-55 V. Does not cover floating or ramping rails. | [Fault Protection and Detection, 10 Ω RON, Quad SPST Switches](https://www.analog.com/media/en/technical-documentation/data-sheets/adg5412f_5413f.pdf); PASS - primary-source confirmed |
+| `fact-fault-switch-floating-off-leakage` | `10` uA; Typical drain leakage only; VDD/VSS floating, GND=INx=0 V, VS=+/-55 V. No maximum supplied. | [Fault Protection and Detection, 10 Ω RON, Quad SPST Switches](https://www.analog.com/media/en/technical-documentation/data-sheets/adg5412f_5413f.pdf); PASS - primary-source confirmed |
+
+## 3D / mechanical assets
+
+**Inherited family/derived package preview.** Many imported models are intentionally coarse body envelopes, not complete manufacturer solids. Check the original receipt, drawing and mounting stack; the rendered shape does not qualify fit.
+
+<PackageModelViewer descriptor="7b2276657273696f6e223a312c227061636b6167654964223a225453534f502d31365f342e3478356d6d5f50302e36356d6d222c227061636b6167654c6162656c223a225453534f502d31365f342e3478356d6d5f50302e36356d6d222c226d6f64656c55726c223a222f6173736574732f636f6d706f6e656e742d70726576696577732f6d6f64656c732f49435f5453534f502d31365f342e3478352e302e77726c222c226f6666736574223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c22726f746174696f6e223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c227363616c65223a7b2278223a312e302c2279223a312e302c227a223a312e307d7d" />
+
+Local model: `footprints/kicad/zudo-osc-hole-field.3dshapes/IC_TSSOP-16_4.4x5.0.wrl`. Native rendering is supplied by `zudo-circuit-doc`.
+
+[Open the native generated evidence record](/docs/components/records/fault-switch/). It preserves original claim wording, locators and verdicts.
+
+## Datasheets, drawings and source leads
+
+- [ADG5412F/ADG5413F (Rev. C)](https://www.analog.com/media/en/technical-documentation/data-sheets/adg5412f_5413f.pdf) — retained local bytes: `circuit/sources/ic-library/ADG5412F.pdf`; SHA-256 `ea3d12f983fc79a728d302675a0428a6d244e95828154bc4c970d34e23195a96`.
+- [OSC-ES-1 parts shortlist](https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json) — source metadata/link only in this edition; no local download implied.
+
+[Recorded LCSC identity C-number](https://www.lcsc.com/product-detail/C579073.html).
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

@@ -1,0 +1,62 @@
+---
+title: "AS3340D"
+description: "Voltage-controlled oscillator core — ALFA RPAR"
+sidebar_position: 1
+---
+
+**Voltage-controlled oscillator core**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | ALFA RPAR |
+| Part / family | AS3340D |
+| Identity scope | Exact ordering identity |
+| Evidence state | AVAILABLE |
+| LCSC code | Not established for this identity |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+AS3340D is the ALFA SOIC-16 oscillator-core candidate. A complete voice still needs reference/scaling, timing parts, waveform conditioning, modulation, sync and calibration.
+
+## Design cautions
+
+Do not assume every 3340-branded device or suffix has interchangeable limits. Follow the exact negative-supply and current-limiting guidance. The source’s triangle/saw/pulse core does not by itself establish a sine output or calibrated LFO/audio range.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-vco-orderable-identity` | `{"manufacturer": "ALFA RPAR", "mpn": "AS3340D", "package": "SOIC-16 (150 mil)"}` NONE; The manufacturer document explicitly lists AS3340D / AS3340AD in SOIC-16. This confirms the selected manufacturer part/package identity, not a commercial supplier code, allocation, or stock. | [AS3340/AS3345](https://www.alfatriode.lv/eng/sc/AS3340.pdf); PASS - primary-source confirmed |
+| `fact-vco-pinout` | `{"1": "SCALE1", "2": "SCALE2", "3": "VEE", "4": "VP", "5": "VPWM", "6": "VHSI", "7": "VHFT", "8": "VSO", "9": "VSSI", "10": "VTO", "11": "CAP", "12": "GND", "13": "VLFI", "14": "VS", "15": "VFCI", "16": "VCC"}` NONE; ALFA RPAR's AS3340/AS3340A PDIP-16/SOIC-16 table; pin identities are source-backed, but schematic nets and board placements are not bound. | [AS3340/AS3345](https://www.alfatriode.lv/eng/sc/AS3340.pdf); PASS - primary-source confirmed |
+| `fact-vco-electrical-limits` | `Application-specific oscillator performance and project-supply suitability remain unassessed; the source-backed absolute limit and supply guidance below do not qualify a circuit.` NONE; No complete guaranteed operating-frequency, output-load, startup, temperature-drift, or project power-current review is claimed in issue #21. | [AS3340/AS3345](https://www.alfatriode.lv/eng/sc/AS3340.pdf); NEEDS BENCH |
+| `fact-vco-absolute-maximum-vee-to-ground` | `{"minimum": -6, "maximum": 0.5}` V; Voltage between pin 3 VEE and GND, as listed in Absolute Maximum Ratings. This is a stress limit, not a normal supply range or proof that a directly connected project rail is suitable. | [AS3340/AS3345](https://www.alfatriode.lv/eng/sc/AS3340.pdf); PASS - primary-source confirmed |
+| `fact-vco-supply-guidance` | `The datasheet describes an on-chip 7.4 V Zener; for VEE values above -7.5 V it requires a series current-limiting resistor, and it recommends external VEE = -5 V to reduce self-heating.` NONE; Manufacturer supply guidance only; it does not validate the OSC-ES-1 supply circuit, current budget, startup, or fault behavior. | [AS3340/AS3345](https://www.alfatriode.lv/eng/sc/AS3340.pdf); PASS - primary-source confirmed |
+| `fact-vco-package-outline` | `{"body_length_drawing": 10.0, "body_width_drawing": 4.0, "lead_pitch_basic": 1.27}` mm; The SOIC-16 (150 mil) drawing labels these planform/pitch values. Values are drawing dimensions, not a tolerance envelope; no exact body height is promoted. | [AS3340/AS3345](https://www.alfatriode.lv/eng/sc/AS3340.pdf); PASS - primary-source confirmed |
+
+## 3D / mechanical assets
+
+**Inherited family/derived package preview.** Many imported models are intentionally coarse body envelopes, not complete manufacturer solids. Check the original receipt, drawing and mounting stack; the rendered shape does not qualify fit.
+
+<PackageModelViewer descriptor="7b2276657273696f6e223a312c227061636b6167654964223a22534f49432d31365f332e3978392e396d6d5f50312e32376d6d222c227061636b6167654c6162656c223a22534f49432d31365f332e3978392e396d6d5f50312e32376d6d222c226d6f64656c55726c223a222f6173736574732f636f6d706f6e656e742d70726576696577732f6d6f64656c732f49435f534f49432d31365f332e3978392e392e77726c222c226f6666736574223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c22726f746174696f6e223a7b2278223a302e302c2279223a302e302c227a223a302e307d2c227363616c65223a7b2278223a312e302c2279223a312e302c227a223a312e307d7d" />
+
+Local model: `footprints/kicad/zudo-osc-hole-field.3dshapes/IC_SOIC-16_3.9x9.9.wrl`. Native rendering is supplied by `zudo-circuit-doc`.
+
+[Open the native generated evidence record](/docs/components/records/vco/). It preserves original claim wording, locators and verdicts.
+
+## Datasheets, drawings and source leads
+
+- [AS3340/AS3345, AS3340A/AS3345A Voltage Controlled Oscillator (VCO)](https://www.alfatriode.lv/eng/sc/AS3340.pdf) — retained local bytes: `circuit/sources/ic-library/AS3340.pdf`; SHA-256 `66108a3ddcc78a158d66974a497801ce6a429d465b338f6c8d656fd7ddce815e`.
+- [OSC-ES-1 parts shortlist](https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json) — source metadata/link only in this edition; no local download implied.
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

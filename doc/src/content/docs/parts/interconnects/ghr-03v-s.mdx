@@ -1,0 +1,55 @@
+---
+title: "GHR-03V-S"
+description: "3-way GH cable housing — JST"
+sidebar_position: 1
+---
+
+**3-way GH cable housing**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | JST |
+| Part / family | GHR-03V-S |
+| Identity scope | Exact ordering identity |
+| Evidence state | AVAILABLE |
+| LCSC code | Not established for this identity |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+GHR-03V-S is a cable-side housing, not a component to solder onto a PCB. It completes the 3-way header system only with the correct contacts, wire and assembly process.
+
+## Design cautions
+
+The source contains a numbering-aid footprint labeled EXTERNAL NOT FOR PCB. Do not place it on a fabricated PCB or treat it as an exact 3D housing model. Verify latch access, crimp seating, wiring order and pull testing.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-gh3-housing-identity` | `GHR-03V-S` NONE; Exact JST family table or contact row | [eGH](https://www.jst-mfg.com/product/pdf/eng/eGH.pdf); PASS - primary-source confirmed |
+| `fact-gh3-housing-rating` | `1.0 A AC/DC (AWG 26); 50 V AC/DC; -40 to +105 C including energized temperature rise` NONE; GH family rating, not an assembled harness derating or all-pin simultaneous guarantee | [eGH](https://www.jst-mfg.com/product/pdf/eng/eGH.pdf); PASS - primary-source confirmed |
+| `fact-gh3-housing-geometry` | `Housing width 5.0 mm, depth 4.15 mm, height 5.7 mm; reference mated height 7.3 mm` NONE; nominal reference dimensions; no installed tolerance inference | [eGH](https://www.jst-mfg.com/product/pdf/eng/eGH.pdf); PASS - primary-source confirmed |
+| `fact-gh3-housing-assembly` | `Assembled derating, retention under cable load and bend clearance unqualified` NONE; physical harness and installed loom require issue #35/57 evidence | [eGH](https://www.jst-mfg.com/product/pdf/eng/eGH.pdf); NEEDS BENCH |
+
+## 3D / mechanical assets
+
+**No usable part-specific model published in this edition.** A document or a footprint may exist without a qualified 3D model. No unrelated shape is substituted.
+
+The complete inherited owner bundle is retained locally at `.claude/skills/component-jst-gh/`. It is not in the native preview selection because complete publishable model coverage is absent for some records in this group.
+
+## Datasheets, drawings and source leads
+
+- [JST GH Connector, 1.25 mm pitch, Crimp style and Mating style](https://www.jst-mfg.com/product/pdf/eng/eGH.pdf) — retained local bytes: `sources/documents/b1dcb317b6b9--jst-gh.pdf`; SHA-256 `b1dcb317b6b9a4fbbedd2dbf42c64c95306a252d23de8933b85fcf161240b722`.
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.

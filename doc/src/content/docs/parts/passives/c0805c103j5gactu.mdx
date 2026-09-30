@@ -1,0 +1,57 @@
+---
+title: "C0805C103J5GACTU"
+description: "Sample storage capacitor — KEMET"
+sidebar_position: 1
+---
+
+**Sample storage capacitor**
+
+This is a reusable research profile, not a fitted BOM line or an approval to manufacture.
+
+| Field | Corpus record |
+| --- | --- |
+| Manufacturer | KEMET |
+| Part / family | C0805C103J5GACTU |
+| Identity scope | Exact ordering identity |
+| Evidence state | AVAILABLE |
+| LCSC code | C2167597 |
+| Use in this corpus | Not fitted; no PCB placement declared |
+
+## Why it is useful
+
+C0805C103J5GACTU is the initial 10 nF C0G hold-capacitor candidate. It is deliberately distinct from the much larger downstream slew capacitor.
+
+## Design cautions
+
+Leakage, dielectric absorption, contamination and acquisition time determine actual storage performance. Increasing capacitance reduces ideal droop from a given current, but does not eliminate offset, hold step or temperature effects.
+
+## What the project taught us
+
+Tracked in committed OSC Hole Field evidence at fac99297; selection and verdicts remain scoped to that originating project.
+
+The originating instrument’s acceptance/rejection is contextual. It does not define a universal recommendation for another synth.
+
+## Retained evidence highlights
+
+These are **inherited scoped facts**, not newly measured values. Follow the exact source and conditions before reuse.
+
+| Recorded claim | Value and conditions | Source / original verdict |
+| --- | --- | --- |
+| `fact-c-hold-orderable-identity` | `{"manufacturer": "KEMET", "mpn": "C0805C103J5GACTU", "package": "0805"}` NONE; Exact complete orderable identifier in the selected package; does not establish supplier stock. | [Product datasheet for C0805C103J5GACTU](https://search.kemet.com/download/specsheet/C0805C103J5GACTU); PASS - primary-source confirmed |
+| `fact-c-hold-pinout` | `pin 1 unpolarized terminal -&gt; pad 1; pin 2 unpolarized terminal -&gt; pad 2` NONE; No schematic or placement/net binding is claimed. Manufacturer pin functions are source-backed only when a retained primary document names the product family. | [Product datasheet for C0805C103J5GACTU](https://search.kemet.com/download/specsheet/C0805C103J5GACTU); PASS - primary-source confirmed |
+| `fact-c-hold-capacitance` | `{"nominal": 10, "tolerance_percent": 5, "rated_voltage": 50}` nF and VDC; KEMET C0805C103J5GACTU product sheet; C0G; measurement at 1 kHz, 1 Vrms. | [Product datasheet for C0805C103J5GACTU](https://search.kemet.com/download/specsheet/C0805C103J5GACTU); PASS - primary-source confirmed |
+
+## 3D / mechanical assets
+
+**No usable part-specific model published in this edition.** A document or a footprint may exist without a qualified 3D model. No unrelated shape is substituted.
+
+The complete inherited owner bundle is retained locally at `.claude/skills/component-passives-family/`. It is not in the native preview selection because complete publishable model coverage is absent for some records in this group.
+
+## Datasheets, drawings and source leads
+
+- [C0805C103J5GACTU](https://search.kemet.com/download/specsheet/C0805C103J5GACTU) — retained local bytes: `circuit/sources/ic-library/C0805C103.pdf`; SHA-256 `6d0b7656a31b01c196d2aa1fba3fcb6f49f175a0cda39d3c93fed20e91c1670f`.
+- [OSC-ES-1 parts shortlist](https://github.com/Takazudo/zudo-osc-hole-field/blob/base/osc-hole-field/design/standard/parts-shortlist.json) — source metadata/link only in this edition; no local download implied.
+
+[Recorded LCSC identity C-number](https://www.lcsc.com/product-detail/C2167597.html).
+
+Stock, price, lead time and PCBA acceptance are **not refreshed or reserved** by retaining a URL. Source PDFs and vendor CAD retain their original rights; review redistribution before deploying the site publicly.
