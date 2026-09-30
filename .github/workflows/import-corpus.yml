@@ -1,0 +1,140 @@
+name: Import component corpus
+
+on:
+  push:
+    branches: [automation/import-corpus-v0.1.0]
+    paths:
+      - .github/workflows/import-corpus.yml
+      - .import/restore.py
+
+permissions:
+  contents: read
+
+concurrency:
+  group: component-corpus-initial-import
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - name: Read the staged owner-requested import
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          path: transport
+          persist-credentials: false
+      - name: Read the pinned instrument evidence
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          repository: Takazudo/zudo-osc-hole-field
+          ref: fac99297702eabd97bbc3fae58876af4017fcaea
+          path: instrument
+          persist-credentials: false
+      - name: Read the pinned framework reference
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          repository: Takazudo/zudo-circuit-doc
+          ref: 5d0e2b630776489d394be341586b889dfe0d1cb8
+          path: framework
+          persist-credentials: false
+      - name: Prepare a clean destination based on original main
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: 5400559fd2a8b5d1945017c35406a6fc1499dd73
+          path: corpus
+          fetch-depth: 0
+      - name: Set up Node
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020
+        with:
+          node-version: 24
+          package-manager-cache: false
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.12'
+      - name: Verify transport and restore exact source bytes
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p reports download-cache
+          python3 transport/.import/restore.py inspect --transport "$PWD/transport/.import" --target "$PWD/corpus" | tee reports/transport.json
+          python3 transport/.import/restore.py restore --transport "$PWD/transport/.import" --target "$PWD/corpus" --instrument "$PWD/instrument" --framework "$PWD/framework" --cache "$PWD/download-cache" 2>&1 | tee reports/restore.log
+      - name: Reproduce original STEP viewing meshes
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m venv "$RUNNER_TEMP/corpus-cad"
+          "$RUNNER_TEMP/corpus-cad/bin/pip" install 'cadquery==2.8.0' 'cadquery-ocp==7.9.3.1' 'playwright==1.58.0'
+          "$RUNNER_TEMP/corpus-cad/bin/python" corpus/scripts/derive_step_meshes.py 2>&1 | tee reports/mesh.log
+          python3 transport/.import/restore.py verify --transport "$PWD/transport/.import" --target "$PWD/corpus" 2>&1 | tee reports/source-verification.log
+      - name: Install the exact documentation lockfile
+        working-directory: corpus
+        run: |
+          npm install --global pnpm@11.5.2
+          pnpm install --frozen-lockfile
+      - name: Validate evidence, regenerate and build
+        working-directory: corpus
+        shell: bash
+        run: |
+          set -euo pipefail
+          pnpm circuit:check 2>&1 | tee ../reports/evidence.log
+          pnpm build 2>&1 | tee ../reports/build.log
+          pnpm check 2>&1 | tee ../reports/check.log
+          pnpm check:site 2>&1 | tee ../reports/site.log
+          pnpm corpus:check 2>&1 | tee ../reports/corpus.json
+      - name: Check the embedded component browser
+        working-directory: corpus
+        shell: bash
+        run: |
+          set -euo pipefail
+          chrome=$(command -v google-chrome || command -v chromium || command -v chromium-browser)
+          cp provenance/validation/browser-repro.json "$RUNNER_TEMP/browser-repro-original.json"
+          "$RUNNER_TEMP/corpus-cad/bin/python" scripts/test_browser.py --chromium "$chrome" 2>&1 | tee ../reports/browser.log
+          cp provenance/validation/browser-repro.json ../reports/browser.json
+          cp "$RUNNER_TEMP/browser-repro-original.json" provenance/validation/browser-repro.json
+      - name: Publish only the verified source branch
+        working-directory: corpus
+        shell: bash
+        run: |
+          set -euo pipefail
+          expected=5400559fd2a8b5d1945017c35406a6fc1499dd73
+          actual=$(git ls-remote origin refs/heads/main | cut -f1)
+          test "$actual" = "$expected" || { echo 'main changed; do not overwrite owner work'; exit 1; }
+          branch=import/component-corpus-v0.1.0
+          test -z "$(git ls-remote origin "refs/heads/$branch")" || { echo 'Import branch already exists; review before retrying'; exit 1; }
+          git checkout -b "$branch"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .
+          git add -f provenance/validation/*.log
+          python3 - <<'PY'
+          import subprocess
+          from pathlib import PurePosixPath
+          paths = subprocess.check_output(['git','diff','--cached','--name-only','-z']).decode().split('\0')
+          for raw in filter(None, paths):
+              p = PurePosixPath(raw)
+              if p.suffix.lower() in {'.woff','.woff2','.ttf','.otf'} or any(x in p.parts for x in ('node_modules','.import','.git')) or raw.startswith('doc/dist/'):
+                  raise SystemExit('Forbidden source import path: '+raw)
+          print('Staged source paths:', len(list(filter(None, paths))))
+          PY
+          git commit -m 'feat: import modular synth component corpus v0.1.0' -m 'Restore 798 hash-verified source files from the delivered corpus; regenerate documentation and scoped model previews. Evidence, build, link, corpus integrity and browser checks passed in the import job. No deployment or hardware qualification.'
+          git push origin "HEAD:refs/heads/$branch"
+          git rev-parse HEAD | tee ../reports/import-commit.txt
+      - name: Retain import verification and build evidence
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: component-corpus-import-checks
+          path: reports/
+          retention-days: 14
+          if-no-files-found: error
+      - name: Retain the built reading site without deploying it
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: component-corpus-built-site
+          path: corpus/doc/dist/
+          retention-days: 14
+          if-no-files-found: error
