@@ -139,13 +139,21 @@ def restore(args, first: dict, final: dict) -> None:
         raw = fetch_bytes(item['url'], args.cache)
         if 'archive_member_basename' in item:
             with zipfile.ZipFile(io.BytesIO(raw)) as archive:
-                matches = [n for n in archive.namelist() if PurePosixPath(n).name == item['archive_member_basename']]
-                if len(matches) != 1:
-                    raise ValueError(f'ZIP member is not unique: {item}')
-                info = archive.getinfo(matches[0])
-                if info.file_size > MAX_DOWNLOAD:
-                    raise ValueError('Oversized archive member')
-                data = archive.read(info)
+                # Vendors may rename a readme or duplicate it in several folders.
+                # Select exact retained bytes, never a guessed filename alone.
+                matches = []
+                for info in archive.infolist():
+                    if info.is_dir() or info.file_size != item['size']:
+                        continue
+                    if info.file_size > MAX_DOWNLOAD:
+                        raise ValueError('Oversized archive member')
+                    candidate = archive.read(info)
+                    if sha(candidate) == item['sha256']:
+                        matches.append((info.filename, candidate))
+                if not matches:
+                    raise ValueError(f"No exact retained member for {item['path']}; names={archive.namelist()}")
+                data = matches[0][1]
+                print('ARCHIVE MEMBER', matches[0][0], '->', item['path'], flush=True)
         else:
             data = raw
         if len(data) != item['size'] or sha(data) != item['sha256']:
