@@ -8,8 +8,12 @@ doc/.zfb-build/
 .zudo-doc/
 .circuit-cache/
 
-# zudo-doc's own generated Claude Code resource docs (regenerated on every
-# build/check/dev from .claude/ — same convention zudo-doc itself uses)
+# Python development environments and bytecode
+__pycache__/
+*.py[cod]
+.venv/
+
+# zudo-doc's generated Claude resources are rebuilt from .claude/
 doc/src/content/docs/claude/
 doc/src/content/docs/claude-md/
 doc/src/content/docs/claude-commands/
@@ -19,7 +23,7 @@ doc/src/content/docs/claude-agents/
 # macOS
 .DS_Store
 
-# Logs
+# Logs; original tracked provenance logs remain in Git
 *.log
 npm-debug.log*
 pnpm-debug.log*

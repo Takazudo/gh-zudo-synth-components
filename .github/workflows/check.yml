@@ -1,0 +1,105 @@
+name: Corpus checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: corpus-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  corpus:
+    name: Evidence, documentation and browser
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out the source without persisted credentials
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Set up Node
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020
+        with:
+          node-version: 24
+          package-manager-cache: false
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.12'
+      - name: Install pinned dependencies
+        run: |
+          npm install --global pnpm@11.5.2
+          pnpm install --frozen-lockfile
+          python3 -m venv "$RUNNER_TEMP/corpus-browser"
+          "$RUNNER_TEMP/corpus-browser/bin/pip" install 'playwright==1.58.0'
+      - name: Check evidence and committed generated state
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .circuit-cache/ci
+          pnpm circuit:check 2>&1 | tee .circuit-cache/ci/evidence.log
+          pnpm check 2>&1 | tee .circuit-cache/ci/check.log
+      - name: Build and verify documentation
+        shell: bash
+        run: |
+          set -euo pipefail
+          pnpm build 2>&1 | tee .circuit-cache/ci/build.log
+          pnpm check:site 2>&1 | tee .circuit-cache/ci/site.log
+          pnpm corpus:check 2>&1 | tee .circuit-cache/ci/corpus.log
+          git diff --exit-code -- corpus doc/src/content/docs circuit/generated circuit/publication doc/public
+      - name: Test all embedded model assets and browser interactions
+        shell: bash
+        run: |
+          set -euo pipefail
+          chrome=$(command -v google-chrome || command -v chromium || command -v chromium-browser)
+          cp provenance/validation/browser-repro.json "$RUNNER_TEMP/corpus-browser-original.json"
+          status=0
+          "$RUNNER_TEMP/corpus-browser/bin/python" scripts/test_browser.py --chromium "$chrome" 2>&1 | tee .circuit-cache/ci/browser.log || status=$?
+          if test -f provenance/validation/browser-repro.json; then
+            cp provenance/validation/browser-repro.json .circuit-cache/ci/browser.json
+            python3 - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('.circuit-cache/ci/browser.json').read_text())
+          print('Failed browser assertions:', json.dumps([c for c in r['checks'] if not c['passed']], indent=2))
+          print('Actual renderer:', r.get('backend'))
+          PY
+          fi
+          cp "$RUNNER_TEMP/corpus-browser-original.json" provenance/validation/browser-repro.json
+          exit "$status"
+      - name: Reject dependencies, transport files and fonts in source
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import subprocess
+          from pathlib import PurePosixPath
+          paths=subprocess.check_output(['git','ls-files','-z']).decode().split('\0')
+          for raw in filter(None,paths):
+              p=PurePosixPath(raw)
+              if p.suffix.lower() in {'.woff','.woff2','.ttf','.otf'} or any(x in p.parts for x in ('node_modules','.import','__pycache__')) or raw.startswith('doc/dist/'):
+                  raise SystemExit('Unexpected source path: '+raw)
+          print('Source scope check passed')
+          PY
+      - name: Keep verification results
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: corpus-verification
+          path: .circuit-cache/ci/
+          include-hidden-files: true
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Keep the built reading site without deployment
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: corpus-reading-site
+          path: doc/dist/
+          retention-days: 14
+          if-no-files-found: error

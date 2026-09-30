@@ -1,15 +1,20 @@
 # Start here
 
-## Inspect the corpus now
+## Read the corpus from this repository
 
-1. Extract the full package and open a terminal in `zudo-modular-component-corpus`.
-2. Run `python3 scripts/serve.py`.
-3. Open `http://127.0.0.1:8765/docs/project/`.
-4. Compare the Parts, Guides, Models, and Evidence sections.
-5. The standalone `doc/public/assets/corpus-browser.html` also opens without a server.
+1. Clone `Takazudo/gh-zudo-synth-components` and open a terminal in that directory.
+2. With Node >=22.18, pnpm 11.5.2 and Python 3, run `pnpm install --frozen-lockfile`.
+3. Run `pnpm build`, then `python3 scripts/serve.py`.
+4. Open `http://127.0.0.1:8765/docs/project/` and compare Parts, Guides, Models and Evidence.
+5. The standalone `doc/public/assets/corpus-browser.html` also opens locally without a server.
 
-The built site and the source are the same edition. See `VALIDATION.md` for tests
-actually run and `provenance/` for exact source scope.
+A Git clone excludes dependencies and `doc/dist`; build it first. The original
+ZIP was different: it bundled a prebuilt site. No GitHub Pages or other site
+deployment is performed by the repository's checking workflow.
+
+The build is derived from the checked-out source. `VALIDATION.md` preserves the
+original edition's test scope; the repository workflow records new results.
+See `provenance/` for exact source scope and the original import hash manifest.
 
 ## Continue with an agent
 
@@ -34,6 +39,5 @@ the standalone browser, native component pages, selected models and the site.
 The initial install needs package-registry access; the installed build is offline.
 
 No production domain or deployment is configured. Do not enable public source
-downloads until the rights review is complete. Initialize a new Git repository
-locally to track further authored edits; never point this directory at the
-instrument's existing worktree.
+downloads until the rights review is complete. Commit new work to this corpus
+repository; never point this directory at the instrument's existing worktree.
