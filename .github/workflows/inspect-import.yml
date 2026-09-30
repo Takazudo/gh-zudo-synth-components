@@ -16,27 +16,12 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           persist-credentials: false
-      - name: Verify compressed payload without executing it
+      - name: Package interrupted transport without executing its contents
         run: |
-          python3 - <<'PY'
-          from pathlib import Path
-          import base64, hashlib, json, lzma, tarfile, io
-          parts = sorted(Path('.import/payload').glob('*.b64'))
-          encoded = ''.join(p.read_text().strip() for p in parts)
-          raw = base64.b64decode(encoded, validate=True)
-          data = lzma.decompress(raw)
-          out = Path('import-inspection')
-          out.mkdir()
-          (out/'payload.tar.xz').write_bytes(raw)
-          print('Parts:', len(parts))
-          print('Compressed bytes:', len(raw))
-          print('SHA256:', hashlib.sha256(raw).hexdigest())
-          print('Decompressed bytes:', len(data))
-          with tarfile.open(fileobj=io.BytesIO(data), mode='r:') as archive:
-              members = [{'name': m.name, 'size': m.size, 'type': str(m.type)} for m in archive.getmembers()]
-          (out/'members.json').write_text(json.dumps(members, indent=2))
-          print(json.dumps(members, indent=2))
-          PY
+          mkdir import-inspection
+          tar -czf import-inspection/staged-payload.tar.gz .import
+          sha256sum .import/payload/*.b64 > import-inspection/chunk-sha256.txt
+          wc -c .import/payload/*.b64
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
         with:
           name: staged-corpus-payload
