@@ -73,6 +73,12 @@ jobs:
           fi
           cp "$RUNNER_TEMP/corpus-browser-original.json" provenance/validation/browser-repro.json
           exit "$status"
+      - name: Test native built-site islands over loopback HTTP
+        shell: bash
+        run: |
+          set -euo pipefail
+          chrome=$(command -v google-chrome || command -v chromium || command -v chromium-browser)
+          pnpm exec zudo-circuit-doc check-browser --chrome "$chrome" --shell-assertions --search-assertions 2>&1 | tee .circuit-cache/ci/native-browser.log
       - name: Reject dependencies, transport files and fonts in source
         shell: bash
         run: |
